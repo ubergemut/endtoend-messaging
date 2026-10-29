@@ -1,0 +1,66 @@
+name: Release integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      verify_downloads:
+        description: Verify the exact published release downloads anonymously
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  source:
+    name: release-source-integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22.13.0
+      - name: Test release guards
+        run: node --test release-tools/check-published-source.test.mjs release-tools/verify-published-release.test.mjs
+      - name: Verify all exact released source and manifest bindings
+        run: >-
+          node release-tools/check-published-source.mjs
+          --root . --catalog release/source-disclosure.json
+          --expected-catalog-sha256 f1f345bb8496ae56e347a5b07381edf95527fbb19958b761c59d8126c6b313a2
+
+  downloads:
+    name: published-download-integrity
+    if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.verify_downloads)
+    needs: source
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22.13.0
+      - name: Require assessment for the actual release tag
+        env:
+          RELEASE_EVENT_TAG: ${{ github.event.release.tag_name }}
+        run: >-
+          node --input-type=module -e
+          "if(process.env.RELEASE_EVENT_TAG && process.env.RELEASE_EVENT_TAG !== 'messaging-v0.2.0') throw new Error('A changed release needs its own manifest, assessment, approval and updated workflow pin')"
+      - name: Verify anonymous source, manifests, runtime and notices through GitHub CDN
+        run: >-
+          node release-tools/verify-published-release.mjs
+          --catalog release/source-disclosure.json
+          --expected-catalog-sha256 f1f345bb8496ae56e347a5b07381edf95527fbb19958b761c59d8126c6b313a2
+          --base-url https://github.com/ubergemut/endtoend-messaging/releases/download/messaging-v0.2.0/
+          --out publication-check.json
+
