@@ -1,0 +1,108 @@
+{
+  "bugs": {
+    "url": "https://github.com/lukeed/escalade/issues"
+  },
+  "dist": {
+    "shasum": "011a3f69856ba189dffa7dc8fcce99d2a87903e5",
+    "tarball": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",
+    "fileCount": 11,
+    "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDGbh1u054ZOcKJ1m/VcM9Ebw9OV2rRD108wfM2VsZPcgIgdaaa62M7U4VIgHfaglQ0eAh0mROuuzjzoyoA+dJOwBE=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 12385
+  },
+  "main": "dist/index.js",
+  "name": "escalade",
+  "modes": {
+    "sync": "src/sync.js",
+    "default": "src/async.js"
+  },
+  "types": "index.d.ts",
+  "author": {
+    "url": "https://lukeed.com",
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com"
+  },
+  "module": "dist/index.mjs",
+  "engines": {
+    "node": ">=6"
+  },
+  "exports": {
+    ".": [
+      {
+        "import": {
+          "types": "./index.d.mts",
+          "default": "./dist/index.mjs"
+        },
+        "require": {
+          "types": "./index.d.ts",
+          "default": "./dist/index.js"
+        }
+      },
+      "./dist/index.js"
+    ],
+    "./sync": [
+      {
+        "import": {
+          "types": "./sync/index.d.mts",
+          "default": "./sync/index.mjs"
+        },
+        "require": {
+          "types": "./sync/index.d.ts",
+          "default": "./sync/index.js"
+        }
+      },
+      "./sync/index.js"
+    ]
+  },
+  "gitHead": "fa5be167391581849cff04dbc75dc2978744b642",
+  "license": "MIT",
+  "scripts": {
+    "test": "uvu -r esm test -i fixtures",
+    "build": "bundt",
+    "pretest": "npm run build"
+  },
+  "_npmUser": {
+    "name": "lukeed",
+    "email": "luke@lukeed.com"
+  },
+  "homepage": "https://github.com/lukeed/escalade#readme",
+  "keywords": [
+    "find",
+    "parent",
+    "parents",
+    "directory",
+    "search",
+    "walk"
+  ],
+  "repository": {
+    "url": "git+https://github.com/lukeed/escalade.git",
+    "type": "git"
+  },
+  "_npmVersion": "10.2.3",
+  "description": "A tiny (183B to 210B) and fast utility to ascend parent directories",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "lukeed",
+      "email": "luke@lukeed.com"
+    }
+  ],
+  "_nodeVersion": "20.10.0",
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "esm": "3.2.25",
+    "uvu": "0.3.3",
+    "bundt": "1.1.1"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/escalade_3.2.0_1724972376536_0.0521928522218551",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "escalade@3.2.0",
+  "version": "3.2.0"
+}

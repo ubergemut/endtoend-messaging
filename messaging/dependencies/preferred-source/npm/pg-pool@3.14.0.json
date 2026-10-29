@@ -1,0 +1,80 @@
+{
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "dist": {
+    "shasum": "f35ae4eb846780cad71af24099b3edfa9781ad90",
+    "tarball": "https://registry.npmjs.org/pg-pool/-/pg-pool-3.14.0.tgz",
+    "fileCount": 5,
+    "integrity": "sha512-gKtPkFdQPU3DksooVLi9LsjZxrsBUZIpa+7aVx+LV5pNh0KzP4Zleud2po+ConrxbuXGBJ6Hfer6hdgpIBpBaw==",
+    "signatures": [
+      {
+        "sig": "MEQCID6eMMP5Dil4+sGJEGNi3VC6s/nZ6DUA/8GnrTgt9aIqAiAGs0on79jJ3Lb/Z6OicJI7Ujnh6+zQb++SbYKCOOHEKw==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 29835
+  },
+  "main": "index.js",
+  "name": "pg-pool",
+  "author": {
+    "name": "Brian M. Carlson"
+  },
+  "exports": {
+    ".": {
+      "import": "./esm/index.mjs",
+      "default": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "gitHead": "544b1ce8152bc280e398dc1e8a66920abe6a640e",
+  "license": "MIT",
+  "scripts": {
+    "test": " node_modules/.bin/mocha"
+  },
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "homepage": "https://github.com/brianc/node-postgres/tree/master/packages/pg-pool#readme",
+  "keywords": [
+    "pg",
+    "postgres",
+    "pool",
+    "database"
+  ],
+  "repository": {
+    "url": "git://github.com/brianc/node-postgres.git",
+    "type": "git",
+    "directory": "packages/pg-pool"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v24.14.0+arm64 (darwin)",
+  "description": "Connection pool for node-postgres",
+  "directories": {
+    "test": "test"
+  },
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "_nodeVersion": "24.14.0",
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "co": "4.6.0",
+    "mocha": "^11.7.5",
+    "lodash": "^4.17.11",
+    "bluebird": "3.7.2",
+    "expect.js": "0.3.1"
+  },
+  "peerDependencies": {
+    "pg": ">=8.0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/pg-pool_3.14.0_1779105618142_0.7737445552150028",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "pg-pool@3.14.0",
+  "version": "3.14.0"
+}

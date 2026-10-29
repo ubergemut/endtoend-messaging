@@ -1,0 +1,81 @@
+{
+  "dist": {
+    "shasum": "3df15f27ba85319caa07ba08d0721889bb39c017",
+    "tarball": "https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz",
+    "fileCount": 5,
+    "integrity": "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==",
+    "signatures": [
+      {
+        "sig": "MEQCICZunIbpZ83F4tI8FM0UoHLJFGt9tqJVps+2rfErtJGrAiAPqBBeCFFv2ZyYkw5fVK3gUixvRaroWHc+012gr912yg==",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 33020
+  },
+  "main": "",
+  "name": "@types/babel__core",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "scripts": {},
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+  "repository": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "type": "git",
+    "directory": "types/babel__core"
+  },
+  "description": "TypeScript definitions for @babel/core",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ts-npm-types@microsoft.com"
+    }
+  ],
+  "contributors": [
+    {
+      "url": "https://github.com/yortus",
+      "name": "Troy Gerwien",
+      "githubUsername": "yortus"
+    },
+    {
+      "url": "https://github.com/marvinhagemeister",
+      "name": "Marvin Hagemeister",
+      "githubUsername": "marvinhagemeister"
+    },
+    {
+      "url": "https://github.com/mgroenhoff",
+      "name": "Melvin Groenhoff",
+      "githubUsername": "mgroenhoff"
+    },
+    {
+      "url": "https://github.com/Jessidhia",
+      "name": "Jessica Franco",
+      "githubUsername": "Jessidhia"
+    },
+    {
+      "url": "https://github.com/ifiokjr",
+      "name": "Ifiok Jr.",
+      "githubUsername": "ifiokjr"
+    }
+  ],
+  "dependencies": {
+    "@babel/types": "^7.20.7",
+    "@babel/parser": "^7.20.7",
+    "@types/babel__template": "*",
+    "@types/babel__traverse": "*",
+    "@types/babel__generator": "*"
+  },
+  "_hasShrinkwrap": false,
+  "typeScriptVersion": "4.5",
+  "_npmOperationalInternal": {
+    "tmp": "tmp/babel__core_7.20.5_1700523850564_0.7919218994006494",
+    "host": "s3://npm-registry-packages"
+  },
+  "typesPublisherContentHash": "3ece429b02ff9f70503a5644f2b303b04d10e6da7940c91a9eff5e52f2c76b91",
+  "_id": "@types/babel__core@7.20.5",
+  "version": "7.20.5"
+}

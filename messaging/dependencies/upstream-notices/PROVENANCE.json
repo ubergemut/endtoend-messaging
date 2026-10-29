@@ -1,0 +1,45 @@
+{
+  "libsignalCommit": "257105c55a7389ca6b1e85185e2769465e6729f1",
+  "files": [
+    {
+      "path": "libsignal/LICENSE",
+      "url": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "libsignal/README.md",
+      "url": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/README.md",
+      "sha256": "ed1a9bc251f8b10a2f91966f5b8b90d8c1bcf7d635707888fe5166af4e950670"
+    },
+    {
+      "path": "libsignal/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/Cargo.toml",
+      "sha256": "c92beaf1fbf746ffd7f4d0a8f9615cf873ec36d1dd1cb3f5f2d5fa9c42cbb709"
+    },
+    {
+      "path": "libsignal/rust-toolchain",
+      "url": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/rust-toolchain",
+      "sha256": "824ea2c5c1d363058c0ee896fd9d1f61fc4a89f7ea6e8374b2cb30452b74b675"
+    },
+    {
+      "path": "libsignal/rust/protocol/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/rust/protocol/Cargo.toml",
+      "sha256": "5fcf4e840b5f18723d5bf1e4cdaeba6c34b371e37120d9093a47ed6fcde60a29"
+    },
+    {
+      "path": "libsignal/rust/core/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/rust/core/Cargo.toml",
+      "sha256": "5a576e612a512e4c9e9ef16f99c341190c1da373a7ebe3cc82a2012c1a5f381b"
+    },
+    {
+      "path": "libsignal/rust/debug/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/rust/debug/Cargo.toml",
+      "sha256": "5e3e16928201cfa8ffad1bd78f1af3cfd5271386befd4968c32a16f87576c3c0"
+    },
+    {
+      "path": "libsignal/rust/crypto/Cargo.toml",
+      "url": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/rust/crypto/Cargo.toml",
+      "sha256": "dd4e9a369253ca771e0d66e91260fe4f9a08ba287526b7c2cd249a917220796e"
+    }
+  ]
+}

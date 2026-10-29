@@ -1,0 +1,79 @@
+{
+  "bugs": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+  "dist": {
+    "shasum": "4d9d4004f645cdd304de958c725162784ecac700",
+    "tarball": "https://registry.npmjs.org/@babel/template/-/template-7.29.7.tgz",
+    "fileCount": 19,
+    "integrity": "sha512-puq+Gf35oI24FeN11LkoUQFqv9uwNeWpxXZi/Ji3rRIoKAzKnxRaZ+Gkj0vKS9ZCiTESfng1N9LyOyXvo+m+Gg==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDtAOWfoV7wlWqQ9NBCDK+to7Muf5fuh2Y6PDoBKSmshgIgLM+b+gwWFLuHerw/x3oq4zuF5cs7Aovr2EJ1oJh+osI=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@babel%2ftemplate@7.29.7",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 70678
+  },
+  "main": "./lib/index.js",
+  "name": "@babel/template",
+  "type": "commonjs",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:3f5182b7-be38-4fbe-8743-933f023479c4"
+    }
+  },
+  "homepage": "https://babel.dev/docs/en/next/babel-template",
+  "repository": {
+    "url": "https://github.com/babel/babel.git",
+    "type": "git",
+    "directory": "packages/babel-template"
+  },
+  "description": "Generate an AST from a string template.",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "nicolo-ribaudo",
+      "email": "nicolo.ribaudo@gmail.com"
+    },
+    {
+      "name": "jlhwung",
+      "email": "jlhwung@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@babel/types": "^7.29.7",
+    "@babel/parser": "^7.29.7",
+    "@babel/code-frame": "^7.29.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "_npmOperationalInternal": {
+    "tmp": "tmp/template_7.29.7_1779707785688_0.7044653190180021",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@babel/template@7.29.7",
+  "version": "7.29.7"
+}

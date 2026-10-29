@@ -1,0 +1,23 @@
+{
+  "historyUrl": "https://api.github.com/repos/fboulnois/pg_uuidv7/commits?path=LICENSE&per_page=100",
+  "checkedAt": "2026-10-25T15:51:42.931Z",
+  "licenseCommits": [
+    {
+      "sha": "44d79cb8d67e0796f138bcf3359b468bb323b5ce",
+      "date": "2023-01-02T19:36:29Z",
+      "message": "docs: add MPLv2.0 license"
+    }
+  ],
+  "firstLicenseFile": {
+    "status": "added",
+    "sha": "a612ad9813b006ce81d1ee438dd784da99a54007"
+  },
+  "earliestRepositoryCommitObserved": [
+    {
+      "sha": "376deaa9a25623d80266053bbbc8e112c9032cf9",
+      "date": "2023-01-02T18:39:45Z",
+      "message": "initial commit"
+    }
+  ],
+  "observation": "One LICENSE history entry observed. Repository origin is after MPL 2.0 publication; this observation is not a warranty about every contributor or imported line."
+}

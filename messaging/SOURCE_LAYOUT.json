@@ -1,0 +1,7 @@
+{
+  "kind": "endtoend-source-closure-layout",
+  "authoritativePreferredSource": "Complete unmodified upstream source archives with original layouts/notices; individual inspection files are selected for offline validation and are not complete expanded upstream trees",
+  "selectedInspectionAndArchiveFiles": 562,
+  "originalSourceArchivesFiltered": false,
+  "duplicatedExpandedTreesOmitted": true
+}

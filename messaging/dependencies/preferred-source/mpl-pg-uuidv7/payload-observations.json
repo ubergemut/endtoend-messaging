@@ -1,0 +1,24 @@
+{
+  "kind": "observed-pg-uuidv7-payload-text-correspondence",
+  "checkedAt": "2026-10-25T15:55:01.510Z",
+  "installedArtifact": "node_modules/@electric-sql/pglite/dist/pg_uuidv7.tar.gz",
+  "artifactSha256": "6e77219e551037fc6f76a3d13f604856b001b65dadcc4dbf8150822acfe3ad36",
+  "members": [
+    {
+      "member": "share/postgresql/extension/pg_uuidv7.control",
+      "sourcePath": "pg_uuidv7.control",
+      "bytes": 137,
+      "sha256": "1a0fc31e44a7f7990cc3b31c793df30d5edf749d17fa21200b1f33732336b3b4",
+      "matchesSource": true
+    },
+    {
+      "member": "share/postgresql/extension/pg_uuidv7--1.7.sql",
+      "sourcePath": "sql/pg_uuidv7--1.7.sql",
+      "bytes": 1151,
+      "sha256": "394aed90a31cffe7c21c4fceda07a5df6f3793e8b0ab26b857c74c135b3954bc",
+      "matchesSource": true
+    }
+  ],
+  "compiledBinaryReproductionProven": false,
+  "scope": "Only shipped SQL/control text compared. Original optional .so bytes are not supplied as preferred source or reproduced by this assessment."
+}

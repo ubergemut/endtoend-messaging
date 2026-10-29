@@ -1,0 +1,124 @@
+{
+  "bugs": {
+    "url": "https://github.com/DirtyHairy/async-mutex/issues"
+  },
+  "dist": {
+    "shasum": "bccf55b96f2baf8df90ed798cb5544a1f6ee4c2c",
+    "tarball": "https://registry.npmjs.org/async-mutex/-/async-mutex-0.4.1.tgz",
+    "fileCount": 28,
+    "integrity": "sha512-WfoBo4E/TbCX1G95XTjbWTE3X2XLG0m1Xbv2cwOtuPdyH9CZvnaA5nCt1ucjaKEgW2A5IF71hxrRhr83Je5xjA==",
+    "signatures": [
+      {
+        "sig": "MEUCIQD8+tWX10VBWicFjz2hGN3nCC2E5YhQTyKlmBfrfJn4tQIgUrTyf7sMvXbmfH5zqsgY5ffAIFyZiml9ukGLhGQoGL0=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 54722
+  },
+  "main": "lib/index.js",
+  "name": "async-mutex",
+  "types": "lib/index.d.ts",
+  "author": {
+    "url": "https://github.com/DirtyHairy/",
+    "name": "Christian Speckner",
+    "email": "cnspeckn@googlemail.com"
+  },
+  "module": "es6/index.js",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "default": "./lib/index.js",
+      "require": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "gitHead": "ae43294c5a3479f2a5adbf977fb4cb4dd5dba547",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src/**/*.ts test/**/*.ts",
+    "test": "yarn lint && nyc --reporter=text --reporter=html --reporter=lcov mocha test/*.ts",
+    "build": "tsc && tsc -p tsconfig.es6.json && tsc -p tsconfig.mjs.json && rollup -o index.mjs mjs/index.js",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "prepublishOnly": "yarn test && yarn build"
+  },
+  "_npmUser": {
+    "name": "dirtyhairy",
+    "email": "cnspeckn@googlemail.com"
+  },
+  "homepage": "https://github.com/DirtyHairy/async-mutex#readme",
+  "keywords": [
+    "mutex",
+    "async"
+  ],
+  "prettier": {
+    "parser": "typescript",
+    "tabWidth": 4,
+    "printWidth": 120,
+    "singleQuote": true
+  },
+  "importSort": {
+    ".js, .jsx, .ts, .tsx": {
+      "style": "eslint",
+      "parser": "typescript"
+    }
+  },
+  "repository": {
+    "url": "git+https://github.com/DirtyHairy/async-mutex.git",
+    "type": "git"
+  },
+  "_npmVersion": "10.2.4",
+  "description": "A mutex for guarding async workflows",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "dirtyhairy",
+      "email": "cnspeckn@googlemail.com"
+    }
+  ],
+  "_nodeVersion": "21.4.0",
+  "dependencies": {
+    "tslib": "^2.4.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "rules": {
+      "eqeqeq": "error",
+      "no-async-promise-executor": "off",
+      "@typescript-eslint/no-namespace": "off"
+    },
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": [
+      "@typescript-eslint"
+    ]
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "mocha": "^10.0.0",
+    "eslint": "^8.23.0",
+    "rollup": "^4.9.5",
+    "ts-node": "^10.9.1",
+    "prettier": "^3.2.4",
+    "coveralls": "^3.1.1",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.5",
+    "@types/mocha": "^10.0.6",
+    "@sinonjs/fake-timers": "^11.2.2",
+    "import-sort-style-eslint": "^6.0.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "@types/sinonjs__fake-timers": "^8.1.2",
+    "prettier-plugin-import-sort": "^0.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.19.0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/async-mutex_0.4.1_1705527034606_0.578769577690389",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "async-mutex@0.4.1",
+  "version": "0.4.1"
+}

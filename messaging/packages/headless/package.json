@@ -1,0 +1,28 @@
+{
+  "name": "@e2ee/headless",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "description": "HTTP, GraphQL, MCP and CLI clients for an independent local EndToEnd agent.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "endtoend-headless": "./src/bin.ts"
+  },
+  "scripts": {
+    "usage": "tsx src/bin.ts help",
+    "http": "tsx src/bin.ts http",
+    "mcp": "tsx src/bin.ts mcp",
+    "graphql": "tsx src/bin.ts graphql",
+    "call": "tsx src/bin.ts call",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@e2ee/client": "*",
+    "@e2ee/protocol": "*",
+    "graphql": "^16.11.0",
+    "tsx": "^4.20.5"
+  }
+}

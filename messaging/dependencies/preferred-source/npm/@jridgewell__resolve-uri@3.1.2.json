@@ -1,0 +1,109 @@
+{
+  "bugs": {
+    "url": "https://github.com/jridgewell/resolve-uri/issues"
+  },
+  "dist": {
+    "shasum": "7a0ee601f60f99a20c7c7c5ff0c80388c1189bd6",
+    "tarball": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+    "fileCount": 8,
+    "integrity": "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==",
+    "signatures": [
+      {
+        "sig": "MEQCIEXppH+0BsrbWtra1kPPaPPmx9gUaehh6s6zaKjIHAFlAiBmQfkNGAwgSsvu0SsXAVHZi7isPYQkKaLUvLVGXwxCaw==",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 53153
+  },
+  "main": "dist/resolve-uri.umd.js",
+  "name": "@jridgewell/resolve-uri",
+  "types": "dist/types/resolve-uri.d.ts",
+  "author": {
+    "name": "Justin Ridgewell",
+    "email": "justin@ridgewell.name"
+  },
+  "module": "dist/resolve-uri.mjs",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "exports": {
+    ".": [
+      {
+        "types": "./dist/types/resolve-uri.d.ts",
+        "import": "./dist/resolve-uri.mjs",
+        "browser": "./dist/resolve-uri.umd.js",
+        "require": "./dist/resolve-uri.umd.js"
+      },
+      "./dist/resolve-uri.umd.js"
+    ],
+    "./package.json": "./package.json"
+  },
+  "gitHead": "caa7a299d6c688570773c81732f77d3c7035ded6",
+  "license": "MIT",
+  "scripts": {
+    "lint": "run-s -n lint:*",
+    "test": "run-s -n test:lint test:only",
+    "build": "run-s -n build:*",
+    "lint:ts": "npm run test:lint:ts -- --fix",
+    "pretest": "run-s build:rollup",
+    "build:ts": "tsc --project tsconfig.build.json",
+    "prebuild": "rm -rf dist",
+    "test:lint": "run-s -n test:lint:*",
+    "test:only": "mocha",
+    "preversion": "run-s test build",
+    "test:debug": "mocha --inspect-brk",
+    "test:watch": "mocha --watch",
+    "build:rollup": "rollup -c rollup.config.js",
+    "test:lint:ts": "eslint '{src,test}/**/*.ts'",
+    "lint:prettier": "npm run test:lint:prettier -- --write",
+    "test:coverage": "c8 mocha",
+    "prepublishOnly": "npm run preversion",
+    "test:lint:prettier": "prettier --check '{src,test}/**/*.ts'"
+  },
+  "_npmUser": {
+    "name": "jridgewell",
+    "email": "justin+npm@ridgewell.name"
+  },
+  "homepage": "https://github.com/jridgewell/resolve-uri#readme",
+  "keywords": [
+    "resolve",
+    "uri",
+    "url",
+    "path"
+  ],
+  "repository": {
+    "url": "git+https://github.com/jridgewell/resolve-uri.git",
+    "type": "git"
+  },
+  "_npmVersion": "10.2.3",
+  "description": "Resolve a URI relative to an optional base URI",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "jridgewell",
+      "email": "justin+npm@ridgewell.name"
+    }
+  ],
+  "_nodeVersion": "20.10.0",
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "c8": "7.11.0",
+    "mocha": "9.2.0",
+    "eslint": "8.7.0",
+    "rollup": "2.66.0",
+    "prettier": "2.5.1",
+    "typescript": "4.5.5",
+    "npm-run-all": "4.1.5",
+    "eslint-config-prettier": "8.3.0",
+    "@rollup/plugin-typescript": "8.3.0",
+    "@typescript-eslint/parser": "5.10.0",
+    "@jridgewell/resolve-uri-latest": "npm:@jridgewell/resolve-uri@*",
+    "@typescript-eslint/eslint-plugin": "5.10.0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/resolve-uri_3.1.2_1707939157950_0.7352747804987614",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "@jridgewell/resolve-uri@3.1.2",
+  "version": "3.1.2"
+}

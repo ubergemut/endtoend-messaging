@@ -1,0 +1,76 @@
+{
+  "dist": {
+    "shasum": "c0a0766f1a13617d8a17407d7ab8f9d486225ea4",
+    "tarball": "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz",
+    "fileCount": 5,
+    "integrity": "sha512-G7sHYigPY17oO5SYWnfD/0MTBwVR781S/JI643e/JhUYgVgWE/61SoW3NH9KWUKyKq5LVh3npif99Wkt6j86Jw==",
+    "signatures": [
+      {
+        "sig": "MEQCIF0uypXFuvb6lIxgUlIHDcN8WctW6WFWPJB9uSR2O6XnAiBVSi4ehK1KjVggkJn6Q5QLSqrmgHkzo+4/MVL5QQPZKg==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@babel%2fhelper-plugin-utils@7.29.7",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 11761
+  },
+  "main": "./lib/index.js",
+  "name": "@babel/helper-plugin-utils",
+  "type": "commonjs",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:4fb8cc72-78b7-4ff3-8063-33b2bd7a9cf3"
+    }
+  },
+  "homepage": "https://babel.dev/docs/en/next/babel-helper-plugin-utils",
+  "repository": {
+    "url": "https://github.com/babel/babel.git",
+    "type": "git",
+    "directory": "packages/babel-helper-plugin-utils"
+  },
+  "description": "General utilities for plugins to use",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "nicolo-ribaudo",
+      "email": "nicolo.ribaudo@gmail.com"
+    },
+    {
+      "name": "jlhwung",
+      "email": "jlhwung@gmail.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "@babel/core": "^7.29.7"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/helper-plugin-utils_7.29.7_1779707730639_0.12199681440080523",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@babel/helper-plugin-utils@7.29.7",
+  "version": "7.29.7"
+}

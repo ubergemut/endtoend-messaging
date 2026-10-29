@@ -1,0 +1,57 @@
+{
+  "kind": "pglite-postgres-submodule-provenance",
+  "commit": "51e222cc5f799675b8dd098f5cb7bf46cbad75a2",
+  "identifiedBy": "Exact gitlink postgres-pglite in pglite4555814e2b0beac8af5d5d760907040b7b8f61df",
+  "files": [
+    {
+      "path": "postgres-pglite.tar.gz",
+      "url": "https://codeload.github.com/electric-sql/postgres-pglite/tar.gz/51e222cc5f799675b8dd098f5cb7bf46cbad75a2",
+      "bytes": 28565423,
+      "sha256": "c5519e3a5816796d945f05bdcd3320b240b03c5ebb2a953224f212f16e521cf6"
+    },
+    {
+      "path": "postgres-git-tree.json",
+      "url": "https://api.github.com/repos/electric-sql/postgres-pglite/git/trees/51e222cc5f799675b8dd098f5cb7bf46cbad75a2?recursive=1",
+      "bytes": 1954252,
+      "sha256": "047678674e9d9e0f5ed0c1f13a2b37a62e5d31ee80ec10d2b516fd137fa71021"
+    }
+  ],
+  "gitlinks": [
+    {
+      "path": "pglite/age",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "e1467f12e0b1d15dd35d3ab93f057a7112d425b8"
+    },
+    {
+      "path": "pglite/pg_hashids",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "8c404dd86408f3a987a3ff6825ac7e42bd618b98"
+    },
+    {
+      "path": "pglite/pg_ivm",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "f4b40e93a60478a1ea9d69f0fd305452e5c00690"
+    },
+    {
+      "path": "pglite/pg_uuidv7",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "c707aae2411181be4802f5fa565b44d9c0bcbc29"
+    },
+    {
+      "path": "pglite/pgtap",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "6e3acbf4e0cb19997edeafeabf1b18870ea68a5e"
+    },
+    {
+      "path": "pglite/vector",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "2627c5ff775ae6d7aef0c430121ccf857842d2f2"
+    }
+  ]
+}

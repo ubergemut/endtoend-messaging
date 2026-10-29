@@ -1,0 +1,83 @@
+{
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "bugs": {
+    "url": "https://github.com/rollup/rollup/issues"
+  },
+  "dist": {
+    "shasum": "971f6ba3b2fdf33bc6e6e6a10cbee5dd37c5e23d",
+    "tarball": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.64.0.tgz",
+    "fileCount": 3,
+    "integrity": "sha512-nl+CTWIgOGszQmUz/kanfgrfFZ4qiwxKIfT/ryl3N3Ewk5tqizmYtNXiqb7Bu/fDtNgu1kyxdFiAUJNur3iysg==",
+    "signatures": [
+      {
+        "sig": "MEQCIFbLR/xjEH+r5KgLQ5E35U2Q50yKutoFQpXvr/vYxaXWAiA7/0SB7HaZqBDWRqjkdnNVF5wVFaF8EQAhAe0y/aFu7A==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEQCIDh4WU+DkYiRuzi0QyX6OTi9qhFDoiUG2uYlVUdWyIkVAiAniL86Ws7h/+Wo30Men8YsB71PiY9zZgBnPiBOTaclKQ==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@rollup%2frollup-win32-x64-msvc@4.64.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 2675236
+  },
+  "main": "./rollup.win32-x64-msvc.node",
+  "name": "@rollup/rollup-win32-x64-msvc",
+  "author": {
+    "name": "Lukas Taegert-Atkinson"
+  },
+  "gitHead": "77773bf8ee9130c4edbde14c017855c41e500692",
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "3b324dd9-18c5-4b62-8693-bb38868e75bd"
+    }
+  },
+  "homepage": "https://rollupjs.org/",
+  "repository": {
+    "url": "git+https://github.com/rollup/rollup.git",
+    "type": "git"
+  },
+  "_npmVersion": "11.15.0",
+  "description": "Native bindings for Rollup",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "shellscape",
+      "email": "andrew@shellscape.org"
+    },
+    {
+      "name": "rich_harris",
+      "email": "richard.a.harris@gmail.com"
+    },
+    {
+      "name": "guybedford",
+      "email": "guybedford@gmail.com"
+    },
+    {
+      "name": "lukastaegert",
+      "email": "lukas.taegert@tngtech.com"
+    }
+  ],
+  "_nodeVersion": "24.10.0",
+  "_hasShrinkwrap": false,
+  "_npmOperationalInternal": {
+    "tmp": "tmp/rollup-win32-x64-msvc_4.64.0_1790955684402_0.6761552738487897",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@rollup/rollup-win32-x64-msvc@4.64.0",
+  "version": "4.64.0"
+}

@@ -1,0 +1,319 @@
+{
+  "kind": "endtoend-pg-uuidv7-mpl-provenance",
+  "version": 1,
+  "checkedAt": "2026-10-25T15:51:43.104Z",
+  "repository": "https://github.com/fboulnois/pg_uuidv7",
+  "commit": "c707aae2411181be4802f5fa565b44d9c0bcbc29",
+  "extensionVersion": "1.7.0",
+  "sourceDirectory": "dependencies/preferred-source/pglite-0.3.16/postgres-pglite/pglite/pg_uuidv7",
+  "sourceFiles": [
+    {
+      "path": ".github/workflows/publish.yml",
+      "bytes": 2485,
+      "sha256": "fb539ff0e1dfa041aaa12bf8e4b6b10c77aaecf0f765932266b267ad7ff618db",
+      "gitBlob": "1fd8ee60bdb92865518e114a1e2aff4f91be52ac"
+    },
+    {
+      "path": "BENCHMARKS.md",
+      "bytes": 2494,
+      "sha256": "60368e4f7f77b4c8fff854121e0f7304adfa71a3d3f072462583599d45b3a106",
+      "gitBlob": "fe9d42613d7ce778ebfa3f7ff81fcbbb378fbb3d"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2690,
+      "sha256": "6fd203d839fcf0714f4f44fb0840478381497b0ac497a0d25ad33985ffef266c",
+      "gitBlob": "4280e1a40ebeb7204800b28e117b22f5a89a9c9b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1309,
+      "sha256": "3c00ec36fc01de9eef1d79305e161abf28df7af4773dcf92b620ddf4c09336df",
+      "gitBlob": "3454200c4db43408ef1f55c39382b568614b4fdb"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 979,
+      "sha256": "6a3cf5bea05c2a161194afb296bcb52043fa3880671b21906ef1fa19c29d62be",
+      "gitBlob": "6c1f0ccff599bca97367e65b1db39b914177e4bd"
+    },
+    {
+      "path": "EXTRACTION_LINKS.json",
+      "bytes": 197,
+      "sha256": "37fba0749f1c33d18a90d507dfad8809e61aa211d9fc3849d5b405eeb3e28522",
+      "gitBlob": "fee487654241d9db2c4beb9a400e23d2cb046a37"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "gitBlob": "a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "META.json",
+      "bytes": 866,
+      "sha256": "1465f22da640b6a67dc74d82de2eb8aaacaf908bf52134b1e5dc24d9a1c02e8a",
+      "gitBlob": "0d55951eb8149b8304268287c4bd7e5085d9d4cb"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 263,
+      "sha256": "84db72e6b7af4c3d46493077299e5aec1d5deeeef5fa7b9d29e699832c28660c",
+      "gitBlob": "7930c699b0ad07c7aebbe9ad3be56961c10f05f2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4388,
+      "sha256": "0d51beacff8f1b2d6505b327c333a9c8ef02a1f5beb45de865578363c80c3256",
+      "gitBlob": "e7583083ac35c36c734c6b7aeee5a9ae2c841118"
+    },
+    {
+      "path": "pg_uuidv7.c",
+      "bytes": 3148,
+      "sha256": "71811a5f24d6510dfaf107fab6154166d68de365e4886a475bf0c9b30400312c",
+      "gitBlob": "01be0dc30d93e7cba17285de461d0d4f39b1eca5"
+    },
+    {
+      "path": "pg_uuidv7.control",
+      "bytes": 137,
+      "sha256": "1a0fc31e44a7f7990cc3b31c793df30d5edf749d17fa21200b1f33732336b3b4",
+      "gitBlob": "7e9f0e40c593f6df82ec6cff5dd521776b170bec"
+    },
+    {
+      "path": "sql/pg_uuidv7--1.0.sql",
+      "bytes": 355,
+      "sha256": "c0f53033d38f9250d18bcfcf36d90cb4d06e2fb5a09ce61600c0320c465a4ec3",
+      "gitBlob": "c9b9cda01dd28ed0fa517428609bd49baf307d92"
+    },
+    {
+      "path": "sql/pg_uuidv7--1.1.sql",
+      "bytes": 550,
+      "sha256": "ffd73cdc834ed705d3860b4e8d1d81e88ca1866c83b581d2400484aaff654f59",
+      "gitBlob": "a45cd943bc943f716362ee1a3567c9eb39892f7e"
+    },
+    {
+      "path": "sql/pg_uuidv7--1.2.sql",
+      "bytes": 761,
+      "sha256": "51c3ef62375d9e0fd4b663bf87588625854269425bfca90472b14b2856ffcf84",
+      "gitBlob": "8ac4c9941eb0f1027a72afe267ab669b6be9a2d4"
+    },
+    {
+      "path": "sql/pg_uuidv7--1.3.sql",
+      "bytes": 761,
+      "sha256": "51c3ef62375d9e0fd4b663bf87588625854269425bfca90472b14b2856ffcf84",
+      "gitBlob": "8ac4c9941eb0f1027a72afe267ab669b6be9a2d4"
+    },
+    {
+      "path": "sql/pg_uuidv7--1.4.sql",
+      "bytes": 761,
+      "sha256": "51c3ef62375d9e0fd4b663bf87588625854269425bfca90472b14b2856ffcf84",
+      "gitBlob": "8ac4c9941eb0f1027a72afe267ab669b6be9a2d4"
+    },
+    {
+      "path": "sql/pg_uuidv7--1.5.sql",
+      "bytes": 757,
+      "sha256": "c5df76abed4b1a2d2270fa97c31c8ce87445e29cf82675ffdc20343718c04aa3",
+      "gitBlob": "d3523b2e98e15a28a82751bf6a965421398ecc3b"
+    },
+    {
+      "path": "sql/pg_uuidv7--1.6.sql",
+      "bytes": 1151,
+      "sha256": "394aed90a31cffe7c21c4fceda07a5df6f3793e8b0ab26b857c74c135b3954bc",
+      "gitBlob": "9a553cb86a18f4db519c7d417e2d642ae6953591"
+    },
+    {
+      "path": "sql/pg_uuidv7--1.7.sql",
+      "bytes": 1151,
+      "sha256": "394aed90a31cffe7c21c4fceda07a5df6f3793e8b0ab26b857c74c135b3954bc",
+      "gitBlob": "9a553cb86a18f4db519c7d417e2d642ae6953591"
+    },
+    {
+      "path": "test/Dockerfile",
+      "bytes": 47,
+      "sha256": "e3d812c5131bdeca9e8965d1c40a89a6fb2bd0a0c1c188a6365a0fa5734bf01f",
+      "gitBlob": "7e0299dff2778a2d9f052b64e2c9b5f00ea75766"
+    },
+    {
+      "path": "test/benchmark/001_gen_random_uuid.sql",
+      "bytes": 26,
+      "sha256": "f432eb760e374594969a48ff6e72c2c601af3588acfd5ddb0c366721a773a0db",
+      "gitBlob": "1404b92b9e1f8887c9512d2a727822b1c9900314"
+    },
+    {
+      "path": "test/benchmark/002_uuid_generate_v7.sql",
+      "bytes": 27,
+      "sha256": "3d75d94d0d544646c71a59bbbee04074a88d819fdea32ff9f5b4574b5e329dfc",
+      "gitBlob": "56931717686c6f7885e8c08da781e4b92c38d134"
+    },
+    {
+      "path": "test/benchmark/003_uuid_generate_v7_sql.sql",
+      "bytes": 31,
+      "sha256": "fbd944991e243dc133b3276919b01e28aab6c0751695cb21fd530b03418be377",
+      "gitBlob": "db44ede54cb4470b2822ee969ddfcd1ae3702d12"
+    },
+    {
+      "path": "test/benchmark/004_native_uuidv7.sql",
+      "bytes": 17,
+      "sha256": "4e89a46177ffea6eace729f79b71d498705ea163f7e660fc2f1a3f969cc92a6a",
+      "gitBlob": "ae983e40936cfe97374cece4b2b7933a79e723bf"
+    },
+    {
+      "path": "test/benchmark/benchmark.sh",
+      "bytes": 472,
+      "sha256": "a8a82fc674dc78d2ba10fb8d477f6f3a370553af9ff43f7432d09d66b31940f0",
+      "gitBlob": "b679829fe11db4e011def103e108e11b816a70aa"
+    },
+    {
+      "path": "test/expected/001_setup.out",
+      "bytes": 70,
+      "sha256": "596534349657cbcba251b82695dae5c5516d88ec07118f3adef8e3a3ae41f7d2",
+      "gitBlob": "7ebdd2b445c289378297f91cc14b1d4f546d1ade"
+    },
+    {
+      "path": "test/expected/002_uuid_generate_v7.out",
+      "bytes": 194,
+      "sha256": "785e0bc9eb06e4a26a705b2df72129f2c3d4472a71c22c2dcee17b8b36aa85a3",
+      "gitBlob": "8df31ff1e1ef3454c4e3c64049b6ce3995c51753"
+    },
+    {
+      "path": "test/expected/003_uuid_v7_to_timestamptz.out",
+      "bytes": 253,
+      "sha256": "3ad0e19fbec44b094b69f6c68d9a24ac58b7feff25533e9c56115bf3fa5303f6",
+      "gitBlob": "1b77c32d4c4b48c4cbb20ae367182c7e44cbabd6"
+    },
+    {
+      "path": "test/expected/004_uuid_timestamptz_to_v7.out",
+      "bytes": 417,
+      "sha256": "17f8f08c07c8bde079a2a07ca5c4f6bf6b33ba4c41c59c361312b69b98486bd3",
+      "gitBlob": "17a60e665360fd6db394243e082eb81695e08cb0"
+    },
+    {
+      "path": "test/expected/005_uuid_v7_to_timestamp.out",
+      "bytes": 248,
+      "sha256": "81cb4e016439c33a4863fcc4de4279876b6c59722832dece270b4104520b1ea5",
+      "gitBlob": "d562207ad9ff85faeec9e2f43be55bd9092dba56"
+    },
+    {
+      "path": "test/expected/006_uuid_timestamp_to_v7.out",
+      "bytes": 410,
+      "sha256": "2c4165d630019339057c79e82bc4c05d63976cec78539d2dd66724f9dfd2b716",
+      "gitBlob": "c742d95f9f1eb88b2c016a4164ea33b4314f89cc"
+    },
+    {
+      "path": "test/sql/001_setup.sql",
+      "bytes": 70,
+      "sha256": "596534349657cbcba251b82695dae5c5516d88ec07118f3adef8e3a3ae41f7d2",
+      "gitBlob": "7ebdd2b445c289378297f91cc14b1d4f546d1ade"
+    },
+    {
+      "path": "test/sql/002_uuid_generate_v7.sql",
+      "bytes": 161,
+      "sha256": "62e8a36fc7a80873d7b46e00753e2e99e82b5f61e7321d3b62aa34bf11b9e2ff",
+      "gitBlob": "d8ad3356c1171d3efb43fb09631fe2e3daca2a06"
+    },
+    {
+      "path": "test/sql/003_uuid_v7_to_timestamptz.sql",
+      "bytes": 220,
+      "sha256": "9c157dce2da16a75a8607c59fc23178cb3c0a6ef982b71af5dc239348b0a9314",
+      "gitBlob": "082b3c682a28cbca25c6279371a07a06e1d481c2"
+    },
+    {
+      "path": "test/sql/004_uuid_timestamptz_to_v7.sql",
+      "bytes": 351,
+      "sha256": "aaac5d6bc642b06f851e985817fad60838aff10db54d33cf1e612cf07a7b9931",
+      "gitBlob": "382d6d1d0ec1c2cf153f2d8a608cadd8516c0a1f"
+    },
+    {
+      "path": "test/sql/005_uuid_v7_to_timestamp.sql",
+      "bytes": 215,
+      "sha256": "164656e8b92a677f9b1d8f93ee48b2f3b8c19756141bce6d42cda855006cbeee",
+      "gitBlob": "0c5df9a5f333be2aea7b2eb4e26bf20c91304d63"
+    },
+    {
+      "path": "test/sql/006_uuid_timestamp_to_v7.sql",
+      "bytes": 344,
+      "sha256": "06cf8f2ae6efc33e20bade8b36fa463569c435c512d337a26eae6c428edb5bb4",
+      "gitBlob": "d599f27d6b62dcdbfb3b5a2045a3525ee923c2d8"
+    }
+  ],
+  "upstream": {
+    "treeUrl": "https://api.github.com/repos/fboulnois/pg_uuidv7/git/trees/c707aae2411181be4802f5fa565b44d9c0bcbc29?recursive=1",
+    "treePath": "upstream-tree.json",
+    "treeSha256": "13bae6908af4dc10b075ec4f08fec0bd2e6c8fd023752a03cff96800d535d3ea",
+    "upstreamFiles": 37,
+    "gitBlobComparisons": 37,
+    "additionalInspectionMetadata": [
+      "EXTRACTION_LINKS.json"
+    ]
+  },
+  "originalArchive": {
+    "path": "dependencies/preferred-source/pglite-0.3.16/embedded/pg_uuidv7.tar.gz",
+    "bytes": 13778,
+    "sha256": "422b882887ace16a1358150eb8bcfcf41a74ae60db89818929ba4f59ba360251",
+    "url": "https://codeload.github.com/fboulnois/pg_uuidv7/tar.gz/c707aae2411181be4802f5fa565b44d9c0bcbc29"
+  },
+  "licenseHistory": {
+    "path": "upstream-history/license-history.json",
+    "sha256": "76a5994ae0e0014e2b504a31c31903c38e110282175a758afa10e4167b412670",
+    "firstLicensePath": "upstream-history/first-LICENSE",
+    "firstLicenseSha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+    "commit": "44d79cb8d67e0796f138bcf3359b468bb323b5ce",
+    "date": "2023-01-02T19:36:29Z"
+  },
+  "combinationInputs": [
+    {
+      "originalPath": "apps/api/package.json",
+      "bundledPath": "context/apps-api-package.json",
+      "bytes": 569,
+      "sha256": "b14b5c4fecb33c180421649705ef2d7024714f8ce04d08cbeb4c8cb682ecceb9"
+    },
+    {
+      "originalPath": "apps/api/src/db.ts",
+      "bundledPath": "context/apps-api-db.ts",
+      "bytes": 4636,
+      "sha256": "1f3fe06877a89e6ce7e4bd4f7685acc6c6344a0f02eb638859a42bcd9ac1368c"
+    },
+    {
+      "originalPath": "yarn.lock",
+      "bundledPath": "context/yarn.lock",
+      "bytes": 56828,
+      "sha256": "4ac56e144d01f037ef3221c1e3d3ed1ef6d632b42d3f74ec7d53056fd2bfa8f1"
+    },
+    {
+      "originalPath": "dependencies/preferred-source/pglite-0.3.16/upstream/packages/pglite/package.json",
+      "bundledPath": "context/pglite-package.json",
+      "bytes": 6452,
+      "sha256": "4717c4134a2bfa3de4b31e7e063da563365c70f54fe07448ec3429af6592c564"
+    },
+    {
+      "originalPath": "dependencies/preferred-source/pglite-0.3.16/POSTGRES_PROVENANCE.json",
+      "bundledPath": "context/POSTGRES_PROVENANCE.json",
+      "bytes": 1717,
+      "sha256": "175cff1e728ec5a2b996f03f59e088fabdd7c1310f00be7f63c2a3bfa0d68c36"
+    },
+    {
+      "originalPath": "dependencies/preferred-source/pglite-0.3.16/postgres-pglite/extra/pg_uuidv7.sh",
+      "bundledPath": "context/pg_uuidv7.sh",
+      "bytes": 506,
+      "sha256": "d7fa10204dca68214b398115569f13500cf9460683fbede35d24d82c41825aff"
+    }
+  ],
+  "licenseFiles": [
+    {
+      "path": "LICENSE-MPL-2.0.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "path": "LICENSE-AGPL-3.0.txt",
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+    }
+  ],
+  "supplementalNotice": {
+    "path": "DISTRIBUTION_NOTICE.txt",
+    "sha256": "f43ab5fabb43c1388b157af583b64154a349e6aec00fd3baa378d0dbef7cf3d0"
+  },
+  "payloadObservations": {
+    "path": "payload-observations.json",
+    "sha256": "775e2efe822524d6e1f94741065eeafd7eb3f05893f50499684ca7c4025d6809"
+  }
+}

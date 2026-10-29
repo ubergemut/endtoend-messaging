@@ -1,0 +1,5 @@
+# Modifications and license notices
+
+2026-10-28: The retained EndToEnd full frontend was adapted to the separate public SDK and trusted browser agent; durable-send controls, host-account integration and preservation fixes are included. This candidate adds version-specific source, manifest, license and attribution links on every page, including before login, plus visible copyright, warranty and AGPL modification/redistribution notices in the full frontend. Full frontend code retains AGPL-3.0-only and earlier grants remain valid.
+
+The independent desk presentation/controller was authored separately against the public SDK and retains MIT. Its later source-disclosure footer is first-party interface code and retains MIT. SDK 0.2.1 includes the explicit native-fetch receiver correction. Third-party React, React DOM, Scheduler and Vite inputs are unmodified and retain their supplied licenses. The packager and standalone build script are AGPL-3.0-only; the static SDK consumer host and source disclosure helper are MIT.

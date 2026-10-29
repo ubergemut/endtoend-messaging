@@ -1,0 +1,2194 @@
+{
+  "kind": "exact-locked-npm-package-sources",
+  "records": [
+    {
+      "name": "@babel/code-frame",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__code-frame@7.29.7.tgz",
+      "bytes": 10384,
+      "sha256": "fa8b176fa0b5d1d72b41ad33443f1f4f75933157a45010dffb51719f40c19c67",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.29.7.tgz",
+      "integrity": "sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__code-frame@7.29.7.json",
+      "registryMetadataSha256": "aef3ff9d15533dcf1e8df5338caa196a7400c618607f1517bbdd978bcf65b5d3",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-code-frame"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/compat-data",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__compat-data@7.29.7.tgz",
+      "bytes": 6658,
+      "sha256": "0cf63b5ed704654bdc7574be035883b2eb3f8872c795a6b8dbb690cb7a3d54b9",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.29.7.tgz",
+      "integrity": "sha512-locTkQyKvwIEgBzVrn8693ebc97F2U8ZHjbXwDXJ5Fn2TCpNwTlKcaKLkdHop5c/icOFE7qt7Q9JC5hnKNa6Gg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__compat-data@7.29.7.json",
+      "registryMetadataSha256": "abaf19f61d294b957cc6847e5ae4f39fabefc866bb9758e2196645ff7b94a5e7",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-compat-data"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/core",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__core@7.29.7.tgz",
+      "bytes": 192830,
+      "sha256": "46dd458b3d2bc29daa0e9e01f13b399ab544a8013f27ac6c51b56b831c8a0ed3",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/core/-/core-7.29.7.tgz",
+      "integrity": "sha512-RgHBCvtjbOK2gXSNBNIkNoEc9qoVEtau3hj8gEqKQuL3HZAibKarWFEI3Lfm6EYKkLalOh8eSrj9b+ch9H/VBA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__core@7.29.7.json",
+      "registryMetadataSha256": "f7eb17f0ee88ca4a18b26c639e5c19d96a55f67065bfc6db58281bdd64ef85a9",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-core"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/generator",
+      "version": "7.29.8",
+      "archive": "dependencies/preferred-source/npm/@babel__generator@7.29.8.tgz",
+      "bytes": 113664,
+      "sha256": "b5ced4fd7c23a580549182676c43c03a8731b9625e66270f443ab27cd21b502d",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/generator/-/generator-7.29.8.tgz",
+      "integrity": "sha512-gZbepsdh3WDtgZKWL+vTPh71LSBrm/Y4/QDZBVCcYfmeTEEuoOYwlSy+G1StfJg+/Zy550u/3TATbm7qDbbMtg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__generator@7.29.8.json",
+      "registryMetadataSha256": "2f417960e5cfa0753399c4a62ed9c3364ac06026c8b8881b9761aba3b60d8589",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-generator"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helper-compilation-targets",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helper-compilation-targets@7.29.7.tgz",
+      "bytes": 14864,
+      "sha256": "5b5446f3d32b10ba38cb308af5f65e76afcddaacd7b817e71055a6de6ab934e0",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz",
+      "integrity": "sha512-wem6WaBj4NaVYVdNhLPPVacES6ZJ+KBBfSkTMD3YZxbP3rm3Di85tJU5ljaUNhaOynt+Aj0xruhYuzQBt8n71g==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helper-compilation-targets@7.29.7.json",
+      "registryMetadataSha256": "2f18da3861051d38d6b8fcd36eb93d1f04d0146f679ee18c645c3a310017c359",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helper-compilation-targets"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helper-globals",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helper-globals@7.29.7.tgz",
+      "bytes": 6839,
+      "sha256": "94fb962c489aae2c4e5581f1494721083dc76dddd7c703314dd4d7ff965d2a3f",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helper-globals/-/helper-globals-7.29.7.tgz",
+      "integrity": "sha512-3nQVUAtvkKH9zahfWgw96Jc/uFOmjACE1kQz82E2lqWmHBgjzbNlsC22nuQTfahmWeQtTq5nQ/4Nnd2A1wj4zA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helper-globals@7.29.7.json",
+      "registryMetadataSha256": "33ffeced506f1614e8c1c93e52bb2f4af82d3d28c7954b3801f44e6d8e2eefb4",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helper-globals"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helper-module-imports",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helper-module-imports@7.29.7.tgz",
+      "bytes": 14064,
+      "sha256": "4bdf46cf597b875ce16770f151159ca34f96c20ba3c112dc8d7f6c6d6cce770c",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz",
+      "integrity": "sha512-ejHwrQQYcm9xnTivShn2IDOlIzInN34AXskvq9QicvCtEzq1Vzclu/tKF8Jq1Cg8JG2GL6/EmjgsCT7lXepE3g==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helper-module-imports@7.29.7.json",
+      "registryMetadataSha256": "d062e1c73620e5b20e036d0df2cdbc3b6ced31956c2c2031b9db711781a8b094",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helper-module-imports"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helper-module-transforms",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helper-module-transforms@7.29.7.tgz",
+      "bytes": 37783,
+      "sha256": "dbb3b9b10b0a2828f5af58a6317685b1a150464c6bd54995069c526aba45e6e4",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz",
+      "integrity": "sha512-UPUVSyXbOh627KiCIGQSgwWzGeBKLkaJ9PJEdrngIwMSzxLR4jS4+f1f1jb7VzBbg8nFLaYotvVPFCTqdrmTAg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helper-module-transforms@7.29.7.json",
+      "registryMetadataSha256": "3e1f31bb95bcceb7c259f53639f446be553b2799042961bebe308e2391258b9c",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helper-module-transforms"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helper-plugin-utils",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helper-plugin-utils@7.29.7.tgz",
+      "bytes": 4424,
+      "sha256": "00824ca9e3a146e73a071849b085668ae2012b7fff58056442ab9d33d1e357e8",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.29.7.tgz",
+      "integrity": "sha512-G7sHYigPY17oO5SYWnfD/0MTBwVR781S/JI643e/JhUYgVgWE/61SoW3NH9KWUKyKq5LVh3npif99Wkt6j86Jw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helper-plugin-utils@7.29.7.json",
+      "registryMetadataSha256": "005d61f2d522c01676b74643e0243089999f7be10577e53c3d69cd6de115cac7",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helper-plugin-utils"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helper-string-parser",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helper-string-parser@7.29.7.tgz",
+      "bytes": 8383,
+      "sha256": "124565ecd300d7187973060ba6b1d1c4f296e55f0489ddfd6af794f516fed127",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz",
+      "integrity": "sha512-Pb5ijPrZ89GDH8223L4UP8i6QApWxs04RbPQJTeWDV0/keR2E36MeKnyr6LYmUUvqRRI+Iv87SuF1W6ErINzYw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helper-string-parser@7.29.7.json",
+      "registryMetadataSha256": "7e2b37c870f25675e609cb2c38bad478cc0e02e1f2af6b2c979371fcbcfcb2c3",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helper-string-parser"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helper-validator-identifier@7.29.7.tgz",
+      "bytes": 14245,
+      "sha256": "7a31904bc45f1bb232d5e5dd797d12296f4a27fb4bf0f6d517827700f997dc1f",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz",
+      "integrity": "sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helper-validator-identifier@7.29.7.json",
+      "registryMetadataSha256": "dc857b1f0ea3ce63964a1d0e55ddababf0a05eac79e79fe5d4691d5cabf0a2ad",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helper-validator-identifier"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helper-validator-option",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helper-validator-option@7.29.7.tgz",
+      "bytes": 4384,
+      "sha256": "e32d8ff2cc0455c5210f92f0844d2cb6e1d61b83ee17d7b328fe410f9021e4cd",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz",
+      "integrity": "sha512-N9ZErrD+yW5geCDtBqnOoxmR8+tNKiGuxKlDpuJxfsqpa2dFcexaziGAE/qoHLiDDreVNMupxGmSoNlyvsA3gw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helper-validator-option@7.29.7.json",
+      "registryMetadataSha256": "48aea13112276ef4c4bba98f634821fee740b4105fc972ed5f54572662c3ba92",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helper-validator-option"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/helpers",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__helpers@7.29.7.tgz",
+      "bytes": 188848,
+      "sha256": "87dcd8372e8f2d0225de852c9f810c23712616cc2681556f8f4292535b7e42c6",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.29.7.tgz",
+      "integrity": "sha512-1k2lAGRMfHTcwuNYcCNUmaUffmQv8KWMfh2iJUUeRlwlwH4FdNG7mfPI10NPfLHJFThE4Tyr4mv7kTNZOiPuBg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__helpers@7.29.7.json",
+      "registryMetadataSha256": "7c3116093a7b6c6fbada282eebaa9ff62ff4dda8e7f31dd4d54646dcd2f11eda",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-helpers"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.29.9",
+      "archive": "dependencies/preferred-source/npm/@babel__parser@7.29.9.tgz",
+      "bytes": 439123,
+      "sha256": "8f3b9fbc531e0c08e2c329cf1ff57bbe121e2d10061b65a05614a25b2255cc43",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/parser/-/parser-7.29.9.tgz",
+      "integrity": "sha512-CjXrNHTnvqBVqHgdBysY3vk2T8tpJHb5/RMeHJBTyVa9xgugCB0CJTx/3oO8RV2QRQP391RWpB7D6hLjm8V9uA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__parser@7.29.9.json",
+      "registryMetadataSha256": "2eba48eb9b3aec5c09c891315801bb0855ae05b55ba4b71f441fdc733c6a8d39",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-parser"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx-self",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__plugin-transform-react-jsx-self@7.29.7.tgz",
+      "bytes": 3689,
+      "sha256": "fdbe8ac6d7d22e28bd2f013496c233de0906a261cc7e1a7b3eee9bb5fcc70bf0",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz",
+      "integrity": "sha512-TL0hMc9xzy86VD31nUiwzd5otRAcyEPcsegCxolO0PvcXuH1v0kECe/UIznYFihpkvU5wg/jk4v0TTEFfm53fw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__plugin-transform-react-jsx-self@7.29.7.json",
+      "registryMetadataSha256": "f128ab359e5f81ca6f999b3d3de6f5727b8dc0ff03bbd0d756acc1ce252809ef",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-plugin-transform-react-jsx-self"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx-source",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__plugin-transform-react-jsx-source@7.29.7.tgz",
+      "bytes": 3751,
+      "sha256": "8afa100bf1bafc073813b589980414576b20c66bf3598af229d30b92183fa1a9",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.29.7.tgz",
+      "integrity": "sha512-06IyK09H3wi4cGbhDBwp5gUGo0IKtnYa8tyTiephirPCK6fbobVGiXMMI5zLQ4aKEYP3wZ3ArU44o+8KMrSG/Q==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__plugin-transform-react-jsx-source@7.29.7.json",
+      "registryMetadataSha256": "a7d8c7fa77a4a1de431ea511be8dbdfa43e3b39350b18fdc27e32f18b692c6e6",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-plugin-transform-react-jsx-source"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/template",
+      "version": "7.29.7",
+      "archive": "dependencies/preferred-source/npm/@babel__template@7.29.7.tgz",
+      "bytes": 18157,
+      "sha256": "5e0ee28d5536e986cf5ff2da0f096fb84810d9136c2a64c6c78a6b495a0e7764",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/template/-/template-7.29.7.tgz",
+      "integrity": "sha512-puq+Gf35oI24FeN11LkoUQFqv9uwNeWpxXZi/Ji3rRIoKAzKnxRaZ+Gkj0vKS9ZCiTESfng1N9LyOyXvo+m+Gg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__template@7.29.7.json",
+      "registryMetadataSha256": "a9e413d6cb85a06cc3312b5625f80e2dc11dca8394f2f3a503ec968086fce0be",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-template"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/traverse",
+      "version": "7.29.8",
+      "archive": "dependencies/preferred-source/npm/@babel__traverse@7.29.8.tgz",
+      "bytes": 168479,
+      "sha256": "cf16861f356fd766361ba4d85d5462b6320e0e59f05cb55c762d8f5dff83e234",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.29.8.tgz",
+      "integrity": "sha512-I5z7H3bf/41ktsNVLtpN0wAa336HkqIHQ5BuPLEhTkt1jVSyZpeNKIzTgEWmlxjdg81R0IgUCcaE+Ok3NvrfZg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__traverse@7.29.8.json",
+      "registryMetadataSha256": "d239961608ab7d306fe561826475eb304c7c4e9a3e2a85e77ece5b812adc94ac",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-traverse"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.29.8",
+      "archive": "dependencies/preferred-source/npm/@babel__types@7.29.8.tgz",
+      "bytes": 301854,
+      "sha256": "514a4ed09355fe1417f03e89c5a5f518745e2eb75a4069d25b55a3e7298069de",
+      "sourceUrl": "https://registry.yarnpkg.com/@babel/types/-/types-7.29.8.tgz",
+      "integrity": "sha512-Vj1jF3cPfxg7OAfoI7QnVKLoILlm2JF9pnVHrX8qx7AHMiYWT+NDAA7jChlNgRS4WTLc/fD1lXLmPixluj+3Gg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@babel__types@7.29.8.json",
+      "registryMetadataSha256": "7af46b15d866bdae7bd089e6e2137f82895644ca48b2eac937a8545e13af66a8",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/babel/babel.git",
+        "type": "git",
+        "directory": "packages/babel-types"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@electric-sql/pglite",
+      "version": "0.3.16",
+      "archive": "dependencies/preferred-source/npm/@electric-sql__pglite@0.3.16.tgz",
+      "bytes": 8132416,
+      "sha256": "cd67cf0c59b752fec8a48fcb6d2fc1bed6386b80e36d1c46c56e0a9d215c2a75",
+      "sourceUrl": "https://registry.yarnpkg.com/@electric-sql/pglite/-/pglite-0.3.16.tgz",
+      "integrity": "sha512-mZkZfOd9OqTMHsK+1cje8OSzfAQcpD7JmILXTl5ahdempjUDdmg4euf1biDex5/LfQIDJ3gvCu6qDgdnDxfJmA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@electric-sql__pglite@0.3.16.json",
+      "registryMetadataSha256": "8dac22292043b6bb888e0691316b070070a86b4f9c1dfc65da08e397c64692ab",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/electric-sql/pglite.git",
+        "type": "git",
+        "directory": "packages/pglite"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.28.2",
+      "archive": "dependencies/preferred-source/npm/@esbuild__win32-x64@0.28.2.tgz",
+      "bytes": 4829680,
+      "sha256": "7286c3611b6f1f4c4d9ec90adcbc478407ff0d28ead96567f361d53e67613e19",
+      "sourceUrl": "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz",
+      "integrity": "sha512-5ebpxr3nWMzrL/rnUI755Jkuee0bHL/Gq0WTF9lvcpv73wAp5eu8MfBUgWK9bhWvZjj7yX8etf/8tI8Ney695g==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@esbuild__win32-x64@0.28.2.json",
+      "registryMetadataSha256": "1bb80e1a5da400dc3b24174cf42f0f4353e771238c7c2ceb3b99c8493ed2c5d7",
+      "gitHead": "609683d892977362a0f99026cb74b96263d728a9",
+      "repository": {
+        "url": "git+https://github.com/evanw/esbuild.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "archive": "dependencies/preferred-source/npm/@jridgewell__gen-mapping@0.3.13.tgz",
+      "bytes": 17972,
+      "sha256": "bc16f658c1f6d63e0c8738ab881d03f49f1955d8f853cdcb8f7d315cf62f0082",
+      "sourceUrl": "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
+      "integrity": "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@jridgewell__gen-mapping@0.3.13.json",
+      "registryMetadataSha256": "8a5b2ab741711ba00aaedd401730d25e0b8966c46932bfa236bcf1e37d270c4c",
+      "gitHead": "095a5825c482003597a30aa380b50159219f3618",
+      "repository": {
+        "url": "git+https://github.com/jridgewell/sourcemaps.git",
+        "type": "git",
+        "directory": "packages/gen-mapping"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "archive": "dependencies/preferred-source/npm/@jridgewell__remapping@2.3.5.tgz",
+      "bytes": 14624,
+      "sha256": "70b16782a39ad16672e47c33473559a25bff9640214df91cb9dd153005d71a02",
+      "sourceUrl": "https://registry.yarnpkg.com/@jridgewell/remapping/-/remapping-2.3.5.tgz",
+      "integrity": "sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@jridgewell__remapping@2.3.5.json",
+      "registryMetadataSha256": "8633bbf57c787bb9e6250b6ce5c1a011543b1be20a6a089c92c69079c351beb7",
+      "gitHead": "095a5825c482003597a30aa380b50159219f3618",
+      "repository": {
+        "url": "git+https://github.com/jridgewell/sourcemaps.git",
+        "type": "git",
+        "directory": "packages/remapping"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "archive": "dependencies/preferred-source/npm/@jridgewell__resolve-uri@3.1.2.tgz",
+      "bytes": 9622,
+      "sha256": "db52f9f62558baab13353dd39e3200750fc33e6a129a575b46226f493776e230",
+      "sourceUrl": "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+      "integrity": "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@jridgewell__resolve-uri@3.1.2.json",
+      "registryMetadataSha256": "82e1bfd2b162de1c44440e2bf67461b492decfca8d63195350ad9cd6fcbc050f",
+      "gitHead": "caa7a299d6c688570773c81732f77d3c7035ded6",
+      "repository": {
+        "url": "git+https://github.com/jridgewell/resolve-uri.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.6.0",
+      "archive": "dependencies/preferred-source/npm/@jridgewell__sourcemap-codec@1.6.0.tgz",
+      "bytes": 18401,
+      "sha256": "f30a35f6af8c347d01b8ff2f8662272f7d986cf21b916704d86c249a90b97e25",
+      "sourceUrl": "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz",
+      "integrity": "sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@jridgewell__sourcemap-codec@1.6.0.json",
+      "registryMetadataSha256": "b46a10281c9a2eb80dd3c6beb2ac0ae6f7398d2948eb504680ce8031b9800157",
+      "gitHead": "94c82a925ca79d5eb193ce45d7f0824a4d91e77d",
+      "repository": {
+        "url": "git+https://github.com/jridgewell/sourcemaps.git",
+        "type": "git",
+        "directory": "packages/sourcemap-codec"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "archive": "dependencies/preferred-source/npm/@jridgewell__trace-mapping@0.3.31.tgz",
+      "bytes": 30747,
+      "sha256": "c64c71a119630d5abe8246889edf334b2ca9ddad094e20d623332956b1453ccf",
+      "sourceUrl": "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",
+      "integrity": "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@jridgewell__trace-mapping@0.3.31.json",
+      "registryMetadataSha256": "7c4199bdad0a694e5f86caf102b39474cac265cf16f3d7b754a950ca80eb3c47",
+      "gitHead": "74fc8e11d30641b82e3ca3532cd89477671afeab",
+      "repository": {
+        "url": "git+https://github.com/jridgewell/sourcemaps.git",
+        "type": "git",
+        "directory": "packages/trace-mapping"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.0-beta.27",
+      "archive": "dependencies/preferred-source/npm/@rolldown__pluginutils@1.0.0-beta.27.tgz",
+      "bytes": 4296,
+      "sha256": "9ec82a8e4971899006c14628083dbfd6e00dd5e6b4776a3df2e5a8ef1eab1507",
+      "sourceUrl": "https://registry.yarnpkg.com/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz",
+      "integrity": "sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@rolldown__pluginutils@1.0.0-beta.27.json",
+      "registryMetadataSha256": "c15c44e8c719a3affd6ab09ea9751b77d12fa18dcd3341119d7d4d6f58f38569",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/pluginutils"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "version": "4.64.0",
+      "archive": "dependencies/preferred-source/npm/@rollup__rollup-win32-x64-gnu@4.64.0.tgz",
+      "bytes": 921530,
+      "sha256": "6189cd6b7f33e560e61f0f609a900b2a934f7f53c5a5a449f5e9ec6aae25a5b0",
+      "sourceUrl": "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.64.0.tgz",
+      "integrity": "sha512-L6Hw69oNpuYaOr1zCG30v0/DqKYCSRwodPGwIcVZ/6f8SOzq9rxtL/xNVI5MO4wjli+Ko0ErK9uHJL3mNPt8wQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@rollup__rollup-win32-x64-gnu@4.64.0.json",
+      "registryMetadataSha256": "2cbdfe29e3e05be3fabcf10f578c8ad495e5830e45dd4872fee583fc2ca4ac1d",
+      "gitHead": "77773bf8ee9130c4edbde14c017855c41e500692",
+      "repository": {
+        "url": "git+https://github.com/rollup/rollup.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.64.0",
+      "archive": "dependencies/preferred-source/npm/@rollup__rollup-win32-x64-msvc@4.64.0.tgz",
+      "bytes": 1018389,
+      "sha256": "6f44f205a567e80865d93b68245520c11aff9f551119c5345c2b28f07ed2ab13",
+      "sourceUrl": "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.64.0.tgz",
+      "integrity": "sha512-nl+CTWIgOGszQmUz/kanfgrfFZ4qiwxKIfT/ryl3N3Ewk5tqizmYtNXiqb7Bu/fDtNgu1kyxdFiAUJNur3iysg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@rollup__rollup-win32-x64-msvc@4.64.0.json",
+      "registryMetadataSha256": "5d9d601328f2aa77b8742bc44f369b24c29aaa13abba11b0b479fd543e2889cb",
+      "gitHead": "77773bf8ee9130c4edbde14c017855c41e500692",
+      "repository": {
+        "url": "git+https://github.com/rollup/rollup.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/babel__core",
+      "version": "7.20.5",
+      "archive": "dependencies/preferred-source/npm/@types__babel__core@7.20.5.tgz",
+      "bytes": 9704,
+      "sha256": "1865223be6b834c44abf5ebedafb1707019b4941be8021469980c7ef4c2e1155",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.20.5.tgz",
+      "integrity": "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__babel__core@7.20.5.json",
+      "registryMetadataSha256": "31547d06e2607c724621f4c4228d2c44002156be493d659267bb3f7090bb982e",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/babel__core"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/babel__generator",
+      "version": "7.27.0",
+      "archive": "dependencies/preferred-source/npm/@types__babel__generator@7.27.0.tgz",
+      "bytes": 4068,
+      "sha256": "755508f0bb974706739e5cf3a94f546c5c8c149dbcd407c599f36cdd89056f9d",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/babel__generator/-/babel__generator-7.27.0.tgz",
+      "integrity": "sha512-ufFd2Xi92OAVPYsy+P4n7/U7e68fex0+Ee8gSG9KX7eo084CWiQ4sdxktvdl0bOPupXtVJPY19zk6EwWqUQ8lg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__babel__generator@7.27.0.json",
+      "registryMetadataSha256": "5b1b91b901da11d007a1d6505ecf170810ac32e59e138d59a36112d2803e3f39",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/babel__generator"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/babel__template",
+      "version": "7.4.4",
+      "archive": "dependencies/preferred-source/npm/@types__babel__template@7.4.4.tgz",
+      "bytes": 2677,
+      "sha256": "a67c2c19e0281996d2f7ddcc41f561abff796ed1cb07276ebad6982dbb67a7c1",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/babel__template/-/babel__template-7.4.4.tgz",
+      "integrity": "sha512-h/NUaSyG5EyxBIp8YRxo4RMe2/qQgvyowRwVMzhYhBCONbW8PUsg4lkFMrhgZhUe5z3L3MiLDuvyJ/CaPa2A8A==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__babel__template@7.4.4.json",
+      "registryMetadataSha256": "8f8329bd23236811af4c28f24586f8f2e2520986e12d9953af5e4f0aa352114a",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/babel__template"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/babel__traverse",
+      "version": "7.28.0",
+      "archive": "dependencies/preferred-source/npm/@types__babel__traverse@7.28.0.tgz",
+      "bytes": 15915,
+      "sha256": "2cc7973029fb3b69f77cf55b42be307ff34f63a68e55a173872a9712253fbc90",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/babel__traverse/-/babel__traverse-7.28.0.tgz",
+      "integrity": "sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__babel__traverse@7.28.0.json",
+      "registryMetadataSha256": "847d025047a056b486004d22348c4ea04e7d17d8bc1dbec8f68ede77b45e8422",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/babel__traverse"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/estree",
+      "version": "1.0.9",
+      "archive": "dependencies/preferred-source/npm/@types__estree@1.0.9.tgz",
+      "bytes": 5930,
+      "sha256": "ec8f3c0dfb21497db5a3480c45a6cf6f9b18d3b337b2ea4d03e3ef2a9c2bb358",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.9.tgz",
+      "integrity": "sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__estree@1.0.9.json",
+      "registryMetadataSha256": "92669a05ba375ee9d23bd3daa491fecdf52a807e157efb6b2c732c88c19687ef",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/estree"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/node",
+      "version": "22.20.5",
+      "archive": "dependencies/preferred-source/npm/@types__node@22.20.5.tgz",
+      "bytes": 447028,
+      "sha256": "1d382e6ea27221dcf02fc1cada5c5d396c4ca499552201323ca43713baa60012",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/node/-/node-22.20.5.tgz",
+      "integrity": "sha512-U2+DNr+wSjpsTS/wZGYHq7GcwfuSmKiKvoPvK22zwTlRhU91yOniN4qRR5KhIjvif7ysw/dz/hKmfDH0Ris4aA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__node@22.20.5.json",
+      "registryMetadataSha256": "bbd6e298ba5b7b73991f362b1bd8917b70fc79a6fad92932bb3f2e04a40e329c",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/node"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/node",
+      "version": "26.6.4",
+      "archive": "dependencies/preferred-source/npm/@types__node@26.6.4.tgz",
+      "bytes": 471018,
+      "sha256": "bf2dbf11cfccd34681fc4d5e4d150afce77fd6610224757dbe6c92c8e5149700",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/node/-/node-26.6.4.tgz",
+      "integrity": "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__node@26.6.4.json",
+      "registryMetadataSha256": "47bfc763d69c924273b8c9e07f0b54f60a6c91b71282eb14af3e876a22d2e212",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/node"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/pg",
+      "version": "8.23.1",
+      "archive": "dependencies/preferred-source/npm/@types__pg@8.23.1.tgz",
+      "bytes": 5484,
+      "sha256": "f8e5fab1d222a3475d6c481ae85446d165b28f24f2ce05b170e7edc880b34ddc",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/pg/-/pg-8.23.1.tgz",
+      "integrity": "sha512-fKVHpikPdg4GKks3JuLEhvwSyvwzF23hnabPy6DD8ljVbC7+6J5dQzdv4arV6jqq57djnMgs1HKBxX4P8aBI3A==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__pg@8.23.1.json",
+      "registryMetadataSha256": "ecd137c910e93563e5455705e1f8116f9e04f86d8186b21b82cf616db3eb8633",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/pg"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "archive": "dependencies/preferred-source/npm/@types__react@19.3.0.tgz",
+      "bytes": 77822,
+      "sha256": "ffa77ffdbdc82e5f67a0fd74d750990375a7dfd8685ec7f10a27c0db128f7766",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/react/-/react-19.3.0.tgz",
+      "integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__react@19.3.0.json",
+      "registryMetadataSha256": "6a1152050e263831abca9a2d6cbbc70e7db9050355f2f27e3fe3c12d6cf11eab",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/react"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "archive": "dependencies/preferred-source/npm/@types__react-dom@19.3.0.tgz",
+      "bytes": 8185,
+      "sha256": "0782e1cd4af4a6a030843235a48e55dc690c36f9428b0b672dc53350806dcf21",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.3.0.tgz",
+      "integrity": "sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__react-dom@19.3.0.json",
+      "registryMetadataSha256": "a6dd34714aeb7c774c3dd4533e4c0abe3576e9193b610279e40e5a92143c6dc9",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/react-dom"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@types/ws",
+      "version": "8.18.2",
+      "archive": "dependencies/preferred-source/npm/@types__ws@8.18.2.tgz",
+      "bytes": 6029,
+      "sha256": "9d774304de5397f58da47b31f68b69cf0ff84ef7b1087cf4fea27729f8db83fe",
+      "sourceUrl": "https://registry.yarnpkg.com/@types/ws/-/ws-8.18.2.tgz",
+      "integrity": "sha512-67MQl+fpWKVTT1NYdnmo3U4sc/xPo/zQBncVnI74qmQa0z/b+1g6iYqNmGCPbxO+zz2aklb08a0oHfegiVd0/w==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@types__ws@8.18.2.json",
+      "registryMetadataSha256": "3128eeb9de61ab8f3837dd6602151081e04ed258b44f135baac97e1e201d82cd",
+      "gitHead": null,
+      "repository": {
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "type": "git",
+        "directory": "types/ws"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "version": "4.7.0",
+      "archive": "dependencies/preferred-source/npm/@vitejs__plugin-react@4.7.0.tgz",
+      "bytes": 15961,
+      "sha256": "fcc029f7bc311b6f69c64c8e2185db6ae6cd60af64806d94f7b617e3eeffe32a",
+      "sourceUrl": "https://registry.yarnpkg.com/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz",
+      "integrity": "sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/@vitejs__plugin-react@4.7.0.json",
+      "registryMetadataSha256": "f0c11b1178ab7cc092cf81c47508e96ac5779878c587f328275d7111cfa48fdb",
+      "gitHead": "80417060f7bc239d5100e1b47c819e8364c7d551",
+      "repository": {
+        "url": "git+https://github.com/vitejs/vite-plugin-react.git",
+        "type": "git",
+        "directory": "packages/plugin-react"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "archive": "dependencies/preferred-source/npm/ansi-regex@5.0.1.tgz",
+      "bytes": 2768,
+      "sha256": "0e0eadcdaada805db5d85b53ad5cdca0760b996ee199ec9658e7b34aa6c8e0d9",
+      "sourceUrl": "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.1.tgz",
+      "integrity": "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/ansi-regex@5.0.1.json",
+      "registryMetadataSha256": "e028ff0d8da34d30fa1594d8e2b9930721fab3164808a4089a150287e608133d",
+      "gitHead": "a9babce885cf19c363cf1d1c645f834592c3f7a4",
+      "repository": {
+        "url": "git+https://github.com/chalk/ansi-regex.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "archive": "dependencies/preferred-source/npm/ansi-styles@4.3.0.tgz",
+      "bytes": 5849,
+      "sha256": "2c539a46d85ab6033183997434d2d9a5ca2ceefc12b4db9022f564784cd7987f",
+      "sourceUrl": "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-4.3.0.tgz",
+      "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/ansi-styles@4.3.0.json",
+      "registryMetadataSha256": "54cd37715849fd3601d672ef99705508580553757a72d6137f87566a2abcf20f",
+      "gitHead": "2d02d5bd070f733179007f0904eb5fb41090395a",
+      "repository": {
+        "url": "git+https://github.com/chalk/ansi-styles.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "baseline-browser-mapping",
+      "version": "2.11.27",
+      "archive": "dependencies/preferred-source/npm/baseline-browser-mapping@2.11.27.tgz",
+      "bytes": 41806,
+      "sha256": "a3a874fd111af7f42a8bdef62b2ca8f3f83f25b0f9c8a8fec45f668972dcf95a",
+      "sourceUrl": "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.27.tgz",
+      "integrity": "sha512-ElY12DaROGuan+lMmZ8Cvo/ZUbXPe7Enc/9VU/b1T3Kp4dwytRcNdR8DoSJN5SNJT/CuvcCA0DHDVmMOCePdRQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/baseline-browser-mapping@2.11.27.json",
+      "registryMetadataSha256": "e429cda595b290985997f2c656dc6e988386b4847f7776a4e97bb40bd706ee65",
+      "gitHead": "6141d06f254525dcc3902ee1b153a835fc845522",
+      "repository": {
+        "url": "git+https://github.com/web-platform-dx/baseline-browser-mapping.git",
+        "type": "git"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "browserslist",
+      "version": "4.29.3",
+      "archive": "dependencies/preferred-source/npm/browserslist@4.29.3.tgz",
+      "bytes": 18718,
+      "sha256": "ad38a4b96f6ba1d21a030cee067a6c84f1b9ef1ad63cb1cf93e34dd3bb3421a4",
+      "sourceUrl": "https://registry.yarnpkg.com/browserslist/-/browserslist-4.29.3.tgz",
+      "integrity": "sha512-1R4kiYKXGViqEN0CnoDrXc1StD9niAwu+j2dukWzrD4bJgsD4lDmEp0CRbc6E/vYJIfTHwPmwyaKtVSudICdPA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/browserslist@4.29.3.json",
+      "registryMetadataSha256": "cf24c9a24191fcb62cff3a5c2f9037bd644e6f530911b06ec5488339be07866f",
+      "gitHead": "b4809dd2a2a11fbff492258f968130e9b470067f",
+      "repository": {
+        "url": "git+https://github.com/browserslist/browserslist.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "caniuse-lite",
+      "version": "1.0.30001814",
+      "archive": "dependencies/preferred-source/npm/caniuse-lite@1.0.30001814.tgz",
+      "bytes": 329806,
+      "sha256": "148abf9bc2af7fdb1381eabd5bc2cd14bb8c4326ac9372e738741fc81821933b",
+      "sourceUrl": "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001814.tgz",
+      "integrity": "sha512-/Uaf1lAzr59XcMpW0o96WoEfr+VXK2OX4U9AgFoiSHsVJ4HppnIFUjtYzsyDH2+tgANaQb2/oxYGwCPapN1FpA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/caniuse-lite@1.0.30001814.json",
+      "registryMetadataSha256": "4840c6e71a490d8258cc6092a664ec4f5b0a85ecb846e000e417ab746406b022",
+      "gitHead": "663dbe943d68eb86bc7166549d8dd3f59eda3790",
+      "repository": {
+        "url": "git+https://github.com/browserslist/caniuse-lite.git",
+        "type": "git"
+      },
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "chalk",
+      "version": "4.1.2",
+      "archive": "dependencies/preferred-source/npm/chalk@4.1.2.tgz",
+      "bytes": 11577,
+      "sha256": "e84c643aa53e87ace6c3d368b3cddda24a2d1434a06b6dfbdb628ad2107df90a",
+      "sourceUrl": "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz",
+      "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/chalk@4.1.2.json",
+      "registryMetadataSha256": "ed5d833f3e578a679f0ab838b6e027eda41112d7f57c3ff5707e5bcb1f69b5f6",
+      "gitHead": "95d74cbe8d3df3674dec1445a4608d3288d8b73c",
+      "repository": {
+        "url": "git+https://github.com/chalk/chalk.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "cliui",
+      "version": "8.0.1",
+      "archive": "dependencies/preferred-source/npm/cliui@8.0.1.tgz",
+      "bytes": 7907,
+      "sha256": "defad1e25e8a349ea9cdd1066abf5e1e762f7f909de72bdca67bb35f77468c8d",
+      "sourceUrl": "https://registry.yarnpkg.com/cliui/-/cliui-8.0.1.tgz",
+      "integrity": "sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/cliui@8.0.1.json",
+      "registryMetadataSha256": "d34f0edf6c2b126823ea17cf737ea25565045e8865f429db829e7e00499a5e9a",
+      "gitHead": "a214f7eedf23feba70519ec7d389baa9dc40682b",
+      "repository": {
+        "url": "git+https://github.com/yargs/cliui.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "archive": "dependencies/preferred-source/npm/color-convert@2.0.1.tgz",
+      "bytes": 8996,
+      "sha256": "920fa43538c019a085dbbf04cb6f72cc337624e5f5217519f0e7b2ef784e7ce1",
+      "sourceUrl": "https://registry.yarnpkg.com/color-convert/-/color-convert-2.0.1.tgz",
+      "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/color-convert@2.0.1.json",
+      "registryMetadataSha256": "0cd19c41225369562c8e65c87b36ea5065ef93821d23c93852fa6982e7e6cebf",
+      "gitHead": "e1cb7846258e1d7aa25873814684d4fbbbca53ed",
+      "repository": {
+        "url": "git+https://github.com/Qix-/color-convert.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "color-name",
+      "version": "1.1.4",
+      "archive": "dependencies/preferred-source/npm/color-name@1.1.4.tgz",
+      "bytes": 2868,
+      "sha256": "507b7c4461e8eb941355af9a59e9a7e02cd0e7c6176b48d1809766344f3f1708",
+      "sourceUrl": "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz",
+      "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/color-name@1.1.4.json",
+      "registryMetadataSha256": "0ae2d07eb06ebf6c8ee0f730c90afb3d9646e47b16e942193ed868a39a5b9dfc",
+      "gitHead": "4536ce5944f56659a2dfb2198eaf81b5ad5f2ad9",
+      "repository": {
+        "url": "git+ssh://git@github.com/colorjs/color-name.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "concurrently",
+      "version": "9.2.4",
+      "archive": "dependencies/preferred-source/npm/concurrently@9.2.4.tgz",
+      "bytes": 279093,
+      "sha256": "2feaa1db115a2d333a336131f602d665cca8858c7df706b11e369f0d4742d57d",
+      "sourceUrl": "https://registry.yarnpkg.com/concurrently/-/concurrently-9.2.4.tgz",
+      "integrity": "sha512-TZ0CEhyzvFjgtAvHTusDMgj7wNdihCh7LLLrzdUOXIhdlnL2JBBGA9eJxR24rtqgmdjh3OA3hrN1rCHj6HM8qA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/concurrently@9.2.4.json",
+      "registryMetadataSha256": "1362f7458c5ea17676d214ff5b32b225e062871995d32ee182f46c9c81cc2aed",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/open-cli-tools/concurrently.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "convert-source-map",
+      "version": "2.0.0",
+      "archive": "dependencies/preferred-source/npm/convert-source-map@2.0.0.tgz",
+      "bytes": 4952,
+      "sha256": "17f7253ec7e4e09f68371192fded2b5241a5cf85e610e5059b1d49e878fe1898",
+      "sourceUrl": "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-2.0.0.tgz",
+      "integrity": "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/convert-source-map@2.0.0.json",
+      "registryMetadataSha256": "64a1f7a0afe343c7561b76a8103452d80c3a338687b3defde2fb99ba379f93b3",
+      "gitHead": "f1ed815b4edacfa9c3c5552dd342e71a3cffbb0a",
+      "repository": {
+        "url": "git://github.com/thlorenz/convert-source-map.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "archive": "dependencies/preferred-source/npm/csstype@3.2.3.tgz",
+      "bytes": 138324,
+      "sha256": "f3501f8ee1c73f7568fecb22c11231162c0467e59262461da5579519307427a3",
+      "sourceUrl": "https://registry.yarnpkg.com/csstype/-/csstype-3.2.3.tgz",
+      "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/csstype@3.2.3.json",
+      "registryMetadataSha256": "789d75af3eb0f02f4f749d4c8a5d59fca47d3a7ddd46b0e066b03e05050bff46",
+      "gitHead": "f2162b534ea539bb32cb26365aa2511ac391762d",
+      "repository": {
+        "url": "git+https://github.com/frenic/csstype.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "archive": "dependencies/preferred-source/npm/debug@4.4.3.tgz",
+      "bytes": 13449,
+      "sha256": "89c1ac9c946ee8905a875837114528e97eeae35e03be3190584b2216af43e4a7",
+      "sourceUrl": "https://registry.yarnpkg.com/debug/-/debug-4.4.3.tgz",
+      "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/debug@4.4.3.json",
+      "registryMetadataSha256": "b1caf738607641940c77a4a9e17d482acf55880e5743b9b45b9eef0d39aa6ad8",
+      "gitHead": "6b2c5fbdb7d414483d9e306ef234acb4cd7ea67c",
+      "repository": {
+        "url": "git://github.com/debug-js/debug.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "electron-to-chromium",
+      "version": "1.5.444",
+      "archive": "dependencies/preferred-source/npm/electron-to-chromium@1.5.444.tgz",
+      "bytes": 35593,
+      "sha256": "08b3e9ba633587ef470d6eda2cf085cd02e81dea9774eb5d655af1078725f50b",
+      "sourceUrl": "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.444.tgz",
+      "integrity": "sha512-5ss/uJfoDYDHT0lfJzT6FbcskIzROIOPf0BbbFkGcvDzoJU7i//9GDrwwIHQVmIsrAGiF3ihpADBRIsrEFt1rQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/electron-to-chromium@1.5.444.json",
+      "registryMetadataSha256": "8bd4a74421d25dc8e50a0773f7cf0007f1bb4ca8683f19f2a5122f6cffb28ff5",
+      "gitHead": "d3918846153ba42afad5c40b0e1f88e0083bbaf9",
+      "repository": {
+        "url": "git+https://github.com/Kilian/electron-to-chromium.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "archive": "dependencies/preferred-source/npm/emoji-regex@8.0.0.tgz",
+      "bytes": 6664,
+      "sha256": "b5ccd9fbfb08098eefbeb6b6b4b40db6db3acf9243e327e039925aa8661cb107",
+      "sourceUrl": "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz",
+      "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/emoji-regex@8.0.0.json",
+      "registryMetadataSha256": "9eb525e421282bdf8dcad75b801170d210166b497a0d045fb6b447cc8710909d",
+      "gitHead": "a9f2e514523d4c0931974aff5059052da10c52c5",
+      "repository": {
+        "url": "git+https://github.com/mathiasbynens/emoji-regex.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.2",
+      "archive": "dependencies/preferred-source/npm/esbuild@0.28.2.tgz",
+      "bytes": 34207,
+      "sha256": "e045f94c235c7adc50e77ba2a579c7bec41b496b6b47c3a7845f7c1e19959a88",
+      "sourceUrl": "https://registry.yarnpkg.com/esbuild/-/esbuild-0.28.2.tgz",
+      "integrity": "sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/esbuild@0.28.2.json",
+      "registryMetadataSha256": "0fa64ebe3b793db8450f46bb409aa0067e8ba949fdfb79c754f2abb98c0319ed",
+      "gitHead": "609683d892977362a0f99026cb74b96263d728a9",
+      "repository": {
+        "url": "git+https://github.com/evanw/esbuild.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "escalade",
+      "version": "3.2.0",
+      "archive": "dependencies/preferred-source/npm/escalade@3.2.0.tgz",
+      "bytes": 4483,
+      "sha256": "ba2755afc0e6c6705326711fd218ebe107a527eccbd6485155fde98ed000bee7",
+      "sourceUrl": "https://registry.yarnpkg.com/escalade/-/escalade-3.2.0.tgz",
+      "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/escalade@3.2.0.json",
+      "registryMetadataSha256": "d81fec60889fa5bfa6f3a8feb41dbe6dad02dc09fbb3c1d92eb540a5eda572c2",
+      "gitHead": "fa5be167391581849cff04dbc75dc2978744b642",
+      "repository": {
+        "url": "git+https://github.com/lukeed/escalade.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "archive": "dependencies/preferred-source/npm/fdir@6.5.0.tgz",
+      "bytes": 9742,
+      "sha256": "241ddcd9f31e2a1fca405326017dbb8333ce174198e887f0f96387c29f0d365e",
+      "sourceUrl": "https://registry.yarnpkg.com/fdir/-/fdir-6.5.0.tgz",
+      "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/fdir@6.5.0.json",
+      "registryMetadataSha256": "e2be0cb6ee0bdd1b7899410ca38a9ea02b7c5ab7495de0e6ccc181165194d781",
+      "gitHead": "14c678e70e714f32e511cdf24c8d2392ac25ba0f",
+      "repository": {
+        "url": "git+https://github.com/thecodrr/fdir.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "gensync",
+      "version": "1.0.0-beta.2",
+      "archive": "dependencies/preferred-source/npm/gensync@1.0.0-beta.2.tgz",
+      "bytes": 7442,
+      "sha256": "df9f92ef26a35d4f92cb8a73415dfea8dadaf294a03e60e4d176df82f38d17c9",
+      "sourceUrl": "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz",
+      "integrity": "sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/gensync@1.0.0-beta.2.json",
+      "registryMetadataSha256": "4c1e5ac1dae5250e6d95004fed569a4e38590e6b2dab561ee9d8a13803e9aa57",
+      "gitHead": "a182868db47da283a1a044cb15bfd388697a632f",
+      "repository": {
+        "url": "git+https://github.com/loganfsmyth/gensync.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "get-caller-file",
+      "version": "2.0.5",
+      "archive": "dependencies/preferred-source/npm/get-caller-file@2.0.5.tgz",
+      "bytes": 2383,
+      "sha256": "7b13e1c81949ff4c1baae4ac4e34990492d5e8a86dab7e3b90027b1f5126935f",
+      "sourceUrl": "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz",
+      "integrity": "sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/get-caller-file@2.0.5.json",
+      "registryMetadataSha256": "661817f056ad313919f5526b9dc9c56ce48ff054bd89b14844ac85da4ef70390",
+      "gitHead": "2383bf9e98ed3c568ff69d7586cf59c0f1dcb9d3",
+      "repository": {
+        "url": "git+https://github.com/stefanpenner/get-caller-file.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "graphql",
+      "version": "16.14.2",
+      "archive": "dependencies/preferred-source/npm/graphql@16.14.2.tgz",
+      "bytes": 394529,
+      "sha256": "2ec39b2d102062f44e6db6ca344be8e00e3309a8dfcdbf9c8af7c58a5dc175e1",
+      "sourceUrl": "https://registry.yarnpkg.com/graphql/-/graphql-16.14.2.tgz",
+      "integrity": "sha512-Chq1s4CY7jmh8gO2qvLIJyfCDIN+EHLFW/9iShnp1z8FjBQMoodWP1kDC36VAMXXIvAjj4ARa7ntfAV2BrjsbA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/graphql@16.14.2.json",
+      "registryMetadataSha256": "8a6f1a4d3865cf1f834300d88196b1f333c9acf455d7f932d4e052334acfc354",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/graphql/graphql-js.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "has-flag",
+      "version": "4.0.0",
+      "archive": "dependencies/preferred-source/npm/has-flag@4.0.0.tgz",
+      "bytes": 2206,
+      "sha256": "77a7eb1411d927bb8a5ca7069dbe168886d63c88f446f0b81500a2cf23ddb5b1",
+      "sourceUrl": "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz",
+      "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/has-flag@4.0.0.json",
+      "registryMetadataSha256": "2598d2f883a94fa3dd4233a35235d3715b1fac4c50bc5870e1b61598326cd182",
+      "gitHead": "474aa39afca7333d356c022fc5be4d31732bbba3",
+      "repository": {
+        "url": "git+https://github.com/sindresorhus/has-flag.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "archive": "dependencies/preferred-source/npm/is-fullwidth-code-point@3.0.0.tgz",
+      "bytes": 2169,
+      "sha256": "6f415dae5dc6070f1b42daee6165eab941a97101982305facc8bafdaf300bc4a",
+      "sourceUrl": "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz",
+      "integrity": "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/is-fullwidth-code-point@3.0.0.json",
+      "registryMetadataSha256": "d74500d2f85ecb6db4da82abbc8cd750b4d216aacf3b55b181d3529192c0741b",
+      "gitHead": "80e5e314d86e5f76bd1b0573aa9d33e615a372db",
+      "repository": {
+        "url": "git+https://github.com/sindresorhus/is-fullwidth-code-point.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "archive": "dependencies/preferred-source/npm/js-tokens@4.0.0.tgz",
+      "bytes": 6542,
+      "sha256": "d884c7a2d8adb5568c1272d92b4f9c62707f4226cf9e7b22e7b957c7361e3c53",
+      "sourceUrl": "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz",
+      "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/js-tokens@4.0.0.json",
+      "registryMetadataSha256": "e86d707daea1415e796fe2e15eaee98b255cea4c11ea65c65a6377196a8f7992",
+      "gitHead": "0eb6e9daee32160ab0fca979b6dc91a1991b720c",
+      "repository": {
+        "url": "git+https://github.com/lydell/js-tokens.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "jsesc",
+      "version": "3.1.0",
+      "archive": "dependencies/preferred-source/npm/jsesc@3.1.0.tgz",
+      "bytes": 10038,
+      "sha256": "0c712225ccca9a70bf83f2ac2f52a268c858c7df3b3df196f1623239d80d3c09",
+      "sourceUrl": "https://registry.yarnpkg.com/jsesc/-/jsesc-3.1.0.tgz",
+      "integrity": "sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/jsesc@3.1.0.json",
+      "registryMetadataSha256": "ddeebfe3e191ef3f4c78cb670a7e555ed111fe947b85fa0b0c1f39d8c08171a4",
+      "gitHead": "819f534875fd87c9033bb72148ab6a6ad1219ca0",
+      "repository": {
+        "url": "git+https://github.com/mathiasbynens/jsesc.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "json5",
+      "version": "2.2.3",
+      "archive": "dependencies/preferred-source/npm/json5@2.2.3.tgz",
+      "bytes": 50318,
+      "sha256": "08afb33db600d11fc89b98fac4054f19d5d3e0fe527063116150e1ecc2d2377b",
+      "sourceUrl": "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz",
+      "integrity": "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/json5@2.2.3.json",
+      "registryMetadataSha256": "838f165dfab15c4954a855b3b0d4c7015c77b68f0a7b12a6bead19bd23fac3ad",
+      "gitHead": "c3a75242772a5026a49c4017a16d9b3543b62776",
+      "repository": {
+        "url": "git+https://github.com/json5/json5.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "lru-cache",
+      "version": "5.1.1",
+      "archive": "dependencies/preferred-source/npm/lru-cache@5.1.1.tgz",
+      "bytes": 5824,
+      "sha256": "b11e78819544a6606e3317647a5593c102ea38d3c5afae62cd63f9c2c369485a",
+      "sourceUrl": "https://registry.yarnpkg.com/lru-cache/-/lru-cache-5.1.1.tgz",
+      "integrity": "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/lru-cache@5.1.1.json",
+      "registryMetadataSha256": "7d2b8d7d916e80459d86eb7cefe63bc9294324cdd0d9ec0a42b79d3019d405f3",
+      "gitHead": "a71be6cd547d28b24d28957a15b10cd3eb34555a",
+      "repository": {
+        "url": "git://github.com/isaacs/node-lru-cache.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "archive": "dependencies/preferred-source/npm/ms@2.1.3.tgz",
+      "bytes": 2967,
+      "sha256": "f6616e15e530ed552f9daa2d3ce71963947c6bc7c98c9b64fd3e673fd02622c6",
+      "sourceUrl": "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz",
+      "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/ms@2.1.3.json",
+      "registryMetadataSha256": "8b64d85add3ab2c8882a1842c993b76d7198806353c623c2683eed37cca11153",
+      "gitHead": "1c6264b795492e8fdecbc82cb8802fcfbfc08d26",
+      "repository": {
+        "url": "git+https://github.com/vercel/ms.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.20",
+      "archive": "dependencies/preferred-source/npm/nanoid@3.3.20.tgz",
+      "bytes": 5721,
+      "sha256": "5ae134779aa22c2c04b691d361bc1f3c004c354e81c7ee166ea1c6e848eedc4f",
+      "sourceUrl": "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.20.tgz",
+      "integrity": "sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/nanoid@3.3.20.json",
+      "registryMetadataSha256": "1cf6d8ada502ed4d77f8d6aaa79d4c375536a559f9ee295c778fa10d4ed35519",
+      "gitHead": "d76f633e0201c1299d735a6544c4c4a05c882f0b",
+      "repository": {
+        "url": "git+https://github.com/ai/nanoid.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "node-releases",
+      "version": "2.0.57",
+      "archive": "dependencies/preferred-source/npm/node-releases@2.0.57.tgz",
+      "bytes": 6087,
+      "sha256": "3e9f5e0ee1b0a00ce6272e0a7f2d7937fd71ef886080812250aafdf02dcf6d18",
+      "sourceUrl": "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.57.tgz",
+      "integrity": "sha512-kQK9LGGFiHtrWiNhZtA7Qbw17AQz+dmsEKODRIVTXA9+e5MS/2gZEBhYJt13GrAz5/IOZKddH/0Z3TP/Zgo+yw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/node-releases@2.0.57.json",
+      "registryMetadataSha256": "0d31abf1bcd28cae1a5855e51333e12ec97a5a7400cf00e44ac74eda74a19a13",
+      "gitHead": "d29b26aa253668a6dac701b5e333ba3cd8267e55",
+      "repository": {
+        "url": "git+https://github.com/chicoxyzzy/node-releases.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pg",
+      "version": "8.23.1",
+      "archive": "dependencies/preferred-source/npm/pg@8.23.1.tgz",
+      "bytes": 28809,
+      "sha256": "0d7999c755c25f7c02fbd96196291148eda737bb91e78e4031b9ebe5ef7d7de7",
+      "sourceUrl": "https://registry.yarnpkg.com/pg/-/pg-8.23.1.tgz",
+      "integrity": "sha512-aL96AHANtWjPLDOLqnhx+ngp9+UK7ETEU8VJrDCGvsSSi/mGLcWYsS6Herg7lmaBJe4uwrfqsa7gTEFaSizDoQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/pg@8.23.1.json",
+      "registryMetadataSha256": "bd74c4e4e2adca791bb2dec3a88696c28183d32cfe59efe4a7d7d4f688330132",
+      "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+      "repository": {
+        "url": "git://github.com/brianc/node-postgres.git",
+        "type": "git",
+        "directory": "packages/pg"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pg-cloudflare",
+      "version": "1.4.1",
+      "archive": "dependencies/preferred-source/npm/pg-cloudflare@1.4.1.tgz",
+      "bytes": 7245,
+      "sha256": "7a3b140775e885d245bcd0c08f60cc5d726449a4dfabda6a31537b7411ef38cc",
+      "sourceUrl": "https://registry.yarnpkg.com/pg-cloudflare/-/pg-cloudflare-1.4.1.tgz",
+      "integrity": "sha512-6PQbsFWZcp9EmJEwy5cGQ2La+AMWpP46lgbb8X+U/XsHIUweYDNCpeuKck5RxL2MdVFi7krbbEi5nX4Zh7JhrQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/pg-cloudflare@1.4.1.json",
+      "registryMetadataSha256": "0e2c764d736f61586a2115843af51824f34c843ef48c820b30133946fccc269a",
+      "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+      "repository": {
+        "url": "git://github.com/brianc/node-postgres.git",
+        "type": "git",
+        "directory": "packages/pg-cloudflare"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pg-connection-string",
+      "version": "2.14.1",
+      "archive": "dependencies/preferred-source/npm/pg-connection-string@2.14.1.tgz",
+      "bytes": 5826,
+      "sha256": "22f69d9711c971d8b66eb78474073ba7f47f27bb69a4347c13cb8ab7c75dfaff",
+      "sourceUrl": "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.14.1.tgz",
+      "integrity": "sha512-qR3kGNPBLpCNtz0evbKA0Y/MRFXwSSdT+pTJvYp/bXTcReZbvX1kzF0IyTc1QnxqF7AZbOeBhNL8R5mYQZV/MA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/pg-connection-string@2.14.1.json",
+      "registryMetadataSha256": "17b79271cb4534be6e2ad9022f37711ece19e88cbc9f234556e0bf733506dca4",
+      "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+      "repository": {
+        "url": "git://github.com/brianc/node-postgres.git",
+        "type": "git",
+        "directory": "packages/pg-connection-string"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pg-int8",
+      "version": "1.0.1",
+      "archive": "dependencies/preferred-source/npm/pg-int8@1.0.1.tgz",
+      "bytes": 1508,
+      "sha256": "f010d48974a96814e841edbb6fc6096385574610714d2a50e99811170c365e92",
+      "sourceUrl": "https://registry.yarnpkg.com/pg-int8/-/pg-int8-1.0.1.tgz",
+      "integrity": "sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/pg-int8@1.0.1.json",
+      "registryMetadataSha256": "b959c3521eca9745ac3726e9536f90f0d1d3bae90768d40a35fcca6d6c284753",
+      "gitHead": "91d0683b3d0f9b24176bbbffbd03680cd4c97b17",
+      "repository": {
+        "url": "git+https://github.com/charmander/pg-int8.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "pg-pool",
+      "version": "3.14.0",
+      "archive": "dependencies/preferred-source/npm/pg-pool@3.14.0.tgz",
+      "bytes": 9579,
+      "sha256": "0b0b8729c09d5eaa059313c9c3d11efc8907441386bbf86ccc57e1298c6ce71a",
+      "sourceUrl": "https://registry.yarnpkg.com/pg-pool/-/pg-pool-3.14.0.tgz",
+      "integrity": "sha512-gKtPkFdQPU3DksooVLi9LsjZxrsBUZIpa+7aVx+LV5pNh0KzP4Zleud2po+ConrxbuXGBJ6Hfer6hdgpIBpBaw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/pg-pool@3.14.0.json",
+      "registryMetadataSha256": "1abeabf3e9b946ed4761a8fc56587f13788f642718125e210242e89751eace1d",
+      "gitHead": "544b1ce8152bc280e398dc1e8a66920abe6a640e",
+      "repository": {
+        "url": "git://github.com/brianc/node-postgres.git",
+        "type": "git",
+        "directory": "packages/pg-pool"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pg-protocol",
+      "version": "1.16.1",
+      "archive": "dependencies/preferred-source/npm/pg-protocol@1.16.1.tgz",
+      "bytes": 39903,
+      "sha256": "e1315b9dc839a029109e3a521c1dd1d9c7265722fdbc50d27ff5f7274f70732f",
+      "sourceUrl": "https://registry.yarnpkg.com/pg-protocol/-/pg-protocol-1.16.1.tgz",
+      "integrity": "sha512-p9VOFMiHB/ZbJATetbg+99PxssTVSQRnyuPSQ67mN1+1KBOjZaZ83ZQzltnxPhJwSsC3nwVjJ10DVJlerbFzLg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/pg-protocol@1.16.1.json",
+      "registryMetadataSha256": "8d73c85d1d08a408fa4dd174c49034e11427dbc3ba496aaf475a8126be7f6cd4",
+      "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+      "repository": {
+        "url": "git://github.com/brianc/node-postgres.git",
+        "type": "git",
+        "directory": "packages/pg-protocol"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pg-types",
+      "version": "2.2.0",
+      "archive": "dependencies/preferred-source/npm/pg-types@2.2.0.tgz",
+      "bytes": 10344,
+      "sha256": "c4804fd058140c32f8fda78883ad45dee3eaa4fd9e9127b6eb659fefe51981bd",
+      "sourceUrl": "https://registry.yarnpkg.com/pg-types/-/pg-types-2.2.0.tgz",
+      "integrity": "sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/pg-types@2.2.0.json",
+      "registryMetadataSha256": "e273c604a65ce84e8e641da4efa366db6b8e58252a13adb83551b412f9c07985",
+      "gitHead": "d9d9dfb87eb50914043cbc178c301b7dd3b0c50d",
+      "repository": {
+        "url": "git://github.com/brianc/node-pg-types.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "pgpass",
+      "version": "1.0.5",
+      "archive": "dependencies/preferred-source/npm/pgpass@1.0.5.tgz",
+      "bytes": 4280,
+      "sha256": "ff794c956186430afd600b5bc4500f3f0faf34b62be6ff98494f4c7f4a6d8597",
+      "sourceUrl": "https://registry.yarnpkg.com/pgpass/-/pgpass-1.0.5.tgz",
+      "integrity": "sha512-FdW9r/jQZhSeohs1Z3sI1yxFQNFvMcnmfuj4WBMUTxOrAyLMaTcE1aAMBiTlbMNaXvBCQuVi0R7hd8udDSP7ug==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/pgpass@1.0.5.json",
+      "registryMetadataSha256": "1b80efdd65b6f1927dad47e9bead59a90c303fe0fe1556a0c46ca4e5d4f51f70",
+      "gitHead": "4230ed5e417ba6044ea7eb80b7c33db9ec301398",
+      "repository": {
+        "url": "git+https://github.com/hoegaarden/pgpass.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "archive": "dependencies/preferred-source/npm/picocolors@1.1.1.tgz",
+      "bytes": 2625,
+      "sha256": "d3aedb2807967b7eb37fd11b03b7e3701e725af79c650d0812ff7213f8f882d9",
+      "sourceUrl": "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz",
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/picocolors@1.1.1.json",
+      "registryMetadataSha256": "27684762267ad5b8c141b7193f07e32646f2d1ebaa50d02340e66a0929640640",
+      "gitHead": "6f0a4638348ed20633d623ee973f9c9a96f65104",
+      "repository": {
+        "url": "git+https://github.com/alexeyraspopov/picocolors.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "archive": "dependencies/preferred-source/npm/picomatch@4.0.7.tgz",
+      "bytes": 24326,
+      "sha256": "697b463be3cdbd9ffc8f4194fd5019a69ddf95875fb703d78b2b115cc9e740a8",
+      "sourceUrl": "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.7.tgz",
+      "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/picomatch@4.0.7.json",
+      "registryMetadataSha256": "f45a37d49e26b5386836db60670d7901f3134843bdc468b50f4812be502f7ecd",
+      "gitHead": "6bb40679c218cefba5d4e9662408c5fdf699a8bb",
+      "repository": {
+        "url": "git+https://github.com/micromatch/picomatch.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "playwright",
+      "version": "1.63.0",
+      "archive": "dependencies/preferred-source/npm/playwright@1.63.0.tgz",
+      "bytes": 899597,
+      "sha256": "195a5ee9bfed7c6e9c03965950e32e5e4dbedaa02e740e5a530eb4b87dae050c",
+      "sourceUrl": "https://registry.yarnpkg.com/playwright/-/playwright-1.63.0.tgz",
+      "integrity": "sha512-+7ziBLidS4NaNCdt57SUDT+wYmmd5fmiQejUic/kb+YsYSCPyOOE9sebzMjNmQrsnNpDJqd4WHvV/8lfKfUDUg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/playwright@1.63.0.json",
+      "registryMetadataSha256": "d82cc833627de91777e82e687985ce4fb8a267e4de4b49e86c55bda42bc1d53a",
+      "gitHead": "1b025d7e20a026371cd5f98ba0cdce48892737c8",
+      "repository": {
+        "url": "git+https://github.com/microsoft/playwright.git",
+        "type": "git"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.63.0",
+      "archive": "dependencies/preferred-source/npm/playwright-core@1.63.0.tgz",
+      "bytes": 3123044,
+      "sha256": "208593d4e1bcd8f8fe5f869cad1cc332dc7f1d70dc1d58c102dc3ac36e30f26c",
+      "sourceUrl": "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.63.0.tgz",
+      "integrity": "sha512-rYCsBF/M5HjUch52bbtVONEFjv6Xu8sm8h72dNlR5bzIE1fvC/bxgspzkjSfU+MweEMmPM8KJebG6nnyxo5mCg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/playwright-core@1.63.0.json",
+      "registryMetadataSha256": "e7548b558b0299e93e064c39bef4582ef0cad1b3245599019cfdc13d5fbbb174",
+      "gitHead": "1b025d7e20a026371cd5f98ba0cdce48892737c8",
+      "repository": {
+        "url": "git+https://github.com/microsoft/playwright.git",
+        "type": "git"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.29",
+      "archive": "dependencies/preferred-source/npm/postcss@8.5.29.tgz",
+      "bytes": 52828,
+      "sha256": "c02fcaea0bef927cae3a287dd6c316d8a9da12c8b9ba104f2387978fbe16234d",
+      "sourceUrl": "https://registry.yarnpkg.com/postcss/-/postcss-8.5.29.tgz",
+      "integrity": "sha512-49cGhUbXj8Qenv0iTMxA1cFBzxXoctpC9Ujd77t1WcbJIr6nF/eI7g/8MgxrYldFRuAXvja7xQRwavoW7kgrxQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/postcss@8.5.29.json",
+      "registryMetadataSha256": "48ba05e5ea016f0184c1ef13d25bd81b47ac789c353d94ff2e2a714e116353ea",
+      "gitHead": "a7a1f3476177d689dff722d3f9f72190ddf93f7e",
+      "repository": {
+        "url": "git+https://github.com/postcss/postcss.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "postgres-array",
+      "version": "2.0.0",
+      "archive": "dependencies/preferred-source/npm/postgres-array@2.0.0.tgz",
+      "bytes": 2213,
+      "sha256": "dbf1035c777631d4b0a4b5c035b1f6247dd923db6b2ea115b93b1eabb172b3a0",
+      "sourceUrl": "https://registry.yarnpkg.com/postgres-array/-/postgres-array-2.0.0.tgz",
+      "integrity": "sha512-VpZrUqU5A69eQyW2c5CA1jtLecCsN2U/bD6VilrFDWq5+5UIEVO7nazS3TEcHf1zuPYO/sqGvUvW62g86RXZuA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/postgres-array@2.0.0.json",
+      "registryMetadataSha256": "ef9352d03c269e90749b0b453dbcb9e306e9dd4b3eb3474063fd8e4c173fd53e",
+      "gitHead": "3693b1fbf7c77455b9a7a1f3ac1f7f039947e641",
+      "repository": {
+        "url": "git+https://github.com/bendrucker/postgres-array.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "postgres-bytea",
+      "version": "1.0.1",
+      "archive": "dependencies/preferred-source/npm/postgres-bytea@1.0.1.tgz",
+      "bytes": 1724,
+      "sha256": "0395e34ecb9945b0003132af6e11463ec7ec8f17fb5cbdbccc5a822bd6807d96",
+      "sourceUrl": "https://registry.yarnpkg.com/postgres-bytea/-/postgres-bytea-1.0.1.tgz",
+      "integrity": "sha512-5+5HqXnsZPE65IJZSMkZtURARZelel2oXUEO8rH83VS/hxH5vv1uHquPg5wZs8yMAfdv971IU+kcPUczi7NVBQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/postgres-bytea@1.0.1.json",
+      "registryMetadataSha256": "2a30bdfac736900dcc778cadec064c336004dcecfcfc6d15bc9af1c1377ad21b",
+      "gitHead": "b4726b977d4e2123823cb9b986c4aa8a755ed74a",
+      "repository": {
+        "url": "git+https://github.com/bendrucker/postgres-bytea.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "postgres-date",
+      "version": "1.0.7",
+      "archive": "dependencies/preferred-source/npm/postgres-date@1.0.7.tgz",
+      "bytes": 2836,
+      "sha256": "a67a8d90e7b8f64041a6f425b102b27a3e86d5854ace7e9414a890912f3adb59",
+      "sourceUrl": "https://registry.yarnpkg.com/postgres-date/-/postgres-date-1.0.7.tgz",
+      "integrity": "sha512-suDmjLVQg78nMK2UZ454hAG+OAW+HQPZ6n++TNDUX+L0+uUlLywnoxJKDou51Zm+zTCjrCl0Nq6J9C5hP9vK/Q==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/postgres-date@1.0.7.json",
+      "registryMetadataSha256": "c1fe5e414074b72f64440beefbdaf7b102306b9303130a07b4fb7e3e56b022d4",
+      "gitHead": "edbfe6e2e603c869215e8b98144bf6de2f6ffa50",
+      "repository": {
+        "url": "git+https://github.com/bendrucker/postgres-date.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "postgres-interval",
+      "version": "1.2.0",
+      "archive": "dependencies/preferred-source/npm/postgres-interval@1.2.0.tgz",
+      "bytes": 2926,
+      "sha256": "e67563626b30aa7d22caf930e38529bb137476146a11eaaa0bb1e07c0a2413b1",
+      "sourceUrl": "https://registry.yarnpkg.com/postgres-interval/-/postgres-interval-1.2.0.tgz",
+      "integrity": "sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/postgres-interval@1.2.0.json",
+      "registryMetadataSha256": "7f67ab93e116b969b2a7a533579220b937210fc53490c70a56cc381c860f9c54",
+      "gitHead": "c92e936bf6383691b1572f3e85597fb4d0518e96",
+      "repository": {
+        "url": "git+https://github.com/bendrucker/postgres-interval.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "react",
+      "version": "19.3.0",
+      "archive": "dependencies/preferred-source/npm/react@19.3.0.tgz",
+      "bytes": 26394,
+      "sha256": "5a4024110c49476e1538a70fd65b9e59d038fcc280b78eb933c24e10453afbf9",
+      "sourceUrl": "https://registry.yarnpkg.com/react/-/react-19.3.0.tgz",
+      "integrity": "sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/react@19.3.0.json",
+      "registryMetadataSha256": "a539f5be50d91ff919cc70e758bd143e0ab5b51999aaa3b919458e62e9704f11",
+      "gitHead": "1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "repository": {
+        "url": "git+https://github.com/react/react.git",
+        "type": "git",
+        "directory": "packages/react"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.0",
+      "archive": "dependencies/preferred-source/npm/react-dom@19.3.0.tgz",
+      "bytes": 1409226,
+      "sha256": "dbeffb1e6cdbbbba07f799da4635333d0e20c210a32278dded85441ec4cb6a17",
+      "sourceUrl": "https://registry.yarnpkg.com/react-dom/-/react-dom-19.3.0.tgz",
+      "integrity": "sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/react-dom@19.3.0.json",
+      "registryMetadataSha256": "bab08ce626ae6aaf1c05908e98689bee0fc4b9cc6b65aa92e6b2aecfbdf9ab74",
+      "gitHead": "1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "repository": {
+        "url": "git+https://github.com/react/react.git",
+        "type": "git",
+        "directory": "packages/react-dom"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "react-refresh",
+      "version": "0.17.0",
+      "archive": "dependencies/preferred-source/npm/react-refresh@0.17.0.tgz",
+      "bytes": 9998,
+      "sha256": "40aa26f7cbb282b754ac0cdc7c5b6a1a1170c9cd74d61f863b8644397afec09f",
+      "sourceUrl": "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.17.0.tgz",
+      "integrity": "sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/react-refresh@0.17.0.json",
+      "registryMetadataSha256": "30ad8d60c870522ac54c97837cecbc8e3729aa101a1b52157a859a4d789dd66b",
+      "gitHead": "1825990c5608f0ab0c1475b4292218a508a171c9",
+      "repository": {
+        "url": "git+https://github.com/facebook/react.git",
+        "type": "git",
+        "directory": "packages/react"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "require-directory",
+      "version": "2.1.1",
+      "archive": "dependencies/preferred-source/npm/require-directory@2.1.1.tgz",
+      "bytes": 4372,
+      "sha256": "703bee0844360383fe4a8792d4a5a562647426a053e7597a1d272ac554f386c8",
+      "sourceUrl": "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz",
+      "integrity": "sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/require-directory@2.1.1.json",
+      "registryMetadataSha256": "341f43ed8400f6de4093138b4a3d09ef175cb53aaedab54499bac662e0231911",
+      "gitHead": "cc71c23dd0c16cefd26855303c16ca1b9b50a36d",
+      "repository": {
+        "url": "git://github.com/troygoode/node-require-directory.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "rollup",
+      "version": "4.64.0",
+      "archive": "dependencies/preferred-source/npm/rollup@4.64.0.tgz",
+      "bytes": 589213,
+      "sha256": "b74f9bd6010a0887f05796457b13346178d8574106158cbf66bdf8e37d45fd39",
+      "sourceUrl": "https://registry.yarnpkg.com/rollup/-/rollup-4.64.0.tgz",
+      "integrity": "sha512-gjA/kFeDfffII8COoPsvLPvE16hWDTEc1+0QKQNKUkuV8iJjqsC4xXs8/FzuL0v9EV39kuxTbAgcFoTRyy2TGQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/rollup@4.64.0.json",
+      "registryMetadataSha256": "ee50cd71f91d8412f9142f052982b52be7f5b4cd5db937bc17f7e90e90c44c0a",
+      "gitHead": "77773bf8ee9130c4edbde14c017855c41e500692",
+      "repository": {
+        "url": "git+https://github.com/rollup/rollup.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "rxjs",
+      "version": "7.8.2",
+      "archive": "dependencies/preferred-source/npm/rxjs@7.8.2.tgz",
+      "bytes": 751525,
+      "sha256": "2312f8ffd9726ffd7bd53ea12c5f13663d09a3dc3326f448c70b88f5ef6fac82",
+      "sourceUrl": "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.2.tgz",
+      "integrity": "sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/rxjs@7.8.2.json",
+      "registryMetadataSha256": "3fbab3ce4c94f2a069230fd38c14cf9551cdc01cc4f6f43f58948dda498cb391",
+      "gitHead": "e5351d02e225e275ac0e497c7b66eaa5f0c88791",
+      "repository": {
+        "url": "git+https://github.com/reactivex/rxjs.git",
+        "type": "git"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "archive": "dependencies/preferred-source/npm/scheduler@0.28.0.tgz",
+      "bytes": 10011,
+      "sha256": "302995d590e3c0a11eeb40d1d0f299c1df1800135d599d85cdd5faeb614f32d6",
+      "sourceUrl": "https://registry.yarnpkg.com/scheduler/-/scheduler-0.28.0.tgz",
+      "integrity": "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/scheduler@0.28.0.json",
+      "registryMetadataSha256": "095f48a35db68c6fd14be2d66a30cb9473b292ab9bb94bf474ce9f3cca646170",
+      "gitHead": "1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "repository": {
+        "url": "git+https://github.com/react/react.git",
+        "type": "git",
+        "directory": "packages/scheduler"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "semver",
+      "version": "6.3.1",
+      "archive": "dependencies/preferred-source/npm/semver@6.3.1.tgz",
+      "bytes": 19093,
+      "sha256": "3c9b042a38e099cbd00a9bd792042aefb62a70b3f0f1ba1a3cbddf07e5eb1230",
+      "sourceUrl": "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz",
+      "integrity": "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/semver@6.3.1.json",
+      "registryMetadataSha256": "18bd0e53c1c44e678305e30ed2f13bd35a7a70aa92f93b29b6aaeed0cebe9e3b",
+      "gitHead": "b717044e57bd132c7e5aa50e9af9a03f10d4655a",
+      "repository": {
+        "url": "git+https://github.com/npm/node-semver.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "shell-quote",
+      "version": "1.9.0",
+      "archive": "dependencies/preferred-source/npm/shell-quote@1.9.0.tgz",
+      "bytes": 11111,
+      "sha256": "5d3b53eba647dee6d8c8465b57937e59798710eb728af66d5e21ab0977824d05",
+      "sourceUrl": "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.9.0.tgz",
+      "integrity": "sha512-Iov+JwFv/2HcTpcwNMKd8+IWNb8tboQJNQTkAY/LLVK7gGH9jy+LGkVqPxfekHl+yMmiqXszdGWXgkfml7hjqA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/shell-quote@1.9.0.json",
+      "registryMetadataSha256": "270efc73bc30aac146df50738a88027dd0345aa03cd7e685a35631266cb849c1",
+      "gitHead": "db09fc7a9e3546807c19e2de2682ec31112a6520",
+      "repository": {
+        "url": "git+ssh://git@github.com/ljharb/shell-quote.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "archive": "dependencies/preferred-source/npm/source-map-js@1.2.2.tgz",
+      "bytes": 36349,
+      "sha256": "05c8cf8e7c3a6b56cada7668fe9342b10f4b625efc92aba9ba05b9e8fe4d71a3",
+      "sourceUrl": "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.2.tgz",
+      "integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/source-map-js@1.2.2.json",
+      "registryMetadataSha256": "9be3adc0cdad73d1514de460c5d976b34d38d882475a9184813441fa567c2a48",
+      "gitHead": "0a1d334fd1e55a47df97fcd60a7915d46df3b08a",
+      "repository": {
+        "url": "git+https://github.com/7rulnik/source-map-js.git",
+        "type": "git"
+      },
+      "license": "BSD-3-Clause"
+    },
+    {
+      "name": "split2",
+      "version": "4.2.0",
+      "archive": "dependencies/preferred-source/npm/split2@4.2.0.tgz",
+      "bytes": 4668,
+      "sha256": "e0061e7f042fc5ff6dcda8afb66619757d92ab1ff514a28a5904f2ebde27bf54",
+      "sourceUrl": "https://registry.yarnpkg.com/split2/-/split2-4.2.0.tgz",
+      "integrity": "sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/split2@4.2.0.json",
+      "registryMetadataSha256": "8a13e9acb75c2f5bb175c2f7903f8b9bb7ffc81ab62722db643b0f403c3972aa",
+      "gitHead": "919b26b59c9762b817a121f4416ccc44d82043ad",
+      "repository": {
+        "url": "git+https://github.com/mcollina/split2.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "string-width",
+      "version": "4.2.3",
+      "archive": "dependencies/preferred-source/npm/string-width@4.2.3.tgz",
+      "bytes": 2383,
+      "sha256": "adbb4fb1b26e8069af99adff0079369c93f17cf887b91086691d671ddbd52934",
+      "sourceUrl": "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz",
+      "integrity": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/string-width@4.2.3.json",
+      "registryMetadataSha256": "8dcc9be0b546a6eefdd4383a3de6be38aac1dffded6836adf55fb175beeb3ad4",
+      "gitHead": "e7a2755c834246c59a4cc5de9471bef2d531a6b1",
+      "repository": {
+        "url": "git+https://github.com/sindresorhus/string-width.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "archive": "dependencies/preferred-source/npm/strip-ansi@6.0.1.tgz",
+      "bytes": 2041,
+      "sha256": "9bdb75d0bff49f156dd8c3bcb0e06b3fa96c3d88ddd4c342a4345866a40c08ca",
+      "sourceUrl": "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz",
+      "integrity": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/strip-ansi@6.0.1.json",
+      "registryMetadataSha256": "5016556116faae7cbd8d210bdb7df77acd486f6abd955225cfe4879926547a7d",
+      "gitHead": "59533da99981f9d550de1ae0eb9d1a93c2383be3",
+      "repository": {
+        "url": "git+https://github.com/chalk/strip-ansi.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "supports-color",
+      "version": "7.2.0",
+      "archive": "dependencies/preferred-source/npm/supports-color@7.2.0.tgz",
+      "bytes": 3210,
+      "sha256": "f16acafd1634624e60c24a5538004c4e168c82607f10dbe28395e9df3e7d5e4a",
+      "sourceUrl": "https://registry.yarnpkg.com/supports-color/-/supports-color-7.2.0.tgz",
+      "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/supports-color@7.2.0.json",
+      "registryMetadataSha256": "f536e1b67a02b62853785c22ffe6749e7d7d70b75659e9c42f14899930251ecb",
+      "gitHead": "c5edf46896d1fc1826cb1183a60d61eecb65d749",
+      "repository": {
+        "url": "git+https://github.com/chalk/supports-color.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "supports-color",
+      "version": "8.1.1",
+      "archive": "dependencies/preferred-source/npm/supports-color@8.1.1.tgz",
+      "bytes": 3726,
+      "sha256": "ea69d9b5801e109932f9f12b5499c06de3fde936119a21c5941b2759d4364fb0",
+      "sourceUrl": "https://registry.yarnpkg.com/supports-color/-/supports-color-8.1.1.tgz",
+      "integrity": "sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/supports-color@8.1.1.json",
+      "registryMetadataSha256": "c5b196648bf5050ffaac9073027518aeed326bee05910aef60e57d3af5e54bec",
+      "gitHead": "1e7f117cda1284e741c3cbcd661c21412bf169eb",
+      "repository": {
+        "url": "git+https://github.com/chalk/supports-color.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "archive": "dependencies/preferred-source/npm/tinyglobby@0.2.17.tgz",
+      "bytes": 7873,
+      "sha256": "afb4afae9175f8b873ac13e1d21cea0997a0bcb40c3598613a834490058cb562",
+      "sourceUrl": "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.17.tgz",
+      "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/tinyglobby@0.2.17.json",
+      "registryMetadataSha256": "51e0cb9f9ebca53623ed364754ff6754bb12cc2eb48e8728e9fc77c1f6b14edf",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/SuperchupuDev/tinyglobby.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "tree-kill",
+      "version": "1.2.2",
+      "archive": "dependencies/preferred-source/npm/tree-kill@1.2.2.tgz",
+      "bytes": 3243,
+      "sha256": "4a188633a6c3f39f12dca8b38bd682081e499459f6f07f362996d3e860e66061",
+      "sourceUrl": "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz",
+      "integrity": "sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/tree-kill@1.2.2.json",
+      "registryMetadataSha256": "ebd1b877d71f77630b104869e3ceb1dc75db5db5f0e79959ddcb2a4a6976ab11",
+      "gitHead": "cb478381547107f5c53362668533f634beff7e6e",
+      "repository": {
+        "url": "git://github.com/pkrumins/node-tree-kill.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "archive": "dependencies/preferred-source/npm/tslib@2.8.1.tgz",
+      "bytes": 18477,
+      "sha256": "66f635d5eeabae44807534976913a102cf615b9a045368359c9f79ae6ee2119e",
+      "sourceUrl": "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz",
+      "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/tslib@2.8.1.json",
+      "registryMetadataSha256": "9a3c51f4334e19377a5e06a7805a3f15447edcdcc1eef117c62fabf80c30190f",
+      "gitHead": "d72d6f70b36286bc3f94a3dda1e64dcb568b1370",
+      "repository": {
+        "url": "git+https://github.com/Microsoft/tslib.git",
+        "type": "git"
+      },
+      "license": "0BSD"
+    },
+    {
+      "name": "tsx",
+      "version": "4.23.15",
+      "archive": "dependencies/preferred-source/npm/tsx@4.23.15.tgz",
+      "bytes": 142405,
+      "sha256": "60eeb6697e987b40ea1944061f186c2314b8381fd6da4dc1bdbe75e0744a9f78",
+      "sourceUrl": "https://registry.yarnpkg.com/tsx/-/tsx-4.23.15.tgz",
+      "integrity": "sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/tsx@4.23.15.json",
+      "registryMetadataSha256": "52a98d67738ae15aa60098b839cb8c5ba135606b75ade1b5973b7f37436a7648",
+      "gitHead": "ca66105a17a2a4c6503fe3a12b5b9ec408286011",
+      "repository": {
+        "url": "git+https://github.com/privatenumber/tsx.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "archive": "dependencies/preferred-source/npm/typescript@5.9.3.tgz",
+      "bytes": 4377468,
+      "sha256": "10e108c9cf7d5f2879053dff18515fb405abf2ccef63eaaf017d9c571687a1d3",
+      "sourceUrl": "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz",
+      "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/typescript@5.9.3.json",
+      "registryMetadataSha256": "5d1a012705a2d792a665e715071dd854dc931ce46e36c41f6349aa250ad64a68",
+      "gitHead": "c63de15a992d37f0d6cec03ac7631872838602cb",
+      "repository": {
+        "url": "git+https://github.com/microsoft/TypeScript.git",
+        "type": "git"
+      },
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "undici-types",
+      "version": "6.21.0",
+      "archive": "dependencies/preferred-source/npm/undici-types@6.21.0.tgz",
+      "bytes": 21020,
+      "sha256": "cfa1a9a5e18988850e548f4f6b629c58da32dc32bebb116e58ea301e516fd16d",
+      "sourceUrl": "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz",
+      "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/undici-types@6.21.0.json",
+      "registryMetadataSha256": "63875642c006cfe8643737c5a3106c6676b00c82f823a6b12f6419953f0a0ce9",
+      "gitHead": "61ec3531a64ffeec953a990c11735ff09455de4e",
+      "repository": {
+        "url": "git+https://github.com/nodejs/undici.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "undici-types",
+      "version": "8.9.0",
+      "archive": "dependencies/preferred-source/npm/undici-types@8.9.0.tgz",
+      "bytes": 29764,
+      "sha256": "3a587851ccbf1021b20eac8a38eb819d7e2a1ab77aa477cb24cae5473a3e78c6",
+      "sourceUrl": "https://registry.yarnpkg.com/undici-types/-/undici-types-8.9.0.tgz",
+      "integrity": "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/undici-types@8.9.0.json",
+      "registryMetadataSha256": "869a0d66d4a2fbc318426f004a87b80e7fccfb5ef58a974e468803a1d943ec3f",
+      "gitHead": "21a8e1ed1843e74c3004a2926c12bb0ceaca6b71",
+      "repository": {
+        "url": "git+https://github.com/nodejs/undici.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "update-browserslist-db",
+      "version": "1.3.3",
+      "archive": "dependencies/preferred-source/npm/update-browserslist-db@1.3.3.tgz",
+      "bytes": 7349,
+      "sha256": "5e345675666e58e36e8c8385e442a18e7815e36ab6b6470835f12a61a80fec6b",
+      "sourceUrl": "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.3.3.tgz",
+      "integrity": "sha512-pJ2sYawQS0R/WI928Gj5GlPhTGzbMelq0+4INtSYNDV9ErKJcX6xjGWkoG/VnB3dpUm00zALaqkrUD77pO5TDQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/update-browserslist-db@1.3.3.json",
+      "registryMetadataSha256": "f2fd0dcef9e5d8a7a8bca6fbacceced18938bd5d1cd994c9ea325a925a6dc6e4",
+      "gitHead": "6f17ab56b68097b398e1e6082f20e5ed6ec27588",
+      "repository": {
+        "url": "git+https://github.com/browserslist/update-db.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "vite",
+      "version": "7.3.6",
+      "archive": "dependencies/preferred-source/npm/vite@7.3.6.tgz",
+      "bytes": 543195,
+      "sha256": "c90bd3ea5e6a301d6aac20d22b314fad893a7ac7b010b91a4ac65bb68dd947a6",
+      "sourceUrl": "https://registry.yarnpkg.com/vite/-/vite-7.3.6.tgz",
+      "integrity": "sha512-4XP60spRGjSZFf1qYH+dJIkK2znL3zQfl9KkOV9MkkRR/3Dls0dxaBsQPTloEc5BLXWPL9vsOxopxyKoMmDueg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/vite@7.3.6.json",
+      "registryMetadataSha256": "105f79433442e6753e59c30f009ffcb31d542591a981253930deb4795da97d5c",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/vitejs/vite.git",
+        "type": "git",
+        "directory": "packages/vite"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "wrap-ansi",
+      "version": "7.0.0",
+      "archive": "dependencies/preferred-source/npm/wrap-ansi@7.0.0.tgz",
+      "bytes": 4317,
+      "sha256": "0795b3510bd2e938f6a415396de3d4f58fd76ef1f8249a07196444eaf85ca42f",
+      "sourceUrl": "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz",
+      "integrity": "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/wrap-ansi@7.0.0.json",
+      "registryMetadataSha256": "167aa08c3d289d826e61aff5021fefeb078b0dedbbe3d8861ffc4a9794e33d8a",
+      "gitHead": "c81bf7d6d0a9c1a49f7ce6413fbc8fbcf9938330",
+      "repository": {
+        "url": "git+https://github.com/chalk/wrap-ansi.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "ws",
+      "version": "8.22.0",
+      "archive": "dependencies/preferred-source/npm/ws@8.22.0.tgz",
+      "bytes": 35094,
+      "sha256": "ca9b3798b2e11ce8fac6713f50ef0501aa12b09b330623c1dc409dff94e7abc8",
+      "sourceUrl": "https://registry.yarnpkg.com/ws/-/ws-8.22.0.tgz",
+      "integrity": "sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/ws@8.22.0.json",
+      "registryMetadataSha256": "4437720eac4a12e6bbbc81c3dd874857cd4d21ebcb89968d0fa93d451b436929",
+      "gitHead": "297202cdae9b0590629821373b3b679c407f3431",
+      "repository": {
+        "url": "git+https://github.com/websockets/ws.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "xtend",
+      "version": "4.0.2",
+      "archive": "dependencies/preferred-source/npm/xtend@4.0.2.tgz",
+      "bytes": 2529,
+      "sha256": "bd22a01d43c799be7bb53dfa9e775b132045e39525e51efb977528a00041ba48",
+      "sourceUrl": "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz",
+      "integrity": "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/xtend@4.0.2.json",
+      "registryMetadataSha256": "cfbbd6c66c343c8528ab419a1a545c5713acf71e6f8761ecda94705c8c1b2687",
+      "gitHead": "37816c0e2e25da2901d584442235946d5cd8c80d",
+      "repository": {
+        "url": "git://github.com/Raynos/xtend.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "y18n",
+      "version": "5.0.8",
+      "archive": "dependencies/preferred-source/npm/y18n@5.0.8.tgz",
+      "bytes": 6157,
+      "sha256": "d43743bad3a7cb3af5d3b6bf70fd32fe3923ea86e4148109c6dd0126deada769",
+      "sourceUrl": "https://registry.yarnpkg.com/y18n/-/y18n-5.0.8.tgz",
+      "integrity": "sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/y18n@5.0.8.json",
+      "registryMetadataSha256": "0edb5062380b41f3e1ede6e44a30b304f2f78ed1e0b7730815c6f5b295500d3e",
+      "gitHead": "e2900d1cdf313663bba012f20737385a42c66b87",
+      "repository": {
+        "url": "git+https://github.com/yargs/y18n.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "yallist",
+      "version": "3.1.1",
+      "archive": "dependencies/preferred-source/npm/yallist@3.1.1.tgz",
+      "bytes": 4496,
+      "sha256": "50f14ae6cfe8360cb2259ba3e93305e069036f13251d69d3cbee9e1d4775ca04",
+      "sourceUrl": "https://registry.yarnpkg.com/yallist/-/yallist-3.1.1.tgz",
+      "integrity": "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/yallist@3.1.1.json",
+      "registryMetadataSha256": "7036ff98fc197197559c769cc93b37401112095e9ef3966ba51890b2c1664e54",
+      "gitHead": "ab350a79eb94c80f7146662748a12b6fcd63729c",
+      "repository": {
+        "url": "git+https://github.com/isaacs/yallist.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    },
+    {
+      "name": "yargs",
+      "version": "17.7.2",
+      "archive": "dependencies/preferred-source/npm/yargs@17.7.2.tgz",
+      "bytes": 65691,
+      "sha256": "48ec935f10b5d760620a2670fcb2e237a7dee58a1bd4a53f1908dd7dcb83aec9",
+      "sourceUrl": "https://registry.yarnpkg.com/yargs/-/yargs-17.7.2.tgz",
+      "integrity": "sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/yargs@17.7.2.json",
+      "registryMetadataSha256": "d6ac1ab912a1a8da284288d6eb4be5114173c0953d98e8fe37d8c90c3a8c0bdd",
+      "gitHead": "e1760e45c78538f2fd59d4a09fc0c0c6fd4b2379",
+      "repository": {
+        "url": "git+https://github.com/yargs/yargs.git",
+        "type": "git"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "yargs-parser",
+      "version": "21.1.1",
+      "archive": "dependencies/preferred-source/npm/yargs-parser@21.1.1.tgz",
+      "bytes": 28613,
+      "sha256": "342b7d527d4a72265b64f27711517349c3c05ee302ab3b8c7452f0bfbe709151",
+      "sourceUrl": "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.1.tgz",
+      "integrity": "sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==",
+      "integrityVerified": true,
+      "registryMetadata": "dependencies/preferred-source/npm/yargs-parser@21.1.1.json",
+      "registryMetadataSha256": "53e1757cb921260593d4b4a9017f2194f5edd95229b4d19c7225369fddc95cf1",
+      "gitHead": "ba6421b843ea5271d84489168314bba26ffa757f",
+      "repository": {
+        "url": "git+https://github.com/yargs/yargs-parser.git",
+        "type": "git"
+      },
+      "license": "ISC"
+    }
+  ]
+}

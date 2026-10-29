@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "GENERATION.md",
+      "bytes": 5503,
+      "sha256": "5346551f5e46cc91064084d74808f7af43cbb6c92b98d22ac16b8624c6cc74ab"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 7944,
+      "sha256": "9d874237ae9500c94b2cf21f8e46ec5918a867b2aea11db5327b635780c6304f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1973,
+      "sha256": "6b9427fdc5fbaabc2be3a875924ab796d01368187881913c3a067070e6288ccc"
+    },
+    {
+      "path": "RUST_MAPPING.json",
+      "bytes": 9767,
+      "sha256": "02a33e0a12602199aa67c7ddceb349eeb42a9f0575f64b02a6143484b2c388ba"
+    },
+    {
+      "path": "archives/fstar-last-source.tar.gz",
+      "bytes": 9181961,
+      "sha256": "df042b3c522a745122c0fc0db28d22ed96347a223147fe452852632453fcc120"
+    },
+    {
+      "path": "archives/fstar-source.tar.gz",
+      "bytes": 9311567,
+      "sha256": "0acc9bfe5643afbb93c0c7532226d39af548c2659c0ea6c5adb9ec5f76e0a2f5"
+    },
+    {
+      "path": "archives/hacl-generation-snapshot.tar.gz",
+      "bytes": 10492595,
+      "sha256": "227db9feac6166b70507267e58641a850719de30549da655baffa17d38dcdab6"
+    },
+    {
+      "path": "archives/hacl-last-rust-snapshot.tar.gz",
+      "bytes": 10530663,
+      "sha256": "d3f29b77c207d988f2873cf78b9e6fbf45449d655089d159be8ca42a4189f799"
+    },
+    {
+      "path": "archives/hacl-snapshot.tar.gz",
+      "bytes": 10532537,
+      "sha256": "26308a39938607029f956d7db77b2aa2fd50fb32f917f0299fe9c48af022f893"
+    },
+    {
+      "path": "archives/karamel-last-source.tar.gz",
+      "bytes": 960530,
+      "sha256": "b7f2e1f09f14c893c5119afc386f01c06e6f1ebdf400087eefa7d5ceb7e81de3"
+    },
+    {
+      "path": "archives/karamel-recorded-source.tar.gz",
+      "bytes": 957198,
+      "sha256": "7eee5043ad9e0850841e674eed8a8175c92fd9fdc3ab7b4060c7dd89e24f3794"
+    },
+    {
+      "path": "archives/karamel-snapshot.tar.gz",
+      "bytes": 958396,
+      "sha256": "78b41a190cac13924cd85e6946fa9b561e15aa81116847e8efe9733149378610"
+    },
+    {
+      "path": "archives/libcrux-hacl-rs-0.0.5.crate",
+      "bytes": 46573,
+      "sha256": "66106db376ae249af86911aee048cf73ea1f394d6653026fc988dd22cf2a4ace"
+    },
+    {
+      "path": "archives/libcrux-macros-0.0.3.crate",
+      "bytes": 5623,
+      "sha256": "ffd6aa2dcd5be681662001b81d493f1569c6d49a32361f470b0c955465cd0338"
+    },
+    {
+      "path": "hacl-krml-to-libcrux-macros.patch",
+      "bytes": 6169,
+      "sha256": "6da553fae11194779c23371953ae38f1c546fe27ac8bb18d0605fa8db6a24012"
+    },
+    {
+      "path": "hacl-to-libcrux.patch",
+      "bytes": 708232,
+      "sha256": "08325c8fb3aadd37b3cbfd20fec1ba81c77743d81913d77defb83ab3546ac0c6"
+    },
+    {
+      "path": "origins/fstar-last-tree.json",
+      "bytes": 1460440,
+      "sha256": "b22b38522db68b6222b8a47077346508caeaa0fcdac670ddc718478d32668499"
+    },
+    {
+      "path": "origins/fstar-tree.json",
+      "bytes": 1562376,
+      "sha256": "86914e3b19cfd56cc6d217e622aaa37ca3594bc55c31a880cada4f04cedc3f1f"
+    },
+    {
+      "path": "origins/hacl-all-rust-history.json",
+      "bytes": 77414,
+      "sha256": "ad18f93c8cdeeb1f882fd8271cb53be861404983ff34dd983cef91da4110ec56"
+    },
+    {
+      "path": "origins/hacl-commit.json",
+      "bytes": 11898,
+      "sha256": "d940f501d4f1bf997ade9483f7743ffefba50ed6bc9039555145ed91ec5b1744"
+    },
+    {
+      "path": "origins/hacl-generation-tree.json",
+      "bytes": 963855,
+      "sha256": "498f8d49e34ac3ddbad5e0955285e69800d1e37f3f2cdf3850df9a597abe27c6"
+    },
+    {
+      "path": "origins/hacl-last-rust-commit.json",
+      "bytes": 963166,
+      "sha256": "6469a18dd3f00eeff897ddb0cf6811b79fac50bfbed74524244e1291ebe752bc"
+    },
+    {
+      "path": "origins/hacl-last-rust-tree.json",
+      "bytes": 964331,
+      "sha256": "6bb821f6b1be82c01bafc92b56bb37fb7af4f7faaf1753d092b73dc5b846f9f0"
+    },
+    {
+      "path": "origins/hacl-rust-commit.json",
+      "bytes": 93465,
+      "sha256": "57e59f9cdac526729247a695946abbc8aecd90efba726d162f7f1543e6aa60cc"
+    },
+    {
+      "path": "origins/hacl-rust-history.json",
+      "bytes": 7780,
+      "sha256": "2c291ab3e00c219671f0319f7f6cda54019184fc8193885ea6ace6d8aa57cb8c"
+    },
+    {
+      "path": "origins/hacl-tree.json",
+      "bytes": 1187260,
+      "sha256": "7abad9c2074958e6ecc96f803ee0404d727b11b73f3cd2ae820ff8bf0ec37852"
+    },
+    {
+      "path": "origins/karamel-last-tree.json",
+      "bytes": 216012,
+      "sha256": "a1f31ae42cf2f9d434af2e06c1475024a7bc7a6f5009f2937c2792552febfc3a"
+    },
+    {
+      "path": "origins/karamel-recorded-tree.json",
+      "bytes": 215786,
+      "sha256": "ba6eab344e87abb0202f13817e40d918438abdf22199df4fefa42a0b47f5f684"
+    },
+    {
+      "path": "origins/karamel-tree.json",
+      "bytes": 216012,
+      "sha256": "5d2441c2b22db51dd177738582fca36071d5c795da1c9017d55a8b04fa693421"
+    },
+    {
+      "path": "origins/libcrux-LICENSE",
+      "bytes": 10756,
+      "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564"
+    },
+    {
+      "path": "origins/libcrux-LICENSE-MIT",
+      "bytes": 1064,
+      "sha256": "e40d41f94826514279cc7648088180e19621f7acd281dd394a0534d535da51fd"
+    },
+    {
+      "path": "origins/libcrux-tree.json",
+      "bytes": 634796,
+      "sha256": "5c24766588687580d46fb1a8a683879820c1627195efe8801339bd48333c8ade"
+    },
+    {
+      "path": "origins/macros-tree.json",
+      "bytes": 451235,
+      "sha256": "3c7b98bed0fce9f129487a825b61449c2fe0e2b39f7d5bab1a2d6b7588fa51a6"
+    }
+  ]
+}

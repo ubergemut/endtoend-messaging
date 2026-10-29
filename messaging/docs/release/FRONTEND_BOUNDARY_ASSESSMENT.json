@@ -1,0 +1,536 @@
+{
+  "kind": "endtoend-concrete-frontend-grant-boundary-assessment",
+  "step": 6,
+  "status": "complete",
+  "assessor": "Codex internal automated assessment; no external legal opinion",
+  "assessedAt": "2026-10-26T15:23:28.561532+00:00",
+  "ownerFirstPartyAuthorityAccepted": true,
+  "ownerConfirmationDate": "2026-10-24",
+  "thirdPartyRightsClaimed": false,
+  "previouslyGrantedRightsPreserved": true,
+  "grants": [
+    {
+      "scope": "apps/web",
+      "license": "AGPL-3.0-only",
+      "basis": "Derived original frontend; technical SDK migration is not independent reauthoring."
+    },
+    {
+      "scope": "apps/desk-client",
+      "license": "MIT",
+      "basis": "Fresh-context authoring from frozen MIT SDK0.2.0 and explicit public-interface instructions; no protected frontend/engine source consulted.",
+      "provenancePath": "apps/desk-client/AUTHORING_PROVENANCE.json",
+      "provenanceSha256": "f449ba15bfef3bfcb8105cf2bd8d244af99a28f193687934f7da30a893703c8a"
+    },
+    {
+      "scope": "packages/client, packages/protocol",
+      "license": "MIT",
+      "sdkVersion": "0.2.1",
+      "wireVersion": 1,
+      "archive": {
+        "filename": "endtoend-mit-sdk-0.2.1.tar.gz",
+        "bytes": 50942,
+        "sha256": "8a1d1ead6890833cb94f117a752e052b2662870c6765a25b853d752d9c5aa4a7",
+        "manifestSha256": "db09c0043e9b1fcfa7321540796dc26af0823a182962dd6f1d122246b9579954",
+        "files": 35
+      }
+    }
+  ],
+  "reasoningPath": "docs/release/FRONTEND_BOUNDARY_ASSESSMENT.md",
+  "reasoningSha256": "7648206ed6ece474f51ba8182068ac8d5154d99cbc09cb6e6c9ee3912cbacca0",
+  "sourceInputs": [
+    {
+      "path": "apps/web/src/App.tsx",
+      "bytes": 68453,
+      "sha256": "e52e076199f162b4b1b1eba12a787e20b6ff845441fc347c1cdad0743c6c876b"
+    },
+    {
+      "path": "apps/web/src/AppearanceBar.tsx",
+      "bytes": 3379,
+      "sha256": "b1c3d85fb16812c3d58699fe482939add912f461672e3042ce7d56a07f54ba6a"
+    },
+    {
+      "path": "apps/web/src/api.ts",
+      "bytes": 1053,
+      "sha256": "2ff403e9b6a04074b95177cd5abc5bb376e424d6ae79bc6f446917cdbb59b0d1"
+    },
+    {
+      "path": "apps/web/src/appearance.ts",
+      "bytes": 2426,
+      "sha256": "0b4ec0a92b52ed65b71f52b4d7079344c58881545fa232471a7559ae56f6cecb"
+    },
+    {
+      "path": "apps/web/src/browserSession.ts",
+      "bytes": 10294,
+      "sha256": "667e8a41b84ed6b98d32bda6e23bfa005f65ad4fcc4ffad5b7d173ad12e29977"
+    },
+    {
+      "path": "apps/web/src/cryptoCheck.tsx",
+      "bytes": 915,
+      "sha256": "13b5651f5cc53718186f26cbbdd31dbcfca6644ef2277157ecbc50bdaac3e99a"
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "bytes": 608,
+      "sha256": "7fb1df113c209986b26c2df03a2c61654edbc37f2718eb8212ffd7ce6670106e"
+    },
+    {
+      "path": "apps/web/src/media.ts",
+      "bytes": 125,
+      "sha256": "7b95a406467c70f82909ce529901b2ee644906bb51ce06fca93d93b5a0b2995d"
+    },
+    {
+      "path": "apps/web/src/runtimeConfig.ts",
+      "bytes": 4934,
+      "sha256": "28808f1b4c9e6bd67b063d294d969e84f918e458a87428cfa178da5bcd625d5a"
+    },
+    {
+      "path": "apps/web/src/site/DESIGN.md",
+      "bytes": 17733,
+      "sha256": "790a9f339d51d8d0d262c6dc3ac13efd86a4b9c43c5363398295a961d9a0af81"
+    },
+    {
+      "path": "apps/web/src/site/Site.tsx",
+      "bytes": 16217,
+      "sha256": "5f425aa562a79cd8bdc79af6c274f85a5906f5419519f8d2b7be33dfac78d478"
+    },
+    {
+      "path": "apps/web/src/site/guide.ts",
+      "bytes": 9309,
+      "sha256": "d5f384ecbad7d7861379f62a6dcc136b31137bd91dfa4f2fb138e4fb783e1a28"
+    },
+    {
+      "path": "apps/web/src/site/site.css",
+      "bytes": 21630,
+      "sha256": "3149236eb0b1e59d4a6e7cb96ef3b87f8682619af37d68fc719412755493b639"
+    },
+    {
+      "path": "apps/web/src/stay.ts",
+      "bytes": 2439,
+      "sha256": "38af4291401c0dd93e376a9299563e3da4f2f4f22d0c83ba298d4d673d25301d"
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "bytes": 18089,
+      "sha256": "508aefbc6e7c0c7e76206d6593a0b44c42cf156e32497a9ea6aaff6b2e9184a7"
+    },
+    {
+      "path": "apps/web/src/vault.ts",
+      "bytes": 270,
+      "sha256": "4213f8f1e68e6cbaabe68b8984df1d011fd4d2f6487a6bc32bc0f2d40c763877"
+    },
+    {
+      "path": "apps/web/public/guide/chat.png",
+      "bytes": 32906,
+      "sha256": "954d207a6b091f5fa41b3a1045f41e0f9b2c9713be099d4aa401ff6edb39ca07"
+    },
+    {
+      "path": "apps/web/public/guide/group.png",
+      "bytes": 41351,
+      "sha256": "1e3a097b3e9f0f23bfb151e62f43c308b928b81ca12cbb1331f6cb90db37f40c"
+    },
+    {
+      "path": "apps/web/public/guide/inbox-empty.png",
+      "bytes": 18596,
+      "sha256": "8c172aceff50e007dcedcccf6fbc2d0a1c8419ff90f5bb5d714329f12e29f05e"
+    },
+    {
+      "path": "apps/web/public/guide/login.png",
+      "bytes": 16326,
+      "sha256": "aa580ab1a04834847cf85d66dc2431428e541158629a0fbe2013e6146dcc542a"
+    },
+    {
+      "path": "apps/web/public/guide/media.png",
+      "bytes": 39100,
+      "sha256": "5b14208cb5490bf5517f58f141224e99ffa83f6346e80434a7a66c5edcf77736"
+    },
+    {
+      "path": "apps/web/public/guide/new-group.png",
+      "bytes": 36516,
+      "sha256": "7931a977e2813e494ca257c84d526d2bd059cb52284f089666d64edae40fac7c"
+    },
+    {
+      "path": "apps/web/public/guide/phone-chat.png",
+      "bytes": 21205,
+      "sha256": "1700b5f6d59eab3a5b1e926a647ffe0a69ab28c41d337077d8c1f91e1b217e8a"
+    },
+    {
+      "path": "apps/web/public/guide/phone-list.png",
+      "bytes": 15832,
+      "sha256": "b2276805dd5ee3dca75b08493dbb19f581991a8a689beb7ca378dd287ab38db8"
+    },
+    {
+      "path": "apps/web/public/guide/phone-thread.png",
+      "bytes": 13957,
+      "sha256": "4966a46d163d588a4965db5d33c38de543c0695cfcbef98752c2e182faedade6"
+    },
+    {
+      "path": "apps/web/public/guide/register.png",
+      "bytes": 20985,
+      "sha256": "57dc34435233951af6ee8630c1f4c09f5fccdfbf86bdb48f70117dc2546cdb9a"
+    },
+    {
+      "path": "apps/web/public/guide/requests.png",
+      "bytes": 27649,
+      "sha256": "22c76597e5dff0b951a4b1ec36d5854b682ef30a9caf54b75d126da445e833e8"
+    },
+    {
+      "path": "apps/web/public/guide/safety.png",
+      "bytes": 41341,
+      "sha256": "77c082c57787bdff680f90cf7a4b805108cb3ad3b30b22785e7bfedd62a3744f"
+    },
+    {
+      "path": "apps/web/public/guide/server-view.png",
+      "bytes": 50355,
+      "sha256": "57ac3f23d2404d03132272818e0b26cb784213af5147517105908d9a059291a4"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-chat.png",
+      "bytes": 102237,
+      "sha256": "618b19f6c873ad2100b044911657b1cfe17d83ff8af4da55bd80a29a97712b9e"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-group.png",
+      "bytes": 115980,
+      "sha256": "9fb4d3f628bbdc0e730a77afdca560805b2e876eccfc76400f32b1c39a5f828e"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-inbox-empty.png",
+      "bytes": 98535,
+      "sha256": "450685b328d5bd0d6f10b184dd03a1a82b50207d195fd544aa7db562983793db"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-login.png",
+      "bytes": 88595,
+      "sha256": "31bb5e9c89ba1bd6a4672d4a52b9d4a5b913c7bc30bf8aca3abbe6d2dfc668b0"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-media.png",
+      "bytes": 82458,
+      "sha256": "f67c198858af7bbe37d4936ffe71e5b1a72d048cb6ddcd63c35f90a84f557a42"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-new-group.png",
+      "bytes": 107642,
+      "sha256": "8b0e2cfc65702b772d45ce03c970297faf5988a02d9cbbaca7f1d920ee4b0704"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-phone-chat.png",
+      "bytes": 103065,
+      "sha256": "32564f054478bb75c77c5bc4f99cc873b2d38da9febe97eafe016301f0ef329e"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-phone-list.png",
+      "bytes": 91886,
+      "sha256": "61b2ed4714916637b7b77f5dde10d83dea9ab9b4b5fd2820a8d62a55ae7a65ca"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-phone-thread.png",
+      "bytes": 78980,
+      "sha256": "d8163024f7c07ae349a0871c5f7ff5ab3a2f1838a6f9e9ecbd0ec8c96613d3dc"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-register.png",
+      "bytes": 92558,
+      "sha256": "8baf58e8ffac43bacec66dad287c98f2af704d40f326b8f994fef2c650a3075a"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-requests.png",
+      "bytes": 107230,
+      "sha256": "cdd81b130e5d26f044f050af30301844e6bc8d12b96aaaa1503a7c6531ceaecb"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-safety.png",
+      "bytes": 112926,
+      "sha256": "ad7fc64a33be815711cac5d4eaca7f39fed8c9010743f437f5ac0b1c03d3258c"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-server-view.png",
+      "bytes": 133802,
+      "sha256": "02190a8689edf882bcde56d514c5ac075f0189ceddf4fe45960c97d1e9a0918d"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-thread.png",
+      "bytes": 119787,
+      "sha256": "a6148cfbf71b1160b751dd6b3f374f194908e252fdebd81dcde74f529c67ae92"
+    },
+    {
+      "path": "apps/web/public/guide/site-guide.png",
+      "bytes": 302361,
+      "sha256": "d51865759f20140508d78bb09185000ea77134fcb00c8b428f37ad236ce2de06"
+    },
+    {
+      "path": "apps/web/public/guide/site-home.png",
+      "bytes": 148239,
+      "sha256": "4e01f714c49ddf6e584aad39ca63adfeed189777f3a9ba5e6c76238feff070dd"
+    },
+    {
+      "path": "apps/web/public/guide/site-how.png",
+      "bytes": 95426,
+      "sha256": "13cb71705020ab9cd4393e1048d4b6e62e0a1a63bffbaf9d1e2aeee20ba6f11d"
+    },
+    {
+      "path": "apps/web/public/guide/site-limits.png",
+      "bytes": 69019,
+      "sha256": "bf9ec2727e0f67ae04a1782f7968a819bcc23213fb236da29be3997b134f68d3"
+    },
+    {
+      "path": "apps/web/public/guide/site-why.png",
+      "bytes": 79625,
+      "sha256": "3902751eb12de7e068b0e63f72ffb5e3f325a91d29ba70b92db90fd3c525e0df"
+    },
+    {
+      "path": "apps/web/public/guide/thread.png",
+      "bytes": 43199,
+      "sha256": "614fd730f658ed71af09a07c75643b083ce34e18339cf66589a02332644b56ee"
+    },
+    {
+      "path": "apps/web/test/presentation-boundary.test.ts",
+      "bytes": 10983,
+      "sha256": "aac4f6cd15420071646cc37119b020a3533917520bbb8d008abde33de64c833b"
+    },
+    {
+      "path": "apps/web/BOUNDARY.md",
+      "bytes": 3080,
+      "sha256": "8793b5e5b890db015e4e43d91ce9b0c94c6a0e86750588a5bc5b46352e331806"
+    },
+    {
+      "path": "apps/web/package.json",
+      "bytes": 654,
+      "sha256": "87987902a9a259183617722d1d2dd3633f6960b0bd8d756bbe4eae1dfd9b529a"
+    },
+    {
+      "path": "apps/web/index.html",
+      "bytes": 307,
+      "sha256": "ca57e9e604fa2aafaf2df3e4d04583b8e62eba104fdcf79626c0d7c58abcb422"
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "bytes": 378,
+      "sha256": "fd51da15c1ca89c1c1936c6b9e8cb59ce08003e1dab0a9c7b6aedc1046561b1a"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "bytes": 333,
+      "sha256": "505dfc9f4c671fe0a753bf80187f120ca6fa097be637a5819bf8ede8e8f6bdf5"
+    },
+    {
+      "path": "apps/desk-client/AUTHORING_PROVENANCE.json",
+      "bytes": 2377,
+      "sha256": "f449ba15bfef3bfcb8105cf2bd8d244af99a28f193687934f7da30a893703c8a"
+    },
+    {
+      "path": "apps/desk-client/LICENSE",
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+    },
+    {
+      "path": "apps/desk-client/README.md",
+      "bytes": 7685,
+      "sha256": "f72687e3010436fbc43628c2643d02ac070fdee6a67092500455d339c8fca6b2"
+    },
+    {
+      "path": "apps/desk-client/desk.css",
+      "bytes": 8925,
+      "sha256": "3818287d416f8b6de1c38e69d48ae8740724b735d9bdb7ad32487cab95621045"
+    },
+    {
+      "path": "apps/desk-client/desk.js",
+      "bytes": 33123,
+      "sha256": "c9e043ab0a884d2b62065c60454612e1df21fb94feca5229c30123258d7dbef2"
+    },
+    {
+      "path": "apps/desk-client/index.html",
+      "bytes": 6671,
+      "sha256": "23322ad24593a2e36f997a1e238747af1dc325339fe54c317a064ea401668619"
+    },
+    {
+      "path": "apps/desk-client/package.json",
+      "bytes": 364,
+      "sha256": "bca75e1cde8adedd86f3a6cd092759ce5b1204e6ae94b77203830ec5f60bfaa1"
+    },
+    {
+      "path": "apps/desk-client/test/browser-acceptance.mjs",
+      "bytes": 9660,
+      "sha256": "5a5dcb46c86ecdfa6f8e84d474746821f8ab0af924c28c88113f2809352470fc"
+    },
+    {
+      "path": "apps/desk-client/test/public-interface-lifecycle.mjs",
+      "bytes": 17490,
+      "sha256": "3ab3f69025d5f18061d4d92e297cd84ea2722aca25fd85fd26c1a81454d07c58"
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "bytes": 7375,
+      "sha256": "e534f3225a77965bd346d7463d35bc455437b342211a2c7bd0036ad532a4d794"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+    }
+  ],
+  "sourceInputsVerifiedAgainstCurrentCheckout": 66,
+  "bundlerModules": 43,
+  "consumerArtifactScope": "Compiler-generated JS/CSS and exact static consumer files; not a complete messaging release/runtime archive.",
+  "semantics": "Serialized public commands and presentation DTOs/plaintext attachment bytes; no executable callbacks, Session/Vault/ratchet objects, host database models, attachment encryption keys or protected implementation imports.",
+  "mechanicalEvidence": [
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\CONSUMER_BUILD_RECEIPT.json",
+      "sha256": "1a0d6905c102648c9a3ffe608af0a5d0351836b2bb017a6da6aab7ce4f9040af"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\FRONTEND_BOUNDARY_EVIDENCE.json",
+      "sha256": "ce669016d2367a424d70c9a3454cb044ca5ce58914501bcd419dd4f732a5705e"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\full-frontend-browser-final.json",
+      "sha256": "938c66b5a3ca2d4c6d893d4850d4e8a45210f14bf6bb6b2e9e82364bcb1ff658"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\cross-frontend-browser.json",
+      "sha256": "9689b1dc504f13a2803682983255af0af8239d2ef53b1af563fa34790d401833"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\desk-lifecycle-final.json",
+      "sha256": "906385457cfdf7b6e13fe29179b87e167f3b22c5a26cbe1229246a728dc3ef62"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\reference-browser.json",
+      "sha256": "7e92d06f1b379d10d9bb508c8726c7466f4fad9b0b803ad3d6bf47076d7ddd4b"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\host-integration.json",
+      "sha256": "ff11e07b77a79f7a5f62482c706dd56282779274479b62efb2bf85f6650ece96"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\mit-sdk\\PACKAGE_RECEIPT.json",
+      "sha256": "db395068937f13005642e513ecb21eb7ca77a287e37da1a9c32c80795bdc40a7"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\mit-sdk\\SDK_MANIFEST.json",
+      "sha256": "db09c0043e9b1fcfa7321540796dc26af0823a182962dd6f1d122246b9579954"
+    },
+    {
+      "path": "C:\\Users\\chris\\Documents\\Codex\\2026-10-23\\ex\\outputs\\messaging-0.2.0-step-6\\mit-sdk\\native-browser-fetch.json",
+      "sha256": "13bcbe2998c3e3516f3014dddd5985fe6e115ad0af2e03556f8c382c524ca0b5"
+    }
+  ],
+  "checks": {
+    "workspace": {
+      "passed": 138,
+      "failed": 0,
+      "log": "workspace-tests-final.log"
+    },
+    "fullFrontendBrowser": {
+      "passed": 14,
+      "receipt": "full-frontend-browser-final.json"
+    },
+    "crossFrontendBrowser": {
+      "passed": 10,
+      "receipt": "cross-frontend-browser.json",
+      "verifiedAssets": 18
+    },
+    "deskPublicInterfaceBrowser": {
+      "passed": 17,
+      "receipt": "desk-lifecycle-final.json"
+    },
+    "referenceBrowser": {
+      "passed": 12,
+      "receipt": "reference-browser.json"
+    },
+    "hostIntegration": {
+      "passed": 9,
+      "receipt": "host-integration.json"
+    },
+    "isolatedSdk": {
+      "passedPerRun": 20,
+      "runs": [
+        "source stage",
+        "fresh archive extraction"
+      ],
+      "receipt": "mit-sdk/PACKAGE_RECEIPT.json"
+    },
+    "nativeBrowserFetch": {
+      "passed": true,
+      "receipt": "mit-sdk/native-browser-fetch.json"
+    },
+    "isolatedWeb": {
+      "passed": 11,
+      "log": "web-tests.log"
+    },
+    "consumerHostAfterFinalFix": {
+      "passed": 4,
+      "log": "consumer-host-tests.log"
+    },
+    "typecheck": {
+      "passed": true,
+      "log": "web-typecheck.log"
+    },
+    "boundary": {
+      "passed": true,
+      "sources": 23,
+      "edges": 34,
+      "includedModules": 43,
+      "longCopiedTokenMatches": 0,
+      "receipt": "FRONTEND_BOUNDARY_EVIDENCE.json"
+    }
+  },
+  "futureIntegrationBlanketExemptionClaimed": false,
+  "externalReviewRequired": false,
+  "finalReleaseSourceAcceptanceComplete": false,
+  "publicationAuthorized": false,
+  "published": false,
+  "deployed": false,
+  "remainingSteps": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "cleanupResidual": {
+    "path": "C:/Users/chris/AppData/Local/Temp/endtoend-sdk-consumers-63mPsv",
+    "syntheticOnly": true,
+    "process68452AbsentAtInspection": true,
+    "cleanupBlockedByAutomaticApprovalReview": true,
+    "reason": "blocked by policy; no more specific reason returned"
+  },
+  "supportingToolAndGrantFiles": [
+    {
+      "path": "scripts/build-sdk-consumers.mjs",
+      "sha256": "2ad3361170a414bea925bcf4d6f2f10991e3b06861e6b81f003a92a436fb8b51"
+    },
+    {
+      "path": "scripts/audit-sdk-consumers.mjs",
+      "sha256": "9cfa0c6e11a83b04f41ef4fde4e01e3430ad0e7aabc4895e03da036300e28528"
+    },
+    {
+      "path": "scripts/serve-sdk-consumer.mjs",
+      "sha256": "c441666471bea31a018b2495e56d5b9c440078046bc862ca19b2a27a8d09a209"
+    },
+    {
+      "path": "scripts/serve-sdk-consumer.test.mjs",
+      "sha256": "ae9dbee33babf079dd722507d899e629fbb470dbce9d55250ee160aea39c3fea"
+    },
+    {
+      "path": "scripts/test-sdk-consumers.mjs",
+      "sha256": "fe790fc516a436f9d15d73f6fc910a64f0fbd2085320cb577e93d594f7e74652"
+    },
+    {
+      "path": "scripts/agent-browser-acceptance.mjs",
+      "sha256": "f03c2ebe5c41b2dff9f2685a7127ec771def65ee03ac2d86bea0ca972c558ff6"
+    },
+    {
+      "path": "docs/architecture/BROWSER_CONSUMER_V1.md",
+      "sha256": "c9549b54a8937c6bca5bfa635183a4f372eda10c08d717f6a6a1789d344bb82e"
+    },
+    {
+      "path": "LICENSING.md",
+      "sha256": "0afb4af0bf648ccb5a425ec0b2b6c3df64d7a49c2aa1cb93afeb7de11919af58"
+    }
+  ],
+  "reviewFollowup": {
+    "nativeProxyHttpsMismatch": "resolved with node:https.request and normal TLS verification",
+    "hostCookieForwarding": "stripped from native proxy; affected host tests rerun and passed",
+    "automaticCleanupReview": "one abandoned synthetic fixture directory remains; no unresolved application-test failure"
+  }
+}

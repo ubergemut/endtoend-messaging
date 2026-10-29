@@ -1,0 +1,16 @@
+{
+  "name": "endtoend-independent-mit-sdk",
+  "version": "0.2.1",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "yarn@1.22.22",
+  "workspaces": [
+    "packages/protocol",
+    "packages/client"
+  ],
+  "scripts": {
+    "build": "yarn workspace @e2ee/client build",
+    "test": "yarn workspace @e2ee/protocol test && yarn workspace @e2ee/client test && node --test scripts/package-sdk.test.mjs"
+  }
+}

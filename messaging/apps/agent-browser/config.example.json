@@ -1,0 +1,6 @@
+{
+  "allowedCallerOrigins": ["https://product.example.test"],
+  "relayOrigins": ["https://relay.example.test"],
+  "sourceUrl": "https://agent.example.test/source/endtoend-agent-0.1.0.tar.gz",
+  "version": "0.1.0"
+}

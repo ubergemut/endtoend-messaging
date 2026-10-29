@@ -1,0 +1,18 @@
+[target.wasm32-unknown-unknown]
+rustflags = ["--cfg", "getrandom_backend=\"wasm_js\""]
+
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/signalapp/SparsePostQuantumRatchet.git?tag=v1.6.0"]
+git = "https://github.com/signalapp/SparsePostQuantumRatchet.git"
+tag = "v1.6.0"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/signalapp/libsignal?tag=v0.104.0"]
+git = "https://github.com/signalapp/libsignal"
+tag = "v0.104.0"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "../../dependencies/cargo"

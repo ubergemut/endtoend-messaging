@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="no-referrer">
+    <title>EndToEnd · Correspondence desk</title>
+    <link rel="stylesheet" href="./desk.css">
+    <script type="importmap">{"imports":{"@e2ee/client/standalone":"/sdk/client/index.js","@e2ee/protocol/standalone":"/sdk/protocol/index.js"}}</script>
+    <script type="module" src="./desk.js"></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="wordmark"><span aria-hidden="true" class="brand-stamp">e↔e</span><div><strong>EndToEnd</strong><span>Correspondence desk</span></div></div>
+      <div class="session-tools"><span id="account-label">A little room for conversation.</span><button id="sync" disabled>Sync</button><button id="lock" disabled>Lock</button><button id="signout" disabled>Sign out</button></div>
+    </header>
+    <aside id="source-notice" aria-label="Software source and licenses">Desk client · MIT. <a href="/release.json">Source and release information</a></aside>
+    <div class="notice" id="notice" role="status" aria-live="polite">Opening your desk…</div>
+    <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+      <div><span class="eyebrow">Your correspondence, in one place</span><h1 id="welcome-title">Pull up a chair.</h1><p>Connect to your trusted agent to open messages. Device secrets and identity decisions stay in its separate window.</p><p id="connection-description" class="muted">Reading the host’s connection settings.</p></div>
+      <form id="auth-form" autocomplete="off">
+        <div id="native-fields" hidden>
+          <label for="login-handle">Handle</label><input id="login-handle" name="handle" minlength="3" maxlength="32" pattern="[a-z0-9_]{3,32}" autocomplete="off" placeholder="your_handle">
+          <label for="login-password">Service password</label><input id="login-password" name="service-password" type="password" minlength="5" autocomplete="off" placeholder="Native demo service only">
+          <label for="display-name">Display name <span class="muted">(registration)</span></label><input id="display-name" name="display-name" maxlength="100" autocomplete="off">
+          <div class="button-row"><button id="login" class="primary" type="submit" disabled>Sign in & open agent</button><button id="register" type="button" disabled>Register</button></div>
+          <p class="fine">This password signs in to the explicitly configured demo service. Enter the device unlock secret only in the trusted agent.</p>
+        </div>
+        <button id="connect-agent" class="primary" type="button" disabled hidden>Connect trusted agent</button>
+        <button id="cancel-connect" type="button" hidden>Cancel connection</button>
+      </form>
+    </section>
+    <main id="desk" class="desk" aria-label="Messaging desk" hidden>
+      <aside class="rail">
+        <div class="rail-heading"><span class="eyebrow">Address book</span><span id="contact-count" class="count">0</span></div>
+        <nav id="contacts" aria-label="Contacts"></nav>
+        <details class="rail-form"><summary>Add a contact</summary><form id="contact-form"><label for="contact-handle">Contact handle</label><input id="contact-handle" maxlength="64" required><label for="contact-note">A short note</label><textarea id="contact-note" rows="2" maxlength="1000"></textarea><button id="request-contact" type="submit">Send request</button></form></details>
+        <div class="rail-heading room-heading"><span class="eyebrow">Rooms</span><span id="room-count" class="count">0</span></div>
+        <nav id="rooms" aria-label="Rooms"></nav>
+        <details class="rail-form"><summary>Start a room</summary><form id="room-form"><label for="room-name">Room name</label><input id="room-name" required maxlength="100"><label for="room-members">Member handles</label><input id="room-members" required placeholder="alex, robin"><button id="create-room" type="submit">Create room</button></form></details>
+        <section class="requests"><h2>Contact requests</h2><div id="requests"></div></section>
+      </aside>
+      <section class="conversation" aria-labelledby="conversation-title">
+        <header class="conversation-heading"><div><span class="eyebrow">The conversation</span><h1 id="conversation-title">Choose a contact or room</h1></div><span id="connection-status" class="status-dot">Connected</span></header>
+        <div id="transcript" class="transcript" aria-live="polite"><p class="empty">Your notes and conversations will appear here.</p></div>
+        <div class="composer-area">
+          <div id="reply-context" class="reply-context" hidden><span id="reply-label"></span><button id="cancel-reply" aria-label="Cancel reply">×</button></div>
+          <form id="message-form"><label for="message-body">Write a message</label><textarea id="message-body" rows="3" maxlength="100000" placeholder="Something to say…" disabled></textarea><div class="composer-footer"><label class="file-picker" for="file-input">Attach a file <input id="file-input" type="file" disabled></label><span id="file-label" class="muted">No file attached</span><button id="send-file" type="button" disabled>Send file</button><button id="send" class="primary" type="submit" disabled>Send message ↗</button></div></form>
+          <div id="uncertain-send" class="uncertain-send" hidden><p>A response was lost. This exact intent keeps its operation ID.</p><button id="retry-intent">Retry same intent</button><button id="clear-intent">Review & dismiss</button></div>
+        </div>
+      </section>
+      <aside class="inspector" aria-label="Conversation details">
+        <span class="eyebrow">On this desk</span><h2>Details & files</h2><div id="message-details"><p class="muted">Select a message card to inspect its details.</p></div>
+        <section class="identity"><h2>Identity check</h2><p id="identity-label" class="muted">Choose a contact to compare safety numbers.</p><button id="safety-number" disabled>Show safety number</button><output id="safety-value"></output><button id="verify-contact" disabled>Ask trusted verification</button><button id="trust-contact" disabled>Review changed identity</button><p class="fine">Complete approvals in the trusted agent window.</p></section>
+        <section class="delivery"><h2>Delivery tray</h2><div id="pending-sends"><p class="muted">No retained sends.</p></div><button id="retry-pending" disabled>Retry pending sends</button></section>
+        <p class="fine desktop-note">An independently authored MIT desk. The trusted agent handles encryption and keys.</p>
+      </aside>
+    </main>
+    <footer>EndToEnd <span aria-hidden="true">/</span> A quiet place to keep in touch. <span id="revision"></span></footer>
+  </body>
+</html>

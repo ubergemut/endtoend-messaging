@@ -1,0 +1,101 @@
+{
+  "sha": "efbf82f29190e2aecdac8899e4f42c8cb9defc98",
+  "node_id": "C_kwDOA68NytoAKGVmYmY4MmYyOTE5MGUyYWVjZGFjODg5OWU0ZjQyYzhjYjlkZWZjOTg",
+  "commit": {
+    "author": {
+      "name": "Aymeric Fromherz",
+      "email": "aymeric.fromherz@inria.fr",
+      "date": "2024-11-06T07:54:42Z"
+    },
+    "committer": {
+      "name": "Aymeric Fromherz",
+      "email": "aymeric.fromherz@inria.fr",
+      "date": "2024-11-06T07:54:42Z"
+    },
+    "message": "Remove tmp file",
+    "tree": {
+      "sha": "d4912c29dddfe3e2a326953325921316f1d2ecc5",
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/d4912c29dddfe3e2a326953325921316f1d2ecc5"
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/efbf82f29190e2aecdac8899e4f42c8cb9defc98",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/efbf82f29190e2aecdac8899e4f42c8cb9defc98",
+  "html_url": "https://github.com/hacl-star/hacl-star/commit/efbf82f29190e2aecdac8899e4f42c8cb9defc98",
+  "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/efbf82f29190e2aecdac8899e4f42c8cb9defc98/comments",
+  "author": {
+    "login": "R1kM",
+    "id": 6841566,
+    "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/R1kM",
+    "html_url": "https://github.com/R1kM",
+    "followers_url": "https://api.github.com/users/R1kM/followers",
+    "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+    "organizations_url": "https://api.github.com/users/R1kM/orgs",
+    "repos_url": "https://api.github.com/users/R1kM/repos",
+    "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/R1kM/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "R1kM",
+    "id": 6841566,
+    "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/R1kM",
+    "html_url": "https://github.com/R1kM",
+    "followers_url": "https://api.github.com/users/R1kM/followers",
+    "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+    "organizations_url": "https://api.github.com/users/R1kM/orgs",
+    "repos_url": "https://api.github.com/users/R1kM/repos",
+    "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/R1kM/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "05432801142c8249f43e364535429c60b899ebb0",
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/05432801142c8249f43e364535429c60b899ebb0",
+      "html_url": "https://github.com/hacl-star/hacl-star/commit/05432801142c8249f43e364535429c60b899ebb0"
+    }
+  ],
+  "stats": {
+    "total": 214,
+    "additions": 0,
+    "deletions": 214
+  },
+  "files": [
+    {
+      "sha": "72d67af7d028a0f81881b93c097e30d2992650b2",
+      "filename": "code/hkdf/#Hacl.HKDF.fst#",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 214,
+      "changes": 214,
+      "blob_url": "https://github.com/hacl-star/hacl-star/blob/05432801142c8249f43e364535429c60b899ebb0/code%2Fhkdf%2F%23Hacl.HKDF.fst%23",
+      "raw_url": "https://github.com/hacl-star/hacl-star/raw/05432801142c8249f43e364535429c60b899ebb0/code%2Fhkdf%2F%23Hacl.HKDF.fst%23",
+      "contents_url": "https://api.github.com/repos/hacl-star/hacl-star/contents/code%2Fhkdf%2F%23Hacl.HKDF.fst%23?ref=05432801142c8249f43e364535429c60b899ebb0",
+      "patch": "@@ -1,214 +0,0 @@\n-module Hacl.HKDF\n-\n-open FStar.Seq\n-\n-module B = Lib.Buffer\n-module LB = LowStar.Buffer\n-\n-open Spec.Hash.Definitions\n-open Spec.Agile.HKDF\n-\n-open FStar.Mul\n-open FStar.HyperStack\n-open FStar.HyperStack.ST\n-open Lib.Buffer\n-\n-friend Spec.Agile.HKDF\n-friend Lib.IntTypes\n-\n-module Seq = Lib.Sequence\n-\n-// TODO: proofs break mysteriously when not befriending Lib.IntTypes and\n-// declassifying uint8; investigate\n-// assume val declassify8: squash (uint8 == UInt8.t)\n-\n-module ST = FStar.HyperStack.ST\n-\n-#set-options \"--max_fuel 0 --max_ifuel 0 --z3rlimit 100\"\n-\n-let mk_extract a hmac prk salt saltlen ikm ikmlen =\n-  hmac prk salt saltlen ikm ikmlen\n-\n-val hmac_input_fits: a:fixed_len_alg -> Lemma\n-  ((pow2 32 + block_length a) `less_than_max_input_length` a)\n-let hmac_input_fits a =\n-  allow_inversion fixed_len_alg;\n-  match a with\n-  | MD5 ->\n-    assert_norm (pow2 32 + block_length MD5 <= Some?.v (max_input_length MD5))\n-  | SHA1 ->\n-    assert_norm (pow2 32 + block_length SHA1 <= Some?.v (max_input_length SHA1))\n-  | SHA2_224 ->\n-    assert_norm (pow2 32 + block_length SHA2_224 <= Some?.v (max_input_length SHA2_224))\n-  | SHA2_256 ->\n-    assert_norm (pow2 32 + block_length SHA2_256 <= Some?.v (max_input_length SHA2_256))\n-  | SHA2_384 ->\n-    assert_norm (pow2 32 + block_length SHA2_384 <= Some?.v (max_input_length SHA2_384))\n-  | SHA2_512 ->\n-    assert_norm (pow2 32 + block_length SHA2_512 <= Some?.v (max_input_length SHA2_512))\n-  | Blake2S ->\n-    assert_norm (pow2 32 + block_length Blake2S <= Some?.v (max_input_length Blake2S))\n-  | Blake2B ->\n-    assert_norm (pow2 32 + block_length Blake2B <= Some?.v (max_input_length Blake2B))\n-  | SHA3_224 -> ()\n-  | SHA3_256 -> ()\n-  | SHA3_384 -> ()\n-  | SHA3_512 -> ()\n-\n-#restart-solver\n-#push-options \"--z3rlimit 400\"\n-\n-let mk_expand a hmac okm prk prklen info infolen len =\n-  let hinit = ST.get () in\n-  let tlen = Hash.Definitions.hash_len a in\n-  let n = len /. tlen in\n-\n-  Math.Lemmas.lemma_div_mod (v len) (v tlen);\n-  hmac_input_fits a;\n-\n-  [@inline_let]\n-  let okm: B.lbuffer uint8 len = okm in\n-  [@inline_let]\n-  let prk: B.lbuffer uint8 prklen = prk in\n-  [@inline_let]\n-  let info: B.lbuffer uint8 infolen = info in\n-  let output: B.lbuffer uint8 (n *! tlen) = B.sub okm 0ul (n *! tlen) in\n-\n-  push_frame ();\n-  let text = B.create (tlen +! infolen +! 1ul) (u8 0) in\n-  B.copy (B.sub text tlen infolen) info;\n-\n-  let tag = B.create tlen (u8 0) in\n-  [@inline_let]\n-  let a_spec = a_spec a in\n-  [@inline_let]\n-  let refl h (i:size_nat{i <= v n}) : GTot (a_spec i) =\n-    if i = 0 then FStar.Seq.empty #uint8 else B.as_seq h tag\n-  in\n-  [@inline_let]\n-  let footprint (i:size_nat{i <= v n}) :\n-    GTot LB.(l:loc{loc_disjoint l (B.loc output) /\\\n-                   address_liveness_insensitive_locs `loc_includes` l}) =\n-    LB.loc_union (B.loc tag) (LB.loc_union (B.loc (gsub text 0ul tlen)) (B.loc (gsub text (tlen +! infolen) 1ul)))\n-  in\n-  [@inline_let]\n-  let spec h0 : GTot (i:size_nat{i < v n} -> a_spec i -> a_spec (i + 1) & Seq.lseq uint8 (v tlen)) =\n-    expand_loop a (B.as_seq h0 prk) (B.as_seq h0 info) (v n)\n-  in\n-  let h0 = ST.get () in\n-  B.fill_blocks h0 tlen n output a_spec refl footprint spec (fun i ->\n-    let text0: B.lbuffer uint8 (infolen +! 1ul) = B.sub text tlen (infolen +! 1ul) in\n-    let ctr = B.sub text (tlen +! infolen) 1ul in\n-    ctr.(0ul) <- Lib.IntTypes.cast U8 PUB (i +! 1ul);\n-    let h1 = ST.get() in\n-    if i = 0ul then\n-      begin\n-      Seq.eq_intro\n-        (B.as_seq h1 text0)\n-        (refl h1 (v i) @| B.as_seq h0 info @| Seq.create 1 (u8 (v i + 1)));\n-      hmac tag prk prklen text0 (infolen +! 1ul)\n-      // let h2 = ST.get() in\n-      // assert (B.as_seq h2 tag ==\n-      //   Spec.Agile.HMAC.hmac a (B.as_seq h0 prk)\n-      //     (FStar.Seq.empty @| B.as_seq h0 info @| Seq.create 1 (u8 (v i + 1))));\n-      // assert (let _, t = spec h0 0 (FStar.Seq.empty #uint8) in B.as_seq h2 tag == t)\n-      end\n-    else\n-      begin\n-      copy (sub text 0ul tlen) tag;\n-      let h1 = ST.get() in\n-      Seq.eq_intro\n-        (B.as_seq h1 text)\n-        (refl h1 (v i) @| B.as_seq h0 info @| Seq.create 1 (u8 (v i + 1)));\n-      hmac tag prk prklen text (tlen +! infolen +! 1ul)\n-      // let h2 = ST.get() in\n-      // assert (B.as_seq h2 tag ==\n-      //    Spec.Agile.HMAC.hmac a (B.as_seq h0 prk)\n-      //      (B.as_seq h1 tag @| B.as_seq h0 info @| Seq.create 1 (u8 (v i + 1))));\n-      // assert (let _, t = spec h0 (v i) (B.as_seq h tag) in B.as_seq h2 tag == t)\n-      end;\n-    Seq.unfold_generate_blocks\n-      (v tlen) (v n) a_spec (spec h0) (FStar.Seq.empty #uint8) (v i);\n-    //assert (v (i *! tlen) + v tlen <= v (n *! tlen));\n-    B.copy (B.sub output (i *! tlen) tlen) tag\n-    // let h3 = ST.get() in\n-    // assert (\n-    //   footprint (v i + 1) `LB.loc_includes` footprint (v i) /\\\n-    //   LB.modifies (LB.loc_union (footprint (v i + 1)) (B.loc block)) h h3);\n-    //assert (\n-    //  let s, b = spec h0 (v i) (refl h (v i)) in\n-    //  refl h3 (v i + 1) == s /\\ as_seq h3 block == b)\n-  );\n-\n-\n-  let h1 = ST.get () in\n-  if n *! tlen <. len then\n-    let text0: B.lbuffer uint8 (infolen +! 1ul) = B.sub text tlen (infolen +! 1ul) in\n-    let ctr = B.sub text (tlen +! infolen) 1ul in\n-\n-    begin\n-    ctr.(0ul) <- Lib.IntTypes.cast U8 PUB (n +! 1ul);\n-    let h2 = ST.get() in\n-    if n = 0ul then\n-      begin\n-      Seq.eq_intro\n-        (B.as_seq h2 text0)\n-        (refl h1 (v n) @| B.as_seq h0 info @| Seq.create 1 (u8 (v n + 1)));\n-      hmac tag prk prklen text0 (infolen +! 1ul)\n-      end\n-    else\n-      begin\n-      copy (sub text 0ul tlen) tag;\n-      let h2 = ST.get () in\n-      Seq.eq_intro\n-        (B.as_seq h2 text)\n-        (refl h1 (v n) @| B.as_seq h0 info @| Seq.create 1 (u8 (v n + 1)));\n-      hmac tag prk prklen text (tlen +! infolen +! 1ul)\n-      end;\n-    let block = B.sub okm (n *! tlen) (len -! (n *! tlen)) in\n-    B.copy block (B.sub tag 0ul (len -! (n *! tlen)))\n-  end;\n-\n-  admit();\n-\n-\n-  let h4 = ST.get() in\n-  assert (\n-    let tag', output' =\n-      Seq.generate_blocks (v tlen) (v n) (v n) a_spec (spec h0) (FStar.Seq.empty #uint8)\n-    in\n-    Seq.equal\n-      (B.as_seq h4 okm)\n-      (output' @| Seq.sub (B.as_seq h4 tag) 0 (v len - v n * v tlen)));\n-\n-  pop_frame ()\n-\n-let expand_sha2_256: expand_st SHA2_256 =\n-  mk_expand SHA2_256 Hacl.HMAC.compute_sha2_256\n-\n-let extract_sha2_256: extract_st SHA2_256 =\n-  mk_extract SHA2_256 Hacl.HMAC.compute_sha2_256\n-\n-let expand_sha2_384: expand_st SHA2_384 =\n-  mk_expand SHA2_384 Hacl.HMAC.compute_sha2_384\n-\n-let extract_sha2_384: extract_st SHA2_384 =\n-  mk_extract SHA2_384 Hacl.HMAC.compute_sha2_384\n-\n-let expand_sha2_512: expand_st SHA2_512 =\n-  mk_expand SHA2_512 Hacl.HMAC.compute_sha2_512\n-\n-let extract_sha2_512: extract_st SHA2_512 =\n-  mk_extract SHA2_512 Hacl.HMAC.compute_sha2_512\n-\n-let expand_blake2s_32: expand_st Blake2S =\n-  mk_expand Blake2S Hacl.HMAC.compute_blake2s_32\n-\n-let extract_blake2s_32: extract_st Blake2S =\n-  mk_extract Blake2S Hacl.HMAC.compute_blake2s_32\n-\n-let expand_blake2b_32: expand_st Blake2B =\n-  mk_expand Blake2B Hacl.HMAC.compute_blake2b_32\n-\n-let extract_blake2b_32: extract_st Blake2B =\n-  mk_extract Blake2B Hacl.HMAC.compute_blake2b_32"
+    }
+  ]
+}

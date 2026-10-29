@@ -1,0 +1,86 @@
+{
+  "bugs": {
+    "url": "https://github.com/rolldown/rolldown/issues"
+  },
+  "dist": {
+    "shasum": "47d2bf4cef6d470b22f5831b420f8964e0bf755f",
+    "tarball": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.27.tgz",
+    "fileCount": 6,
+    "integrity": "sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCaY25K4o/gRlTl0Mr2+lBNiKg+p6yKJDHn2mGk6q3WsgIhAO5IlVZldPjJUvKlOUmQDiV8ZL7EPBbMhJYXVz9Ndwsv",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@rolldown%2fpluginutils@1.0.0-beta.27",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 26450
+  },
+  "main": "./dist/index.cjs",
+  "name": "@rolldown/pluginutils",
+  "type": "module",
+  "_from": "file:rolldown-pluginutils-1.0.0-beta.27.tgz",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest --typecheck",
+    "build": "tsdown"
+  },
+  "_npmUser": {
+    "name": "rolldownbot",
+    "email": "rolldown@voidzero.dev"
+  },
+  "homepage": "https://github.com/rolldown/rolldown#readme",
+  "_resolved": "/tmp/4f29780ba5b98414ea542a9ba9e78fb2/rolldown-pluginutils-1.0.0-beta.27.tgz",
+  "_integrity": "sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA==",
+  "repository": {
+    "url": "git+https://github.com/rolldown/rolldown.git",
+    "type": "git",
+    "directory": "packages/pluginutils"
+  },
+  "_npmVersion": "10.9.2",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "broooooklyn",
+      "email": "lynweklm@gmail.com"
+    },
+    {
+      "name": "yyx990803",
+      "email": "yyx990803@gmail.com"
+    },
+    {
+      "name": "rolldownbot",
+      "email": "rolldown@voidzero.dev"
+    }
+  ],
+  "_nodeVersion": "22.14.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "tsdown": "0.12.9",
+    "vitest": "^3.0.1",
+    "picomatch": "^4.0.2",
+    "@types/picomatch": "^4.0.0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/pluginutils_1.0.0-beta.27_1752395138109_0.4939972793029703",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@rolldown/pluginutils@1.0.0-beta.27",
+  "version": "1.0.0-beta.27"
+}

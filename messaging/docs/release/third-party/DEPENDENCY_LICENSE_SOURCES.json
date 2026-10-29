@@ -1,0 +1,187 @@
+{
+  "cargo": {
+    "core-models-0.0.7": [
+      {
+        "path": "docs/release/third-party/libcrux-c5fb80f-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "hax-lib-0.3.7": [
+      {
+        "path": "docs/release/third-party/hax-d8b5b3d-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/hacspec/hax/d8b5b3d3b666fee8943a351445d2b680105e8ea3/LICENSE",
+        "sha256": "9a50bad5a51e0ad726ea3a7f4b7b758e1b4d1784e6abefe1367f5bf01e972725",
+        "reason": "Exact pinned workspace license at the crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "hax-lib-macros-0.3.7": [
+      {
+        "path": "docs/release/third-party/hax-d8b5b3d-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/hacspec/hax/d8b5b3d3b666fee8943a351445d2b680105e8ea3/LICENSE",
+        "sha256": "9a50bad5a51e0ad726ea3a7f4b7b758e1b4d1784e6abefe1367f5bf01e972725",
+        "reason": "Exact pinned workspace license at the crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "hax-lib-macros-types-0.3.7": [
+      {
+        "path": "docs/release/third-party/hax-d8b5b3d-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/hacspec/hax/d8b5b3d3b666fee8943a351445d2b680105e8ea3/LICENSE",
+        "sha256": "9a50bad5a51e0ad726ea3a7f4b7b758e1b4d1784e6abefe1367f5bf01e972725",
+        "reason": "Exact pinned workspace license at the crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "hpke-rs-0.7.0": [
+      {
+        "path": "docs/release/third-party/MPL-2.0.txt",
+        "sourceUrl": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+        "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+        "reason": "The published crate explicitly declares MPL-2.0 and omits the full text; supply the unmodified Mozilla license text. This does not override the crate with its workspace Apache license or certify secondary-license compatibility."
+      }
+    ],
+    "hpke-rs-crypto-0.7.0": [
+      {
+        "path": "docs/release/third-party/MPL-2.0.txt",
+        "sourceUrl": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+        "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+        "reason": "The published crate explicitly declares MPL-2.0 and omits the full text; supply the unmodified Mozilla license text. This does not override the crate with its workspace Apache license or certify secondary-license compatibility."
+      }
+    ],
+    "libcrux-hacl-rs-0.0.5": [
+      {
+        "path": "docs/release/third-party/libcrux-451259b-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/451259bb704d4a9dab8cd31ac68a97e766fbd2bc/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-hmac-0.0.8": [
+      {
+        "path": "docs/release/third-party/libcrux-c5fb80f-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-intrinsics-0.0.8": [
+      {
+        "path": "docs/release/third-party/libcrux-c5fb80f-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-macros-0.0.3": [
+      {
+        "path": "docs/release/third-party/libcrux-8ebe732-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/8ebe73237378c80b86a953ec8a77bdd3299918e7/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-ml-kem-0.0.10": [
+      {
+        "path": "docs/release/third-party/libcrux-c5fb80f-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-platform-0.0.3": [
+      {
+        "path": "docs/release/third-party/libcrux-316fcd6-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/316fcd6c19c2e33bd0429e1319b6557d91038512/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-secrets-0.0.6": [
+      {
+        "path": "docs/release/third-party/libcrux-c5fb80f-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-sha2-0.0.8": [
+      {
+        "path": "docs/release/third-party/libcrux-c5fb80f-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-sha3-0.0.10": [
+      {
+        "path": "docs/release/third-party/libcrux-c5fb80f-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libcrux-traits-0.0.8": [
+      {
+        "path": "docs/release/third-party/libcrux-c5fb80f-LICENSE.txt",
+        "sourceUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+        "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+        "reason": "Exact pinned libcrux workspace license and copyright at this crate .cargo_vcs_info revision; crate declares Apache-2.0."
+      }
+    ],
+    "libsignal-core-0.1.0": [
+      {
+        "path": "dependencies/upstream-notices/libsignal/LICENSE",
+        "sourceUrl": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/LICENSE",
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "reason": "Exact pinned libsignal workspace AGPL-3.0-only license for this vendored workspace crate; preserve its original source notices."
+      }
+    ],
+    "libsignal-debug-0.104.0": [
+      {
+        "path": "dependencies/upstream-notices/libsignal/LICENSE",
+        "sourceUrl": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/LICENSE",
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "reason": "Exact pinned libsignal workspace AGPL-3.0-only license for this vendored workspace crate; preserve its original source notices."
+      }
+    ],
+    "libsignal-protocol-0.1.0": [
+      {
+        "path": "dependencies/upstream-notices/libsignal/LICENSE",
+        "sourceUrl": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/LICENSE",
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "reason": "Exact pinned libsignal workspace AGPL-3.0-only license for this vendored workspace crate; preserve its original source notices."
+      }
+    ],
+    "signal-crypto-0.1.0": [
+      {
+        "path": "dependencies/upstream-notices/libsignal/LICENSE",
+        "sourceUrl": "https://raw.githubusercontent.com/signalapp/libsignal/257105c55a7389ca6b1e85185e2769465e6729f1/LICENSE",
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "reason": "Exact pinned libsignal workspace AGPL-3.0-only license for this vendored workspace crate; preserve its original source notices."
+      }
+    ]
+  },
+  "npm": {
+    "@esbuild/win32-x64": [
+      {
+        "path": "dependencies/npm-notices/esbuild/LICENSE.md",
+        "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+        "reason": "Platform-specific esbuild tool package declares MIT and shares the parent upstream repository. Retain the parent distribution license alongside the platform package metadata; no independent author/license override is inferred."
+      }
+    ],
+    "@rollup/rollup-win32-x64-gnu": [
+      {
+        "path": "dependencies/npm-notices/rollup/LICENSE.md",
+        "sha256": "fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8",
+        "reason": "Platform-specific rollup tool package declares MIT and shares the parent upstream repository. Retain the parent distribution license alongside the platform package metadata; no independent author/license override is inferred."
+      }
+    ],
+    "@rollup/rollup-win32-x64-msvc": [
+      {
+        "path": "dependencies/npm-notices/rollup/LICENSE.md",
+        "sha256": "fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8",
+        "reason": "Platform-specific rollup tool package declares MIT and shares the parent upstream repository. Retain the parent distribution license alongside the platform package metadata; no independent author/license override is inferred."
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "dist": {
+    "shasum": "5672513701c1b2199bc6dad636a9d7491586766f",
+    "tarball": "https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz",
+    "fileCount": 5,
+    "integrity": "sha512-h/NUaSyG5EyxBIp8YRxo4RMe2/qQgvyowRwVMzhYhBCONbW8PUsg4lkFMrhgZhUe5z3L3MiLDuvyJ/CaPa2A8A==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCesKb+IH+ZTEwOHGLibgZ4SogMbD8Dp2+AdtHWCPtDFgIhAOKI9iSnVbEvuSHJBVrgf4RQCguQ+/YC4XB42UhOfpkH",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 6409
+  },
+  "main": "",
+  "name": "@types/babel__template",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "scripts": {},
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__template",
+  "repository": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "type": "git",
+    "directory": "types/babel__template"
+  },
+  "description": "TypeScript definitions for @babel/template",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ts-npm-types@microsoft.com"
+    }
+  ],
+  "contributors": [
+    {
+      "url": "https://github.com/yortus",
+      "name": "Troy Gerwien",
+      "githubUsername": "yortus"
+    },
+    {
+      "url": "https://github.com/marvinhagemeister",
+      "name": "Marvin Hagemeister",
+      "githubUsername": "marvinhagemeister"
+    },
+    {
+      "url": "https://github.com/mgroenhoff",
+      "name": "Melvin Groenhoff",
+      "githubUsername": "mgroenhoff"
+    },
+    {
+      "url": "https://github.com/ExE-Boss",
+      "name": "ExE Boss",
+      "githubUsername": "ExE-Boss"
+    }
+  ],
+  "dependencies": {
+    "@babel/types": "^7.0.0",
+    "@babel/parser": "^7.1.0"
+  },
+  "_hasShrinkwrap": false,
+  "typeScriptVersion": "4.5",
+  "_npmOperationalInternal": {
+    "tmp": "tmp/babel__template_7.4.4_1699314008394_0.27733975118215004",
+    "host": "s3://npm-registry-packages"
+  },
+  "typesPublisherContentHash": "5730d754b4d1fcd41676b093f9e32b340c749c4d37b126dfa312e394467e86c6",
+  "_id": "@types/babel__template@7.4.4",
+  "version": "7.4.4"
+}

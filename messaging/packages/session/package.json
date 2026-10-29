@@ -1,0 +1,11 @@
+{
+  "name": "@e2ee/session",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "description": "EndToEnd session engine. The browser and the headless tool are adapters.",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "kind": "endtoend-expanded-messaging-scope",
+  "plannedReleaseVersion": "0.2.0",
+  "artifactStatus": "scope-and-source-preparation; no 0.2.0 runnable release built",
+  "scopeAuthorization": "Owner instructed implementation of steps 1–3 of the October 25 ten-step plan",
+  "originalCommit": "f8740398a249539d9bf1212a0fa8abfcd25bcaac",
+  "firstPartyConfirmation": {
+    "date": "2026-10-24",
+    "statement": "Yes, I control the first-party rights",
+    "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+  },
+  "publicSourceStrategy": "Versioned complete corresponding-source snapshot with preserved notices; private Git history is not required",
+  "sourcePolicy": "Generic messaging implementation is public AGPL; independent protocol/client MIT; specific consumer grants assessed in step 6",
+  "workspaces": [
+    {
+      "name": "@e2ee/agent-browser",
+      "path": "apps/agent-browser",
+      "version": "0.1.0",
+      "declaredLicense": "AGPL-3.0-only",
+      "role": "public-messaging",
+      "license": "AGPL-3.0-only",
+      "runtimeDependencies": [
+        "@e2ee/agent",
+        "@e2ee/crypto",
+        "@e2ee/protocol",
+        "@e2ee/session"
+      ],
+      "buildTestDependencies": [
+        "typescript",
+        "vite"
+      ]
+    },
+    {
+      "name": "@e2ee/api",
+      "path": "apps/api",
+      "version": "0.1.0",
+      "declaredLicense": "AGPL-3.0-only",
+      "role": "public-messaging",
+      "license": "AGPL-3.0-only",
+      "runtimeDependencies": [
+        "@e2ee/contract",
+        "@electric-sql/pglite",
+        "pg",
+        "ws"
+      ],
+      "buildTestDependencies": [
+        "@e2ee/crypto",
+        "@types/node",
+        "@types/pg",
+        "@types/ws",
+        "tsx",
+        "typescript"
+      ]
+    },
+    {
+      "name": "@e2ee/web",
+      "path": "apps/web",
+      "version": "0.1.0",
+      "declaredLicense": "AGPL-3.0-only",
+      "role": "project-consumer-pending-concrete-grant",
+      "license": "AGPL-3.0-only",
+      "runtimeDependencies": [
+        "@e2ee/client",
+        "@e2ee/protocol",
+        "react",
+        "react-dom"
+      ],
+      "buildTestDependencies": [
+        "@types/react",
+        "@types/react-dom",
+        "@vitejs/plugin-react",
+        "playwright",
+        "typescript",
+        "vite"
+      ]
+    },
+    {
+      "name": "@e2ee/agent",
+      "path": "packages/agent",
+      "version": "0.1.0",
+      "declaredLicense": "AGPL-3.0-only",
+      "role": "public-messaging",
+      "license": "AGPL-3.0-only",
+      "runtimeDependencies": [
+        "@e2ee/crypto",
+        "@e2ee/protocol",
+        "@e2ee/session",
+        "tsx"
+      ],
+      "buildTestDependencies": []
+    },
+    {
+      "name": "@e2ee/client",
+      "path": "packages/client",
+      "version": "0.1.0",
+      "declaredLicense": "MIT",
+      "role": "public-interface",
+      "license": "MIT",
+      "runtimeDependencies": [
+        "@e2ee/protocol"
+      ],
+      "buildTestDependencies": []
+    },
+    {
+      "name": "@e2ee/contract",
+      "path": "packages/contract",
+      "version": "0.1.0",
+      "declaredLicense": "AGPL-3.0-only",
+      "role": "public-messaging",
+      "license": "AGPL-3.0-only",
+      "runtimeDependencies": [],
+      "buildTestDependencies": []
+    },
+    {
+      "name": "@e2ee/crypto",
+      "path": "packages/crypto",
+      "version": "0.1.0",
+      "declaredLicense": "AGPL-3.0-only",
+      "role": "public-messaging",
+      "license": "AGPL-3.0-only",
+      "runtimeDependencies": [],
+      "buildTestDependencies": []
+    },
+    {
+      "name": "@e2ee/headless",
+      "path": "packages/headless",
+      "version": "0.1.0",
+      "declaredLicense": "AGPL-3.0-only",
+      "role": "public-messaging",
+      "license": "AGPL-3.0-only",
+      "runtimeDependencies": [
+        "@e2ee/client",
+        "@e2ee/protocol",
+        "graphql",
+        "tsx"
+      ],
+      "buildTestDependencies": []
+    },
+    {
+      "name": "@e2ee/protocol",
+      "path": "packages/protocol",
+      "version": "0.1.0",
+      "declaredLicense": "MIT",
+      "role": "public-interface",
+      "license": "MIT",
+      "runtimeDependencies": [],
+      "buildTestDependencies": []
+    },
+    {
+      "name": "@e2ee/session",
+      "path": "packages/session",
+      "version": "0.1.0",
+      "declaredLicense": "AGPL-3.0-only",
+      "role": "public-messaging",
+      "license": "AGPL-3.0-only",
+      "runtimeDependencies": [],
+      "buildTestDependencies": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "@e2ee/agent-browser",
+      "to": "@e2ee/agent",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/agent-browser",
+      "to": "@e2ee/crypto",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/agent-browser",
+      "to": "@e2ee/protocol",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/agent-browser",
+      "to": "@e2ee/session",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/api",
+      "to": "@e2ee/contract",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/api",
+      "to": "@e2ee/crypto",
+      "kind": "build-test"
+    },
+    {
+      "from": "@e2ee/web",
+      "to": "@e2ee/client",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/web",
+      "to": "@e2ee/protocol",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/agent",
+      "to": "@e2ee/crypto",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/agent",
+      "to": "@e2ee/protocol",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/agent",
+      "to": "@e2ee/session",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/client",
+      "to": "@e2ee/protocol",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/headless",
+      "to": "@e2ee/client",
+      "kind": "runtime"
+    },
+    {
+      "from": "@e2ee/headless",
+      "to": "@e2ee/protocol",
+      "kind": "runtime"
+    }
+  ],
+  "publicOperationalInputs": [
+    "scripts/dev.mjs",
+    "scripts/local-ports.mjs",
+    "scripts/serve-endtoend.mjs",
+    "scripts/build-crypto.ps1",
+    "locked dependencies",
+    "database schema/migrations",
+    "safe configuration templates",
+    "build/install/source-offer scripts"
+  ],
+  "plannedNewReferenceApplication": {
+    "role": "public-messaging",
+    "license": "AGPL-3.0-only",
+    "implementationStep": 4,
+    "reason": "Usable standalone browser messaging reference; does not require publishing unrelated host business code"
+  },
+  "supportedBaseline": {
+    "host": "Windows x64 local development/build; Node 22.13.0 and Yarn 1.22.22 recorded",
+    "browser": "ES2022 browser agent; Chromium acceptance previously recorded; expanded acceptance remains step 7",
+    "otherDeployments": "Not certified by this scope freeze; document and validate each supported environment in steps 4 and 7"
+  },
+  "reuseModel": "Separate project deployments; one device/account and one active vault writer",
+  "notImplied": [
+    "federation",
+    "shared cross-project inbox",
+    "simultaneous same-account multi-application broker",
+    "Choice migration",
+    "new multi-device/history recovery"
+  ],
+  "excluded": [
+    "credentials and .env files",
+    "user databases/vaults/messages/keys",
+    "repository history",
+    "unrelated host project source",
+    "installed dependencies and generated product output as preferred source"
+  ],
+  "publicationAuthorized": false,
+  "existingGrantsUnchanged": true
+}

@@ -1,0 +1,71 @@
+{
+  "bugs": {
+    "url": "https://github.com/bendrucker/postgres-array/issues"
+  },
+  "dist": {
+    "shasum": "48f8fce054fbc69671999329b8834b772652d82e",
+    "tarball": "https://registry.npmjs.org/postgres-array/-/postgres-array-2.0.0.tgz",
+    "fileCount": 5,
+    "integrity": "sha512-VpZrUqU5A69eQyW2c5CA1jtLecCsN2U/bD6VilrFDWq5+5UIEVO7nazS3TEcHf1zuPYO/sqGvUvW62g86RXZuA==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCwZjRhr9d9XJ5IEujWgm0r2hWFwgj1BwxhtOAHimdKXQIhANW/Ufgltnn6mlnINbXuxsB6oE5KBwLVMKMUFpKOelmp",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 4903,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbzhL4CRA9TVsSAnZWagAAbk0P/3CIlT20HROqQ5NDA3pp\n25s2wTEKpcumJgtfXcBnvNWDzuL4quaibfHLGLc+Cfem1/xxgMfO6CTLU+1R\nUuV3ulg9eXk/xemldIuTr9036c9dtVphVShBvrq8bxZUApz7AALeyTShAEV7\njyUei5Z7lqaWHHgrX0ICDmlokLACRYN1JUD1MXIkmn6gSstM8EaXi+ytIXh1\nWWczzlBgWI89CAkZ5kquHjiXTiw+vV5J2IfYckTRxiTkIB8kZHVepzt4WVOL\nH2smtj0hiAnpgPwFEnGxYEmIIB8UA7VTBjOHZFaDRt+H7iHW34Ox7dmEYWyd\nOH/ORndRfiqgkH8XezpjqzGP0ogpPEtpj0+bihJub1fYvv+570fVqmQiW6uY\nOhrtawlgkp6RUjTm4I+YVvFe5ojZoparnNCl98qENGa6zXKVz5PQzMOxR2vq\nvIwyE/JJYgttAiYyflwI5QxwVuSjaV2nwa0kxjtRlypARMWmD0DtFnmPtKTv\n+l5vsP+oNYVXZFr4UJCibVhLDQEhWE5bQSz8LAYnO9gaSlGEDmx/oY1I8Z/9\nGfLnc+OVruGPRM2Ap4XC5FgGQidaUNoWw5J3s06zxlpeWHucLg6NKJaICsY3\n1aB0ojAdd7ZLrBVrX2jWSJltvRNvEbdomt38Ye2HVXsbDMKCahYKllSlh7wM\nZhyH\r\n=Iouc\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "main": "index.js",
+  "name": "postgres-array",
+  "types": "index.d.ts",
+  "author": {
+    "url": "bendrucker.me",
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "gitHead": "3693b1fbf7c77455b9a7a1f3ac1f7f039947e641",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "_npmUser": {
+    "name": "bendrucker",
+    "email": "bvdrucker@gmail.com"
+  },
+  "homepage": "https://github.com/bendrucker/postgres-array#readme",
+  "keywords": [
+    "postgres",
+    "array",
+    "parser"
+  ],
+  "repository": {
+    "url": "git+https://github.com/bendrucker/postgres-array.git",
+    "type": "git"
+  },
+  "_npmVersion": "6.4.1",
+  "description": "Parse postgres array columns",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "bendrucker",
+      "email": "bvdrucker@gmail.com"
+    }
+  ],
+  "_nodeVersion": "10.11.0",
+  "dependencies": {},
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^12.0.1"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/postgres-array_2.0.0_1540231927901_0.3746276826667352",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "postgres-array@2.0.0",
+  "version": "2.0.0"
+}

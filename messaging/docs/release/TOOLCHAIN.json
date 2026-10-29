@@ -1,0 +1,21 @@
+{
+  "kind": "endtoend-agent-build-toolchain",
+  "version": "0.1.0",
+  "validatedPlatform": "Windows x86_64 GNU",
+  "required": {
+    "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+    "cargo": "cargo 1.99.0 (5f94df478 2026-08-27)",
+    "wasmPack": "wasm-pack 0.15.0",
+    "protoc": "libprotoc 28.3",
+    "node": "v22.13.0",
+    "cCompiler": "14.2.0"
+  },
+  "yarn": "1.22.22",
+  "rustTarget": "wasm32-unknown-unknown",
+  "cCompiler": "MinGW-W64 GCC 14.2.0 x86_64-ucrt-posix-seh",
+  "notes": [
+    "Other platforms require a separately recorded validated toolchain; do not silently ignore version mismatches.",
+    "General purpose tools are installed separately; private checkout paths and prebuilt WASM are not build inputs.",
+    "ENDTOEND_TOOLCHAIN_ROOT and ENDTOEND_WASM_PACK optionally select installed public tools, never credentials."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "bugs": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20traverse%22+is%3Aopen",
+  "dist": {
+    "shasum": "4111014cdc71a0f95d9471907590baa0b8a6b28a",
+    "tarball": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.8.tgz",
+    "fileCount": 64,
+    "integrity": "sha512-I5z7H3bf/41ktsNVLtpN0wAa336HkqIHQ5BuPLEhTkt1jVSyZpeNKIzTgEWmlxjdg81R0IgUCcaE+Ok3NvrfZg==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCo1QlJMTxN2IMX/8Hir25jCjnFQRL/ZKUACja+fcyDIgIhANli1oOu5wket/wJZq3m8s4Kd8NV6Xbbl5tklGIqbd1B",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEUCICCHn0ouQSc0VkaqO5/X/hEmBhEJCqf9kHcfgHZ2gkpAAiEAzcCyrQ8cVw+bduXxe/fS4sPPfSVi/bJbDGWBhhMcAwE=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@babel%2ftraverse@7.29.8",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 708138
+  },
+  "main": "./lib/index.js",
+  "name": "@babel/traverse",
+  "type": "commonjs",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:1d25ffa2-3338-4a39-8b74-83e97997033e"
+    }
+  },
+  "homepage": "https://babel.dev/docs/en/next/babel-traverse",
+  "repository": {
+    "url": "https://github.com/babel/babel.git",
+    "type": "git",
+    "directory": "packages/babel-traverse"
+  },
+  "description": "The Babel Traverse module maintains the overall tree state, and is responsible for replacing, removing, and adding nodes",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "nicolo-ribaudo",
+      "email": "hello+npm@nicr.dev"
+    },
+    {
+      "name": "jlhwung",
+      "email": "jlhwung@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "debug": "^4.3.1",
+    "@babel/types": "^7.29.8",
+    "@babel/parser": "^7.29.8",
+    "@babel/template": "^7.29.7",
+    "@babel/generator": "^7.29.8",
+    "@babel/code-frame": "^7.29.7",
+    "@babel/helper-globals": "^7.29.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/helper-plugin-test-runner": "^7.29.7"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/traverse_7.29.8_1785510578648_0.5696497870464028",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@babel/traverse@7.29.8",
+  "version": "7.29.8"
+}

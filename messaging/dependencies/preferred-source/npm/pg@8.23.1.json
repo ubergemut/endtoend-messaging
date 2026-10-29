@@ -1,0 +1,114 @@
+{
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "dist": {
+    "shasum": "e4848051a04aa2f968fd5671d075f89e5e7918b9",
+    "tarball": "https://registry.npmjs.org/pg/-/pg-8.23.1.tgz",
+    "fileCount": 20,
+    "integrity": "sha512-aL96AHANtWjPLDOLqnhx+ngp9+UK7ETEU8VJrDCGvsSSi/mGLcWYsS6Herg7lmaBJe4uwrfqsa7gTEFaSizDoQ==",
+    "signatures": [
+      {
+        "sig": "MEUCIQCaQ7YY2yU8gtOVUdpEmdwhMZX8RimNffuKliyHO8GPcQIgdnqtDpcBEkCylJPazoNxAcwG0J+2ErEXsbGHsceQDbQ=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEUCIQCoTOteRl6SbOEx95tHOsn0FgIOYsb5wPdT77A0PUDC8wIgUGnJrpGJKdY8o6QUGoU0GRtQVHfVx3aHN7ChoRaAMmo=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 102632
+  },
+  "main": "./lib",
+  "name": "pg",
+  "author": {
+    "name": "Brian Carlson",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./esm/index.mjs",
+      "default": "./lib/index.js",
+      "require": "./lib/index.js"
+    },
+    "./lib/*": "./lib/*.js",
+    "./lib/*.js": "./lib/*.js",
+    "./package.json": {
+      "default": "./package.json"
+    }
+  },
+  "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "homepage": "https://github.com/brianc/node-postgres",
+  "keywords": [
+    "database",
+    "libpq",
+    "pg",
+    "postgre",
+    "postgres",
+    "postgresql",
+    "rdbms"
+  ],
+  "repository": {
+    "url": "git://github.com/brianc/node-postgres.git",
+    "type": "git",
+    "directory": "packages/pg"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v24.14.0+arm64 (darwin)",
+  "description": "PostgreSQL client - pure javascript & libpq with the same API",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "_nodeVersion": "24.14.0",
+  "dependencies": {
+    "pgpass": "1.0.5",
+    "pg-pool": "^3.14.0",
+    "pg-types": "2.2.0",
+    "pg-protocol": "^1.16.1",
+    "pg-cloudflare": "^1.4.1",
+    "pg-connection-string": "^2.14.1"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "co": "4.6.0",
+    "async": "2.6.4",
+    "vitest": "~3.0.9",
+    "bluebird": "3.7.2",
+    "wrangler": "^3.x",
+    "typescript": "^6.0.3",
+    "pg-copy-streams": "0.3.0",
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "@cloudflare/vitest-pool-workers": "0.8.23"
+  },
+  "peerDependencies": {
+    "pg-native": ">=3.0.1"
+  },
+  "optionalDependencies": {
+    "pg-cloudflare": "^1.4.1"
+  },
+  "peerDependenciesMeta": {
+    "pg-native": {
+      "optional": true
+    }
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/pg_8.23.1_1790782798413_0.8640637307288872",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "pg@8.23.1",
+  "version": "8.23.1"
+}

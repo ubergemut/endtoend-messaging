@@ -1,0 +1,71 @@
+{
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "bugs": {
+    "url": "https://github.com/evanw/esbuild/issues"
+  },
+  "dist": {
+    "shasum": "b21affb804cc167c133d95f45b3a1dc1323b9a87",
+    "tarball": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz",
+    "fileCount": 3,
+    "integrity": "sha512-5ebpxr3nWMzrL/rnUI755Jkuee0bHL/Gq0WTF9lvcpv73wAp5eu8MfBUgWK9bhWvZjj7yX8etf/8tI8Ney695g==",
+    "signatures": [
+      {
+        "sig": "MEUCIQCvMbnEGYMw4gc+GriY8NlPna2De2O/zCMEUe4RMSF2VAIgS+u3R+REjPY2C/uzQWmD/e2u5XAKDKES9lWl1mKaYws=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEYCIQDE+HSV4i1D3atgS6f9gJboMzaHztqK/UvEOvEQUGO3CgIhAOoVue5hPWAdLhuxNfD3thdfkl1ajsY2CrJxx2yfoo4w",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@esbuild%2fwin32-x64@0.28.2",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 11695109
+  },
+  "name": "@esbuild/win32-x64",
+  "engines": {
+    "node": ">=18"
+  },
+  "gitHead": "609683d892977362a0f99026cb74b96263d728a9",
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:86b35642-21b7-4370-a743-288771d094c8"
+    }
+  },
+  "homepage": "https://github.com/evanw/esbuild#readme",
+  "repository": {
+    "url": "git+https://github.com/evanw/esbuild.git",
+    "type": "git"
+  },
+  "_npmVersion": "11.5.1",
+  "description": "The Windows 64-bit binary for esbuild, a JavaScript bundler.",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "esbuild",
+      "email": "evan.exe+esbuild@gmail.com"
+    }
+  ],
+  "_nodeVersion": "24.18.0",
+  "_hasShrinkwrap": false,
+  "preferUnplugged": true,
+  "_npmOperationalInternal": {
+    "tmp": "tmp/win32-x64_0.28.2_1786219243314_0.43877135626679475",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@esbuild/win32-x64@0.28.2",
+  "version": "0.28.2"
+}

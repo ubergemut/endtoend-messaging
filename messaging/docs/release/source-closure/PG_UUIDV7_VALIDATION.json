@@ -1,0 +1,29 @@
+{
+  "kind": "endtoend-pg-uuidv7-mpl-evidence-validation",
+  "checkedAt": "2026-10-25T15:55:26.591Z",
+  "evidencePassed": true,
+  "root": "C:\\Dev\\EndToEnd",
+  "extensionVersion": "1.7.0",
+  "commit": "c707aae2411181be4802f5fa565b44d9c0bcbc29",
+  "sourceFilesVerified": 38,
+  "upstreamGitBlobsVerified": 37,
+  "originalArchiveVerified": true,
+  "licenseHistoryVerified": true,
+  "payloadTextObservationsVerified": 2,
+  "incompatibleDesignations": [],
+  "perFileMplHeaders": 0,
+  "unassignedExhibitBTemplatePreserved": true,
+  "retainsMplChoice": true,
+  "extensionEnabledByExistingApi": false,
+  "sourceBundlePortable": true,
+  "compiledBinaryReproductionProven": false,
+  "assessmentConclusion": {
+    "status": "resolved-for-pinned-pg-uuidv7-source-and-distribution-conditions",
+    "noKnownUnresolvedMplCompatibilityBlocker": true,
+    "reason": "Exact unchanged MPL2 source and observed MPL2 origin, no attached incompatible-secondary designation, complete source/archive and retained-choice notice support primary MPL availability and the additional AGPL route for a qualifying larger work.",
+    "legalCertification": false,
+    "publicationAuthorized": false
+  },
+  "legalCertification": false,
+  "publicationAuthorized": false
+}

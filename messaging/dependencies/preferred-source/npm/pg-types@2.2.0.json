@@ -1,0 +1,82 @@
+{
+  "bugs": {
+    "url": "https://github.com/brianc/node-pg-types/issues"
+  },
+  "dist": {
+    "shasum": "2d0250d636454f7cfa3b6ae0382fdfa8063254a3",
+    "tarball": "https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz",
+    "fileCount": 13,
+    "integrity": "sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCRucSNKOjb3R9ulXDx2NkIisYmv9KI49zQNsz9x9sr6QIhALpMg9D2AxZPkgiBWz/RB+hlchFxN5PtDcswR/ikMKvW",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 35296,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdSiY1CRA9TVsSAnZWagAAV5wQAJEFpe8j0dsedUvGzE9w\nU65FLv6LLMS79yQfSOzyrOxPgb3iCZHgZMscJrN2cN1CEAj421UsOzDif8w3\nBfbXKgFHR5jka+Uu1Qn6HolCk5Urk3g/AC5IBOiiLxIuC7tuSmvxZOk9zJ3G\n4EMvOrRwaAMgqhLubHuMWO+CKFa4YQYRzg4yN2ZYAXDIQFEEkgQDmpp5giDC\nys17WfXh2ADhwbr5Vv7lG1nOw+m6rXeviWanIKSK3fJjbvmszDa0CFn0/6yp\n/ZIzZntRgXtXZChwgwnT18TnNXU8Qk12wQ89SBEM94SmdL/ovgnQQ6vz6iLR\nENgkyOw+DOmc0XztirCTJ6qPiURIyHTiDPb5r7R6oJl/v8Zsp1ANHsBrISDN\nQ9jZJX/rJ4zpsX3mXiVBAfKErhzw++2zfkzwgE7Z0zmgDVEMCWgidTU4hwly\ni+a6gKTTsDYHtMV1nDjEYDJ20f0/L5j1qGMhpCiGyQqXGDy7piNy/ErvovEj\ngrvKobqo1wE2vyDx8k4H69SFsX5Hjn1tOFb7JrMnwxk9cbmC3H9OoV2ypRYe\n/aPW8SytXTyWz5HQ6xSKJM1xmSI5hgH/Ttfx7xzSenba2dLcr74NM+u4EH3w\niMZ5vmxwgCEnY0WXeQbGYkB39OPypP+rothG8LiKZuR6IxzsvSJaq+McQ/Jt\nCiR6\r\n=rqEQ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "main": "index.js",
+  "name": "pg-types",
+  "author": {
+    "name": "Brian M. Carlson"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "gitHead": "d9d9dfb87eb50914043cbc178c301b7dd3b0c50d",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec && npm run test-ts",
+    "test-ts": "if-node-version '>= 8' tsd"
+  },
+  "_npmUser": {
+    "name": "bendrucker",
+    "email": "bvdrucker@gmail.com"
+  },
+  "homepage": "https://github.com/brianc/node-pg-types",
+  "keywords": [
+    "postgres",
+    "PostgreSQL",
+    "pg"
+  ],
+  "repository": {
+    "url": "git://github.com/brianc/node-pg-types.git",
+    "type": "git"
+  },
+  "_npmVersion": "6.9.0",
+  "description": "Query result type converters for node-postgres",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "bendrucker",
+      "email": "bvdrucker@gmail.com"
+    },
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "_nodeVersion": "10.15.0",
+  "dependencies": {
+    "pg-int8": "1.0.1",
+    "postgres-date": "~1.0.4",
+    "postgres-array": "~2.0.0",
+    "postgres-bytea": "~1.0.0",
+    "postgres-interval": "^1.1.0"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "pff": "^1.0.0",
+    "tsd": "^0.7.4",
+    "tape": "^4.0.0",
+    "tap-spec": "^4.0.0",
+    "if-node-version": "^1.1.1"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/pg-types_2.2.0_1565140532940_0.6059651589271351",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "pg-types@2.2.0",
+  "version": "2.2.0"
+}

@@ -1,0 +1,87 @@
+{
+  "dist": {
+    "shasum": "c24424527858220624fd59a5b1eab4fa413c803a",
+    "tarball": "https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.29.7.tgz",
+    "fileCount": 5,
+    "integrity": "sha512-TL0hMc9xzy86VD31nUiwzd5otRAcyEPcsegCxolO0PvcXuH1v0kECe/UIznYFihpkvU5wg/jk4v0TTEFfm53fw==",
+    "signatures": [
+      {
+        "sig": "MEYCIQC/3tWSodzqthvXqm9cpLwaKGd66gnUHbRXhRAjXqtwOQIhAJuS2+0LHlYssSUhjL1N/eDhqiL68OValyiRebtvdfKk",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@babel%2fplugin-transform-react-jsx-self@7.29.7",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 9022
+  },
+  "main": "./lib/index.js",
+  "name": "@babel/plugin-transform-react-jsx-self",
+  "type": "commonjs",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:2882d714-7428-4d32-bbc4-694dc5bc070d"
+    }
+  },
+  "homepage": "https://babel.dev/docs/en/next/babel-plugin-transform-react-jsx-self",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "repository": {
+    "url": "https://github.com/babel/babel.git",
+    "type": "git",
+    "directory": "packages/babel-plugin-transform-react-jsx-self"
+  },
+  "description": "Add a __self prop to all JSX Elements",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "nicolo-ribaudo",
+      "email": "nicolo.ribaudo@gmail.com"
+    },
+    {
+      "name": "jlhwung",
+      "email": "jlhwung@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.29.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/plugin-syntax-jsx": "^7.29.7",
+    "@babel/helper-plugin-test-runner": "^7.29.7"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/plugin-transform-react-jsx-self_7.29.7_1779707769624_0.1436142343652076",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@babel/plugin-transform-react-jsx-self@7.29.7",
+  "version": "7.29.7"
+}

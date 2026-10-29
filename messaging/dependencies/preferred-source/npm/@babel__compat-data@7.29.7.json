@@ -1,0 +1,92 @@
+{
+  "dist": {
+    "shasum": "6f0237f0f36d2e51c0570a636faed9d2d0efe629",
+    "tarball": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.7.tgz",
+    "fileCount": 15,
+    "integrity": "sha512-locTkQyKvwIEgBzVrn8693ebc97F2U8ZHjbXwDXJ5Fn2TCpNwTlKcaKLkdHop5c/icOFE7qt7Q9JC5hnKNa6Gg==",
+    "signatures": [
+      {
+        "sig": "MEUCIE2HgKueu2TN+5h1IkOR947RC9GVg+WVE1Y7I/+AOGMcAiEAoSo6dwVjsyz9Xr8MdIJRd1HM70DXfkoKTt+FNv39s+o=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@babel%2fcompat-data@7.29.7",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 68207
+  },
+  "name": "@babel/compat-data",
+  "type": "commonjs",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "exports": {
+    "./plugins": "./plugins.js",
+    "./native-modules": "./native-modules.js",
+    "./plugin-bugfixes": "./plugin-bugfixes.js",
+    "./corejs2-built-ins": "./corejs2-built-ins.js",
+    "./overlapping-plugins": "./overlapping-plugins.js",
+    "./corejs3-shipped-proposals": "./corejs3-shipped-proposals.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build-data": "./scripts/download-compat-table.sh && node ./scripts/build-data.mjs && node ./scripts/build-modules-support.mjs && node ./scripts/build-bugfixes-targets.mjs"
+  },
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:20c04fd0-2439-42b3-93fb-4045b911fc14"
+    }
+  },
+  "keywords": [
+    "babel",
+    "compat-table",
+    "compat-data"
+  ],
+  "repository": {
+    "url": "https://github.com/babel/babel.git",
+    "type": "git",
+    "directory": "packages/babel-compat-data"
+  },
+  "description": "The compat-data to determine required Babel plugins",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "nicolo-ribaudo",
+      "email": "nicolo.ribaudo@gmail.com"
+    },
+    {
+      "name": "jlhwung",
+      "email": "jlhwung@gmail.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "core-js-compat": "^3.48.0",
+    "electron-to-chromium": "^1.5.278",
+    "@mdn/browser-compat-data": "^6.0.8"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/compat-data_7.29.7_1779707727964_0.6731623864910525",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@babel/compat-data@7.29.7",
+  "version": "7.29.7"
+}

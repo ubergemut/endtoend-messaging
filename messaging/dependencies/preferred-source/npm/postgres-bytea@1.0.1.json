@@ -1,0 +1,71 @@
+{
+  "bugs": {
+    "url": "https://github.com/bendrucker/postgres-bytea/issues"
+  },
+  "dist": {
+    "shasum": "c40b3da0222c500ff1e51c5d7014b60b79697c7a",
+    "tarball": "https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.1.tgz",
+    "fileCount": 4,
+    "integrity": "sha512-5+5HqXnsZPE65IJZSMkZtURARZelel2oXUEO8rH83VS/hxH5vv1uHquPg5wZs8yMAfdv971IU+kcPUczi7NVBQ==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDLqMPhSA5rGQ2XkDCUpUPDuw0UdR+/77rAmKUrElPgtwIgJkAV9VIwUvc6hQq3X3KcPqDM8rEKKtHUakE9m/aPECo=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 3095
+  },
+  "main": "index.js",
+  "name": "postgres-bytea",
+  "author": {
+    "url": "bendrucker.me",
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gitHead": "b4726b977d4e2123823cb9b986c4aa8a755ed74a",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "_npmUser": {
+    "name": "bendrucker",
+    "email": "bvdrucker@gmail.com"
+  },
+  "homepage": "https://github.com/bendrucker/postgres-bytea#readme",
+  "keywords": [
+    "bytea",
+    "postgres",
+    "binary",
+    "parser"
+  ],
+  "repository": {
+    "url": "git+https://github.com/bendrucker/postgres-bytea.git",
+    "type": "git"
+  },
+  "_npmVersion": "11.6.2",
+  "description": "Postgres bytea parser",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "bendrucker",
+      "email": "bvdrucker@gmail.com"
+    }
+  ],
+  "_nodeVersion": "24.11.1",
+  "dependencies": {},
+  "_hasShrinkwrap": false,
+  "readmeFilename": "readme.md",
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/postgres-bytea_1.0.1_1765947203725_0.2516359591475843",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "postgres-bytea@1.0.1",
+  "version": "1.0.1"
+}

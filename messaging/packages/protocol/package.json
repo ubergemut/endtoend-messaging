@@ -1,0 +1,11 @@
+{
+  "name": "@e2ee/protocol",
+  "version": "0.2.1",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Independent EndToEnd messaging command and presentation contracts.",
+  "exports": { ".": "./src/index.ts", "./standalone": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
+  "scripts": { "build": "tsc -p tsconfig.build.json", "test": "node --import tsx --test test/*.test.ts" },
+  "devDependencies": { "typescript": "^5.8.3", "tsx": "^4.20.5" }
+}

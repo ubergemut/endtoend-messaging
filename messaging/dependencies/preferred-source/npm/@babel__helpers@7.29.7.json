@@ -1,0 +1,83 @@
+{
+  "dist": {
+    "shasum": "45abfde7548997e34376c3e69feb475cffb4a607",
+    "tarball": "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.7.tgz",
+    "fileCount": 251,
+    "integrity": "sha512-1k2lAGRMfHTcwuNYcCNUmaUffmQv8KWMfh2iJUUeRlwlwH4FdNG7mfPI10NPfLHJFThE4Tyr4mv7kTNZOiPuBg==",
+    "signatures": [
+      {
+        "sig": "MEUCIAqJ5GDw/UhJVFcy6TwnUhd0k1oVf5+uv4dt89b0XN3zAiEAhGIojtF5KKBraePkTHRYH6kFF0Zq+6J7LfVIM3eKXfM=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@babel%2fhelpers@7.29.7",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 877305
+  },
+  "main": "./lib/index.js",
+  "name": "@babel/helpers",
+  "type": "commonjs",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:b388827b-09ab-4119-9b66-1f8880c7230f"
+    }
+  },
+  "homepage": "https://babel.dev/docs/en/next/babel-helpers",
+  "repository": {
+    "url": "https://github.com/babel/babel.git",
+    "type": "git",
+    "directory": "packages/babel-helpers"
+  },
+  "description": "Collection of helper functions used by Babel transforms.",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "nicolo-ribaudo",
+      "email": "nicolo.ribaudo@gmail.com"
+    },
+    {
+      "name": "jlhwung",
+      "email": "jlhwung@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@babel/types": "^7.29.7",
+    "@babel/template": "^7.29.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "@babel/parser": "^7.29.7",
+    "@babel/generator": "^7.29.7",
+    "regenerator-runtime": "^0.14.0",
+    "@babel/helper-plugin-test-runner": "^7.29.7"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/helpers_7.29.7_1779707788187_0.9958059384847424",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@babel/helpers@7.29.7",
+  "version": "7.29.7"
+}

@@ -1,0 +1,74 @@
+{
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "dist": {
+    "shasum": "0fc904c9a8b3ca3a4f71e16bcc9171224ecbb2a8",
+    "tarball": "https://registry.npmjs.org/pg-cloudflare/-/pg-cloudflare-1.4.1.tgz",
+    "fileCount": 13,
+    "integrity": "sha512-6PQbsFWZcp9EmJEwy5cGQ2La+AMWpP46lgbb8X+U/XsHIUweYDNCpeuKck5RxL2MdVFi7krbbEi5nX4Zh7JhrQ==",
+    "signatures": [
+      {
+        "sig": "MEQCIC2n7XzxMzbv8LHN0q6sp160t+W2veQWBPoFarTfRbH5AiBW1kLO3CuBkhoFhtggTD9vvkQIw0+vgPdBtAC64t2wrA==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEQCIDfd08aWFnPNzCivUuTIESvVI3+kdtAIwkPdQu9lMthGAiB9Uud29yiR1NUSJWPbUItebax+NqJKilBItrtIXaJxyw==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 25701
+  },
+  "main": "dist/index.js",
+  "name": "pg-cloudflare",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "default": "./dist/empty.js",
+      "workerd": {
+        "import": "./esm/index.mjs",
+        "require": "./dist/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo e2e test in pg package",
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "build:watch": "tsc --watch"
+  },
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "homepage": "https://github.com/brianc/node-postgres#readme",
+  "repository": {
+    "url": "git://github.com/brianc/node-postgres.git",
+    "type": "git",
+    "directory": "packages/pg-cloudflare"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v24.14.0+arm64 (darwin)",
+  "description": "A socket implementation that can run on Cloudflare Workers using native TCP connections.",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "_nodeVersion": "24.14.0",
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "ts-node": "^8.5.4",
+    "typescript": "^6.0.3"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/pg-cloudflare_1.4.1_1790782726088_0.706501165992754",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "pg-cloudflare@1.4.1",
+  "version": "1.4.1"
+}

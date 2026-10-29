@@ -1,0 +1,11 @@
+{
+  "name": "@e2ee/agent",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "exports": { ".": "./src/index.ts", "./dispatcher": "./src/dispatcher.ts", "./local": "./src/local.ts" },
+  "bin": { "endtoend-agent": "./src/cli.mjs" },
+  "scripts": { "start": "tsx src/bin.ts", "test": "node --import tsx --test test/*.test.ts" },
+  "dependencies": { "@e2ee/crypto": "*", "@e2ee/session": "*", "@e2ee/protocol": "*", "tsx": "^4.20.5" }
+}

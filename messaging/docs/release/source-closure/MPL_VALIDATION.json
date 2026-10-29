@@ -1,0 +1,68 @@
+{
+  "kind": "endtoend-mpl-evidence-validation",
+  "checkedAt": "2026-10-25T15:44:27.138Z",
+  "root": "C:\\Dev\\EndToEnd",
+  "evidencePassed": true,
+  "packages": [
+    {
+      "name": "hpke-rs",
+      "version": "0.7.0",
+      "declaredLicense": "MPL-2.0",
+      "packageChecksum": "812de62ab573b876c6c40d7553bae9402ae3bad95b64af06f964388eecb9b7b1",
+      "sourceFiles": 21,
+      "rustSources": 8,
+      "perFileMplHeaders": 0,
+      "incompatibleMarkers": [],
+      "upstreamByteComparisons": 9
+    },
+    {
+      "name": "hpke-rs-crypto",
+      "version": "0.7.0",
+      "declaredLicense": "MPL-2.0",
+      "packageChecksum": "d2c461da2e0c9c93d875b597f0c78214fb0d2d5c57834b2ef2a2fa057fa20e24",
+      "sourceFiles": 10,
+      "rustSources": 3,
+      "perFileMplHeaders": 0,
+      "incompatibleMarkers": [],
+      "upstreamByteComparisons": 4
+    }
+  ],
+  "packageFilesVerified": 31,
+  "cargoSourceChecksumsVerified": 29,
+  "rustSourcesVerified": 11,
+  "upstreamPinnedByteObservationsVerified": 13,
+  "historyManifestsVerified": 2,
+  "cargoGraphPackages": 202,
+  "reviewedLicenseExpressions": {
+    "MIT OR Apache-2.0": 119,
+    "Apache-2.0 OR MIT": 17,
+    "Unlicense OR MIT": 2,
+    "MIT/Apache-2.0": 4,
+    "BSD-3-Clause": 4,
+    "MIT": 13,
+    "Apache-2.0/MIT": 1,
+    "Apache-2.0": 20,
+    "MIT OR Apache-2.0 OR BSD-1-Clause": 1,
+    "Zlib": 1,
+    "MPL-2.0": 2,
+    "ISC": 1,
+    "AGPL-3.0-only": 5,
+    "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT": 5,
+    "BSD-3-Clause OR MIT OR Apache-2.0": 2,
+    "MIT OR Apache-2.0 OR LGPL-2.1-or-later": 2,
+    "(MIT OR Apache-2.0) AND Unicode-3.0": 1,
+    "BSD-2-Clause OR Apache-2.0 OR MIT": 2
+  },
+  "sourceBundlePortable": true,
+  "vendorFilesChanged": false,
+  "assessmentConclusion": {
+    "status": "resolved-for-pinned-mpl-components",
+    "noKnownUnresolvedMplCompatibilityBlocker": true,
+    "reason": "Both exact sources are affirmatively MPL-2.0; no incompatible-secondary designation or earlier MPL provenance was identified; actual AGPL-3 combination, complete unchanged source, both license texts and an explicit retained-MPL/additional-AGPL distribution notice support section 3.3.",
+    "legalCertification": false,
+    "publicationAuthorized": false
+  },
+  "noAutomaticLegalJudgment": true,
+  "legalCertification": false,
+  "publicationAuthorized": false
+}

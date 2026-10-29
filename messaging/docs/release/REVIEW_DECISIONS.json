@@ -1,0 +1,21 @@
+{
+  "kind": "endtoend-agent-release-review",
+  "releaseVersion": "0.1.0",
+  "agentLicense": "AGPL-3.0-only",
+  "newProtocolClientLicense": "MIT",
+  "ownershipEvidenceComplete": true,
+  "firstPartyRightsConfirmed": true,
+  "firstPartyConfirmation": {
+    "date": "2026-10-24",
+    "statement": "Yes, I control the first-party rights",
+    "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+  },
+  "qualifiedBoundaryReview": "pending",
+  "reviewedSourceManifestSha256": null,
+  "reviewerReference": null,
+  "ownerApprovedExactPublicationManifest": false,
+  "publicationAuthorized": false,
+  "repositoryVisibilityChangeAuthorized": false,
+  "defaultOnUnfavorableOrUnresolvedReview": "halt affected publication and refactor; do not unilaterally expand the public source scope or change existing licenses",
+  "note": "Engineering tests can pass independently of these review gates. No automatic script may mark them complete."
+}

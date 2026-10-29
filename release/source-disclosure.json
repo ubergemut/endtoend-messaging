@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "version": "0.2.0",
+  "components": [
+    {
+      "id": "messaging-core",
+      "version": "0.2.0",
+      "license": "AGPL-3.0-only",
+      "source": {
+        "filename": "endtoend-messaging-0.2.0-source.tar.gz",
+        "bytes": 261901063,
+        "sha256": "f941d50f8d4be04195cdcc6da56b39cdb6d2fb20c4d69e90642c714ce19bc4c1",
+        "manifestFilename": "SOURCE_MANIFEST.json",
+        "manifestSha256": "d4f20500adac02f7d9ab46cf85984fd72efadbf21da546390dcbf0f94323fc2d"
+      },
+      "artifacts": [
+        {
+          "filename": "endtoend-messaging-0.2.0-runtime.tar.gz",
+          "bytes": 2406412,
+          "sha256": "be3013e9c5fcfa7d8d36193641eadface172acea3a55fcbfc68e2e2fc5e20028"
+        },
+        {
+          "filename": "RUNTIME_MANIFEST.json",
+          "bytes": 140446,
+          "sha256": "67a3a4bce69dae5fb990db445a911f0527c825455b5894c37da240e2d8cc2724"
+        }
+      ],
+      "notices": [
+        {
+          "filename": "MESSAGING_LICENSE.txt",
+          "bytes": 35184,
+          "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+        },
+        {
+          "filename": "MESSAGING_NOTICES.txt",
+          "bytes": 1438272,
+          "sha256": "4c9c1a7507011d7596810252e99627296a031bedaf41a09dd471c18fe31a0638"
+        },
+        {
+          "filename": "MESSAGING_MODIFICATIONS.txt",
+          "bytes": 3550,
+          "sha256": "828ce2303794956256158b3c7b57eba02e8d9392862d18170fa53c03c4e7a0cb"
+        }
+      ]
+    },
+    {
+      "id": "endtoend-web",
+      "version": "0.2.0",
+      "license": "AGPL-3.0-only",
+      "source": {
+        "filename": "endtoend-browser-consumers-0.2.0-source.tar.gz",
+        "bytes": 26282527,
+        "sha256": "d7a8ea187d7d93fb1dc512ff34931ab090ef9324f75058dc52ae47b5ad609e4c",
+        "manifestFilename": "CONSUMER_SOURCE_MANIFEST.json",
+        "manifestSha256": "402c0d6c4e87fb4da2b1df90d2f1d9b6df20bc5429fd13d90503e417963f4a3e"
+      },
+      "artifacts": [
+        {
+          "filename": "endtoend-browser-consumers-0.2.0-runtime.tar.gz",
+          "bytes": 2526703,
+          "sha256": "4a457ddcd6a3cb6ffcec64aca18b92185ad100ba6e0b9ae6c4805dfd4cfac5ac"
+        },
+        {
+          "filename": "CONSUMER_RUNTIME_MANIFEST.json",
+          "bytes": 10850,
+          "sha256": "dc3d1f52c840a88b2e504e5271de3b434a6e9b6701d8e6e562e3c343a628f4c2"
+        }
+      ],
+      "notices": [
+        {
+          "filename": "WEB_LICENSE.txt",
+          "bytes": 35184,
+          "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+        },
+        {
+          "filename": "WEB_NOTICES.txt",
+          "bytes": 105784,
+          "sha256": "285bfd6b76a7aaf699505c1a78cb292db46d3561d6afefa359a85b08096b9849"
+        }
+      ]
+    },
+    {
+      "id": "desk-client",
+      "version": "0.2.0",
+      "license": "MIT",
+      "source": {
+        "filename": "endtoend-browser-consumers-0.2.0-source.tar.gz",
+        "bytes": 26282527,
+        "sha256": "d7a8ea187d7d93fb1dc512ff34931ab090ef9324f75058dc52ae47b5ad609e4c",
+        "manifestFilename": "CONSUMER_SOURCE_MANIFEST.json",
+        "manifestSha256": "402c0d6c4e87fb4da2b1df90d2f1d9b6df20bc5429fd13d90503e417963f4a3e"
+      },
+      "artifacts": [
+        {
+          "filename": "endtoend-browser-consumers-0.2.0-runtime.tar.gz",
+          "bytes": 2526703,
+          "sha256": "4a457ddcd6a3cb6ffcec64aca18b92185ad100ba6e0b9ae6c4805dfd4cfac5ac"
+        },
+        {
+          "filename": "CONSUMER_RUNTIME_MANIFEST.json",
+          "bytes": 10850,
+          "sha256": "dc3d1f52c840a88b2e504e5271de3b434a6e9b6701d8e6e562e3c343a628f4c2"
+        }
+      ],
+      "notices": [
+        {
+          "filename": "DESK_LICENSE.txt",
+          "bytes": 1078,
+          "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+        },
+        {
+          "filename": "DESK_NOTICES.txt",
+          "bytes": 2320,
+          "sha256": "b713a29963b455bdb84a6800b4b94e649d619dfec957cc734dd482877671ee4c"
+        }
+      ]
+    },
+    {
+      "id": "mit-sdk",
+      "version": "0.2.1",
+      "license": "MIT",
+      "source": {
+        "filename": "endtoend-mit-sdk-0.2.1.tar.gz",
+        "bytes": 50942,
+        "sha256": "8a1d1ead6890833cb94f117a752e052b2662870c6765a25b853d752d9c5aa4a7",
+        "manifestFilename": "SDK_MANIFEST.json",
+        "manifestSha256": "db09c0043e9b1fcfa7321540796dc26af0823a182962dd6f1d122246b9579954"
+      },
+      "artifacts": [
+        {
+          "filename": "endtoend-mit-sdk-0.2.1.tar.gz",
+          "bytes": 50942,
+          "sha256": "8a1d1ead6890833cb94f117a752e052b2662870c6765a25b853d752d9c5aa4a7"
+        }
+      ],
+      "notices": [
+        {
+          "filename": "SDK_LICENSE.txt",
+          "bytes": 1078,
+          "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+        }
+      ]
+    }
+  ]
+}

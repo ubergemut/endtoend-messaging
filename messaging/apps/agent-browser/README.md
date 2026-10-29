@@ -1,0 +1,13 @@
+# EndToEnd browser messaging agent
+
+The browser agent owns device secrets, local encryption keys, ratchets, sealed history and attachment bytes. Product applications communicate through protocol v1 DTOs over a paired MessagePort. Device secrets are entered only in this window.
+
+Build from the release source root with `yarn install --frozen-lockfile`, `yarn build:crypto` and `yarn build:agent`. Serve `apps/agent-browser/dist` over HTTPS on a dedicated origin. HTTP is supported only for loopback development. Serve the supplied license text and a `config.json` beside the built index; set `version` to `0.1.0`, `sourceUrl` to the corresponding source download URL when it is published, `allowedCallerOrigins` to exact trusted product origins, and `relayOrigins` to exact trusted relay origins. Do not use wildcards. An unconfigured source URL does not claim publication.
+
+The product must open the agent using a user gesture, with a fresh random `capability` and its `callerOrigin` in the URL fragment. The agent removes that fragment from the address bar. Pairing checks the original opener, configured caller origin, capability and protocol version, and accepts exactly one transferred MessagePort. The product checks the agent origin and window source, then requires the connected response to echo its fresh nonce. A capability is valid only for that port and browser lifetime; it never authorizes a relay account by itself.
+
+The product attaches a relay login token and expected account ID. The agent verifies the relay's bootstrap response before opening the account-specific sealed vault. A Web Lock permits only one vault writer per relay/account. Existing device enrollment requires explicit confirmation before replacement. Identity changes and safety-number verification require confirmation in the trusted agent window.
+
+Choose a remembered-unlock lifetime in the product. The agent stores the chosen resume secret only at its own origin, separately for each relay/account. Navigation, popup disconnection and reconnect lock in-memory state while preserving that choice. Explicit lock or logout removes the selected account's remembered secret. A user who clears browser storage must retain their device secret to reopen the vault; an account password cannot recover it.
+
+Protocol `lock` immediately revokes queued/in-flight results and forgets the remembered secret. Protocol `disconnect` has the same in-memory revocation effect while preserving the chosen lifetime. Closing or restoring a page from the browser cache also locks the agent. Product clients must clear all plaintext presentation caches on disconnect or lock and reconnect with a new pairing.

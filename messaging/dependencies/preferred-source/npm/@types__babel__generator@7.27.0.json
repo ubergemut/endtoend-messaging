@@ -1,0 +1,73 @@
+{
+  "dist": {
+    "shasum": "b5819294c51179957afaec341442f9341e4108a9",
+    "tarball": "https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.27.0.tgz",
+    "fileCount": 5,
+    "integrity": "sha512-ufFd2Xi92OAVPYsy+P4n7/U7e68fex0+Ee8gSG9KX7eo084CWiQ4sdxktvdl0bOPupXtVJPY19zk6EwWqUQ8lg==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDtnK6Npptc4TD8KmTdaov1fLjeK4pBAeUmnaZQ7VM1IAIgBI1VjzGHLha4r//R2LvwZ9FcIYzMugsd4+jZlHOWapM=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 11441
+  },
+  "main": "",
+  "name": "@types/babel__generator",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "scripts": {},
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+  "repository": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "type": "git",
+    "directory": "types/babel__generator"
+  },
+  "description": "TypeScript definitions for @babel/generator",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ts-npm-types@microsoft.com"
+    }
+  ],
+  "contributors": [
+    {
+      "url": "https://github.com/yortus",
+      "name": "Troy Gerwien",
+      "githubUsername": "yortus"
+    },
+    {
+      "url": "https://github.com/mgroenhoff",
+      "name": "Melvin Groenhoff",
+      "githubUsername": "mgroenhoff"
+    },
+    {
+      "url": "https://github.com/khell",
+      "name": "Cameron Yan",
+      "githubUsername": "khell"
+    },
+    {
+      "url": "https://github.com/Lyanbin",
+      "name": "Lyanbin",
+      "githubUsername": "Lyanbin"
+    }
+  ],
+  "dependencies": {
+    "@babel/types": "^7.0.0"
+  },
+  "_hasShrinkwrap": false,
+  "peerDependencies": {},
+  "typeScriptVersion": "5.1",
+  "_npmOperationalInternal": {
+    "tmp": "tmp/babel__generator_7.27.0_1743696162307_0.7723026552429384",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "typesPublisherContentHash": "b5c7deac65dbd6ab9b313d1d71c86afe4383b881dcb4e3b3ac51dab07b8f95fb",
+  "_id": "@types/babel__generator@7.27.0",
+  "version": "7.27.0"
+}

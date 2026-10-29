@@ -1,0 +1,12 @@
+node_modules/
+.pglite/
+.pglite.damaged/
+.env
+.local-ports.json
+.build/
+target/
+pkg-node/
+pkg-web/
+work/
+coverage/
+test-results/

@@ -1,0 +1,2447 @@
+{
+  "kind": "endtoend-expanded-source-rights-ledger",
+  "firstPartyAuthorityAccepted": true,
+  "firstPartyConfirmation": {
+    "date": "2026-10-24",
+    "statement": "Yes, I control the first-party rights",
+    "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+  },
+  "baselineSha256": "cd35d0715569d4c79bb69065afadf1a2e0f880e1d58bf9f27bd5f38d98020eb0",
+  "files": [
+    {
+      "path": "apps/agent-browser/config.example.json",
+      "bytes": 215,
+      "sha256": "e81e8e90b6f79bc8936e583c6a767f27e82bcc1163c0f18c422c521f6e31f790",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/agent-browser/index.html",
+      "bytes": 1656,
+      "sha256": "41fae419e0027a5669cef0a1c06c9db84aa9217bbf95fc40c29c1f5083c2e4ad",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/agent-browser/package.json",
+      "bytes": 344,
+      "sha256": "e98faec6f1d4634768c8f1807f9867e9fdb59836072d263dabdfb1c2d8d57258",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/agent-browser/README.md",
+      "bytes": 2673,
+      "sha256": "9f3b40468837887114ae22768e7f7cde2794a179e6249581118621d8fca1f8d4",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/agent-browser/src/main.ts",
+      "bytes": 14640,
+      "sha256": "95f24d1c6833c6a48b3a340b7aa3169129e74f9dc2547a60af3dd8f455fcd02a",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/agent-browser/src/style.css",
+      "bytes": 583,
+      "sha256": "5b60853872e4b5f462b97170afdff81ff1ef57ce0c44a9b105978be5d6c27c93",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/agent-browser/src/vault.ts",
+      "bytes": 5925,
+      "sha256": "3c0b2982673cab9b92048ae27f65341389a8864f9a905f322c45cc37f6e86655",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/agent-browser/vite.config.ts",
+      "bytes": 579,
+      "sha256": "14e5618f8a7ee8825ef8095938b86b2618a28947ba96e36762c6dff2fcd195d9",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/package.json",
+      "bytes": 569,
+      "sha256": "b14b5c4fecb33c180421649705ef2d7024714f8ce04d08cbeb4c8cb682ecceb9",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "2577d6957f7f878ae06f05fb98913f0a21dd2699307bf6c8ecfba75bd75fc104",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/src/db.ts",
+      "bytes": 4636,
+      "sha256": "1f3fe06877a89e6ce7e4bd4f7685acc6c6344a0f02eb638859a42bcd9ac1368c",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "d82ce88226a8e9ffdfe31c5e2d50ef9ee8d6113042ac81714d06679c13cbe297",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/src/index.ts",
+      "bytes": 369,
+      "sha256": "1770b24ee6169ba30b0d9578aa1b53d2d1e8050e1a08c1b14d3ccaf76ff99246",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "65e3ecf258cfb4d8cdf7b7cc26cc2d2f33fe659510a885924e00a12630bfede4",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/src/server.ts",
+      "bytes": 40352,
+      "sha256": "fdae19fd027e6fed161538f0215e56fc194f4e07317d39a013da45e485d2ee30",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "b8f370e69929b3cb040f3bbe6cde68efd5ad9c5d7eb601dad967b32a2e8d3a47",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/test/agent-boundary.test.ts",
+      "bytes": 6655,
+      "sha256": "fbf014a3bd645c134900b4fbc46a7a14f946d5ce182d02b43080a3207925bb17",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/test/auth.test.ts",
+      "bytes": 2502,
+      "sha256": "9f1d735db4960f7d617bf3daa0ebf911775d0ae21a4155f5ea02575bb18b7c70",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "ba97f44275570f530e1b782c1d385720edac836853f1753bab3f0bd4ca1580ea",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/test/friends.test.ts",
+      "bytes": 7320,
+      "sha256": "8c70944a637cd6d12fa58471a95b48d7fdf5fff5a6fc0051132df17235cf84f4",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "bd8693176ccba4424377e4e246f4c197461dd1aeb4f4e9606184388e8bd91852",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/test/groups.test.ts",
+      "bytes": 6717,
+      "sha256": "4a2f7796edf1fecf2483b16207c7b9e6d5d34e474af8891e5315fe6efa898c4e",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "e8c53687e5630f268a0a49a4f86e36467aee6f3b4107907edeeb1df92637849b",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/test/helpers.ts",
+      "bytes": 3904,
+      "sha256": "9f323ea8a941eec1d4a032d7bf9e6446df01b0798ad5e3093281a30cf93363b6",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "d9b4a00b45c7085444be86216bb1903c0455f17d1fd9ce15a4e2705abdce3071",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/test/media.test.ts",
+      "bytes": 4760,
+      "sha256": "7e944892edcc88670b23083a136e3dcbabc4611a491e702a4039ac0b5ba2000c",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "679600925002fbe9916fdae0f8ba1c438dd2e9f4698b5aea8be037de9923e0ae",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/test/messages.test.ts",
+      "bytes": 4159,
+      "sha256": "851aeb070497185ebe372542c7fe7cb65387581623b9f6f3646d24abb63de029",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "20d8f9180f8e3ed7e4f73b4d79706f78e7261def3807dbf0edc49f842096d662",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/api/test/messenger.test.ts",
+      "bytes": 8736,
+      "sha256": "8ac3a299ac257b47d56463069b257c9e55b5d629dc56705ccd737647766dfc3e",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "a5e213bf37bb339723d87a0de2e3f9b0cf9fabd834475ea3b03c631849e60dc9",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/index.html",
+      "bytes": 307,
+      "sha256": "ca57e9e604fa2aafaf2df3e4d04583b8e62eba104fdcf79626c0d7c58abcb422",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "eb2ffc66f2f74ea737a4701834f8c0c9fc45d8dae09ba7d33b641abc73f2403b",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/package.json",
+      "bytes": 575,
+      "sha256": "241a13324f1589f3fb9acd1e06c3fa8439afcd6eef3bc5e590d48deb48ecc79e",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "e22ea3c9f6270916ae91ae0a8691ace8629e97816dd11dc951fb9671c1b1148e",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/chat.png",
+      "bytes": 32906,
+      "sha256": "954d207a6b091f5fa41b3a1045f41e0f9b2c9713be099d4aa401ff6edb39ca07",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "954d207a6b091f5fa41b3a1045f41e0f9b2c9713be099d4aa401ff6edb39ca07",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/group.png",
+      "bytes": 41351,
+      "sha256": "1e3a097b3e9f0f23bfb151e62f43c308b928b81ca12cbb1331f6cb90db37f40c",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "1e3a097b3e9f0f23bfb151e62f43c308b928b81ca12cbb1331f6cb90db37f40c",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/inbox-empty.png",
+      "bytes": 18596,
+      "sha256": "8c172aceff50e007dcedcccf6fbc2d0a1c8419ff90f5bb5d714329f12e29f05e",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "8c172aceff50e007dcedcccf6fbc2d0a1c8419ff90f5bb5d714329f12e29f05e",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/login.png",
+      "bytes": 16326,
+      "sha256": "aa580ab1a04834847cf85d66dc2431428e541158629a0fbe2013e6146dcc542a",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "aa580ab1a04834847cf85d66dc2431428e541158629a0fbe2013e6146dcc542a",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/media.png",
+      "bytes": 39100,
+      "sha256": "5b14208cb5490bf5517f58f141224e99ffa83f6346e80434a7a66c5edcf77736",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "5b14208cb5490bf5517f58f141224e99ffa83f6346e80434a7a66c5edcf77736",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/new-group.png",
+      "bytes": 36516,
+      "sha256": "7931a977e2813e494ca257c84d526d2bd059cb52284f089666d64edae40fac7c",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "7931a977e2813e494ca257c84d526d2bd059cb52284f089666d64edae40fac7c",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/phone-chat.png",
+      "bytes": 21205,
+      "sha256": "1700b5f6d59eab3a5b1e926a647ffe0a69ab28c41d337077d8c1f91e1b217e8a",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "1700b5f6d59eab3a5b1e926a647ffe0a69ab28c41d337077d8c1f91e1b217e8a",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/phone-list.png",
+      "bytes": 15832,
+      "sha256": "b2276805dd5ee3dca75b08493dbb19f581991a8a689beb7ca378dd287ab38db8",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "b2276805dd5ee3dca75b08493dbb19f581991a8a689beb7ca378dd287ab38db8",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/phone-thread.png",
+      "bytes": 13957,
+      "sha256": "4966a46d163d588a4965db5d33c38de543c0695cfcbef98752c2e182faedade6",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "4966a46d163d588a4965db5d33c38de543c0695cfcbef98752c2e182faedade6",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/register.png",
+      "bytes": 20985,
+      "sha256": "57dc34435233951af6ee8630c1f4c09f5fccdfbf86bdb48f70117dc2546cdb9a",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "57dc34435233951af6ee8630c1f4c09f5fccdfbf86bdb48f70117dc2546cdb9a",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/requests.png",
+      "bytes": 27649,
+      "sha256": "22c76597e5dff0b951a4b1ec36d5854b682ef30a9caf54b75d126da445e833e8",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "22c76597e5dff0b951a4b1ec36d5854b682ef30a9caf54b75d126da445e833e8",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/safety.png",
+      "bytes": 41341,
+      "sha256": "77c082c57787bdff680f90cf7a4b805108cb3ad3b30b22785e7bfedd62a3744f",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "77c082c57787bdff680f90cf7a4b805108cb3ad3b30b22785e7bfedd62a3744f",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/server-view.png",
+      "bytes": 50355,
+      "sha256": "57ac3f23d2404d03132272818e0b26cb784213af5147517105908d9a059291a4",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "57ac3f23d2404d03132272818e0b26cb784213af5147517105908d9a059291a4",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-chat.png",
+      "bytes": 102237,
+      "sha256": "618b19f6c873ad2100b044911657b1cfe17d83ff8af4da55bd80a29a97712b9e",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "618b19f6c873ad2100b044911657b1cfe17d83ff8af4da55bd80a29a97712b9e",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-group.png",
+      "bytes": 115980,
+      "sha256": "9fb4d3f628bbdc0e730a77afdca560805b2e876eccfc76400f32b1c39a5f828e",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "9fb4d3f628bbdc0e730a77afdca560805b2e876eccfc76400f32b1c39a5f828e",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-inbox-empty.png",
+      "bytes": 98535,
+      "sha256": "450685b328d5bd0d6f10b184dd03a1a82b50207d195fd544aa7db562983793db",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "450685b328d5bd0d6f10b184dd03a1a82b50207d195fd544aa7db562983793db",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-login.png",
+      "bytes": 88595,
+      "sha256": "31bb5e9c89ba1bd6a4672d4a52b9d4a5b913c7bc30bf8aca3abbe6d2dfc668b0",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "31bb5e9c89ba1bd6a4672d4a52b9d4a5b913c7bc30bf8aca3abbe6d2dfc668b0",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-media.png",
+      "bytes": 82458,
+      "sha256": "f67c198858af7bbe37d4936ffe71e5b1a72d048cb6ddcd63c35f90a84f557a42",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "f67c198858af7bbe37d4936ffe71e5b1a72d048cb6ddcd63c35f90a84f557a42",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-new-group.png",
+      "bytes": 107642,
+      "sha256": "8b0e2cfc65702b772d45ce03c970297faf5988a02d9cbbaca7f1d920ee4b0704",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "8b0e2cfc65702b772d45ce03c970297faf5988a02d9cbbaca7f1d920ee4b0704",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-phone-chat.png",
+      "bytes": 103065,
+      "sha256": "32564f054478bb75c77c5bc4f99cc873b2d38da9febe97eafe016301f0ef329e",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "32564f054478bb75c77c5bc4f99cc873b2d38da9febe97eafe016301f0ef329e",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-phone-list.png",
+      "bytes": 91886,
+      "sha256": "61b2ed4714916637b7b77f5dde10d83dea9ab9b4b5fd2820a8d62a55ae7a65ca",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "61b2ed4714916637b7b77f5dde10d83dea9ab9b4b5fd2820a8d62a55ae7a65ca",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-phone-thread.png",
+      "bytes": 78980,
+      "sha256": "d8163024f7c07ae349a0871c5f7ff5ab3a2f1838a6f9e9ecbd0ec8c96613d3dc",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "d8163024f7c07ae349a0871c5f7ff5ab3a2f1838a6f9e9ecbd0ec8c96613d3dc",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-register.png",
+      "bytes": 92558,
+      "sha256": "8baf58e8ffac43bacec66dad287c98f2af704d40f326b8f994fef2c650a3075a",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "8baf58e8ffac43bacec66dad287c98f2af704d40f326b8f994fef2c650a3075a",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-requests.png",
+      "bytes": 107230,
+      "sha256": "cdd81b130e5d26f044f050af30301844e6bc8d12b96aaaa1503a7c6531ceaecb",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "cdd81b130e5d26f044f050af30301844e6bc8d12b96aaaa1503a7c6531ceaecb",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-safety.png",
+      "bytes": 112926,
+      "sha256": "ad7fc64a33be815711cac5d4eaca7f39fed8c9010743f437f5ac0b1c03d3258c",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "ad7fc64a33be815711cac5d4eaca7f39fed8c9010743f437f5ac0b1c03d3258c",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-server-view.png",
+      "bytes": 133802,
+      "sha256": "02190a8689edf882bcde56d514c5ac075f0189ceddf4fe45960c97d1e9a0918d",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "02190a8689edf882bcde56d514c5ac075f0189ceddf4fe45960c97d1e9a0918d",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide-thread.png",
+      "bytes": 119787,
+      "sha256": "a6148cfbf71b1160b751dd6b3f374f194908e252fdebd81dcde74f529c67ae92",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "a6148cfbf71b1160b751dd6b3f374f194908e252fdebd81dcde74f529c67ae92",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-guide.png",
+      "bytes": 302361,
+      "sha256": "d51865759f20140508d78bb09185000ea77134fcb00c8b428f37ad236ce2de06",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "d51865759f20140508d78bb09185000ea77134fcb00c8b428f37ad236ce2de06",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-home.png",
+      "bytes": 148239,
+      "sha256": "4e01f714c49ddf6e584aad39ca63adfeed189777f3a9ba5e6c76238feff070dd",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "4e01f714c49ddf6e584aad39ca63adfeed189777f3a9ba5e6c76238feff070dd",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-how.png",
+      "bytes": 95426,
+      "sha256": "13cb71705020ab9cd4393e1048d4b6e62e0a1a63bffbaf9d1e2aeee20ba6f11d",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "13cb71705020ab9cd4393e1048d4b6e62e0a1a63bffbaf9d1e2aeee20ba6f11d",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-limits.png",
+      "bytes": 69019,
+      "sha256": "bf9ec2727e0f67ae04a1782f7968a819bcc23213fb236da29be3997b134f68d3",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "bf9ec2727e0f67ae04a1782f7968a819bcc23213fb236da29be3997b134f68d3",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/site-why.png",
+      "bytes": 79625,
+      "sha256": "3902751eb12de7e068b0e63f72ffb5e3f325a91d29ba70b92db90fd3c525e0df",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "3902751eb12de7e068b0e63f72ffb5e3f325a91d29ba70b92db90fd3c525e0df",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/public/guide/thread.png",
+      "bytes": 43199,
+      "sha256": "614fd730f658ed71af09a07c75643b083ce34e18339cf66589a02332644b56ee",
+      "kind": "asset-provenance-in-expanded-inventory",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "614fd730f658ed71af09a07c75643b083ce34e18339cf66589a02332644b56ee",
+      "currentDeclaredLicense": "See docs/release/inventory asset provenance and notices",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/api.ts",
+      "bytes": 647,
+      "sha256": "8b149b3c786f5b76038dafe7533c8f33f861d5518bbed5e3393c9298dc79d6f0",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "49ce2025a962b1c5ec3ecf538fc3c2b7402e03d176c43ed404d03d639992d1e5",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/App.tsx",
+      "bytes": 65971,
+      "sha256": "127db953b6dca6ab195b04e90e664aab882e9333ff6fe6d4e32c443064d59251",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "cd1d1a490e2ac56aad4bba6335e1a5e362e8653fba508208e9717d9487c081e5",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/appearance.ts",
+      "bytes": 2426,
+      "sha256": "0b4ec0a92b52ed65b71f52b4d7079344c58881545fa232471a7559ae56f6cecb",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "161cf5c2ba9308131cf0f4d6f81b3994c6e4f57e9deab68afb2e320bf70f8f86",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/AppearanceBar.tsx",
+      "bytes": 3379,
+      "sha256": "b1c3d85fb16812c3d58699fe482939add912f461672e3042ce7d56a07f54ba6a",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "59669bfb9e09c272c9a3f146e5a019494b11a75e77e7b1100e8ba7312929360d",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/browserSession.ts",
+      "bytes": 8975,
+      "sha256": "23199397d0364df50d3c2588a84526c1b8421269356d846a3e20f3b99a23275c",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "9c9620f292c734d57689c3411e41608f5770c1a8aed9ed29c6e752e686f7b367",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/cryptoCheck.tsx",
+      "bytes": 913,
+      "sha256": "f01cee67a2e6dbdf3d5614b2248712c04c007ae29288c58760d080c0746c2c3d",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "3d276d28ee19363ae134f1396808c3be389623c87319522c0311530b890f41c8",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "bytes": 608,
+      "sha256": "7fb1df113c209986b26c2df03a2c61654edbc37f2718eb8212ffd7ce6670106e",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "9b059cd1833a4fa3d6be8a924e33934f361e09e493aa6b658006695c20e6c305",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/media.ts",
+      "bytes": 1638,
+      "sha256": "fc90d0d991119e22769469ed031f253939b9af609ec5edfd5c0e08a00ffa3aad",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "c6c3b36c275196dfc585ced2cd16d0e5a426292e1b7fdbac8530a9d9352c771b",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/site/DESIGN.md",
+      "bytes": 17733,
+      "sha256": "790a9f339d51d8d0d262c6dc3ac13efd86a4b9c43c5363398295a961d9a0af81",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "790a9f339d51d8d0d262c6dc3ac13efd86a4b9c43c5363398295a961d9a0af81",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/site/guide.ts",
+      "bytes": 9309,
+      "sha256": "d5f384ecbad7d7861379f62a6dcc136b31137bd91dfa4f2fb138e4fb783e1a28",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "759b05470ecfc0d30cadc8a8df77ddc74fba5bd6a7462ab9cc441636c62fb2ec",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/site/site.css",
+      "bytes": 21630,
+      "sha256": "3149236eb0b1e59d4a6e7cb96ef3b87f8682619af37d68fc719412755493b639",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "d39e57e4b04b57c16bc73782b09653b84548dd80c958c68f8480ad77e47674c0",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/site/Site.tsx",
+      "bytes": 16217,
+      "sha256": "5f425aa562a79cd8bdc79af6c274f85a5906f5419519f8d2b7be33dfac78d478",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "253cc89f9581e591ab70769d9749ce056085aa53a487be275fd93fafd1d09f10",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/stay.ts",
+      "bytes": 2439,
+      "sha256": "38af4291401c0dd93e376a9299563e3da4f2f4f22d0c83ba298d4d673d25301d",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "950ca11dca1901be09d09d855e056e00744670d23ee2bd87d1f1aff1138f5da2",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "bytes": 18089,
+      "sha256": "508aefbc6e7c0c7e76206d6593a0b44c42cf156e32497a9ea6aaff6b2e9184a7",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "d4d6d3f3704941838243b48263c9a7dd036b9abfafcc0db512c36e24b918ceb0",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/src/vault.ts",
+      "bytes": 259,
+      "sha256": "4068019e93899c3c42b4be8174a5cbd3907d76dfd884f672d25868cabaa1baee",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "dfc5bcf6425f7715fe4fae82abb907f4c9e39d8378eceffb31b778f5f6e992b8",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "bytes": 333,
+      "sha256": "505dfc9f4c671fe0a753bf80187f120ca6fa097be637a5819bf8ede8e8f6bdf5",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "98d34ea7c228ab1c304cbb3cd2678531877ebba7da0e4ff28ebce6f34ff6efe3",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "bytes": 378,
+      "sha256": "fd51da15c1ca89c1c1936c6b9e8cb59ce08003e1dab0a9c7b6aedc1046561b1a",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "490fc4c78c93e79c254a2dcdb85673c82fe0bed75e8f75b344b9e7eda1df9221",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "project-consumer-pending-concrete-grant",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "bytes": 7375,
+      "sha256": "e534f3225a77965bd346d7463d35bc455437b342211a2c7bd0036ad532a4d794",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "ac89ff901b7971390dcb816d08aecebdda17e6273f7dc5e99e32f19b4850d778",
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "docs/release/AGPL_MVP_TEN_STEP_PLAN.md",
+      "bytes": 19449,
+      "sha256": "119ddff50469e5098636e07cd79f1c34d14aeb1de0a065b2983bacef66572a01",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "docs/release/BASELINE.json",
+      "bytes": 20166,
+      "sha256": "9bc667dd975d13756dce4bf6587f43feaa10f93b23e9588ec2d59d5bee2bbef4",
+      "kind": "generated-dependency-or-provenance-metadata",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "Dependency grants remain separate from generated metadata",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "docs/release/FEATURE_MATRIX.md",
+      "bytes": 6074,
+      "sha256": "4b59934754fc385c824b181666896b98e67246b657393dbfaf8937ab2ac2da8b",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "docs/THREAT-MODEL.md",
+      "bytes": 3871,
+      "sha256": "c801e042d040beaff7e59b022184fb124b09206bab21068937ef4ed620c4fde7",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "01aa7f78335fe3389ef710c2a4edfaa3b3a70dc054649cc746ff66c038df63b7",
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e",
+      "kind": "third-party-license-or-notice-text",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "Preserved original legal text; no first-party grant asserted",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "LICENSING.md",
+      "bytes": 1470,
+      "sha256": "b756b952f892458f6f1ee529d6ccbb5077c14991f6515936d87b48c448473253",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "package.json",
+      "bytes": 1547,
+      "sha256": "8733dd5e49006bebc44cd17d855f2d18d1e2e99ffcca0b0dd0bc20bd4b6144d2",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "69a41abfb671327e342b01b2beaf682e677f3e924dbcbe71fe7e9e7e4a2c664f",
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/package.json",
+      "bytes": 476,
+      "sha256": "00e1598b7ebc789c16d138eee20a1f52309a39cf0d356ea3a25f27715a3fe366",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/README.md",
+      "bytes": 4944,
+      "sha256": "60d22e5dfe277f724ffe9ce781e13d53ce7e523ec7a1dbaf5dd02cd7504b1882",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/src/bin.ts",
+      "bytes": 1232,
+      "sha256": "6c18a97e0a3185a7147a547b713455f139073292025b1010921ac60160778dfb",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/src/cli.mjs",
+      "bytes": 93,
+      "sha256": "8e9f69ead61dbe1c3d0b8c1def978671bb552d8b31099ca298643f97f74fae17",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/src/dispatcher.ts",
+      "bytes": 13262,
+      "sha256": "840ae65766c9f6a84f6148483990b5f1cda5342daceb5ee1db8f53dd71470475",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/src/index.ts",
+      "bytes": 77,
+      "sha256": "cdeefa5c4dd9ae01f1ff7f5bd0e3aba28a98c0a2ab51c8aa0f1db02b2650777b",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/src/local.ts",
+      "bytes": 4203,
+      "sha256": "549fcbcfe7f1458c2752eb0f8b6777e131093352d2893cd4a983a582acc3dd17",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/src/nodeVault.ts",
+      "bytes": 8109,
+      "sha256": "ea15f2ed6a5a410af288969485d3eab34f8e39eeb0b69424d6571a15b91f4d40",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/test/agent.test.ts",
+      "bytes": 12170,
+      "sha256": "0d4a7a198141cf1306a3b2e9c9c0039fba6e2668fcf6eb675e611a071c784ab1",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/test/group-integrity.test.ts",
+      "bytes": 5153,
+      "sha256": "7989027e0fa17dd7858baf27b91b447090a0182cba0b930d0fc2a377d777b720",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/test/local-lifecycle.test.ts",
+      "bytes": 2233,
+      "sha256": "98e678014a4f9b36b470fee97602e74c81a9c584181a019c38ab5a2944099c71",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/test/node-vault.test.ts",
+      "bytes": 1597,
+      "sha256": "7518146b597dd8e66bcb2733d5d85f807e540ce1fd56ba1f6d87663659e60dd7",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/test/reference-relay.ts",
+      "bytes": 9121,
+      "sha256": "b45da37dd3bc9a39dc37696f45fb8cc0b09bab87595b2bc6dc1faf9a2b47487a",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/agent/test/review-regressions.test.ts",
+      "bytes": 4409,
+      "sha256": "ab6ba351a9eb18b7874825b9e550828a506a96eb227cad00fcce389dea421a26",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/client/examples/reference-client.ts",
+      "bytes": 3481,
+      "sha256": "1b2132e8b11abf79e7cfbd656e85543aa5efbb7651939dc37f50c1ceacd12b7c",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/client/LICENSE",
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a",
+      "kind": "third-party-license-or-notice-text",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "Preserved original legal text; no first-party grant asserted",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/client/package.json",
+      "bytes": 346,
+      "sha256": "a0d9160dfc9bbb6c270f812c0838b8fbff038e0e8a082c486148b798795f1d67",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/client/README.md",
+      "bytes": 1495,
+      "sha256": "6caa63f2e795c4bedab7ff238a48c9d0e84b334b27749b45034eeeffe7320900",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/client/src/index.ts",
+      "bytes": 9671,
+      "sha256": "372ffbd44de22ca1b0d3ac12cdd54fd6246242baa24db7213e875af9bc84da72",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/client/test/reference-cli.test.ts",
+      "bytes": 2890,
+      "sha256": "3b18fbab0ac9e946a2d92523bffdcec9c3b6c5d5faf3e32ab393e866e8153487",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/client/test/reference.test.ts",
+      "bytes": 5114,
+      "sha256": "e546ad406573deda7258000ed4dae1af4a2bd2a3c410345a66312bb52a776894",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/contract/package.json",
+      "bytes": 161,
+      "sha256": "cb2e2cfc932499a4240ddcda5e7b7a9a423d90954416fefe97427d197c404f6a",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "7adef48c7460874b75cdf5181baef61b7edf1984bfc2610bf8b4ebfed7c6d851",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/contract/src/index.ts",
+      "bytes": 1149,
+      "sha256": "f630f44d353420f70d3836a0b014501d47dec3028d1f2fbdbdff6b760c3f51a8",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "fff0a5a947ee4e9c47d0e00dacf8b3fab0e780ac959c2dc11c248e0c7bc5c30b",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/crypto/.cargo/config.toml",
+      "bytes": 89,
+      "sha256": "32ea3d793c6211107786da0c12ac93093c3aa3f0ff45728f4a5803a9a7f371d4",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "84fd4fa17fd967cae6006ba1b0dc430904239dec921c1441dd657387ee802d6c",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/crypto/Cargo.lock",
+      "bytes": 49121,
+      "sha256": "eaac9035a82d629259c13c1d1894e3cc83449225d6838052f946292b35787cfe",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "original-baseline-unchanged",
+      "originalBaselineSha256": "eaac9035a82d629259c13c1d1894e3cc83449225d6838052f946292b35787cfe",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/crypto/Cargo.toml",
+      "bytes": 874,
+      "sha256": "4286d89174161bfb223976135a184a8b0a68470dc23fe18f9fc355cbb3aba359",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "6f5b74e6187f5f90cc4cf4f402b086d67f6b38ab7f758d8fc998444dc1a0e4cd",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/crypto/package.json",
+      "bytes": 218,
+      "sha256": "5245578ced5b50bb0b5b1cb220ee2f65ff7aa27d17b940fe13e46edf4156716f",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "6f846cc1cf5e298a0e094e19a9ba6e7f016a868a25382908c1d515dd94a979c7",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/crypto/src/browser.ts",
+      "bytes": 370,
+      "sha256": "93051fb4a00d02aceabde8d2de9615f9a2046700ef90627f89183c9254e55886",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "017184943792099bcfbe5252166176edbb8cc5aa0314e5b64d336ae090a6aae2",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/crypto/src/lib.rs",
+      "bytes": 29250,
+      "sha256": "c09533c267954e9848f72f1e233d4e11f77456473c37ce2b8c6a0c2c2e16b82e",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "a9c73ce5b84e4671e96130d07fb982ae006bb29b6c5dc5d07eda2b60f3b137bc",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/crypto/src/node.ts",
+      "bytes": 1570,
+      "sha256": "6fa9da3fa51f9d3ac1041053c7e1bfd79ee4f1cd3155145e6b88e2ef01bcdee6",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "5a642cbdb768ac2f13f93fb7bc959ee00032be8b36cfc4f59d51a97f4a8c7fa5",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/crypto/test/roundtrip.mjs",
+      "bytes": 5808,
+      "sha256": "9a494562fd325a617d8d04dc3232116db0c9c54bcaab846db938352a62174cfd",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "47f3a52baf8b90c1073344a72e618855c3d1a94d494a8b678afe18999243621e",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/AGENT.md",
+      "bytes": 9643,
+      "sha256": "60c236cf1f820ad842a984ff28a4a5900a4d27a4bfc9d32109599cfa9a4a9133",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "0d97c93c4f5cc16f0813742cc8644f1380f78e22c0eb714ffde61adf4211c365",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/package.json",
+      "bytes": 727,
+      "sha256": "e0c0bed216e07b18fef35e795312b4d5544e439dc30f591ef2befaf85717eeda",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "bf1ca69b641dd9cc1af08ee1dfe7e85ca4455391f804d16291b8884ea567104c",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/README.md",
+      "bytes": 2802,
+      "sha256": "230e9d90b2ae2996a43653b4731f14c01ebcf96e3c72c67a1b48376a7bc65fac",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/bin.ts",
+      "bytes": 4333,
+      "sha256": "9d0d48fb6bf6a6ad867a941c09f3332f52245c21cd35b9921911cf5fa83f4bf8",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "7c7f82680d07f6dbfd3607aab428b512e19a465f21efa5498cf72274816a0d82",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/catalog.ts",
+      "bytes": 12853,
+      "sha256": "90e28841cb002ec75faea0aa280f967a9cbe7f7120285962de78de2fabefa367",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "dd6378594940ce8295019cbf5b88b7aa47c0b243fb2efbac1952368be5bd7803",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/client.ts",
+      "bytes": 5231,
+      "sha256": "cafd2b1c512918a2b8e1f926699c1d2edbf2ca19275b1df766f7e8c8cf23e34d",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "f7742d51d61a6668bc7da8c16b925bfa0db12ef973fd9744f4fd35d9a05d4727",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/durableFile.ts",
+      "bytes": 1484,
+      "sha256": "8fc043adca15cc77d5dd6cd080d33c7564c930a924e2b822a0d3fd3a78126916",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "ea957e13a921d0a59edabefc3cf4372bb8a7302b2a10c0afe602daf28ca5047e",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/graphql.ts",
+      "bytes": 3882,
+      "sha256": "901800df4d8ddecfc6405ceb5f79fbc132a1ef238a8ebbf0c1a3666e7a905b14",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "5520837ed54b79e48a556b21982fe925298e38eb923165052095a152cec48771",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/http.ts",
+      "bytes": 2953,
+      "sha256": "a3ac1a9f072e742b0ea446c671e81105d9f648cd505f0dc70b2cc8bc9fc035e4",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "b1dea6e64d7aaf7b24628b90a0875eb80d23c16dcefa49dccb6843f840dd3f1e",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/index.ts",
+      "bytes": 414,
+      "sha256": "2d9a49dc876cef5dc4c68c420445211e4e39c01ed23ceb6938813290ca609f25",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "db74c469baa2bb335d41a3c975e343db16d5c336fbca3f4f8bbc67787225fcec",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/localAccess.ts",
+      "bytes": 2076,
+      "sha256": "7b9eed2545a998e0bb46cb1850ab3cf06bc6c7c58c8f418fd6996f43f0f3cbe5",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/mcp.ts",
+      "bytes": 3421,
+      "sha256": "9353a9f635d0b9a19bcd0dcf490fdedf1ab83e7fcbcd43ff31d444d41ddb21bb",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "69fd106b2e8d27fae65bf5154573a998271e8fe3ac2d2b8fff9ef0f6b781d5d2",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/src/types.ts",
+      "bytes": 264,
+      "sha256": "4b48b84a779b6ed269496496ed87d8406ba8ad3b170ff4871e4a97067d7b0299",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "030c43117142f31ca31974cd57b1ef8b0d6c66d978bb557da4a1de51968601b0",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/adapter-idempotency.test.ts",
+      "bytes": 5471,
+      "sha256": "77d94442daff2c1eec8cbad7768960d6ec5f47eceb023a22739426a70af126fd",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/adapters.test.ts",
+      "bytes": 4084,
+      "sha256": "4e261355ad139e17fb298c22842441529f0950dcd79ec09be0385869eb0c4671",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "1859325c912f85ac8476e01155e6d5e6645581444fa99ddf1ac75b16f009ded7",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/agent-options.ts",
+      "bytes": 450,
+      "sha256": "2be16898f71c221ce6bad1a982a7223aa3d23244823b51d2f4a7ffc435ec73b4",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/client-protocol.test.ts",
+      "bytes": 5639,
+      "sha256": "204864eaece13449d0a1b56afb0a5bc4ba39dddf35cc2bd7c607413fc33b03a3",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/durable.test.ts",
+      "bytes": 12070,
+      "sha256": "bcd2111464e7b96233a085790ca1422e2db146ce1403bbc5a73023f890718c0e",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "6ad7fac5c5c38a0a54eaab98be09e09568ef81753e5f1a3bf29e5d5ab7b6f4f0",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/groups.test.ts",
+      "bytes": 6340,
+      "sha256": "61cda28e1a42383d5e276f1b0d2a2420239969a24a2e62113ff972bfcd95bb47",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "2d1a9f65ace744ce24d86ee003499a8025f68cbf7acd5b8d74a982bdb06417ec",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/identity.test.ts",
+      "bytes": 3476,
+      "sha256": "d83bd3cc48b588f0e38234722072da180946dc2424fd2b26dd72bb21fa98c0c7",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "9210f74b92eca5151d4af2cf87a0b93f36d590ec52687d5334d83b627a2149cb",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/roundtrip.test.ts",
+      "bytes": 4573,
+      "sha256": "aff4cbcf6b7388138666b30ff4b070323184445e78d69049e218f16776e17023",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "6228e42a975511220b4650274515677d8180aee956f0ddff23c685043a7ac884",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/headless/test/vault-file.test.ts",
+      "bytes": 4662,
+      "sha256": "48bba050248c8e9d8bf57bb290c4f521b4e9fc017fafe50c6e983882b7880443",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "8d5e2ffda7f41f376f9f0ff25c14711ca3b3e63f1f130794a9220fd7b903794c",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/protocol/LICENSE",
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a",
+      "kind": "third-party-license-or-notice-text",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "Preserved original legal text; no first-party grant asserted",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/protocol/package.json",
+      "bytes": 239,
+      "sha256": "0cd9468dba754aa303b7fbf87b6e9ff5bfe2fb8fcc0d51d60efd24765d1c05b1",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/protocol/README.md",
+      "bytes": 1642,
+      "sha256": "2a15245aba2f2ddfe6aa93736fff058a6491d08bd413a89e6cf0ebb4ac5fbaef",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/protocol/src/index.ts",
+      "bytes": 5869,
+      "sha256": "6ae245faa1b035715d349263dbc38e8d38766ba7257b47cf28dcc8c56c959803",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "MIT",
+      "plannedRole": "public-interface",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/package.json",
+      "bytes": 271,
+      "sha256": "50acc7ae7ac3d202447b93cf746a479dcb3cc4d4366cde318dbc376e86324a54",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "49a43513aad588e7b22c081f7c67075c03f2183333bcfd388dd4aed1782bb7ab",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/src/atRest.ts",
+      "bytes": 4063,
+      "sha256": "bba1ed012aa7b0fbbc50cd1cf10752327dca02223ccc927bbe1647768afbe719",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "d0657866f94e0ca3e7655798032343d1703b5af61639e635e9a6fd0f31d85a62",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/src/bytes.ts",
+      "bytes": 1701,
+      "sha256": "75208ba06d2bbb6438a69650271f005bad6ea382f7d7aeded01dfc5606ba103a",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "2066ddd8afdaa8a8b427831b6481dbfddfc6ed20fcef3607f4bf3ea57432810b",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/src/commit.ts",
+      "bytes": 734,
+      "sha256": "21487b7c2adbec93234100bfeab9d32ba06ae1f435c25d341b335886358c66a9",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "00ff7f2c1aca604494a7b1711c92600df0e7b5e0e97857208dd79fd76fc102f8",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/src/index.ts",
+      "bytes": 635,
+      "sha256": "062110156c3060d24c2e719c6f29020a62b1b89693ed8299a92984038e782059",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "1d0d55ba2f8fb03d572f34f5768069615d566e6fab05436ffc5a458c5d7c2540",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/src/relay.ts",
+      "bytes": 1474,
+      "sha256": "d5d8fb7d99d1b2894c074c72c0a61a2b6252f36d3b686e62c9ef2e595e5913a8",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "b28d1680f60b22437ab513bc325528ae84b5ca7d7d26f1b14db3224201f00f71",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/src/session.ts",
+      "bytes": 60887,
+      "sha256": "ebac7d14b11c6454e991a4ef773851c6bc9af52ebe9d0847e23b4461afe3639e",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "25076cc295fad45653d80046ed25c575068e7291c55dee7661950ef2dc00872f",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/src/signal.ts",
+      "bytes": 1392,
+      "sha256": "edca9f7a7fbaf4be8ccefa22bbd3c6f395e4cb9c50e3dcef2fa94597796ea17c",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "bbf41354923548a57edc9d6e1cf26fb619105911f5d4bf520dc1187d78d192cf",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "packages/session/src/types.ts",
+      "bytes": 4029,
+      "sha256": "59126ffa71da0c5c257ba45a068d5b32c95add79de0e322be864b7b9ed006168",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "149c2c0f765df4872651349a046cc3de5127d5efd1cfaf4d886d1f12bd8a5d92",
+      "currentDeclaredLicense": "AGPL-3.0-only",
+      "plannedRole": "public-messaging",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 3724,
+      "sha256": "2395877b0d3a43cc774ca4b3d873ec14d7ce69e23bdf8e1a67bc975958d272d9",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "bf456df47344836608ac235c583f76fe9eb9b0890cfbd42d0e8a3b1e936c410c",
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "scripts/build-crypto.ps1",
+      "bytes": 747,
+      "sha256": "f5475173880cfecd754f0dc898c1ad92663859402338bba33f108052b02c0863",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "deb1392ad2a02cdf86202d41378f43d54a5d07bc88eb9577092450f015e5332a",
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "scripts/dev.mjs",
+      "bytes": 3591,
+      "sha256": "9d6c0da182282489c70041f5840d7fe8f7e4969bf4333cf82585a6d9fb7fd22c",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "d0cea870bb54f844576fa098507d5c9bf18f79faab48442004b49e300e6572ac",
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "scripts/local-ports.mjs",
+      "bytes": 233,
+      "sha256": "71e5a3fcb4d7355c2d25761e3cc285c5c1bf5235c2baee46d38d709fe96cd26d",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "e8865a32cf3c74b25a4ccf65c692046984ef531ad73cc327ec37ba969bb142ea",
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "scripts/serve-endtoend.mjs",
+      "bytes": 8845,
+      "sha256": "553cdf60800f97bd48f53b80c38b3560190b6f679e30c803f814a34fe6c2f33a",
+      "kind": "first-party-application-or-release-input",
+      "firstPartyOwnershipAsserted": true,
+      "ownershipBasis": {
+        "date": "2026-10-24",
+        "statement": "Yes, I control the first-party rights",
+        "scope": "Owner confirmation accepted for first-party licensing authority. This does not certify third-party provenance, license compatibility or the actual program-combination boundary."
+      },
+      "provenance": "added-during-extraction",
+      "originalBaselineSha256": null,
+      "currentDeclaredLicense": "AGPL-3.0-only first-party release input",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    },
+    {
+      "path": "yarn.lock",
+      "bytes": 56828,
+      "sha256": "4ac56e144d01f037ef3221c1e3d3ed1ef6d632b42d3f74ec7d53056fd2bfa8f1",
+      "kind": "generated-dependency-or-provenance-metadata",
+      "firstPartyOwnershipAsserted": false,
+      "ownershipBasis": null,
+      "provenance": "modified-from-original-baseline",
+      "originalBaselineSha256": "3c9cbec5488eb77797c91e9bf0e9753895dfebd2e3583dee3f131fd13f0fc0aa",
+      "currentDeclaredLicense": "Dependency grants remain separate from generated metadata",
+      "plannedRole": "build-or-release-input",
+      "consumerGrantChanged": false
+    }
+  ],
+  "legalCertification": false,
+  "thirdPartyOwnershipClaimed": false,
+  "publicationAuthorized": false
+}

@@ -1,0 +1,85 @@
+{
+  "bugs": {
+    "url": "https://github.com/Kilian/electron-to-chromium/issues"
+  },
+  "dist": {
+    "shasum": "fe57da2e9820f748ebb497b99c7a0366bc25737c",
+    "tarball": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.444.tgz",
+    "fileCount": 12,
+    "integrity": "sha512-5ss/uJfoDYDHT0lfJzT6FbcskIzROIOPf0BbbFkGcvDzoJU7i//9GDrwwIHQVmIsrAGiF3ihpADBRIsrEFt1rQ==",
+    "signatures": [
+      {
+        "sig": "MEUCIBfTrGunhQfqn/815hih/drn3ybq/9uMDn2ne7cZ0BOfAiEAgLB17ssGS/q4zP1JjUiCMuA2YHsmyZ655ry877zVBz8=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEUCIF+gwuO4UzUV+cr6gdrLEJj7mGbTP86GlNAJ4PlAUpBMAiEA8b5jm3Dolf17rYuHVEZuHSINUF/qhzVnOaxFepm0Yik=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/electron-to-chromium@1.5.444",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 203492
+  },
+  "main": "index.js",
+  "name": "electron-to-chromium",
+  "author": {
+    "name": "Kilian Valkhof"
+  },
+  "gitHead": "d3918846153ba42afad5c40b0e1f88e0083bbaf9",
+  "license": "ISC",
+  "scripts": {
+    "test": "nyc ava --verbose",
+    "build": "node build.mjs",
+    "report": "nyc report --reporter=text-lcov > coverage.lcov",
+    "update": "node automated-update.js"
+  },
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "837a2eed-8c59-4f11-b029-d978b1c59ad2"
+    }
+  },
+  "homepage": "https://github.com/Kilian/electron-to-chromium#readme",
+  "keywords": [
+    "electron",
+    "chrome",
+    "chromium",
+    "browserslist",
+    "browserlist"
+  ],
+  "repository": {
+    "url": "git+https://github.com/Kilian/electron-to-chromium.git",
+    "type": "git"
+  },
+  "_npmVersion": "11.21.0",
+  "description": "Provides a list of electron-to-chromium version mappings",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "kilianvalkhof",
+      "email": "kilian@kilianvalkhof.com"
+    }
+  ],
+  "_nodeVersion": "24.21.0",
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "ava": "^7.0.0",
+    "nyc": "^18.0.0",
+    "shelljs": "^0.10.0",
+    "node-fetch": "^3.3.2",
+    "compare-versions": "^6.1.1"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/electron-to-chromium_1.5.444_1790906693528_0.636355189815067",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "electron-to-chromium@1.5.444",
+  "version": "1.5.444"
+}

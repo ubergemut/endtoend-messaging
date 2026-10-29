@@ -1,0 +1,1642 @@
+[
+  {
+    "sha": "cc27b6215653160781e3d4689aba28a9d7ea4023",
+    "node_id": "C_kwDOA68NytoAKGNjMjdiNjIxNTY1MzE2MDc4MWUzZDQ2ODlhYmEyOGE5ZDdlYTQwMjM",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-11-05T21:36:32Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-11-05T21:36:32Z"
+      },
+      "message": "refresh dist & hitns",
+      "tree": {
+        "sha": "4286ee40e144df00873f4c4ddb6bd0728a4d976b",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/4286ee40e144df00873f4c4ddb6bd0728a4d976b"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/cc27b6215653160781e3d4689aba28a9d7ea4023",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/cc27b6215653160781e3d4689aba28a9d7ea4023",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/cc27b6215653160781e3d4689aba28a9d7ea4023",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/cc27b6215653160781e3d4689aba28a9d7ea4023/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "847c9920e6abad5e4564ec559d3d14d5e769e1ef",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/847c9920e6abad5e4564ec559d3d14d5e769e1ef",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/847c9920e6abad5e4564ec559d3d14d5e769e1ef"
+      }
+    ]
+  },
+  {
+    "sha": "4cc54c5c9ec684f49e3ba54c3fe3aa5fd3c1785f",
+    "node_id": "C_kwDOA68NytoAKDRjYzU0YzVjOWVjNjg0ZjQ5ZTNiYTU0YzNmZTNhYTVmZDNjMTc4NWY",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-11-05T21:36:14Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-11-05T21:36:14Z"
+      },
+      "message": "Fix tests",
+      "tree": {
+        "sha": "9212fedc0247cc169b310ca6bd44880dba4ae05c",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/9212fedc0247cc169b310ca6bd44880dba4ae05c"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/4cc54c5c9ec684f49e3ba54c3fe3aa5fd3c1785f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/4cc54c5c9ec684f49e3ba54c3fe3aa5fd3c1785f",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/4cc54c5c9ec684f49e3ba54c3fe3aa5fd3c1785f",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/4cc54c5c9ec684f49e3ba54c3fe3aa5fd3c1785f/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2e7c0826d1d623458b9341aadad379fa398cf02b",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/2e7c0826d1d623458b9341aadad379fa398cf02b",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/2e7c0826d1d623458b9341aadad379fa398cf02b"
+      }
+    ]
+  },
+  {
+    "sha": "03e9108c88a3115af1e55e1cbb2c496a84b4334c",
+    "node_id": "C_kwDOA68NytoAKDAzZTkxMDhjODhhMzExNWFmMWU1NWUxY2JiMmM0OTZhODRiNDMzNGM",
+    "commit": {
+      "author": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-11-05T18:23:27Z"
+      },
+      "committer": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-11-05T18:23:27Z"
+      },
+      "message": "Add tests for hkdf",
+      "tree": {
+        "sha": "6546fa218ccb8952d9d0ee18309c5e54d876ea7a",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/6546fa218ccb8952d9d0ee18309c5e54d876ea7a"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/03e9108c88a3115af1e55e1cbb2c496a84b4334c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/03e9108c88a3115af1e55e1cbb2c496a84b4334c",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/03e9108c88a3115af1e55e1cbb2c496a84b4334c",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/03e9108c88a3115af1e55e1cbb2c496a84b4334c/comments",
+    "author": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "393f70b4acdc11e1f69e183e85fe284679f7b863",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/393f70b4acdc11e1f69e183e85fe284679f7b863",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/393f70b4acdc11e1f69e183e85fe284679f7b863"
+      }
+    ]
+  },
+  {
+    "sha": "14eb64194ad5152238a9f4e25008f388dddb512f",
+    "node_id": "C_kwDOA68NytoAKDE0ZWI2NDE5NGFkNTE1MjIzOGE5ZjRlMjUwMDhmMzg4ZGRkYjUxMmY",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-10-24T22:25:53Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-10-24T22:25:53Z"
+      },
+      "message": "With latest krml",
+      "tree": {
+        "sha": "14b7eacb95e989ba4cf177ac320140e0150259ef",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/14b7eacb95e989ba4cf177ac320140e0150259ef"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/14eb64194ad5152238a9f4e25008f388dddb512f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/14eb64194ad5152238a9f4e25008f388dddb512f",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/14eb64194ad5152238a9f4e25008f388dddb512f",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/14eb64194ad5152238a9f4e25008f388dddb512f/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e35b356470f991e497ead37aa78007e565fa78f4",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/e35b356470f991e497ead37aa78007e565fa78f4",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/e35b356470f991e497ead37aa78007e565fa78f4"
+      }
+    ]
+  },
+  {
+    "sha": "739bd405937977865ebd1493d2311a6c4046d371",
+    "node_id": "C_kwDOA68NytoAKDczOWJkNDA1OTM3OTc3ODY1ZWJkMTQ5M2QyMzExYTZjNDA0NmQzNzE",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-24T20:56:44Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-24T20:56:44Z"
+      },
+      "message": "fix tests",
+      "tree": {
+        "sha": "9d9a7e4da0024f15a687ed0f4d9fc4d06e407e70",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/9d9a7e4da0024f15a687ed0f4d9fc4d06e407e70"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/739bd405937977865ebd1493d2311a6c4046d371",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/739bd405937977865ebd1493d2311a6c4046d371",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/739bd405937977865ebd1493d2311a6c4046d371",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/739bd405937977865ebd1493d2311a6c4046d371/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf0cbee0614b0254e37c206534f46765f190eaf7",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/cf0cbee0614b0254e37c206534f46765f190eaf7",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/cf0cbee0614b0254e37c206534f46765f190eaf7"
+      }
+    ]
+  },
+  {
+    "sha": "0c21c5f77a0580015f856fce544979fc8bee3810",
+    "node_id": "C_kwDOA68NytoAKDBjMjFjNWY3N2EwNTgwMDE1Zjg1NmZjZTU0NDk3OWZjOGJlZTM4MTA",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-20T17:49:22Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-20T17:49:22Z"
+      },
+      "message": "Cleanup files that are no longer generated",
+      "tree": {
+        "sha": "48e3a164e74b8f452660821debad5e29d8558bc8",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/48e3a164e74b8f452660821debad5e29d8558bc8"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/0c21c5f77a0580015f856fce544979fc8bee3810",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/0c21c5f77a0580015f856fce544979fc8bee3810",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/0c21c5f77a0580015f856fce544979fc8bee3810",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/0c21c5f77a0580015f856fce544979fc8bee3810/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e49d465c6c17973bc62dedf5cbb774b24ad0b598",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/e49d465c6c17973bc62dedf5cbb774b24ad0b598",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/e49d465c6c17973bc62dedf5cbb774b24ad0b598"
+      }
+    ]
+  },
+  {
+    "sha": "e49d465c6c17973bc62dedf5cbb774b24ad0b598",
+    "node_id": "C_kwDOA68NytoAKGU0OWQ0NjVjNmMxNzk3M2JjNjJkZWRmNWNiYjc3NGIyNGFkMGI1OTg",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-20T17:43:03Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-20T17:43:03Z"
+      },
+      "message": "As auto-generated by the latest krml",
+      "tree": {
+        "sha": "9b377aa223b63d04d9cf10b0040de4a466fb63f2",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/9b377aa223b63d04d9cf10b0040de4a466fb63f2"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/e49d465c6c17973bc62dedf5cbb774b24ad0b598",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/e49d465c6c17973bc62dedf5cbb774b24ad0b598",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/e49d465c6c17973bc62dedf5cbb774b24ad0b598",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/e49d465c6c17973bc62dedf5cbb774b24ad0b598/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ab40c61f0cfc776b9b318d0bbc3532cbf4214163",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/ab40c61f0cfc776b9b318d0bbc3532cbf4214163",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/ab40c61f0cfc776b9b318d0bbc3532cbf4214163"
+      }
+    ]
+  },
+  {
+    "sha": "ab40c61f0cfc776b9b318d0bbc3532cbf4214163",
+    "node_id": "C_kwDOA68NytoAKGFiNDBjNjFmMGNmYzc3NmI5YjMxOGQwYmJjMzUzMmNiZjQyMTQxNjM",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T21:37:01Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T21:37:01Z"
+      },
+      "message": "Final tweak",
+      "tree": {
+        "sha": "d67cc7f9ead6fcbc425a939dd519fc45e8d2b22d",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/d67cc7f9ead6fcbc425a939dd519fc45e8d2b22d"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/ab40c61f0cfc776b9b318d0bbc3532cbf4214163",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/ab40c61f0cfc776b9b318d0bbc3532cbf4214163",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/ab40c61f0cfc776b9b318d0bbc3532cbf4214163",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/ab40c61f0cfc776b9b318d0bbc3532cbf4214163/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "297259d08a79cede27a0c16d40b1377d44d02bcb",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/297259d08a79cede27a0c16d40b1377d44d02bcb",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/297259d08a79cede27a0c16d40b1377d44d02bcb"
+      }
+    ]
+  },
+  {
+    "sha": "297259d08a79cede27a0c16d40b1377d44d02bcb",
+    "node_id": "C_kwDOA68NytoAKDI5NzI1OWQwOGE3OWNlZGUyN2EwYzE2ZDQwYjEzNzdkNDRkMDJiY2I",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T21:34:04Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T21:34:04Z"
+      },
+      "message": "Another cleanup",
+      "tree": {
+        "sha": "66e1a33bde3634058b95259e1a3c679c8a11444c",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/66e1a33bde3634058b95259e1a3c679c8a11444c"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/297259d08a79cede27a0c16d40b1377d44d02bcb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/297259d08a79cede27a0c16d40b1377d44d02bcb",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/297259d08a79cede27a0c16d40b1377d44d02bcb",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/297259d08a79cede27a0c16d40b1377d44d02bcb/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "147d58dec68830fd11d7f501fb6d0e9b4e69579e",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/147d58dec68830fd11d7f501fb6d0e9b4e69579e",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/147d58dec68830fd11d7f501fb6d0e9b4e69579e"
+      }
+    ]
+  },
+  {
+    "sha": "147d58dec68830fd11d7f501fb6d0e9b4e69579e",
+    "node_id": "C_kwDOA68NytoAKDE0N2Q1OGRlYzY4ODMwZmQxMWQ3ZjUwMWZiNmQwZTliNGU2OTU3OWU",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T21:19:40Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T21:19:40Z"
+      },
+      "message": "wip revised directory structure to allow for sub-crates",
+      "tree": {
+        "sha": "7f28dd0cfa25cffde0bf5a13afc4f626332d7082",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/7f28dd0cfa25cffde0bf5a13afc4f626332d7082"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/147d58dec68830fd11d7f501fb6d0e9b4e69579e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/147d58dec68830fd11d7f501fb6d0e9b4e69579e",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/147d58dec68830fd11d7f501fb6d0e9b4e69579e",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/147d58dec68830fd11d7f501fb6d0e9b4e69579e/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9ba154281f0d59daf1f7e6537702f23afb1f1720",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/9ba154281f0d59daf1f7e6537702f23afb1f1720",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/9ba154281f0d59daf1f7e6537702f23afb1f1720"
+      }
+    ]
+  },
+  {
+    "sha": "9ba154281f0d59daf1f7e6537702f23afb1f1720",
+    "node_id": "C_kwDOA68NytoAKDliYTE1NDI4MWYwZDU5ZGFmMWY3ZTY1Mzc3MDJmMjNhZmIxZjE3MjA",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T21:17:52Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T21:17:52Z"
+      },
+      "message": "wip",
+      "tree": {
+        "sha": "c0f7e85cccd1468c6e4c2a10c98f78d367264c33",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/c0f7e85cccd1468c6e4c2a10c98f78d367264c33"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/9ba154281f0d59daf1f7e6537702f23afb1f1720",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/9ba154281f0d59daf1f7e6537702f23afb1f1720",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/9ba154281f0d59daf1f7e6537702f23afb1f1720",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/9ba154281f0d59daf1f7e6537702f23afb1f1720/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c0142ef3524f974e1c7ef759298bf1b1239a19a3",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/c0142ef3524f974e1c7ef759298bf1b1239a19a3",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/c0142ef3524f974e1c7ef759298bf1b1239a19a3"
+      }
+    ]
+  },
+  {
+    "sha": "c0142ef3524f974e1c7ef759298bf1b1239a19a3",
+    "node_id": "C_kwDOA68NytoAKGMwMTQyZWYzNTI0Zjk3NGUxYzdlZjc1OTI5OGJmMWIxMjM5YTE5YTM",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T20:38:37Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T20:38:37Z"
+      },
+      "message": "wip",
+      "tree": {
+        "sha": "358c55050af0037544bcfb7f90c1daa48cf6ad9f",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/358c55050af0037544bcfb7f90c1daa48cf6ad9f"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/c0142ef3524f974e1c7ef759298bf1b1239a19a3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/c0142ef3524f974e1c7ef759298bf1b1239a19a3",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/c0142ef3524f974e1c7ef759298bf1b1239a19a3",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/c0142ef3524f974e1c7ef759298bf1b1239a19a3/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0d5fd3cf1a8a6b1b86dcf72213edce8bfd5ba9c8",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/0d5fd3cf1a8a6b1b86dcf72213edce8bfd5ba9c8",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/0d5fd3cf1a8a6b1b86dcf72213edce8bfd5ba9c8"
+      }
+    ]
+  },
+  {
+    "sha": "0d5fd3cf1a8a6b1b86dcf72213edce8bfd5ba9c8",
+    "node_id": "C_kwDOA68NytoAKDBkNWZkM2NmMWE4YTZiMWI4NmRjZjcyMjEzZWRjZThiZmQ1YmE5Yzg",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T20:36:15Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T20:36:15Z"
+      },
+      "message": "wip",
+      "tree": {
+        "sha": "c0761d22b175cf4bfd649f4e3d36665669673307",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/c0761d22b175cf4bfd649f4e3d36665669673307"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/0d5fd3cf1a8a6b1b86dcf72213edce8bfd5ba9c8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/0d5fd3cf1a8a6b1b86dcf72213edce8bfd5ba9c8",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/0d5fd3cf1a8a6b1b86dcf72213edce8bfd5ba9c8",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/0d5fd3cf1a8a6b1b86dcf72213edce8bfd5ba9c8/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5d81b88a907040d67800bd8b648e17a7c1eccde7",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/5d81b88a907040d67800bd8b648e17a7c1eccde7",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/5d81b88a907040d67800bd8b648e17a7c1eccde7"
+      }
+    ]
+  },
+  {
+    "sha": "5d81b88a907040d67800bd8b648e17a7c1eccde7",
+    "node_id": "C_kwDOA68NytoAKDVkODFiODhhOTA3MDQwZDY3ODAwYmQ4YjY0OGUxN2E3YzFlY2NkZTc",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T16:30:22Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-19T16:30:22Z"
+      },
+      "message": "Back off a small change that generates a needless diff -- we can see to that later",
+      "tree": {
+        "sha": "1b8fca1acaef56f02e07702692719e483ae70370",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/1b8fca1acaef56f02e07702692719e483ae70370"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/5d81b88a907040d67800bd8b648e17a7c1eccde7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/5d81b88a907040d67800bd8b648e17a7c1eccde7",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/5d81b88a907040d67800bd8b648e17a7c1eccde7",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/5d81b88a907040d67800bd8b648e17a7c1eccde7/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3fca292d4fed0d58cd21fc42c39878ca413bfc4d",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/3fca292d4fed0d58cd21fc42c39878ca413bfc4d",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/3fca292d4fed0d58cd21fc42c39878ca413bfc4d"
+      }
+    ]
+  },
+  {
+    "sha": "3fca292d4fed0d58cd21fc42c39878ca413bfc4d",
+    "node_id": "C_kwDOA68NytoAKDNmY2EyOTJkNGZlZDBkNThjZDIxZmM0MmMzOTg3OGNhNDEzYmZjNGQ",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-18T23:30:01Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-18T23:30:01Z"
+      },
+      "message": "HACL*, extracted to Rust, with match constructs retained wherever applicable",
+      "tree": {
+        "sha": "2d58ffb4a65d2f003673b0d3afb9bb063fe4c5db",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/2d58ffb4a65d2f003673b0d3afb9bb063fe4c5db"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/3fca292d4fed0d58cd21fc42c39878ca413bfc4d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/3fca292d4fed0d58cd21fc42c39878ca413bfc4d",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/3fca292d4fed0d58cd21fc42c39878ca413bfc4d",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/3fca292d4fed0d58cd21fc42c39878ca413bfc4d/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f845a43cb2801be5a8057204811b7b5c83965e0b",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/f845a43cb2801be5a8057204811b7b5c83965e0b",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/f845a43cb2801be5a8057204811b7b5c83965e0b"
+      }
+    ]
+  },
+  {
+    "sha": "f845a43cb2801be5a8057204811b7b5c83965e0b",
+    "node_id": "C_kwDOA68NytoAKGY4NDVhNDNjYjI4MDFiZTVhODA1NzIwNDgxMWI3YjVjODM5NjVlMGI",
+    "commit": {
+      "author": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-09-08T04:59:56Z"
+      },
+      "committer": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-09-08T04:59:56Z"
+      },
+      "message": "Fix tests",
+      "tree": {
+        "sha": "2784a301e6b344cab65b57484b6f7fec44cc9ac4",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/2784a301e6b344cab65b57484b6f7fec44cc9ac4"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/f845a43cb2801be5a8057204811b7b5c83965e0b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/f845a43cb2801be5a8057204811b7b5c83965e0b",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/f845a43cb2801be5a8057204811b7b5c83965e0b",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/f845a43cb2801be5a8057204811b7b5c83965e0b/comments",
+    "author": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "56f32e5363d71fa1b3265f091ae80ba99ea26809",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/56f32e5363d71fa1b3265f091ae80ba99ea26809",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/56f32e5363d71fa1b3265f091ae80ba99ea26809"
+      }
+    ]
+  },
+  {
+    "sha": "56f32e5363d71fa1b3265f091ae80ba99ea26809",
+    "node_id": "C_kwDOA68NytoAKDU2ZjMyZTUzNjNkNzFmYTFiMzI2NWYwOTFhZTgwYmE5OWVhMjY4MDk",
+    "commit": {
+      "author": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-05T21:09:54Z"
+      },
+      "committer": {
+        "name": "Jonathan Protzenko",
+        "email": "protz@microsoft.com",
+        "date": "2024-09-05T21:09:54Z"
+      },
+      "message": "With branch protz_box",
+      "tree": {
+        "sha": "a4bd98c352d487290777c88e1de12439a7cd0097",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/a4bd98c352d487290777c88e1de12439a7cd0097"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/56f32e5363d71fa1b3265f091ae80ba99ea26809",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/56f32e5363d71fa1b3265f091ae80ba99ea26809",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/56f32e5363d71fa1b3265f091ae80ba99ea26809",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/56f32e5363d71fa1b3265f091ae80ba99ea26809/comments",
+    "author": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "msprotz",
+      "id": 10673049,
+      "node_id": "MDQ6VXNlcjEwNjczMDQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10673049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msprotz",
+      "html_url": "https://github.com/msprotz",
+      "followers_url": "https://api.github.com/users/msprotz/followers",
+      "following_url": "https://api.github.com/users/msprotz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msprotz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msprotz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msprotz/subscriptions",
+      "organizations_url": "https://api.github.com/users/msprotz/orgs",
+      "repos_url": "https://api.github.com/users/msprotz/repos",
+      "events_url": "https://api.github.com/users/msprotz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msprotz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b5732cf1764e0a6b15e041a5991c3c21ea7d5bc6",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/b5732cf1764e0a6b15e041a5991c3c21ea7d5bc6",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/b5732cf1764e0a6b15e041a5991c3c21ea7d5bc6"
+      }
+    ]
+  },
+  {
+    "sha": "11e1271b74ad223ada0207447ce59364c50a093b",
+    "node_id": "C_kwDOA68NytoAKDExZTEyNzFiNzRhZDIyM2FkYTAyMDc0NDdjZTU5MzY0YzUwYTA5M2I",
+    "commit": {
+      "author": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-08-30T17:39:46Z"
+      },
+      "committer": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-08-30T17:39:46Z"
+      },
+      "message": "Enable hmac + blake2",
+      "tree": {
+        "sha": "f8ce67b3549dee31daf3ef7962dd1e57facde638",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/f8ce67b3549dee31daf3ef7962dd1e57facde638"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/11e1271b74ad223ada0207447ce59364c50a093b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/11e1271b74ad223ada0207447ce59364c50a093b",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/11e1271b74ad223ada0207447ce59364c50a093b",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/11e1271b74ad223ada0207447ce59364c50a093b/comments",
+    "author": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9afc62ff4b54874cc999b32e679af920c4ece9e4",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/9afc62ff4b54874cc999b32e679af920c4ece9e4",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/9afc62ff4b54874cc999b32e679af920c4ece9e4"
+      }
+    ]
+  },
+  {
+    "sha": "9afc62ff4b54874cc999b32e679af920c4ece9e4",
+    "node_id": "C_kwDOA68NytoAKDlhZmM2MmZmNGI1NDg3NGNjOTk5YjMyZTY3OWFmOTIwYzRlY2U5ZTQ",
+    "commit": {
+      "author": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-08-30T17:36:34Z"
+      },
+      "committer": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-08-30T17:36:34Z"
+      },
+      "message": "dist refresh",
+      "tree": {
+        "sha": "d2fd944eb5854d82d625ec6e75411d1e6c079ca3",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/d2fd944eb5854d82d625ec6e75411d1e6c079ca3"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/9afc62ff4b54874cc999b32e679af920c4ece9e4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/9afc62ff4b54874cc999b32e679af920c4ece9e4",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/9afc62ff4b54874cc999b32e679af920c4ece9e4",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/9afc62ff4b54874cc999b32e679af920c4ece9e4/comments",
+    "author": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0e5fd60c0b2fbdf9db4993ffbab9f1c616c5d2c8",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/0e5fd60c0b2fbdf9db4993ffbab9f1c616c5d2c8",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/0e5fd60c0b2fbdf9db4993ffbab9f1c616c5d2c8"
+      }
+    ]
+  },
+  {
+    "sha": "8cc84c1d86f02c6da557467b35524c8c2d85b192",
+    "node_id": "C_kwDOA68NytoAKDhjYzg0YzFkODZmMDJjNmRhNTU3NDY3YjM1NTI0YzhjMmQ4NWIxOTI",
+    "commit": {
+      "author": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-08-28T14:44:48Z"
+      },
+      "committer": {
+        "name": "Aymeric Fromherz",
+        "email": "aymeric.fromherz@inria.fr",
+        "date": "2024-08-28T14:44:48Z"
+      },
+      "message": "Remove unneeded bignum_annotated",
+      "tree": {
+        "sha": "2cb188d2fc6f421bb5aac4c7ded391170bcbbdca",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/git/trees/2cb188d2fc6f421bb5aac4c7ded391170bcbbdca"
+      },
+      "url": "https://api.github.com/repos/hacl-star/hacl-star/git/commits/8cc84c1d86f02c6da557467b35524c8c2d85b192",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/8cc84c1d86f02c6da557467b35524c8c2d85b192",
+    "html_url": "https://github.com/hacl-star/hacl-star/commit/8cc84c1d86f02c6da557467b35524c8c2d85b192",
+    "comments_url": "https://api.github.com/repos/hacl-star/hacl-star/commits/8cc84c1d86f02c6da557467b35524c8c2d85b192/comments",
+    "author": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "R1kM",
+      "id": 6841566,
+      "node_id": "MDQ6VXNlcjY4NDE1NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R1kM",
+      "html_url": "https://github.com/R1kM",
+      "followers_url": "https://api.github.com/users/R1kM/followers",
+      "following_url": "https://api.github.com/users/R1kM/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R1kM/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R1kM/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R1kM/subscriptions",
+      "organizations_url": "https://api.github.com/users/R1kM/orgs",
+      "repos_url": "https://api.github.com/users/R1kM/repos",
+      "events_url": "https://api.github.com/users/R1kM/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R1kM/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "36fa207eb270442c7c0889f77d072dc9982f9a0a",
+        "url": "https://api.github.com/repos/hacl-star/hacl-star/commits/36fa207eb270442c7c0889f77d072dc9982f9a0a",
+        "html_url": "https://github.com/hacl-star/hacl-star/commit/36fa207eb270442c7c0889f77d072dc9982f9a0a"
+      }
+    ]
+  }
+]

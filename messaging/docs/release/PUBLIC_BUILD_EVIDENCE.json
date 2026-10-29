@@ -1,0 +1,23 @@
+{
+  "kind": "endtoend-messaging-step-7-source-preparation",
+  "version": "0.2.0",
+  "checkedAt": "2026-10-28T20:05:30.014Z",
+  "installedInIsolatedPublicWorkspace": true,
+  "installLifecycleScripts": false,
+  "publicYarnLockSha256": "d5f9f82059a73c3f27d5b241b1b65d8710684b2abe93b0696adf5283b84d5f87",
+  "sourceClosure": {
+    "filesVerified": 813,
+    "manifestSha256": "21238121a1951f3ec536e1bdac2594c48de62f2e1390be72fd8cd855d204e66e"
+  },
+  "cargoSourceFilesVerified": 8591,
+  "crypto": {
+    "attempted": false,
+    "freshRustBuildForExpandedRelease": false
+  },
+  "commands": [],
+  "reusedPassedChecks": null,
+  "runnableBuildPassed": false,
+  "step7Complete": false,
+  "published": false,
+  "legalCertification": false
+}

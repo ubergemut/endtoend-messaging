@@ -1,0 +1,30 @@
+[package]
+name = "e2ee-crypto"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+description = "Browser and Node bindings over pinned libsignal (PQXDH, Double Ratchet, sender keys)"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+libsignal-protocol = { git = "https://github.com/signalapp/libsignal", tag = "v0.104.0" }
+wasm-bindgen = "0.2.100"
+js-sys = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+base64 = "0.22"
+aes-gcm = "0.10"
+hkdf = "0.12"
+sha2 = "0.10"
+rand = "0.9"
+futures-util = "0.3"
+uuid = "1"
+getrandom = { version = "0.3", features = ["wasm_js"] }
+getrandom_02 = { package = "getrandom", version = "0.2", features = ["js"] }
+getrandom_04 = { package = "getrandom", version = "0.4", features = ["wasm_js"] }
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false

@@ -1,0 +1,11 @@
+{
+  "name": "@e2ee/messaging-reference",
+  "version": "0.2.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "description": "Standalone public EndToEnd messaging reference browser.",
+  "scripts": {"dev": "vite", "build": "vite build", "check": "tsc --noEmit", "test": "node --import tsx --test test/config.test.ts", "test:browser": "node test/browser-acceptance.mjs"},
+  "dependencies": {"@e2ee/client": "*", "@e2ee/protocol": "*"},
+  "devDependencies": {"@types/node": "^22.15.30", "typescript": "^5.8.3", "vite": "^7.1.3", "tsx": "^4.20.5", "playwright": "^1.56.1"}
+}

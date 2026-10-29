@@ -1,0 +1,105 @@
+{
+  "bugs": {
+    "url": "https://github.com/jridgewell/sourcemaps/issues"
+  },
+  "dist": {
+    "shasum": "375c476d1972947851ba1e15ae8f123047445aa1",
+    "tarball": "https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz",
+    "fileCount": 32,
+    "integrity": "sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDmnq5itLnV7/riJcHN0MZ4pwbZicCcpV9JGXDLgqWb+AIgak7hXSDglw9tX3DNlTtgq3jAG4XEYqiEx29bztRnx0Y=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 59366
+  },
+  "main": "dist/remapping.umd.js",
+  "name": "@jridgewell/remapping",
+  "types": "types/remapping.d.cts",
+  "author": {
+    "name": "Justin Ridgewell",
+    "email": "justin@ridgewell.name"
+  },
+  "module": "dist/remapping.mjs",
+  "exports": {
+    ".": [
+      {
+        "import": {
+          "types": "./types/remapping.d.mts",
+          "default": "./dist/remapping.mjs"
+        },
+        "default": {
+          "types": "./types/remapping.d.cts",
+          "default": "./dist/remapping.umd.js"
+        }
+      },
+      "./dist/remapping.umd.js"
+    ],
+    "./package.json": "./package.json"
+  },
+  "gitHead": "095a5825c482003597a30aa380b50159219f3618",
+  "license": "MIT",
+  "scripts": {
+    "lint": "run-s -n lint:types lint:format",
+    "test": "run-s -n test:types test:only test:format",
+    "build": "run-s -n build:code build:types",
+    "clean": "run-s -n clean:code clean:types",
+    "benchmark": "run-s build:code benchmark:*",
+    "test:only": "mocha",
+    "build:code": "node ../../esbuild.mjs remapping.ts",
+    "clean:code": "tsc --build --clean tsconfig.build.json",
+    "lint:types": "npm run test:types -- --fix",
+    "test:types": "eslint '{src,test}/**/*.ts'",
+    "build:types": "run-s build:types:force build:types:emit build:types:mts",
+    "clean:types": "rimraf dist types",
+    "lint:format": "npm run test:format -- --write",
+    "test:format": "prettier --check '{src,test}/**/*.ts'",
+    "benchmark:only": "node --expose-gc benchmark/index.js",
+    "prepublishOnly": "npm run-s -n build test",
+    "build:types:mts": "node ../../mts-types.mjs",
+    "build:types:emit": "tsc --project tsconfig.build.json",
+    "benchmark:install": "cd benchmark && npm install",
+    "build:types:force": "rimraf tsconfig.build.tsbuildinfo"
+  },
+  "_npmUser": {
+    "name": "jridgewell",
+    "email": "justin+npm@ridgewell.name"
+  },
+  "homepage": "https://github.com/jridgewell/sourcemaps/tree/main/packages/remapping",
+  "keywords": [
+    "source",
+    "map",
+    "remap"
+  ],
+  "repository": {
+    "url": "git+https://github.com/jridgewell/sourcemaps.git",
+    "type": "git",
+    "directory": "packages/remapping"
+  },
+  "_npmVersion": "11.4.2",
+  "description": "Remap sequential sourcemaps through transformations to point at the original source code",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "jridgewell",
+      "email": "justin+npm@ridgewell.name"
+    }
+  ],
+  "_nodeVersion": "24.4.1",
+  "dependencies": {
+    "@jridgewell/gen-mapping": "^0.3.5",
+    "@jridgewell/trace-mapping": "^0.3.24"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "source-map": "0.6.1"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/remapping_2.3.5_1754981015120_0.8388612836259222",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@jridgewell/remapping@2.3.5",
+  "version": "2.3.5"
+}

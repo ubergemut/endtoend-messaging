@@ -1,0 +1,234 @@
+[
+  {
+    "target": "bignum.rs",
+    "source": "dist/rs/bignum/lib.rs",
+    "sourceSha256": "79b5476577605cead3315b4fa5e55d918089508b49f0ff130194b26ef8460666",
+    "targetSha256": "dd994b48b81b6e9c35b18c43595d1d4e34d38289af9de2e7ef638fdca513daf3",
+    "kind": "Rust crate layout/support preferred source",
+    "preferredInputs": []
+  },
+  {
+    "target": "bignum/base.rs",
+    "source": "dist/rs/bignum/bignum.rs",
+    "sourceSha256": "976b783239fdb311acfa07e0486766c3854164576789273bfeb1f02585daed76",
+    "targetSha256": "cc38b2e8a89138e842b4b21d3c2cb2858c998aa374370c2339c399f500c130ac",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/bignum/Hacl.Bignum.fst"
+    ]
+  },
+  {
+    "target": "bignum/bignum_base.rs",
+    "source": "dist/rs/bignum/bignum_base.rs",
+    "sourceSha256": "6ed342c07d54eb6687ffcc062deabab2f4fe11e87c7fa110be179287ef13caf5",
+    "targetSha256": "66cdbd9f7fab4b1f9426dce5fcd7bf7717911d346bdc8854068ed29b24b4f104",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/bignum/Hacl.Bignum.Base.fst"
+    ]
+  },
+  {
+    "target": "bignum/bignum256_32.rs",
+    "source": "dist/rs/bignum/bignum256_32.rs",
+    "sourceSha256": "7d6b0bbfd68cc7b5fa4a584b35276932559283d7bca009e81cd66b19bb046f6b",
+    "targetSha256": "a35adfbb11157c3ef461499fa9b178cd1a8ddedaff10f9a8485f8fa1fe8f367d",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/bignum/Hacl.Bignum256_32.fst"
+    ]
+  },
+  {
+    "target": "bignum/bignum256.rs",
+    "source": "dist/rs/bignum/bignum256.rs",
+    "sourceSha256": "32aa18b40ffac0d259d9c4a815a0ff490525f1694a463618677c25bf46d4fdb8",
+    "targetSha256": "cfb6e00aee79f40c4b12b7ce5f04ddcf7844fa1abe12e12ae859cdfe649fd09c",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/bignum/Hacl.Bignum256.fst"
+    ]
+  },
+  {
+    "target": "bignum/bignum32.rs",
+    "source": "dist/rs/bignum/bignum32.rs",
+    "sourceSha256": "b5724fa2699f631261052ece41339aa9d03e54f749b6d7cd105402fad4c2057a",
+    "targetSha256": "d98260ea7605822ae936c6550b0a6310bf14fef6b45b475200ccd2005a66fb3b",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/bignum/Hacl.Bignum32.fst"
+    ]
+  },
+  {
+    "target": "bignum/bignum4096_32.rs",
+    "source": "dist/rs/bignum/bignum4096_32.rs",
+    "sourceSha256": "e8845d2924c5c2d950620ad7cd733f9aa285599c8fe4f4f4599c30bfdaa70a6c",
+    "targetSha256": "a032da143d5fadd9bd3843d007f23289682cedbd1e9787a74d5c118b86f2b518",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/bignum/Hacl.Bignum4096_32.fst"
+    ]
+  },
+  {
+    "target": "bignum/bignum4096.rs",
+    "source": "dist/rs/bignum/bignum4096.rs",
+    "sourceSha256": "88f06f174b5ee38b60063a39a6229f1615a90ec548c52ad6018d12a6ec9224f4",
+    "targetSha256": "a6aceaab9f751e70da9f93e67a730b3bcf98cc635e06f51289ed637b6c556d29",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/bignum/Hacl.Bignum4096.fst"
+    ]
+  },
+  {
+    "target": "bignum/bignum64.rs",
+    "source": "dist/rs/bignum/bignum64.rs",
+    "sourceSha256": "dc2752c22e5316b442e228eb1f345f663d9e7ed48a78c5bcc45a8009e5cedc2f",
+    "targetSha256": "b73c65ba6324e3afc3e7d9913b00e73846baa231454ec0a41a8b1b6285a7cda1",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/bignum/Hacl.Bignum64.fst"
+    ]
+  },
+  {
+    "target": "bignum25519_51.rs",
+    "source": "dist/rs/hacl/bignum25519_51.rs",
+    "sourceSha256": "64352f93605e0d2a6872ef401af50e15f8275dde2b76a4515b553440c3ff51e6",
+    "targetSha256": "f4ce529f4ef69324ee21283a791485f1b5434cb6dd9bc691602c202eefb0497b",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/curve25519/Hacl.Impl.Curve25519.Field51.fst",
+      "code/curve25519/Hacl.Meta.Curve25519.fst"
+    ]
+  },
+  {
+    "target": "curve25519_51.rs",
+    "source": "dist/rs/hacl/curve25519_51.rs",
+    "sourceSha256": "d639917ca401f0a65cd2330f5576a754195e3da3fafa145c4bb4c3c97ce3325a",
+    "targetSha256": "99d776687990eb287a249ae3d6a26dc706e9542d0b6ee1c68d3786fdc0cd1455",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/curve25519/Hacl.Curve25519_51.fst",
+      "code/curve25519/Hacl.Curve25519_51.fsti",
+      "code/curve25519/Hacl.Impl.Curve25519.Generic.fst",
+      "code/curve25519/Hacl.Impl.Curve25519.AddAndDouble.fst",
+      "code/curve25519/Hacl.Impl.Curve25519.Finv.fst"
+    ]
+  },
+  {
+    "target": "fstar.rs",
+    "source": "dist/rs/fstar/lib.rs",
+    "sourceSha256": "58d22d4fbb8c68b6dac0521be892b01d7bd1e1cf66239548a05ec1e5af46061c",
+    "targetSha256": "10b2df2d6465ea79e1b02758dbf59e059c77db20631aea45d0fe428a13627bc0",
+    "kind": "Rust crate layout/support preferred source",
+    "preferredInputs": []
+  },
+  {
+    "target": "fstar/uint128.rs",
+    "source": "dist/rs/fstar/uint128.rs",
+    "sourceSha256": "79e5d9dd7f3f765f54915bfcb8848bd670d3c9585cc63564b5e4d84167a6f8ee",
+    "targetSha256": "79e5d9dd7f3f765f54915bfcb8848bd670d3c9585cc63564b5e4d84167a6f8ee",
+    "kind": "Editable Rust support implementation, supplied directly in HACL dist/rs",
+    "preferredInputs": []
+  },
+  {
+    "target": "fstar/uint16.rs",
+    "source": "dist/rs/fstar/uint16.rs",
+    "sourceSha256": "862d0ec0c59262d0350e081e192a9121381274e00caedb072eb3ab53d32fb8cb",
+    "targetSha256": "106e0a147c9a67cdb4e031f0fac3426a3fd1627697cd34a37bed4e69b71afa04",
+    "kind": "Editable Rust support implementation, supplied directly in HACL dist/rs",
+    "preferredInputs": []
+  },
+  {
+    "target": "fstar/uint32.rs",
+    "source": "dist/rs/fstar/uint32.rs",
+    "sourceSha256": "92b38aeb410c01a9ec558fb0df7bfc7dfe586bdd0c80ec85faa6a95fbb9c6a08",
+    "targetSha256": "c7a50d2eecd9a09124613b39efb282fe26f1d6b253c2266d01bf11ed710c1be9",
+    "kind": "Editable Rust support implementation, supplied directly in HACL dist/rs",
+    "preferredInputs": []
+  },
+  {
+    "target": "fstar/uint64.rs",
+    "source": "dist/rs/fstar/uint64.rs",
+    "sourceSha256": "d1c107278c75061d41dc043498a939360fb4bd0ec205aff1fed988d43253d6f8",
+    "targetSha256": "be56d946aeecf8c8d9000d793218754529c6211996b7795b905a1fcaa68e6c11",
+    "kind": "Editable Rust support implementation, supplied directly in HACL dist/rs",
+    "preferredInputs": []
+  },
+  {
+    "target": "fstar/uint8.rs",
+    "source": "dist/rs/fstar/uint8.rs",
+    "sourceSha256": "f4c840bf29950ccb612ac2376a484591a90b703f53668ed43a05b7643d1b970b",
+    "targetSha256": "0d0818946604caa90dbd0501804c856586e9c2a8ccfe766a06e39fe5b652cf08",
+    "kind": "Editable Rust support implementation, supplied directly in HACL dist/rs",
+    "preferredInputs": []
+  },
+  {
+    "target": "lib.rs",
+    "source": null,
+    "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "targetSha256": "d5819bf911ec9553a1b76224ec40f7769017bc85cadbdad74ac9add52a4001d2",
+    "kind": "Rust crate layout/support preferred source",
+    "preferredInputs": []
+  },
+  {
+    "target": "lowstar.rs",
+    "source": "dist/rs/lowstar/lib.rs",
+    "sourceSha256": "ad7a62254543f375895c707ab21c7cff8023771be7ddf5c954267ceefff70fde",
+    "targetSha256": "ad7a62254543f375895c707ab21c7cff8023771be7ddf5c954267ceefff70fde",
+    "kind": "Rust crate layout/support preferred source",
+    "preferredInputs": []
+  },
+  {
+    "target": "lowstar/endianness.rs",
+    "source": "dist/rs/lowstar/endianness.rs",
+    "sourceSha256": "5eaa3e507269395278f631e52a81399e5e9532fdab5993f140f92329d817ab9c",
+    "targetSha256": "d2ab072e51ea3f73c0860c62eaa520b4a53216325c4c70ef5bf7625e747b4ad5",
+    "kind": "Editable Rust support implementation, supplied directly in HACL dist/rs",
+    "preferredInputs": []
+  },
+  {
+    "target": "lowstar/ignore.rs",
+    "source": "dist/rs/lowstar/ignore.rs",
+    "sourceSha256": "cb235719c1e710df88b11268d256acc3d1a5cb9606bcbbe2bb17e2b504e2e4f3",
+    "targetSha256": "cb235719c1e710df88b11268d256acc3d1a5cb9606bcbbe2bb17e2b504e2e4f3",
+    "kind": "Editable Rust support implementation, supplied directly in HACL dist/rs",
+    "preferredInputs": []
+  },
+  {
+    "target": "streaming_types.rs",
+    "source": "dist/rs/hacl/streaming_types.rs",
+    "sourceSha256": "3f5477ea9484c8eff3ad071aa9c1a86007f6e7c122dbd87fc79b80e14dc16be6",
+    "targetSha256": "49a59e4d5ee00921ff918e934ebc246fd30c631e65b43b8acdc6a2053801bf9a",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/streaming/Hacl.Streaming.Types.fst"
+    ]
+  },
+  {
+    "target": "util.rs",
+    "source": "dist/rs/lib/lib.rs",
+    "sourceSha256": "c0d4cdd6d05541aec7e1ab2c28d803fa72c4342cf53bf5bb327657ade5d6e960",
+    "targetSha256": "c0d4cdd6d05541aec7e1ab2c28d803fa72c4342cf53bf5bb327657ade5d6e960",
+    "kind": "Rust crate layout/support preferred source",
+    "preferredInputs": []
+  },
+  {
+    "target": "util/inttypes_intrinsics.rs",
+    "source": "dist/rs/lib/inttypes_intrinsics.rs",
+    "sourceSha256": "aa0ccba8e68198042ff68fd58dd461bdd07141f0d067d524848ad2067132d879",
+    "targetSha256": "214bc936e0c9fa98a92a21e4d69ea602b653585f4492cfebb56c9df74ea62b05",
+    "kind": "Low*/F* generated Rust, then patched",
+    "preferredInputs": [
+      "code/fallback/Hacl.IntTypes.Intrinsics.fst",
+      "lib/Lib.IntTypes.Intrinsics.fsti"
+    ]
+  },
+  {
+    "target": "util/memzero0.rs",
+    "source": "dist/rs/lib/memzero0.rs",
+    "sourceSha256": "4da9910ee6a4265fad064ada12cc221e45cbf1845ed56af3df0c9ae22c768513",
+    "targetSha256": "e70c7497773a5dad09a3af67781f5ae4a66c8cb3155514d5eba8147d81aad5cc",
+    "kind": "Editable Rust runtime implementation for Low* interface, replaced upstream by a documented no-op",
+    "preferredInputs": [
+      "lib/Lib.Memzero0.fsti"
+    ]
+  }
+]

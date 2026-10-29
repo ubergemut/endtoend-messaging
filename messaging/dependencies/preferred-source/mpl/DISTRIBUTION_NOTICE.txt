@@ -1,0 +1,32 @@
+MPL components in the EndToEnd AGPL messaging larger work
+
+The complete, unmodified source for hpke-rs 0.7.0 and hpke-rs-crypto 0.7.0
+is supplied in the two same-named directories beside this notice. Both
+packages retain their Mozilla Public License 2.0 declarations and original
+metadata/notices. LICENSE-MPL-2.0.txt is the complete license text.
+
+For distribution in combination with the existing AGPL-3.0-covered
+EndToEnd/libsignal messaging work, these MPL-covered components are also
+made available under GNU Affero General Public License version 3.0 pursuant
+to MPL 2.0 section 3.3. Recipients of that larger work may choose MPL 2.0 or
+AGPL version 3.0 for the covered components, as section 3.3 provides.
+LICENSE-AGPL-3.0.txt supplies that secondary-license text. The original
+packages are not relabeled MIT or AGPL-only, and the original MPL choice
+is retained. A standalone copy of the MPL source is still offered under MPL.
+
+An executable distribution must identify the matching version-specific
+source archive containing these directories and this notice. A served
+browser bundle must retain the third-party notices/source access supplied
+by the release. Source access must remain available to its recipients;
+an upstream URL alone is not a substitute for the supplied source.
+
+The package author metadata identifies Franziskus Kiefer. No EndToEnd
+copyright is asserted over the unchanged upstream files. Preserve all
+upstream copyright, patent, license and warranty notices. If an MPL-covered
+file is changed, record the change, provide its source under the required
+terms, and reassess this exact-file decision before distribution.
+
+This notice records the selected combination/source route for these two
+versions. It does not grant MIT rights to cryptographic code, decide the
+license of a custom frontend, approve publication, or resolve licensing
+questions for another dependency/version.

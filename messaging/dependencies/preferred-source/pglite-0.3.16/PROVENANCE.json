@@ -1,0 +1,44 @@
+{
+  "kind": "pglite-preferred-source-provenance",
+  "npmPackage": "@electric-sql/pglite",
+  "npmVersion": "0.3.16",
+  "commit": "4555814e2b0beac8af5d5d760907040b7b8f61df",
+  "evidence": "npm registry provenance statement and annotated git tag agree on this source commit; attestation subject digest matches the locked npm integrity. No independent cryptographic certificate verification is claimed.",
+  "acquiredAt": "2026-10-25T15:33:21.231Z",
+  "files": [
+    {
+      "path": "upstream.tar.gz",
+      "url": "https://codeload.github.com/electric-sql/pglite/tar.gz/4555814e2b0beac8af5d5d760907040b7b8f61df",
+      "sha256": "ce1980322ff90f422a96fbd3457b7ed313a98418d783b58614df4b05b25313ae",
+      "bytes": 3158146
+    },
+    {
+      "path": "npm-registry.json",
+      "url": "https://registry.npmjs.org/@electric-sql/pglite/0.3.16",
+      "sha256": "0c92b5191c1849c1fd3c106dd8cecc948625f64dd2e20182cabeef063b5463e1",
+      "bytes": 6493
+    },
+    {
+      "path": "npm-attestation.json",
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@electric-sql%2fpglite@0.3.16",
+      "sha256": "5130def58b4fbd45e79f1a5cf57a8d8a8a4a984363c393337419173f4ee3e864",
+      "bytes": 14333
+    },
+    {
+      "path": "upstream-git-tree.json",
+      "url": "https://api.github.com/repos/electric-sql/pglite/git/trees/4555814e2b0beac8af5d5d760907040b7b8f61df?recursive=1",
+      "sha256": "d7d0b1441b53d08e9f8a907e1f5c1fd75ca89cfc7056adfec2edf706e1dc8948",
+      "bytes": 123684
+    }
+  ],
+  "gitlinks": [
+    {
+      "path": "postgres-pglite",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "51e222cc5f799675b8dd098f5cb7bf46cbad75a2"
+    }
+  ],
+  "platformExtractionNote": "The unchanged original archive is preserved. Windows inspection extraction omits only packages/pglite/examples/pglite-tools, an upstream relative symlink; the Git tree and original tar retain its identity and target. No source bytes in the original archive are removed.",
+  "closureStatus": "preferred-source-acquired-and-correspondence-validated; independent native rebuild remains later release acceptance"
+}

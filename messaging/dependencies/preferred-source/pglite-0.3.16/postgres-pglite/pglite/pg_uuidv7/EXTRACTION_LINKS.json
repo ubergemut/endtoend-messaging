@@ -1,0 +1,4 @@
+{
+  "note": "Original tar preserves these links and executable modes. Inspection copy stores regular source bytes only; restore original archive on POSIX for upstream layout.",
+  "links": []
+}

@@ -1,0 +1,167 @@
+{
+  "kind": "npm-compiled-runtime-preferred-upstream-sources",
+  "records": [
+    {
+      "name": "react",
+      "packages": [
+        "react",
+        "react-dom",
+        "scheduler"
+      ],
+      "sourceUrl": "https://codeload.github.com/react/react/tar.gz/1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "version": "19.3.0",
+      "commit": "1d34f91dfde6bba84d08b683aaba164c7194dacb",
+      "commitEvidence": "exact npm registry gitHead (captured metadata)",
+      "archive": "dependencies/preferred-source/npm-upstream/react-1d34f91dfde6bba84d08b683aaba164c7194dacb.tar.gz",
+      "sha256": "ef34c2ad2fe4af769cdc8a067d827fbba8fde677d83f5befaa8a8cc5c3a8c6be",
+      "bytes": 10252630,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/react-1d34f91dfde6bba84d08b683aaba164c7194dacb"
+    },
+    {
+      "name": "node-postgres",
+      "packages": [
+        "pg",
+        "pg-pool",
+        "pg-protocol",
+        "pg-cloudflare"
+      ],
+      "sourceUrl": "https://codeload.github.com/brianc/node-postgres/tar.gz/0980cefebe0ae461da8883703be049fe13ca96cf",
+      "version": "8.23.1",
+      "commit": "0980cefebe0ae461da8883703be049fe13ca96cf",
+      "commitEvidence": "exact npm registry gitHead (captured metadata)",
+      "archive": "dependencies/preferred-source/npm-upstream/node-postgres-0980cefebe0ae461da8883703be049fe13ca96cf.tar.gz",
+      "sha256": "421cf0181720c417a57e208bf39c32369a21eda908881c80bb41b8f102e811be",
+      "bytes": 442415,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/node-postgres-0980cefebe0ae461da8883703be049fe13ca96cf"
+    },
+    {
+      "name": "pg-types",
+      "packages": [
+        "pg-types"
+      ],
+      "sourceUrl": "https://codeload.github.com/brianc/node-pg-types/tar.gz/d9d9dfb87eb50914043cbc178c301b7dd3b0c50d",
+      "version": "2.2.0",
+      "commit": "d9d9dfb87eb50914043cbc178c301b7dd3b0c50d",
+      "commitEvidence": "exact npm registry gitHead (captured metadata)",
+      "archive": "dependencies/preferred-source/npm-upstream/pg-types-d9d9dfb87eb50914043cbc178c301b7dd3b0c50d.tar.gz",
+      "sha256": "33442809b16ee7af5b298d5b5e34927c0cb90384f947272c94665a1adfdbf502",
+      "bytes": 35011,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/pg-types-d9d9dfb87eb50914043cbc178c301b7dd3b0c50d"
+    },
+    {
+      "name": "pgpass",
+      "packages": [
+        "pgpass"
+      ],
+      "sourceUrl": "https://codeload.github.com/hoegaarden/pgpass/tar.gz/4230ed5e417ba6044ea7eb80b7c33db9ec301398",
+      "version": "1.0.5",
+      "commit": "4230ed5e417ba6044ea7eb80b7c33db9ec301398",
+      "commitEvidence": "exact npm registry gitHead (captured metadata)",
+      "archive": "dependencies/preferred-source/npm-upstream/pgpass-4230ed5e417ba6044ea7eb80b7c33db9ec301398.tar.gz",
+      "sha256": "2ef4ad06db6d310e018762ff68d5564338f798453e8900e501866e19a5759d9c",
+      "bytes": 9274,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/pgpass-4230ed5e417ba6044ea7eb80b7c33db9ec301398"
+    },
+    {
+      "name": "ws",
+      "packages": [
+        "ws"
+      ],
+      "sourceUrl": "https://codeload.github.com/websockets/ws/tar.gz/297202cdae9b0590629821373b3b679c407f3431",
+      "version": "8.22.0",
+      "commit": "297202cdae9b0590629821373b3b679c407f3431",
+      "commitEvidence": "exact npm registry gitHead (captured metadata)",
+      "archive": "dependencies/preferred-source/npm-upstream/ws-297202cdae9b0590629821373b3b679c407f3431.tar.gz",
+      "sha256": "8bda25e52652be91be9f50a25b18cf02955b646b5d95f600a292a00a2f88e884",
+      "bytes": 89022,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/ws-297202cdae9b0590629821373b3b679c407f3431"
+    },
+    {
+      "name": "graphql-js",
+      "packages": [
+        "graphql"
+      ],
+      "sourceUrl": "https://codeload.github.com/graphql/graphql-js/tar.gz/dca5b4d4507dc3d324dc83aa39f359db3ab1a141",
+      "version": "16.14.2",
+      "commit": "dca5b4d4507dc3d324dc83aa39f359db3ab1a141",
+      "commitEvidence": "official upstream release tag v16.14.2",
+      "archive": "dependencies/preferred-source/npm-upstream/graphql-js-dca5b4d4507dc3d324dc83aa39f359db3ab1a141.tar.gz",
+      "sha256": "32a479851be49c760e4571d031bd200f58057f3d9ccf594dccf10953e2f7ddee",
+      "bytes": 1545909,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/graphql-js-dca5b4d4507dc3d324dc83aa39f359db3ab1a141"
+    },
+    {
+      "name": "vite",
+      "packages": [
+        "vite"
+      ],
+      "sourceUrl": "https://codeload.github.com/vitejs/vite/tar.gz/0a7b53ba230c6e68f502a89864534c607d393ab7",
+      "version": "7.3.6",
+      "commit": "0a7b53ba230c6e68f502a89864534c607d393ab7",
+      "commitEvidence": "official upstream release tag v7.3.6",
+      "archive": "dependencies/preferred-source/npm-upstream/vite-0a7b53ba230c6e68f502a89864534c607d393ab7.tar.gz",
+      "sha256": "f5685dfdc473ee7d9b549e24d66812cd4f1be02b559c721e63e6954f896f05a5",
+      "bytes": 11522382,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/vite-0a7b53ba230c6e68f502a89864534c607d393ab7"
+    },
+    {
+      "name": "rollup",
+      "packages": [
+        "rollup",
+        "@rollup/rollup-win32-x64-msvc",
+        "@rollup/rollup-win32-x64-gnu"
+      ],
+      "sourceUrl": "https://codeload.github.com/rollup/rollup/tar.gz/77773bf8ee9130c4edbde14c017855c41e500692",
+      "version": "4.64.0",
+      "commit": "77773bf8ee9130c4edbde14c017855c41e500692",
+      "commitEvidence": "exact npm registry gitHead (captured metadata)",
+      "archive": "dependencies/preferred-source/npm-upstream/rollup-77773bf8ee9130c4edbde14c017855c41e500692.tar.gz",
+      "sha256": "9bd0c7c899b2e73730c71027353217145fd30b6c00ad60011eb01420aeb99e67",
+      "bytes": 2269143,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/rollup-77773bf8ee9130c4edbde14c017855c41e500692"
+    },
+    {
+      "name": "esbuild",
+      "packages": [
+        "esbuild",
+        "@esbuild/win32-x64"
+      ],
+      "sourceUrl": "https://codeload.github.com/evanw/esbuild/tar.gz/609683d892977362a0f99026cb74b96263d728a9",
+      "version": "0.28.2",
+      "commit": "609683d892977362a0f99026cb74b96263d728a9",
+      "commitEvidence": "exact npm registry gitHead (captured metadata)",
+      "archive": "dependencies/preferred-source/npm-upstream/esbuild-609683d892977362a0f99026cb74b96263d728a9.tar.gz",
+      "sha256": "04cb2d38fb6af093577aa8bf174add7286099b65ef7854480cbbb8ff061cef1f",
+      "bytes": 2011018,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/esbuild-609683d892977362a0f99026cb74b96263d728a9"
+    },
+    {
+      "name": "tsx",
+      "packages": [
+        "tsx"
+      ],
+      "sourceUrl": "https://codeload.github.com/privatenumber/tsx/tar.gz/ca66105a17a2a4c6503fe3a12b5b9ec408286011",
+      "version": "4.23.15",
+      "commit": "ca66105a17a2a4c6503fe3a12b5b9ec408286011",
+      "commitEvidence": "exact npm registry gitHead (captured metadata)",
+      "archive": "dependencies/preferred-source/npm-upstream/tsx-ca66105a17a2a4c6503fe3a12b5b9ec408286011.tar.gz",
+      "sha256": "14ae8fdba3d86a1ef305b21427e3f5435907cb090cc980a3b472cb08a3f68c93",
+      "bytes": 445880,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/tsx-ca66105a17a2a4c6503fe3a12b5b9ec408286011"
+    },
+    {
+      "name": "rollup-commonjs",
+      "packages": [
+        "vite-generated-commonjs-wrappers"
+      ],
+      "sourceUrl": "https://codeload.github.com/rollup/plugins/tar.gz/c8e78c8584007999050f7d9878d87e15046bbf09",
+      "version": "7.3.6",
+      "commit": "c8e78c8584007999050f7d9878d87e15046bbf09",
+      "commitEvidence": "official upstream release tag commonjs-v29.0.0",
+      "archive": "dependencies/preferred-source/npm-upstream/rollup-commonjs-c8e78c8584007999050f7d9878d87e15046bbf09.tar.gz",
+      "sha256": "f7d8d1c0b8563362a1046486824b2326a88e179af498db88a6beb97e8cd9c5a8",
+      "bytes": 663299,
+      "sourceDirectory": "dependencies/preferred-source/npm-upstream/rollup-commonjs-c8e78c8584007999050f7d9878d87e15046bbf09"
+    }
+  ]
+}

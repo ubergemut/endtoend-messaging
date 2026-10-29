@@ -1,0 +1,217 @@
+{
+  "kind": "endtoend-first-party-mit-sdk-provenance",
+  "sdkVersion": "0.2.1",
+  "protocolVersion": 1,
+  "firstPartyRightsConfirmedByOwner": true,
+  "statement": "The owner confirmed control of first-party application rights in the ongoing EndToEnd licensing task. Protocol/client interface and transport code is licensed under the supplied MIT texts; no third-party messaging implementation is relicensed or included.",
+  "runtimeDependencies": {
+    "@e2ee/client": [
+      "@e2ee/protocol"
+    ],
+    "@e2ee/protocol": []
+  },
+  "installedToolsBundled": false,
+  "originalRootLockSha256": "4ac56e144d01f037ef3221c1e3d3ed1ef6d632b42d3f74ec7d53056fd2bfa8f1",
+  "sdkLockSha256": "feeedf71f3a52e447b48eaf6f3641d62d6146d499204c42af0ed573e41e17677",
+  "lockProof": {
+    "exactOriginalResolutions": true,
+    "lockedRecords": 30,
+    "selectedVersions": [
+      {
+        "selectors": [
+          "@esbuild/aix-ppc64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/android-arm64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/android-arm@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/android-x64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/darwin-arm64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/darwin-x64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/freebsd-arm64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/freebsd-x64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-arm64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-arm@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-ia32@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-loong64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-mips64el@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-ppc64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-riscv64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-s390x@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/linux-x64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/netbsd-arm64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/netbsd-x64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/openbsd-arm64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/openbsd-x64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/openharmony-arm64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/sunos-x64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/win32-arm64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/win32-ia32@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "@esbuild/win32-x64@0.28.2"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "esbuild@~0.28.0"
+        ],
+        "version": "0.28.2"
+      },
+      {
+        "selectors": [
+          "fsevents@~2.3.3"
+        ],
+        "version": "2.3.3"
+      },
+      {
+        "selectors": [
+          "tsx@^4.20.5"
+        ],
+        "version": "4.23.15"
+      },
+      {
+        "selectors": [
+          "typescript@^5.8.3"
+        ],
+        "version": "5.9.3"
+      }
+    ]
+  },
+  "omittedFixture": {
+    "path": "packages/client/test/reference.test.ts",
+    "reason": "Interoperability program starts the separately licensed AGPL engine; SDK runtime source is complete without it."
+  },
+  "licenses": [
+    {
+      "path": "packages/protocol/LICENSE",
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+    },
+    {
+      "path": "packages/client/LICENSE",
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+    }
+  ],
+  "published": false
+}

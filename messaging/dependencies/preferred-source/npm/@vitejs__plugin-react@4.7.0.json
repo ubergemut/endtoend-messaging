@@ -1,0 +1,124 @@
+{
+  "bugs": {
+    "url": "https://github.com/vitejs/vite-plugin-react/issues"
+  },
+  "dist": {
+    "shasum": "647af4e7bb75ad3add578e762ad984b90f4a24b9",
+    "tarball": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-4.7.0.tgz",
+    "fileCount": 8,
+    "integrity": "sha512-gUu9hwfWvvEDBBmgtAowQCojwZmJ5mcLn3aufeCsitijs3+f2NsrPtlAWIR6OPiqljl96GVCUbLe0HyqIpVaoA==",
+    "signatures": [
+      {
+        "sig": "MEUCIQCclujDw+QbqLY+/XfHe+Bv1jE0EriIzaiw26Vb2bA7tAIgWW2v5Q7JTU1MAOdtwY52y87lsbK+yBAGiFiB9dDGFdk=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@vitejs%2fplugin-react@4.7.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 60271
+  },
+  "main": "./dist/index.cjs",
+  "name": "@vitejs/plugin-react",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "Evan You"
+  },
+  "module": "./dist/index.js",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "gitHead": "80417060f7bc239d5100e1b47c819e8364c7d551",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown",
+    "test-unit": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "_npmUser": {
+    "name": "vitebot",
+    "email": "vite@voidzero.dev"
+  },
+  "homepage": "https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#readme",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "react",
+    "babel",
+    "react-refresh",
+    "fast refresh"
+  ],
+  "repository": {
+    "url": "git+https://github.com/vitejs/vite-plugin-react.git",
+    "type": "git",
+    "directory": "packages/plugin-react"
+  },
+  "_npmVersion": "10.8.2",
+  "description": "The default Vite plugin for React projects",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "yyx990803",
+      "email": "yyx990803@gmail.com"
+    },
+    {
+      "name": "patak",
+      "email": "hey.patak@gmail.com"
+    },
+    {
+      "name": "antfu",
+      "email": "anthonyfu117@hotmail.com"
+    },
+    {
+      "name": "vitebot",
+      "email": "vite@voidzero.dev"
+    }
+  ],
+  "_nodeVersion": "20.19.3",
+  "contributors": [
+    {
+      "name": "Alec Larson"
+    },
+    {
+      "name": "Arnaud Barré"
+    }
+  ],
+  "dependencies": {
+    "@babel/core": "^7.28.0",
+    "react-refresh": "^0.17.0",
+    "@types/babel__core": "^7.20.5",
+    "@rolldown/pluginutils": "1.0.0-beta.27",
+    "@babel/plugin-transform-react-jsx-self": "^7.27.1",
+    "@babel/plugin-transform-react-jsx-source": "^7.27.1"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "react": "^19.1.0",
+    "tsdown": "^0.12.9",
+    "vitest": "^3.2.4",
+    "rolldown": "1.0.0-beta.27",
+    "react-dom": "^19.1.0",
+    "@vitejs/react-common": "workspace:*",
+    "babel-plugin-react-compiler": "19.1.0-rc.2"
+  },
+  "peerDependencies": {
+    "vite": "^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/plugin-react_4.7.0_1752809550361_0.9751166793373394",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@vitejs/plugin-react@4.7.0",
+  "version": "4.7.0"
+}

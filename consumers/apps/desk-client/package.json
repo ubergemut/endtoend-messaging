@@ -1,0 +1,11 @@
+{
+  "name": "@e2ee/desk-client",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Independently authored static browser desk using the public MIT EndToEnd SDK",
+  "scripts": {
+    "check": "node --check desk.js && node --check test/browser-acceptance.mjs && node --check test/public-interface-lifecycle.mjs"
+  }
+}

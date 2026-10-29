@@ -1,0 +1,67 @@
+{
+  "kind": "consumer-source-preparation",
+  "version": "0.2.0",
+  "sdk": {
+    "filename": "endtoend-mit-sdk-0.2.1.tar.gz",
+    "bytes": 50942,
+    "sha256": "8a1d1ead6890833cb94f117a752e052b2662870c6765a25b853d752d9c5aa4a7",
+    "manifestSha256": "db09c0043e9b1fcfa7321540796dc26af0823a182962dd6f1d122246b9579954",
+    "files": 35,
+    "version": "0.2.1"
+  },
+  "compiledFrontendIncluded": false,
+  "protectedMessagingImplementationIncluded": false,
+  "dependencies": [
+    {
+      "path": "dependencies/preferred-source/npm/react@19.3.0.json",
+      "bytes": 2673,
+      "sha256": "a539f5be50d91ff919cc70e758bd143e0ab5b51999aaa3b919458e62e9704f11"
+    },
+    {
+      "path": "dependencies/preferred-source/npm/react@19.3.0.tgz",
+      "bytes": 26394,
+      "sha256": "5a4024110c49476e1538a70fd65b9e59d038fcc280b78eb933c24e10453afbf9"
+    },
+    {
+      "path": "dependencies/preferred-source/npm/react-dom@19.3.0.json",
+      "bytes": 4311,
+      "sha256": "bab08ce626ae6aaf1c05908e98689bee0fc4b9cc6b65aa92e6b2aecfbdf9ab74"
+    },
+    {
+      "path": "dependencies/preferred-source/npm/react-dom@19.3.0.tgz",
+      "bytes": 1409226,
+      "sha256": "dbeffb1e6cdbbbba07f799da4635333d0e20c210a32278dded85441ec4cb6a17"
+    },
+    {
+      "path": "dependencies/preferred-source/npm/scheduler@0.28.0.json",
+      "bytes": 2094,
+      "sha256": "095f48a35db68c6fd14be2d66a30cb9473b292ab9bb94bf474ce9f3cca646170"
+    },
+    {
+      "path": "dependencies/preferred-source/npm/scheduler@0.28.0.tgz",
+      "bytes": 10011,
+      "sha256": "302995d590e3c0a11eeb40d1d0f299c1df1800135d599d85cdd5faeb614f32d6"
+    },
+    {
+      "path": "dependencies/preferred-source/npm/vite@7.3.6.json",
+      "bytes": 6737,
+      "sha256": "105f79433442e6753e59c30f009ffcb31d542591a981253930deb4795da97d5c"
+    },
+    {
+      "path": "dependencies/preferred-source/npm/vite@7.3.6.tgz",
+      "bytes": 543195,
+      "sha256": "c90bd3ea5e6a301d6aac20d22b314fad893a7ac7b010b91a4ac65bb68dd947a6"
+    },
+    {
+      "path": "dependencies/preferred-source/npm-upstream/react-1d34f91dfde6bba84d08b683aaba164c7194dacb.tar.gz",
+      "bytes": 10252630,
+      "sha256": "ef34c2ad2fe4af769cdc8a067d827fbba8fde677d83f5befaa8a8cc5c3a8c6be"
+    },
+    {
+      "path": "dependencies/preferred-source/npm-upstream/vite-0a7b53ba230c6e68f502a89864534c607d393ab7.tar.gz",
+      "bytes": 11522382,
+      "sha256": "f5685dfdc473ee7d9b549e24d66812cd4f1be02b559c721e63e6954f896f05a5"
+    }
+  ],
+  "preparedBeforeFrontendBuild": true
+}

@@ -1,0 +1,36 @@
+pg_uuidv7 1.7.0 — retained MPL source and additional AGPL combination notice
+
+Upstream: https://github.com/fboulnois/pg_uuidv7
+Exact source commit: c707aae2411181be4802f5fa565b44d9c0bcbc29
+
+The original pg_uuidv7 source and its original notices remain available under
+the Mozilla Public License, version 2.0 (MPL-2.0). The complete unchanged
+extension source, SQL, build and test inputs are supplied in this source tree:
+  dependencies/preferred-source/pglite-0.3.16/postgres-pglite/pglite/pg_uuidv7
+The original upstream archive is also supplied at:
+  dependencies/preferred-source/pglite-0.3.16/embedded/pg_uuidv7.tar.gz
+
+The full MPL text is in LICENSE-MPL-2.0.txt beside this notice and LICENSE in
+the upstream source directory. Keep the original notices with the source.
+
+When this extension is distributed as part of the larger EndToEnd AGPL
+messaging work, EndToEnd additionally distributes the covered extension under
+AGPL version 3.0 using MPL 2.0 section 3.3. Recipients retain their MPL choice
+and may further distribute this covered source under MPL-2.0 or, for that
+combination, AGPL-3.0-only. LICENSE-AGPL-3.0.txt supplies the secondary text.
+This additional route does not remove or restrict the original MPL rights.
+Standalone distribution remains available under its original MPL grant.
+
+For an executable or optional extension payload distribution, also provide
+recipients reasonable, timely access to the matching version-specific source
+and tell them how to obtain it in the executable distribution's notices.
+Merely shipping a source supplement is not a substitute for that runtime
+notice or the full messaging release's corresponding source offer.
+
+PGlite packages this optional extension; EndToEnd's existing API imports
+PGlite but does not currently enable pg_uuidv7. This notice covers a supplied
+payload whether or not a user enables it. No claim is made that the current
+extension binary was rebuilt by this source/license assessment.
+
+This notice grants no MIT license to upstream extension code, claims no
+upstream ownership, and decides no custom frontend licensing question.

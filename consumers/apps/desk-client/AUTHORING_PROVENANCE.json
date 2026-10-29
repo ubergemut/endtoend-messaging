@@ -1,0 +1,58 @@
+{
+  "kind": "independently-authored-mit-browser-consumer",
+  "name": "@e2ee/desk-client",
+  "version": "0.2.0",
+  "license": "MIT",
+  "originalAuthoringDate": "2026-10-26",
+  "directoryVerifiedAbsentBeforeCreation": true,
+  "onlyOwnedDirectory": "C:/Dev/EndToEnd/apps/desk-client",
+  "sdkInput": {
+    "archive": "C:/Users/chris/Documents/Codex/2026-10-23/ex/outputs/messaging-0.2.0-step-5/mit-sdk/endtoend-mit-sdk-0.2.0.tar.gz",
+    "bytes": 47970,
+    "sha256": "04e322fe66f3f6bf620b1ea58f75944c48564baca29acbee5599400a137a3077",
+    "receiptMatched": true,
+    "freshExtraction": "C:/Users/chris/Documents/Codex/2026-10-23/ex/work/step6-independent-sdk-input"
+  },
+  "consultedSuppliedFiles": [
+    "SDK_MANIFEST.json (external)",
+    "PACKAGE_RECEIPT.json (external)",
+    "README.md",
+    "LICENSE",
+    "docs/architecture/SDK_CONTRACT_V1.md",
+    "packages/client/README.md",
+    "packages/client/dist/index.d.ts",
+    "packages/client/dist/index.js",
+    "packages/client/dist/relay-service.d.ts",
+    "packages/client/dist/relay-service.js",
+    "packages/protocol/dist/index.d.ts"
+  ],
+  "additionalPublicInterfaceInput": [
+    "Task-supplied exact origin/source/nonce/capability popup handshake wire",
+    "Task-supplied public native register/login/logout DTO clarification",
+    "Task-supplied flat desk-config.json shape and feature requirements",
+    "Review clarification that ordinary forbidden membership errors do not imply authority revocation"
+  ],
+  "existingApplicationsConsulted": false,
+  "agentEngineSessionCryptoBackendSourceConsulted": false,
+  "oldSnapshotsOrPriorChatConsulted": false,
+  "runtimeImports": ["@e2ee/client/standalone", "@e2ee/protocol/standalone (SDK dependency via import map)"],
+  "runtimeDependencies": "Published built MIT SDK only; no framework or third-party runtime packages",
+  "testTooling": "Runner-supplied Playwright and Chromium; Node standard libraries",
+  "testFixtures": "Fresh synthetic public-wire protocol fixture, no implementation imports",
+  "authoringChecks": {
+    "javascriptSyntax": "passed",
+    "syntheticPublicInterfaceBrowserScenarios": 17,
+    "syntheticPublicInterfaceBrowserScenariosPassed": 17,
+    "liveInteroperability": "Separate integration runner responsibility"
+  },
+  "broaderDistributionLegalAssessment": "Separate responsibility; no claim that the engine or any other application is MIT",
+  "subsequentInterfaceChanges": [
+    {
+      "date": "2026-10-27",
+      "change": "Public version-specific source, manifest, license and attribution footer",
+      "inputs": "The public source-disclosure DTO and existing desk DOM/controller conventions; the maintenance agent also inspected the retained full frontend to place its separate notice.",
+      "scope": "New first-party notice UI only, licensed MIT by the confirmed rights owner. No messaging engine, session, vault or crypto implementation was imported or copied.",
+      "originalBlindAuthoringStatement": "The original authoring fields above describe the initial 2026-10-26 desk implementation, not this later source-notice maintenance."
+    }
+  ]
+}

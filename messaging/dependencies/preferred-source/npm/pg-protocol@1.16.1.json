@@ -1,0 +1,79 @@
+{
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "dist": {
+    "shasum": "87a3951b57002682d63166c029859bd834e64bf1",
+    "tarball": "https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.16.1.tgz",
+    "fileCount": 42,
+    "integrity": "sha512-p9VOFMiHB/ZbJATetbg+99PxssTVSQRnyuPSQ67mN1+1KBOjZaZ83ZQzltnxPhJwSsC3nwVjJ10DVJlerbFzLg==",
+    "signatures": [
+      {
+        "sig": "MEYCIQDSK1AzYlNczZhUTHSE6jZK/nWRsfAi4pbuW53CMmBv4QIhAPQiiemRDS26RvDlz605yrjuWEeQLGpG4WkuzmxH1FGj",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEQCIBg4lLAIkXN2B+CSgGl2xEwlWn5domXI6oNHYK0Iy6YDAiARjM0EzxvfgdjP2tpYwGevZRJNwfbDAoIzk397GBiDOQ==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 202040
+  },
+  "main": "dist/index.js",
+  "name": "pg-protocol",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "default": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./dist/*": "./dist/*.js",
+    "./dist/*.js": "./dist/*.js"
+  },
+  "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha dist/**/*.test.js",
+    "build": "tsc",
+    "pretest": "yarn build",
+    "prepublish": "yarn build",
+    "build:watch": "tsc --watch"
+  },
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "homepage": "https://github.com/brianc/node-postgres#readme",
+  "repository": {
+    "url": "git://github.com/brianc/node-postgres.git",
+    "type": "git",
+    "directory": "packages/pg-protocol"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v24.14.0+arm64 (darwin)",
+  "description": "The postgres client/server binary protocol, implemented in TypeScript",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "_nodeVersion": "24.14.0",
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^11.7.5",
+    "ts-node": "^8.5.4",
+    "typescript": "^6.0.3",
+    "@types/chai": "^4.2.7",
+    "@types/node": "^16",
+    "@types/mocha": "^10.0.10"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/pg-protocol_1.16.1_1790782918691_0.4953907989379478",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "pg-protocol@1.16.1",
+  "version": "1.16.1"
+}

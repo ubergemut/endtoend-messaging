@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "acquiredAt": "2026-10-25T15:44:08.253Z",
+  "scope": "Preferred-source supplement for exact libcrux-hacl-rs 0.0.5 and its libcrux-macros 0.0.3 extraction/runtime support",
+  "libcruxCommit": "451259bb704d4a9dab8cd31ac68a97e766fbd2bc",
+  "macroCommit": "8ebe73237378c80b86a953ec8a77bdd3299918e7",
+  "archives": [
+    {
+      "id": "hacl-import",
+      "path": "archives/hacl-snapshot.tar.gz",
+      "sha256": "26308a39938607029f956d7db77b2aa2fd50fb32f917f0299fe9c48af022f893",
+      "bytes": 10532537,
+      "commit": "efbf82f29190e2aecdac8899e4f42c8cb9defc98",
+      "repository": "https://github.com/hacl-star/hacl-star",
+      "url": "https://codeload.github.com/hacl-star/hacl-star/tar.gz/efbf82f29190e2aecdac8899e4f42c8cb9defc98",
+      "prefix": "hacl-star-efbf82f29190e2aecdac8899e4f42c8cb9defc98",
+      "treePath": "origins/hacl-tree.json",
+      "role": "Imported HACL revision recorded in libcrux-hacl-rs src/lib.rs"
+    },
+    {
+      "id": "hacl-earlier-rust",
+      "path": "archives/hacl-generation-snapshot.tar.gz",
+      "sha256": "227db9feac6166b70507267e58641a850719de30549da655baffa17d38dcdab6",
+      "bytes": 10492595,
+      "commit": "14eb64194ad5152238a9f4e25008f388dddb512f",
+      "repository": "https://github.com/hacl-star/hacl-star",
+      "url": "https://codeload.github.com/hacl-star/hacl-star/tar.gz/14eb64194ad5152238a9f4e25008f388dddb512f",
+      "prefix": "hacl-star-14eb64194ad5152238a9f4e25008f388dddb512f",
+      "treePath": "origins/hacl-generation-tree.json",
+      "role": "Earlier regeneration changing Curve25519 and most generated modules; message With latest krml"
+    },
+    {
+      "id": "hacl-generation",
+      "path": "archives/hacl-last-rust-snapshot.tar.gz",
+      "sha256": "d3f29b77c207d988f2873cf78b9e6fbf45449d655089d159be8ca42a4189f799",
+      "bytes": 10530663,
+      "commit": "cc27b6215653160781e3d4689aba28a9d7ea4023",
+      "repository": "https://github.com/hacl-star/hacl-star",
+      "url": "https://codeload.github.com/hacl-star/hacl-star/tar.gz/cc27b6215653160781e3d4689aba28a9d7ea4023",
+      "prefix": "hacl-star-cc27b6215653160781e3d4689aba28a9d7ea4023",
+      "treePath": "origins/hacl-last-rust-tree.json",
+      "role": "Last Git commit changing dist/rs at the import revision; all mapped imported Rust bytes match"
+    },
+    {
+      "id": "fstar-latest-reference",
+      "path": "archives/fstar-last-source.tar.gz",
+      "sha256": "df042b3c522a745122c0fc0db28d22ed96347a223147fe452852632453fcc120",
+      "bytes": 9181961,
+      "commit": "8b6fce63ca91b16386d8f76e82ea87a3c109a208",
+      "repository": "https://github.com/FStarLang/FStar",
+      "url": "https://codeload.github.com/FStarLang/FStar/tar.gz/8b6fce63ca91b16386d8f76e82ea87a3c109a208",
+      "prefix": "FStar-8b6fce63ca91b16386d8f76e82ea87a3c109a208",
+      "treePath": "origins/fstar-last-tree.json",
+      "role": "F* standard-library/compiler source pin recorded in C INFO at last Rust refresh; not asserted original Rust-executable pin"
+    },
+    {
+      "id": "karamel-latest-reference",
+      "path": "archives/karamel-last-source.tar.gz",
+      "sha256": "b7f2e1f09f14c893c5119afc386f01c06e6f1ebdf400087eefa7d5ceb7e81de3",
+      "bytes": 960530,
+      "commit": "ff98b1385644e0c5f845531a5bf2e32010daaf1a",
+      "repository": "https://github.com/FStarLang/karamel",
+      "url": "https://codeload.github.com/FStarLang/karamel/tar.gz/ff98b1385644e0c5f845531a5bf2e32010daaf1a",
+      "prefix": "karamel-ff98b1385644e0c5f845531a5bf2e32010daaf1a",
+      "treePath": "origins/karamel-last-tree.json",
+      "role": "KaRaMeL source/runtime pin recorded in C INFO at last Rust refresh; not asserted original Rust-executable pin"
+    },
+    {
+      "id": "fstar-reference",
+      "path": "archives/fstar-source.tar.gz",
+      "sha256": "0acc9bfe5643afbb93c0c7532226d39af548c2659c0ea6c5adb9ec5f76e0a2f5",
+      "bytes": 9311567,
+      "commit": "6e8b1573b5137c59004c715b229d5dfb4754adbf",
+      "repository": "https://github.com/FStarLang/FStar",
+      "url": "https://codeload.github.com/FStarLang/FStar/tar.gz/6e8b1573b5137c59004c715b229d5dfb4754adbf",
+      "prefix": "FStar-6e8b1573b5137c59004c715b229d5dfb4754adbf",
+      "treePath": "origins/fstar-tree.json",
+      "role": "Pinned F* source/standard library named in C-generation INFO at HACL Rust-output commit; not asserted as original Rust-extraction tool revision"
+    },
+    {
+      "id": "karamel-recorded",
+      "path": "archives/karamel-recorded-source.tar.gz",
+      "sha256": "7eee5043ad9e0850841e674eed8a8175c92fd9fdc3ab7b4060c7dd89e24f3794",
+      "bytes": 957198,
+      "commit": "c31a22c1e07d2118c07ee5cebb640d863e31a198",
+      "repository": "https://github.com/FStarLang/karamel",
+      "url": "https://codeload.github.com/FStarLang/karamel/tar.gz/c31a22c1e07d2118c07ee5cebb640d863e31a198",
+      "prefix": "karamel-c31a22c1e07d2118c07ee5cebb640d863e31a198",
+      "treePath": "origins/karamel-recorded-tree.json",
+      "role": "Pinned KaRaMeL source/runtime named in C-generation INFO at HACL Rust-output commit; not asserted as original Rust-extraction tool revision"
+    },
+    {
+      "id": "karamel-contemporary",
+      "path": "archives/karamel-snapshot.tar.gz",
+      "sha256": "78b41a190cac13924cd85e6946fa9b561e15aa81116847e8efe9733149378610",
+      "bytes": 958396,
+      "commit": "25131d76dcf26742a6700b6847f6719e1099f532",
+      "repository": "https://github.com/FStarLang/karamel",
+      "url": "https://codeload.github.com/FStarLang/karamel/tar.gz/25131d76dcf26742a6700b6847f6719e1099f532",
+      "prefix": "karamel-25131d76dcf26742a6700b6847f6719e1099f532",
+      "treePath": "origins/karamel-tree.json",
+      "role": "Latest default-branch commit by the time of Rust-output commit; illustrative editable Rust backend, not proof of exact historic generator revision"
+    },
+    {
+      "id": "crate",
+      "path": "archives/libcrux-hacl-rs-0.0.5.crate",
+      "sha256": "66106db376ae249af86911aee048cf73ea1f394d6653026fc988dd22cf2a4ace",
+      "bytes": 46573,
+      "version": "0.0.5",
+      "url": "https://static.crates.io/crates/libcrux-hacl-rs/libcrux-hacl-rs-0.0.5.crate",
+      "prefix": "libcrux-hacl-rs-0.0.5",
+      "role": "Exact published source used by Cargo.lock"
+    },
+    {
+      "id": "macros",
+      "path": "archives/libcrux-macros-0.0.3.crate",
+      "sha256": "ffd6aa2dcd5be681662001b81d493f1569c6d49a32361f470b0c955465cd0338",
+      "bytes": 5623,
+      "version": "0.0.3",
+      "url": "https://static.crates.io/crates/libcrux-macros/libcrux-macros-0.0.3.crate",
+      "prefix": "libcrux-macros-0.0.3",
+      "role": "Exact published project-specific Rust proc-macro source used by Cargo.lock"
+    }
+  ],
+  "sourceSelection": "Full pinned HACL import and last-Rust-output source snapshots retain transitive code/specs/lib/meta/hints/config/Makefiles. F* and KaRaMeL snapshots are conservative supplemental tool/standard-library sources, not claimed original Rust-executable pins.",
+  "historicalGeneratorCaveat": "dist/rs/INFO.txt is not present. The Rust-output commit message says With latest krml. C-generation INFO pins are evidence for C extraction only. The last default-branch KaRaMeL commit by that timestamp is not proof it generated the Rust. Exact historical F*/KaRaMeL revisions are not asserted.",
+  "projectSpecificTransform": "hacl-to-libcrux.patch plus RUST_MAPPING.json losslessly convert all 25 Rust source files; new crate wrapper, module relocation, imports/macros, visibility and upstream semantic edits are explicit. hacl-krml-to-libcrux-macros.patch records exact macro/runtime adaptation.",
+  "licenses": "Each archived project retains all of its own license/copyright files and per-file notices. HACL Rust and libcrux helper are supplied under their upstream Apache-2.0 grants; do not infer MIT for Rust from the HACL README statement about generated C. F* and KaRaMeL retain their separate upstream licenses and incorporated third-party terms."
+}

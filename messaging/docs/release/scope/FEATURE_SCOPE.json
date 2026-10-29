@@ -1,0 +1,500 @@
+{
+  "kind": "endtoend-expanded-feature-allocation",
+  "source": "docs/release/FEATURE_MATRIX.md",
+  "sourceSha256": "4b59934754fc385c824b181666896b98e67246b657393dbfaf8937ab2ac2da8b",
+  "operations": [
+    {
+      "name": "status",
+      "behavior": "Locked/unlocked readiness, account/session context and pending trust information; no raw store/key leakage",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "unlock",
+      "behavior": "Existing login/registration semantics; wrong secret fails closed; replacing an existing device requires explicit trusted confirmation",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "sync",
+      "behavior": "Ciphertext receive/decrypt and durable receive acknowledgements; no message loss on failure or reload",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "friends",
+      "behavior": "Accepted friends and verification display bound to the current identity",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "requests",
+      "behavior": "Incoming/outgoing pending requests; notes decrypted only on the user's device",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "requestFriend",
+      "behavior": "Sealed optional note; valid target and authorization",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "respondRequest",
+      "behavior": "Accept/decline/cancel retain validation and server authorization",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "block",
+      "behavior": "Block takes effect for subsequent key/envelope/media access",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "unfriend",
+      "behavior": "Relationship removal, access rotation and local session cleanup",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "chats",
+      "behavior": "Direct/group lists, preview and unseen counts including thread replies",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "messages",
+      "behavior": "Local plaintext views, direct/group filters, bounded wire response; raw vault omitted",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "focus",
+      "behavior": "Newest unseen target with parent thread identity",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "markSeen",
+      "behavior": "Local seen-state durability and corresponding badge changes",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "send",
+      "behavior": "Direct text, replies and disappearing timer; exact ciphertext/outbox committed before attempt",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "sendGroup",
+      "behavior": "Sender-key messages/replies/timers with authoritative membership/epoch and authenticated displayed sender",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "sendFile",
+      "behavior": "Encrypted attachment bytes, filename/type/caption rendered locally; exact downloaded byte equality",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "createGroup",
+      "behavior": "Selected accepted friends, name and encrypted sender-key setup",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "groups",
+      "behavior": "Current authorized groups and membership view",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "safetyNumber",
+      "behavior": "Matching displayed safety numbers for both synthetic peers",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "trustIdentity",
+      "behavior": "Changed identity blocks sending until explicit confirmation; accepting change clears prior verification",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    },
+    {
+      "name": "markVerified",
+      "behavior": "Records only the identity whose safety number was explicitly compared",
+      "owners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "interfaces": [
+        "packages/protocol",
+        "packages/client",
+        "packages/headless"
+      ],
+      "verification": "Existing feature tests plus expanded release acceptance in step 7; this map is not a test result"
+    }
+  ],
+  "browser": [
+    {
+      "name": "Account flow",
+      "behavior": "Handle lookup, sign-in, account creation, logout, account switch and stay-signed-in choices",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Trusted device flow",
+      "behavior": "Device-secret creation/display/save acknowledgement, wrong-secret refusal, explicit replacement, lock and revocation",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Single writer",
+      "behavior": "Simultaneous same-vault tab/process refuses a second writer; interrupted owner releases or expires safely",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Conversation navigation",
+      "behavior": "Select direct/group chat, search/filter, recent previews and stable selection after sync",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Replies",
+      "behavior": "Inline and full thread views, parent navigation and reply-specific unseen state",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Scroll/focus",
+      "behavior": "First-unseen and bottom jumps, message spotlight and sensible arrival behavior",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Composition",
+      "behavior": "Main/thread drafts, staged attachments, multiple attachments, captions and disappearing timer",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Group membership",
+      "behavior": "Add member, remove member, leave group, key rotation and removed-member refusal; these require extra protocol commands beyond the 21-operation catalog",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Safety",
+      "behavior": "Display current safety number, explicit verification and visible changed-identity refusal",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Media",
+      "behavior": "Image/video/audio/file presentation, correct filenames/MIME and authenticated attachment downloads",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Delivery",
+      "behavior": "Live/sync updates, read/delivery status, reconnect and exact retry after an ambiguous response",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Notifications",
+      "behavior": "In-app notices, notification permission/dismissal, notification click opening correct chat/thread",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Appearance",
+      "behavior": "Existing themes/styles, appearance selection, responsive desktop/mobile and readable input contrast",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Guides/site",
+      "behavior": "Existing product pages, guide images and prose remain product content; source links must identify the new agent release accurately",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "apps/web"
+      ],
+      "publicReferenceRequirement": "Product-specific content may remain with its existing consumer grant"
+    },
+    {
+      "name": "Server sample",
+      "behavior": "Ciphertext sample remains available as a bounded public message field; no secret/internal-state field is added to support it",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    },
+    {
+      "name": "Accessibility/errors",
+      "behavior": "Existing keyboard/form labels, visible readiness/errors and clear trusted-agent-window closure/unlock handling",
+      "presentationOwner": "apps/web (current consumer)",
+      "implementationOwners": [
+        "packages/agent",
+        "packages/session",
+        "apps/api"
+      ],
+      "publicReferenceRequirement": "Expose applicable messaging behavior in the standalone public reference application in step 4"
+    }
+  ],
+  "securityRequirements": "## Security and release gates\n\nRequire independent synthetic direct/group/file interoperability; one writer/device; account/application/capability isolation; origin/source/nonce handshake; revocation on channel closure/logout; encrypted persistence; exact retry after lost response and reload; group membership rotation; changed-identity refusal; wrong-secret refusal; attachment byte equality; all existing API/headless/session/crypto regressions; private-consumer bundle scans; a source-only Rust-to-both-WASM build; a reference client/relay that imports no private product; complete reviewed notices/source offer; and local source-download availability.\n\nMVP limits remain explicit: one device per account, one active vault writer, no new multi-device/history recovery, no silently enabled backups/admin recovery, no Android/Choice/hosted production acceptance claim. Completion of this component does not close Choice's full level 7 or level 8.\n",
+  "noFeatureRemovalAuthorized": true
+}

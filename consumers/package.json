@@ -1,0 +1,16 @@
+{
+  "name": "endtoend-independent-consumers",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@1.22.22",
+  "workspaces": [
+    "apps/web",
+    "apps/desk-client",
+    "packages/client",
+    "packages/protocol"
+  ],
+  "scripts": {
+    "build": "node scripts/rebuild-sdk-consumers.mjs"
+  }
+}

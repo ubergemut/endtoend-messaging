@@ -1,0 +1,92 @@
+{
+  "bugs": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20generator%22+is%3Aopen",
+  "dist": {
+    "shasum": "4b0b887885422643339e09022148a4c4ebaa4979",
+    "tarball": "https://registry.npmjs.org/@babel/generator/-/generator-7.29.8.tgz",
+    "fileCount": 45,
+    "integrity": "sha512-gZbepsdh3WDtgZKWL+vTPh71LSBrm/Y4/QDZBVCcYfmeTEEuoOYwlSy+G1StfJg+/Zy550u/3TATbm7qDbbMtg==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCgvBtep/pDsNXf7GViqI6PafHzUP7K/dwT5hCFgXbZjQIhALeU8sCOkllFJi1A+Soo4AuD4dHg9zX7ObCPlWXgezIt",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEQCIA2nKeHHYtwP21LH70AA+l86gp9uTAEAkNVctPHXszJMAiBEf4cnV+vPAb74M75eG3s7GqBwGA64mYz9e7Nv1iB2oQ==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@babel%2fgenerator@7.29.8",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 539451
+  },
+  "main": "./lib/index.js",
+  "name": "@babel/generator",
+  "type": "commonjs",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:40d64d2e-ba49-43ac-9a7c-5267bd2409d3"
+    }
+  },
+  "homepage": "https://babel.dev/docs/en/next/babel-generator",
+  "repository": {
+    "url": "https://github.com/babel/babel.git",
+    "type": "git",
+    "directory": "packages/babel-generator"
+  },
+  "description": "Turns an AST into code.",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "nicolo-ribaudo",
+      "email": "hello+npm@nicr.dev"
+    },
+    {
+      "name": "jlhwung",
+      "email": "jlhwung@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "jsesc": "^3.0.2",
+    "@babel/types": "^7.29.8",
+    "@babel/parser": "^7.29.8",
+    "@jridgewell/gen-mapping": "^0.3.12",
+    "@jridgewell/trace-mapping": "^0.3.28"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "charcodes": "^0.2.0",
+    "@babel/core": "^7.29.7",
+    "@babel/helper-fixtures": "^7.29.7",
+    "@jridgewell/sourcemap-codec": "^1.5.3",
+    "@babel/plugin-transform-typescript": "^7.29.7"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/generator_7.29.8_1785510454461_0.8301276702574549",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@babel/generator@7.29.8",
+  "version": "7.29.8"
+}

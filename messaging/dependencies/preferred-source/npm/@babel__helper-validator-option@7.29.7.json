@@ -1,0 +1,79 @@
+{
+  "dist": {
+    "shasum": "cf315be940213b354eb4abcc0bd01ebe3f73bc2a",
+    "tarball": "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz",
+    "fileCount": 9,
+    "integrity": "sha512-N9ZErrD+yW5geCDtBqnOoxmR8+tNKiGuxKlDpuJxfsqpa2dFcexaziGAE/qoHLiDDreVNMupxGmSoNlyvsA3gw==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDcZH5Sd4URIK7Mue0nRJxbllVPoogEpgOECxGiPmTZrwIgBBt8pBECOVnEYOtsCk5FvMZ8Z22UfinFzL5mAxcjk64=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@babel%2fhelper-validator-option@7.29.7",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 11775
+  },
+  "main": "./lib/index.js",
+  "name": "@babel/helper-validator-option",
+  "type": "commonjs",
+  "author": "The Babel Team (https://babel.dev/team)",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:f79a3fac-57fd-4e33-847e-2b23eec818dd"
+    }
+  },
+  "repository": {
+    "url": "https://github.com/babel/babel.git",
+    "type": "git",
+    "directory": "packages/babel-helper-validator-option"
+  },
+  "description": "Validate plugin/preset options",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "nicolo-ribaudo",
+      "email": "nicolo.ribaudo@gmail.com"
+    },
+    {
+      "name": "jlhwung",
+      "email": "jlhwung@gmail.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "_hasShrinkwrap": false,
+  "_npmOperationalInternal": {
+    "tmp": "tmp/helper-validator-option_7.29.7_1779707732458_0.42398786780712006",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@babel/helper-validator-option@7.29.7",
+  "version": "7.29.7"
+}

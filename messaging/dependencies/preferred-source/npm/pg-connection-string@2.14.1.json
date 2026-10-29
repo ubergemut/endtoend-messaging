@@ -1,0 +1,98 @@
+{
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "dist": {
+    "shasum": "d9529fe2497c0cac8a9f5f6f059679c52f1bd964",
+    "tarball": "https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.14.1.tgz",
+    "fileCount": 6,
+    "integrity": "sha512-qR3kGNPBLpCNtz0evbKA0Y/MRFXwSSdT+pTJvYp/bXTcReZbvX1kzF0IyTc1QnxqF7AZbOeBhNL8R5mYQZV/MA==",
+    "signatures": [
+      {
+        "sig": "MEUCIQC7bw6vY5sPY4qUq8wHeIIHS1eeSC94LuiqkMe5Qv2u4gIgcb9hLPdXREr8NXivWHZQ+UB7JoTOLQie3YExmgsHuEo=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEUCIBkbZ4Z4gKvi4mUePsVAECecueHlvZ6ae3Gzt//oZICqAiEAv7o0Lt/pTjOPhal2MXr6xWViMVd7zpruUSy9N7P9oWg=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 16148
+  },
+  "main": "./index.js",
+  "name": "pg-connection-string",
+  "types": "./index.d.ts",
+  "author": {
+    "url": "http://iceddev.com/",
+    "name": "Blaine Bublitz",
+    "email": "blaine@iceddev.com"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./esm/index.mjs",
+      "default": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+  "license": "MIT",
+  "scripts": {
+    "test": "nyc --reporter=lcov mocha && npm run check-coverage",
+    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --lines 100 --functions 100"
+  },
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "homepage": "https://github.com/brianc/node-postgres/tree/master/packages/pg-connection-string",
+  "keywords": [
+    "pg",
+    "connection",
+    "string",
+    "parse"
+  ],
+  "repository": {
+    "url": "git://github.com/brianc/node-postgres.git",
+    "type": "git",
+    "directory": "packages/pg-connection-string"
+  },
+  "_npmVersion": "lerna/3.22.1/node@v24.14.0+arm64 (darwin)",
+  "description": "Functions for dealing with a PostgreSQL connection string",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "hjr3",
+      "email": "herman@hermanradtke.com"
+    },
+    {
+      "name": "monteslu",
+      "email": "monteslu@gmail.com"
+    },
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    },
+    {
+      "name": "bowerman",
+      "email": "me@andrewbowerman.com"
+    }
+  ],
+  "_nodeVersion": "24.14.0",
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "nyc": "^15",
+    "tsx": "^4.19.4",
+    "chai": "^4.1.1",
+    "mocha": "^11.7.5",
+    "@types/pg": "^8.12.0",
+    "coveralls": "^3.0.4",
+    "typescript": "^6.0.3"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/pg-connection-string_2.14.1_1790782745145_0.6944683427004497",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "pg-connection-string@2.14.1",
+  "version": "2.14.1"
+}

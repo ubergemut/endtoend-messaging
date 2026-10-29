@@ -1,0 +1,148 @@
+{
+  "bugs": {
+    "url": "https://github.com/yargs/yargs/issues"
+  },
+  "dist": {
+    "shasum": "991df39aca675a192b816e1e0363f9d75d2aa269",
+    "tarball": "https://registry.npmjs.org/yargs/-/yargs-17.7.2.tgz",
+    "fileCount": 62,
+    "integrity": "sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==",
+    "signatures": [
+      {
+        "sig": "MEYCIQDcfR7f+Msigb+FYHlBcmG/wZS+B3iDB74yZk3PSiZ17QIhAOoaKydzPYXP6LL8NWnmLwSQj5M6SE6BmdkzKSra+fkE",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 292421,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkStQGACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrjtA//U0Pbb3zn2R7XR+4Xz3nY2cAm2j7hh+QnTKUKmWRftg6jYKJq\r\nrNaqJrP4DfHHCc85dcb1oU23UR1K0uMKNZzUvfTEfJlseuUdHz0nR3DTUXOO\r\nSMMHUN2ZLeOG6LQlr6L91BFs99x6qxNn1R99YORVC2sPW1c91sUpYBuSqdad\r\nMbWZY8UzZM2EoiMrFkt2QyCRqx9hj8q7ncNCy0gDQcWlyzjwrmxiDIOYghwf\r\n/g4zMxXXdHKKUZ8NvDucxss+67GCo5j2dtNDNwNX6Vnm5P+Jgt044yiuVUGQ\r\n2/6YyGsXQltFSBo5WQ1VEiUEQCekqUQ3eWH5Do0b6o9nD0JD5hV1ioa9TdXF\r\n0ae/M3DxEbqZ/zuekB9EZqRaUAo0PP7nVZEQOu2nBZaOdL+D0Wr3a00a8Yrk\r\nY1DA1I/xDVu0N8cPzNQTNx8GlmPrFPXOoZL9+Q3R7bCbGtq7uuSs8Y0TnzEj\r\nkyYdc2rRLj7EN2hryoE5KvwZd04rsnxlGC9YSoi2WVR0i+MtvXiEb8EypnbL\r\nZoROli+0vlmCAtYaPWaLIspEG6iLt+EMiBODyqBHssg5prvGNLjUxbEwU0f7\r\n22VsyjDXDc9GEC/TyLDOTEFg98u8ur8wYArq/2O9+hcMONB5vpeaMaOu85d5\r\nuJIiH39J+fo/W4nMJusnZCBM0xhQ8gVKyj0=\r\n=ftLN\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "main": "./index.cjs",
+  "name": "yargs",
+  "type": "module",
+  "module": "./index.mjs",
+  "engines": {
+    "node": ">=12"
+  },
+  "exports": {
+    ".": [
+      {
+        "import": "./index.mjs",
+        "require": "./index.cjs"
+      },
+      "./index.cjs"
+    ],
+    "./yargs": [
+      {
+        "import": "./yargs.mjs",
+        "require": "./yargs"
+      },
+      "./yargs"
+    ],
+    "./browser": {
+      "types": "./browser.d.ts",
+      "import": "./browser.mjs"
+    },
+    "./helpers": {
+      "import": "./helpers/helpers.mjs",
+      "require": "./helpers/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "gitHead": "e1760e45c78538f2fd59d4a09fc0c0c6fd4b2379",
+  "license": "MIT",
+  "scripts": {
+    "fix": "gts fix && npm run fix:js",
+    "test": "c8 mocha --enable-source-maps ./test/*.cjs --require ./test/before.cjs --timeout=12000 --check-leaks",
+    "check": "gts lint && npm run check:js",
+    "clean": "gts clean",
+    "fix:js": "eslint . --ext cjs --ext mjs --ext js --fix",
+    "compile": "rimraf build && tsc",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile -- -p tsconfig.test.json && cross-env NODE_ENV=test npm run build:cjs",
+    "check:js": "eslint . --ext cjs --ext mjs --ext js",
+    "coverage": "c8 report --check-coverage",
+    "posttest": "npm run check",
+    "test:esm": "c8 mocha --enable-source-maps ./test/esm/*.mjs --check-leaks",
+    "build:cjs": "rollup -c rollup.config.cjs",
+    "postcompile": "npm run build:cjs",
+    "postbuild:cjs": "rimraf ./build/index.cjs.d.ts"
+  },
+  "_npmUser": {
+    "name": "oss-bot",
+    "email": "bencoe+oss-bot@gmail.com"
+  },
+  "homepage": "https://yargs.js.org/",
+  "keywords": [
+    "argument",
+    "args",
+    "option",
+    "parser",
+    "parsing",
+    "cli",
+    "command"
+  ],
+  "repository": {
+    "url": "git+https://github.com/yargs/yargs.git",
+    "type": "git"
+  },
+  "_npmVersion": "9.6.5",
+  "description": "yargs the modern, pirate-themed, successor to optimist.",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "bcoe",
+      "email": "bencoe@gmail.com"
+    },
+    {
+      "name": "oss-bot",
+      "email": "bencoe+oss-bot@gmail.com"
+    }
+  ],
+  "_nodeVersion": "14.21.3",
+  "contributors": [
+    {
+      "url": "https://github.com/yargs/yargs/graphs/contributors",
+      "name": "Yargs Contributors"
+    }
+  ],
+  "dependencies": {
+    "y18n": "^5.0.5",
+    "cliui": "^8.0.1",
+    "escalade": "^3.1.1",
+    "string-width": "^4.2.3",
+    "yargs-parser": "^21.1.1",
+    "get-caller-file": "^2.0.5",
+    "require-directory": "^2.1.1"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "c8": "^7.7.0",
+    "cpr": "^3.0.1",
+    "gts": "^3.0.0",
+    "chai": "^4.2.0",
+    "chalk": "^4.0.0",
+    "mocha": "^9.0.0",
+    "which": "^2.0.0",
+    "eslint": "^7.23.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.23.0",
+    "hashish": "0.0.4",
+    "coveralls": "^3.0.9",
+    "cross-env": "^7.0.2",
+    "typescript": "^4.0.2",
+    "@types/chai": "^4.2.11",
+    "@types/node": "^18.0.0",
+    "cross-spawn": "^7.0.0",
+    "@types/mocha": "^9.0.0",
+    "rollup-plugin-ts": "^2.0.4",
+    "yargs-test-extends": "^1.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-cleanup": "^3.1.1"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/yargs_17.7.2_1682625542660_0.3020810342321052",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "yargs@17.7.2",
+  "version": "17.7.2"
+}

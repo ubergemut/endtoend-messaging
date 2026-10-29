@@ -1,0 +1,73 @@
+{
+  "dist": {
+    "shasum": "7e712ce02cf44ad100862127f10f52e9c6b9d227",
+    "tarball": "https://registry.npmjs.org/@types/pg/-/pg-8.23.1.tgz",
+    "fileCount": 9,
+    "integrity": "sha512-fKVHpikPdg4GKks3JuLEhvwSyvwzF23hnabPy6DD8ljVbC7+6J5dQzdv4arV6jqq57djnMgs1HKBxX4P8aBI3A==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCGT3gAmd1foe4h5A+yaOnvnGkX4FmiT1+tr47rnCz5NgIhAPlL7G9WIK6VVbn78dzvvjLpr92Qv7fs2EeVm3TegnYG",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEQCIECf+CMs6DtJn1Pv5baTTBd3pydqnHoxUG1uqL+954wEAiBThLT81ktCMBVT/tLtxIL2fhUbe9UonwJn0yW8y9pIDw==",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 19802
+  },
+  "main": "",
+  "name": "@types/pg",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.d.mts",
+      "require": "./index.d.ts"
+    },
+    "./lib/*": "./lib/*.d.ts",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "scripts": {},
+  "_npmUser": {
+    "name": "types",
+    "email": "ts-npm-types@microsoft.com"
+  },
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pg",
+  "repository": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "type": "git",
+    "directory": "types/pg"
+  },
+  "description": "TypeScript definitions for pg",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "types",
+      "email": "ts-npm-types@microsoft.com"
+    }
+  ],
+  "_nodeVersion": "24.19.0",
+  "contributors": [
+    {
+      "url": "https://github.com/pspeter3",
+      "name": "Phips Peter",
+      "githubUsername": "pspeter3"
+    }
+  ],
+  "dependencies": {
+    "pg-types": "^2.2.0",
+    "@types/node": "*",
+    "pg-protocol": "*"
+  },
+  "_hasShrinkwrap": false,
+  "peerDependencies": {},
+  "typeScriptVersion": "5.6",
+  "_npmOperationalInternal": {
+    "tmp": "tmp/pg_8.23.1_1786997418196_0.6105678035140445",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "typesPublisherContentHash": "4c3006364fd06c962ce8e915a3dcf8d0d87bfec39f509aa95b270ad620cad104",
+  "_id": "@types/pg@8.23.1",
+  "version": "8.23.1"
+}

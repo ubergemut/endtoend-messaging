@@ -1,0 +1,136 @@
+{
+  "kind": "endtoend-mpl-source-compatibility-assessment",
+  "assessmentVersion": 1,
+  "assessedAt": "2026-10-25T15:43:36.279Z",
+  "assessor": "Codex internal source/license assessment for the owner; no external professional opinion claimed",
+  "scope": {
+    "components": [
+      "hpke-rs@0.7.0",
+      "hpke-rs-crypto@0.7.0"
+    ],
+    "existingLargerWork": "AGPL-3.0-only EndToEnd device engine with existing AGPL libsignal/signal-crypto components",
+    "sourceBundle": "dependencies/preferred-source/mpl",
+    "cargoGraphPackages": 202,
+    "excludes": [
+      "HACL preferred-form resolution (separate workstream)",
+      "legal independence of custom frontends",
+      "future relay/npm dependency changes",
+      "publication approval"
+    ]
+  },
+  "conclusion": {
+    "status": "resolved-for-pinned-mpl-components",
+    "noKnownUnresolvedMplCompatibilityBlocker": true,
+    "reason": "Both exact sources are affirmatively MPL-2.0; no incompatible-secondary designation or earlier MPL provenance was identified; actual AGPL-3 combination, complete unchanged source, both license texts and an explicit retained-MPL/additional-AGPL distribution notice support section 3.3.",
+    "legalCertification": false,
+    "publicationAuthorized": false
+  },
+  "route": {
+    "primaryLicense": "MPL-2.0",
+    "secondaryLicense": "AGPL-3.0-only",
+    "licenseSections": [
+      "1.5",
+      "1.12",
+      "3.1",
+      "3.2",
+      "3.3",
+      "3.4"
+    ],
+    "retainsMplChoice": true,
+    "relabelsUpstreamAsMit": false,
+    "requiresExistingSecondaryLicensedCombination": true,
+    "distributionNotice": "dependencies/preferred-source/mpl/DISTRIBUTION_NOTICE.txt",
+    "conditions": [
+      "Keep all upstream files, declarations and notices unchanged unless separately assessed.",
+      "Supply complete MPL-covered source with the combined work and both full license texts.",
+      "Retain MPL-2.0 availability and additionally offer the covered components under AGPL version 3 within the existing AGPL larger work.",
+      "Tell executable/browser recipients how to obtain the exact corresponding source; keep runtime notices and source access available.",
+      "Reassess versions, modifications, an incompatibility designation, source provenance or materially changed combination."
+    ]
+  },
+  "exactEvidence": {
+    "provenancePath": "dependencies/preferred-source/mpl/PROVENANCE.json",
+    "provenanceSha256": "65374c487e2f46d8c954de632363284ba0133f13fbca206775ab63408f2805c1",
+    "graphInventorySha256": "1f043090e40f794cb6e0283a7373b65fd9c9497e3fcf75fe888953f47aeb6ce4",
+    "packageSourceFiles": 31,
+    "rustSourceFiles": 11,
+    "upstreamByteComparisons": 13,
+    "noPerFileMplBoilerplateClaimed": true,
+    "originHistory": [
+      {
+        "name": "hpke-rs",
+        "manifestCommit": "6b3a884c1db680df744b02a15789b2203db75379",
+        "date": "2020-08-12T08:31:40Z",
+        "license": "MPL-2.0",
+        "sourceUrl": "https://raw.githubusercontent.com/celabshq/hpke-rs/6b3a884c1db680df744b02a15789b2203db75379/Cargo.toml",
+        "observation": "Earliest license-bearing root Cargo manifest found in the repository Cargo.toml history; earlier root manifests have no license field.",
+        "bundledPath": "upstream-history/hpke-rs-first-mpl-Cargo.toml",
+        "sha256": "50491527c5bd0eace598dd726a55fc51561a11ba00a9e3664776a423b210b857"
+      },
+      {
+        "name": "hpke-rs-crypto",
+        "manifestCommit": "04c2979d253feb3c02815c82e4f99a5c98f79056",
+        "date": "2021-11-10T12:01:04Z",
+        "license": "MPL-2.0",
+        "sourceUrl": "https://raw.githubusercontent.com/celabshq/hpke-rs/04c2979d253feb3c02815c82e4f99a5c98f79056/traits/Cargo.toml",
+        "observation": "Initial traits/Cargo.toml declaration is MPL-2.0.",
+        "bundledPath": "upstream-history/hpke-rs-crypto-first-mpl-Cargo.toml",
+        "sha256": "c873e264fbb083c4e3c54606ea977e9f16917dbf08fcc70f3f5ad1a4ff28f089"
+      }
+    ]
+  },
+  "reviewedLicenseExpressions": {
+    "MIT OR Apache-2.0": 119,
+    "Apache-2.0 OR MIT": 17,
+    "Unlicense OR MIT": 2,
+    "MIT/Apache-2.0": 4,
+    "BSD-3-Clause": 4,
+    "MIT": 13,
+    "Apache-2.0/MIT": 1,
+    "Apache-2.0": 20,
+    "MIT OR Apache-2.0 OR BSD-1-Clause": 1,
+    "Zlib": 1,
+    "MPL-2.0": 2,
+    "ISC": 1,
+    "AGPL-3.0-only": 5,
+    "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT": 5,
+    "BSD-3-Clause OR MIT OR Apache-2.0": 2,
+    "MIT OR Apache-2.0 OR LGPL-2.1-or-later": 2,
+    "(MIT OR Apache-2.0) AND Unicode-3.0": 1,
+    "BSD-2-Clause OR Apache-2.0 OR MIT": 2
+  },
+  "otherCargoAssessment": {
+    "noAdditionalMaterialIncompatibilityIdentified": true,
+    "basis": "Exact pinned package declarations plus candidate-2 notice assessment and directly inspected special-case texts; not a new global legal certificate.",
+    "selectionPolicy": [
+      "Use available MIT alternatives while retaining all original alternative-license notices.",
+      "Preserve both MIT and Apache texts for legacy slash-form metadata without rewriting the expression.",
+      "Apply the Unicode-3.0 notice in addition to the selected MIT/Apache grant for unicode-ident.",
+      "Use the available MIT grant for r-efi rather than assuming its LGPL alternative applies.",
+      "Retain Apache, BSD, ISC and Zlib notices and their applicable conditions.",
+      "Retain AGPL-3.0-only for libsignal/SPQR; do not move these implementations into the MIT SDK."
+    ],
+    "generatedSourceObservation": "No generated/HACL designation found in the eleven HPKE Rust files. HACL/libcrux preferred-form work and any other generator provenance remain separately assessed."
+  },
+  "releaseTimeRequirements": [
+    "Include this complete portable supplement and assessment in the new exact source package.",
+    "Include MPL/full dependency notices and the selected secondary-grant notice in appropriate runtime/source material.",
+    "Verify version-specific source access and executable/browser notices against the newly frozen manifests.",
+    "Perform the broader relay/npm/source and actual frontend-boundary assessment before release."
+  ],
+  "primarySources": [
+    {
+      "title": "Mozilla Public License 2.0",
+      "url": "https://www.mozilla.org/en-US/MPL/2.0/"
+    },
+    {
+      "title": "MPL FAQ question14",
+      "url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/"
+    },
+    {
+      "title": "Mozilla combining MPL and GPL developer guidelines",
+      "url": "https://www.mozilla.org/en-US/MPL/2.0/combining-mpl-and-gpl/"
+    }
+  ],
+  "outsideReviewerRequired": false
+}

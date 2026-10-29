@@ -1,0 +1,96 @@
+{
+  "bugs": {
+    "url": "https://github.com/nodejs/undici/issues"
+  },
+  "dist": {
+    "shasum": "e240d97c8b5d85e5347ce73d25865c7906c1ec9f",
+    "tarball": "https://registry.npmjs.org/undici-types/-/undici-types-8.9.0.tgz",
+    "fileCount": 48,
+    "integrity": "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDC9DQiwZ2LR48b/XoOxv66nfzLseoMxWsqErz/NWDTmQIgfNnmHEAu8b7hgWX+G9jR2Ch3jMTqZzuEbNDkQ8Nhou8=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEUCIAQFUuTksde/aEA5KZ9ObER3LKw/JGouEjEBDGfbY581AiEA3ldzuIcHMJILExMxKT2nd4aZiv39B1fOFLJraQnTXJI=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/undici-types@8.9.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 120779
+  },
+  "name": "undici-types",
+  "types": "index.d.ts",
+  "gitHead": "21a8e1ed1843e74c3004a2926c12bb0ceaca6b71",
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "oidc:0b1ab44e-19b2-4f76-910c-216621332b3d"
+    }
+  },
+  "homepage": "https://undici.nodejs.org",
+  "repository": {
+    "url": "git+https://github.com/nodejs/undici.git",
+    "type": "git"
+  },
+  "_npmVersion": "12.0.1",
+  "description": "A stand-alone types package for Undici",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "matteo.collina",
+      "email": "hello@matteocollina.com"
+    },
+    {
+      "name": "ethan_arrowood",
+      "email": "ethan@arrowood.dev"
+    }
+  ],
+  "_nodeVersion": "24.18.0",
+  "contributors": [
+    {
+      "url": "https://github.com/dnlup",
+      "name": "Daniele Belardi"
+    },
+    {
+      "url": "https://github.com/ethan-arrowood",
+      "name": "Ethan Arrowood"
+    },
+    {
+      "url": "https://github.com/mcollina",
+      "name": "Matteo Collina"
+    },
+    {
+      "url": "https://github.com/KhafraDev",
+      "name": "Matthew Aitken"
+    },
+    {
+      "url": "https://github.com/ronag",
+      "name": "Robert Nagy"
+    },
+    {
+      "url": "https://github.com/szmarczak",
+      "name": "Szymon Marczak"
+    },
+    {
+      "url": "https://github.com/delvedor",
+      "name": "Tomas Della Vedova"
+    }
+  ],
+  "_hasShrinkwrap": false,
+  "_npmOperationalInternal": {
+    "tmp": "tmp/undici-types_8.9.0_1784896376021_0.36149095554434796",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "undici-types@8.9.0",
+  "version": "8.9.0"
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "endtoend-third-party-license-supplements",
+  "fetchedAt": "2026-10-25T03:05:10.457Z",
+  "qualifiedReview": false,
+  "originalCandidateManifestSha256": "b7ae509c186d6ff3b0fbe286ee7d9070130c1bc1c2cc284580507ede78a6a226",
+  "note": "Supplemental unmodified official license documents. Existing vendored source and .cargo-checksum files remain unchanged. These documents do not relicense third-party source or certify combination compatibility.",
+  "files": [
+    {
+      "path": "MPL-2.0.txt",
+      "url": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+      "responseUrl": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+      "scope": "Mozilla official license text; applies to the expressly MPL-2.0 hpke-rs0.7.0 and hpke-rs-crypto0.7.0 metadata; no additional grant or compatibility approval is inferred"
+    },
+    {
+      "path": "libcrux-c5fb80f-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+      "responseUrl": "https://raw.githubusercontent.com/cryspen/libcrux/c5fb80f37530ee9b2df9501ae5ff8cb4a973a4bd/LICENSE",
+      "bytes": 10756,
+      "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+      "scope": "Pinned workspace license for libcrux/core-models Apache-2.0 crates with this .cargo_vcs_info revision; individual explicit hpke MPL-2.0 declarations remain MPL"
+    },
+    {
+      "path": "libcrux-451259b-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/cryspen/libcrux/451259bb704d4a9dab8cd31ac68a97e766fbd2bc/LICENSE",
+      "responseUrl": "https://raw.githubusercontent.com/cryspen/libcrux/451259bb704d4a9dab8cd31ac68a97e766fbd2bc/LICENSE",
+      "bytes": 10756,
+      "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+      "scope": "Pinned workspace license for libcrux-hacl-rs0.0.5 from its .cargo_vcs_info revision"
+    },
+    {
+      "path": "libcrux-8ebe732-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/cryspen/libcrux/8ebe73237378c80b86a953ec8a77bdd3299918e7/LICENSE",
+      "responseUrl": "https://raw.githubusercontent.com/cryspen/libcrux/8ebe73237378c80b86a953ec8a77bdd3299918e7/LICENSE",
+      "bytes": 10756,
+      "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+      "scope": "Pinned workspace license for libcrux-macros0.0.3 from its .cargo_vcs_info revision"
+    },
+    {
+      "path": "libcrux-316fcd6-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/cryspen/libcrux/316fcd6c19c2e33bd0429e1319b6557d91038512/LICENSE",
+      "responseUrl": "https://raw.githubusercontent.com/cryspen/libcrux/316fcd6c19c2e33bd0429e1319b6557d91038512/LICENSE",
+      "bytes": 10756,
+      "sha256": "c517c468fc7f8d83319dd8b3743923f6891e0dfbaf7c57a874758c8f39b98564",
+      "scope": "Pinned workspace license for libcrux-platform0.0.3 from its .cargo_vcs_info revision"
+    },
+    {
+      "path": "hax-d8b5b3d-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/hacspec/hax/d8b5b3d3b666fee8943a351445d2b680105e8ea3/LICENSE",
+      "responseUrl": "https://raw.githubusercontent.com/hacspec/hax/d8b5b3d3b666fee8943a351445d2b680105e8ea3/LICENSE",
+      "bytes": 10756,
+      "sha256": "9a50bad5a51e0ad726ea3a7f4b7b758e1b4d1784e6abefe1367f5bf01e972725",
+      "scope": "Pinned workspace license for hax-lib, hax-lib-macros and hax-lib-macros-types0.3.7"
+    }
+  ]
+}

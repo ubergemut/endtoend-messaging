@@ -1,0 +1,11 @@
+{
+  "name": "@e2ee/crypto",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "exports": {
+    "./node": "./src/node.ts",
+    "./browser": "./src/browser.ts"
+  }
+}

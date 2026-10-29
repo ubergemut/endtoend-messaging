@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>EndToEnd messaging agent</title></head>
+<body><main><h1>EndToEnd messaging agent</h1><p id="status" role="status">Loading trusted agent…</p><p id="account"></p>
+<form id="unlock" hidden><label>Device secret <input id="secret" type="password" autocomplete="off" spellcheck="false"></label>
+<button id="generate" type="button">Create device secret</button><button id="copy" type="button">Copy device secret</button>
+<label id="backup-label" hidden><input id="backup" type="checkbox"> I saved this device secret somewhere safe.</label>
+<label id="replace-label" hidden><input id="replace" type="checkbox"> Replace my existing device. Old local history stays sealed and that device will stop receiving new messages.</label>
+<button type="submit">Unlock messaging</button></form>
+<section id="approval" hidden><h2>Confirm on this device</h2><p id="approval-text"></p><pre id="safety"></pre><button id="approve">Confirm</button><button id="decline">Cancel</button></section>
+<button id="lock" hidden>Lock messaging</button><p>Device secrets, private keys and encryption sessions stay inside this agent.</p>
+<p>AGPL-3.0-only. Copyright EndToEnd contributors. No warranty. You may modify and redistribute this agent under its license. <a id="license" href="/LICENSE.txt">License terms</a>. <a id="notices" href="/THIRD_PARTY_NOTICES.txt">Third-party notices</a>.</p><p id="release-version"></p><p><a id="source" href="/source-disclosure.json">Source and notices for this version</a> · <a id="source-manifest" href="/source-disclosure.json">Source manifest and hashes</a></p></main><script type="module" src="/src/main.ts"></script></body></html>
+

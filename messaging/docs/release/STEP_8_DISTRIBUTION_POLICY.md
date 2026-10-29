@@ -1,0 +1,55 @@
+# Source delivery and retention policy
+
+Recorded October 27, 2026 for the reusable messaging MVP. This is the project's internal operating policy for the exact release assessed in steps 8–10. It does not approve publication, replace the full licenses, or certify future integrations. The release owner is responsible for applying it; an operator receiving the software takes responsibility for that operator's distribution and service.
+
+## Selected delivery route
+
+The selected route is direct network delivery of source beside object-code downloads under AGPL section 6(d), together with the modified service's section 13 source opportunity. This release does not select the physical-product written-offer route in section 6(b). Section 6(d) requires equivalent source access at no further charge and clear directions if another server hosts it; section 13 requires a prominent no-charge source opportunity for remote users. The explicit three-year/support period belongs to section 6(b), rather than being a universal retention rule for every network download. Sections 1 and 4–6 cover preferred source, notices, modification dates and conditional User Product installation information; section 10 prohibits further restrictions on granted rights. See the [official AGPL text](https://www.gnu.org/licenses/agpl-3.0.html), also supplied in full as `LICENSE`.
+
+Project policy is more conservative than a minimal route-specific deadline:
+
+- Keep immutable versioned source archives, license/notice files, manifests, build records and their disclosure catalogs indefinitely after external availability. Keep the source download publicly available for every version still running, downloadable, distributed through a controlled mirror, or supported for browser caching, rollback or recovery. Do not replace an old version's source URL with the newest version.
+- Retain an independent backup of these records. A mirror or upstream repository is a delivery convenience; it does not transfer the project's responsibility to preserve its source offer. Before retiring any source endpoint, the owner must record the distribution history, outstanding obligations and an accessible replacement. This policy has no automatic deletion date.
+- Make the source and notices available before external beta use, browser delivery or other applicable distribution. Source access must work without an account, payment, NDA, source-request approval, license activation or acceptance of additional software restrictions. Recipients choose whether to download it.
+
+The last point and indefinite preservation are explicit project choices. They must not be presented as a claim that AGPL always demands unauthenticated worldwide publication, a fixed three-year rule, or indefinite public hosting in every factual situation. GNU's [network source guidance](https://www.gnu.org/licenses/gpl-faq.en.html#AnonFTPAndSendSources) and [different-server guidance](https://www.gnu.org/licenses/gpl-faq.en.html#SourceAndBinaryOnDifferentSites) support the selected route. Its [AGPL corresponding-source guidance](https://www.gnu.org/licenses/gpl-faq.en.html#AGPLv3CorrespondingSource) also addresses required libraries; the license does not reduce the offer to first-party files.
+
+## Components and exact correspondence
+
+`source-disclosure.json` is the delivery catalog, schema version 1. It identifies the release version and each component's identifier, version, grant, downloadable artifacts, exact source archive, source manifest and notices. Each file record supplies its basename, byte length and SHA-256. Source records also identify the source manifest and its SHA-256. Public routes are `/source-disclosure.json`, `/releases/<version>/disclosure.json` and `/releases/<version>/<filename>`. The catalog and its referenced files stay together; arbitrary filesystem paths are not delivery routes. `/release.json` provides each presentation's mapped component metadata.
+
+| Delivered component | Required project treatment |
+| --- | --- |
+| Persistent relay/API, local agent, CLI/HTTP/GraphQL/MCP adapters, Node/browser crypto, trusted browser and reference browser | The exact public messaging source archive and manifest, including the real implementation, interfaces, schemas/migrations, scripts, templates, dependency/preferred-source closure and notices. The runtime and browser/WASM files must be bound to that source identity. |
+| Original full `apps/web` frontend | A separate exact frontend source delivery, including its original AGPL code, existing assets and embedded documentation, exact SDK inputs, required build inputs and notices. Its source is excluded from the core archive, so the core link alone does not cover this frontend. |
+| MIT protocol/client SDK | Preserve the complete MIT notices in the distributed modules/package and deliver the matching SDK source/build information. Its inclusion does not relicense the messaging implementation. |
+| Independently authored MIT `apps/desk-client` | Preserve its own complete MIT notice and the SDK notices. Record the exact authored files and SDK relationship; supplying its source is this project's distribution choice. Do not label the other frontend or the separately running implementation MIT. |
+
+The full frontend keeps AGPL; the desk and SDK keep their concrete MIT grants. The [frontend assessment](FRONTEND_BOUNDARY_ASSESSMENT.md) records their actual provenance and relationship. A later host is assessed on its actual source/build/communication relationship. Styling, origins, executables, HTTP or an MIT wrapper alone do not establish independence.
+
+Release-mode launchers must verify the selected catalog and all referenced bytes before accepting users. Missing source, missing notices, a mismatched archive/manifest or a component mismatch must prevent release mode. An explicitly local development fixture may omit the catalog, but cannot advertise itself as a source-complete release. Any changed artifact requires a new catalog identity and affected checks; a reused semantic version is insufficient to establish correspondence.
+
+## Included source and classified exclusions
+
+The source delivery includes editable application/interface files and tests; generated-crypto inputs and build helpers; Cargo/vendor metadata; configuration templates without secrets; storage schemas/migrations and run/install/recovery instructions; complete licenses, attributions and dated modification notices; and the exact preferred-source dependency packet. The supplied PGlite packet includes the pinned wrapper, modified PostgreSQL, extensions, runtime libraries and generation/build recipes. HACL includes the preferred inputs and the recorded Rust/macro transformation. These are supplied archives with provenance, not merely URLs or lock entries.
+
+The recorded limitations remain explicit: HACL does not claim historical F*/KaRaMeL proof/extraction reproduction, and PGlite does not claim an independent native bit-for-bit rebuild. Step 7 actually rebuilt the public Node/browser crypto and checked the resulting outputs. Required preferred forms are delivered despite these distinct reproduction limits. See the source-closure assessments and actual build evidence accompanying the release.
+
+| Excluded material | Recorded reason and safeguard |
+| --- | --- |
+| Accounts, messages, media belonging to users, databases, vaults, tokens, private keys and deployment credentials | Operational/user data is not editable program source. Supply synthetic examples and configurable templates instead. No secret is needed to unpack or build the source. |
+| Installed `node_modules`, product `dist`/WASM outputs, compiler targets and caches in the source archive | Generated/installed outputs are regenerated from the included inputs; corresponding runtime/download artifacts are delivered separately. Do not discard upstream preferred source solely because a directory happens to be called `dist`. |
+| Git history and unrelated host applications | The exact source snapshot and provenance records suffice for this package. This exclusion cannot conceal a required build input or an actual covered combination. The AGPL full frontend is supplied separately. |
+| Separately installed operating system, browser, Node, Rust, Cargo, Yarn, protoc, wasm-pack and unmodified general-purpose compiler/tool executables | Tool versions and installation instructions are recorded. This is not an exclusion for embedded helpers/runtime code: actual bundled dependencies receive their required source/notices, including supplied conservative compiler/helper material. |
+
+The selected delivery is ordinary software archives and a service, with user-controlled source installation. It does not transfer possession/use of a tangible User Product and does not ship an appliance, locked boot chain, signing gate or hardware installation key. Current installation needs the supplied scripts/templates plus the documented public toolchain. The User Product installation-information trigger is therefore recorded as not applicable to this concrete delivery. Before any appliance, preinstalled device or similar transaction, reassess that conclusion and supply all applicable methods/authorization information; private user/device secrets are not a substitute.
+
+## Notices, hosts and terms
+
+Every delivered component carries its applicable full license, attribution and warranty notices. Modified covered source has prominent relevant dates and a description of the modifications. Interactive covered presentations expose a convenient visible license/source item. Adapters expose discovery through their normal help or protocol entry points without polluting structured application output. Remote source access must survive embedding and host authentication.
+
+Hosts must preserve this opportunity in trusted and reference windows and their own messaging entry points. A source page behind host login, a hidden trusted window or a discarded protocol notice is insufficient for this project's integration policy. Required routes must bypass host payment/auth gates; point users to both the host's covered frontend source, when applicable, and the actual messaging version. Re-run clean-user checks through the final proxy/CDN, including signed-out and revoked sessions.
+
+Use the covered-rights clause and operator checklist in [SOURCE_DELIVERY.md](../deployment/SOURCE_DELIVERY.md). A proprietary host notice applies only to independently licensed material actually identified as such. It must not claim exclusive ownership of bundled third-party code or prohibit modification, redistribution, inspection or source access where a component's license permits those acts. Do not make a promise that every future frontend can remain private.
+
+Step 8's acceptance records demonstrate delivery behavior and exact files. Step 9 still records the whole release assessment and owner decision; step 10 still requires authorization for actual publication/deployment and checks the external endpoints. No outside opinion or publication is created by this policy.
