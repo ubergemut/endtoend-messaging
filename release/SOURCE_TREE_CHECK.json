@@ -1,0 +1,44 @@
+{
+  "kind": "endtoend-published-source-integrity",
+  "passed": true,
+  "expectedCatalogSha256": "f1f345bb8496ae56e347a5b07381edf95527fbb19958b761c59d8126c6b313a2",
+  "catalogSha256": "f1f345bb8496ae56e347a5b07381edf95527fbb19958b761c59d8126c6b313a2",
+  "sourceTrees": [
+    {
+      "directory": "messaging",
+      "components": [
+        "messaging-core"
+      ],
+      "manifestSha256": "d4f20500adac02f7d9ab46cf85984fd72efadbf21da546390dcbf0f94323fc2d",
+      "filesChecked": 10183
+    },
+    {
+      "directory": "consumers",
+      "components": [
+        "endtoend-web",
+        "desk-client"
+      ],
+      "manifestSha256": "402c0d6c4e87fb4da2b1df90d2f1d9b6df20bc5429fd13d90503e417963f4a3e",
+      "filesChecked": 128
+    },
+    {
+      "directory": "sdk",
+      "components": [
+        "mit-sdk"
+      ],
+      "manifestSha256": "db09c0043e9b1fcfa7321540796dc26af0823a182962dd6f1d122246b9579954",
+      "filesChecked": 34
+    }
+  ],
+  "runtimeManifests": [
+    {
+      "filename": "RUNTIME_MANIFEST.json",
+      "sha256": "67a3a4bce69dae5fb990db445a911f0527c825455b5894c37da240e2d8cc2724"
+    },
+    {
+      "filename": "CONSUMER_RUNTIME_MANIFEST.json",
+      "sha256": "dc3d1f52c840a88b2e504e5271de3b434a6e9b6701d8e6e562e3c343a628f4c2"
+    }
+  ],
+  "issues": []
+}

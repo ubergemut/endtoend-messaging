@@ -183,6 +183,10 @@
     }
   ],
   "sourceMethod": "Complete direct source downloads under AGPL sections 6(d) and 13, plus complete editable repository source",
-  "published": false,
-  "liveHostedService": false
+  "published": true,
+  "liveHostedService": false,
+  "publishedAt": "2026-10-29T18:54:01Z",
+  "releaseUrl": "https://github.com/ubergemut/endtoend-messaging/releases/tag/messaging-v0.2.0",
+  "publicationVerification": "PUBLICATION_VERIFICATION.json",
+  "publicationRecord": "PUBLICATION.json"
 }

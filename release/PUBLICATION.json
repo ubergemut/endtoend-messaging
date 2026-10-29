@@ -1,0 +1,47 @@
+{
+  "kind": "endtoend-published-release",
+  "recordedAt": "2026-10-29T18:57:59.630Z",
+  "softwarePublicationComplete": true,
+  "repository": "https://github.com/ubergemut/endtoend-messaging",
+  "releaseUrl": "https://github.com/ubergemut/endtoend-messaging/releases/tag/messaging-v0.2.0",
+  "tag": "messaging-v0.2.0",
+  "releaseCommit": "545604a12d8f7f5b869430d262b84a708647dfdd",
+  "publishedAt": "2026-10-29T18:54:01Z",
+  "releaseVersion": "0.2.0",
+  "sdkVersion": "0.2.1",
+  "catalogSha256": "f1f345bb8496ae56e347a5b07381edf95527fbb19958b761c59d8126c6b313a2",
+  "subjectSha256": "7ef4cb84b8c651f482db480c21fc97a4993f42bfaa93a77d0ecdc3f48c5a3d64",
+  "assessmentSha256": "2abd46643faf46c772304692321ae17e6f6c89340a903673c27d2f6ed3d35411",
+  "checks": {
+    "publicationGuardTests": 21,
+    "sourceFiles": 10345,
+    "sourceTreeMembers": 10348,
+    "manifestBindings": 5,
+    "anonymousFiles": 19,
+    "anonymousRequests": 38,
+    "anonymousBytes": 296962556,
+    "githubAssetDigests": 19,
+    "sourceAndDownloadCiPassed": true
+  },
+  "evidence": {
+    "anonymousVerification": "PUBLICATION_VERIFICATION.json",
+    "sourceIntegrity": "SOURCE_TREE_CHECK.json",
+    "sourceCi": "https://github.com/ubergemut/endtoend-messaging/actions/runs/40934794446",
+    "releaseCi": "https://github.com/ubergemut/endtoend-messaging/actions/runs/40935117139"
+  },
+  "grants": {
+    "messaging-core": "AGPL-3.0-only",
+    "endtoend-web": "AGPL-3.0-only",
+    "desk-client": "MIT",
+    "mit-sdk": "MIT"
+  },
+  "originalPrivateRepositoryChangedVisibility": false,
+  "liveHostedService": false,
+  "liveServiceAndUiProxyAcceptance": false,
+  "limitations": [
+    "This is the downloadable software release. No production server or HTTPS origins were supplied, and no hosted messaging service was deployed.",
+    "The current Windows GNU crypto validation, one-device/one-writer limits and dependency-generation limits remain documented.",
+    "Internal assessment and mechanical verification do not determine every future integration or supply an external professional opinion."
+  ],
+  "initialCiCorrection": "The initial public Git ignore rules omitted a vendored source directory named target. The rules were narrowed, all 10348 source members were verified in the Git index, and source CI passed before runtime publication. Initial failed runs remain in GitHub and local retained records."
+}
