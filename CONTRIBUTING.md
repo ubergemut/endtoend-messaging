@@ -12,7 +12,16 @@ Contributions to existing MPL-covered dependency files require the documented so
 
 ## Describe and validate the change
 
-Explain the user-visible problem, final behavior and affected interfaces/data. Add meaningful regression coverage where needed and run affected workspace tests. Release/source changes also run `yarn test:release` and `yarn test:source-delivery`. Preserve failing evidence and state limits; do not claim a platform, migration or build you did not test.
+Explain the user-visible problem, final behavior and affected interfaces/data. Add meaningful regression coverage where needed and run affected workspace tests. This public repository has no root Yarn workspace. From the repository root, run the release-tool guard tests and the independently pinned source-integrity check:
+
+```text
+node --test release-tools/check-published-source.test.mjs release-tools/verify-published-release.test.mjs
+node release-tools/check-published-source.mjs --root . --catalog release/source-disclosure.json --expected-catalog-sha256 f1f345bb8496ae56e347a5b07381edf95527fbb19958b761c59d8126c6b313a2
+```
+
+The guard tests currently contain 21 cases. The source check validates the frozen approved snapshot and its manifests; a deliberate source change requires new release identities and assessment rather than changing a checksum merely to make that check pass.
+
+For core changes, enter `messaging/`, install/build using its README, then run `yarn test`; `yarn test:package` selects the core packaging regressions. Consumer changes use the documented build/tests inside `consumers/`, and SDK changes use `sdk/`. Preserve failing evidence and state limits; do not claim a platform, migration or build you did not test.
 
 Keep public SDK consumers on public contracts. Device secrets, vault/ratchet handling, attachment encryption and trusted decisions stay in the public implementation. Changes to dependencies, generators, licenses, preferred source, bundled assets, frontend provenance or implementation coupling need the short human assessment described in [ONGOING_COMPLIANCE.md](docs/release/ONGOING_COMPLIANCE.md). Ordinary changes within the assessed design need the relevant regression/completeness checks, not a new outside opinion each time.
 
