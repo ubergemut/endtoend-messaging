@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+// Modified October 31, 2026: explicitly pinned 0.2.1 core release verification.
 // Verify a clean published source snapshot against its separately approved catalog.
 import fs from 'node:fs/promises'
 import path from 'node:path'
@@ -45,11 +46,12 @@ async function boundedParallel(values,operation){
 }
 
 /** No network calls, builds, extraction, Git operations or filesystem mutations occur here. */
-export async function checkPublishedSource({root,catalog,expectedCatalogSha256}={}){
+export async function checkPublishedSource({root,catalog,expectedCatalogSha256,expectedReleaseVersion='0.2.0'}={}){
   const result={kind:'endtoend-published-source-integrity',passed:false,expectedCatalogSha256,catalogSha256:null,sourceTrees:[],runtimeManifests:[],issues:[]}
   try{
     requireThat(typeof root==='string'&&root.length>0&&typeof catalog==='string'&&catalog.length>0,'Supply root and catalog paths')
     requireThat(digest(expectedCatalogSha256),'An independently pinned expected catalog SHA-256 is required')
+    requireThat(['0.2.0','0.2.1'].includes(expectedReleaseVersion),'Unsupported explicitly selected release')
     const directory=path.resolve(root),catalogFile=path.resolve(catalog)
     requireThat(within(directory,catalogFile),'Catalog must be inside the published repository')
     const inspected=new Map()
@@ -77,12 +79,12 @@ export async function checkPublishedSource({root,catalog,expectedCatalogSha256}=
     result.catalogSha256=hash(catalogBytes)
     requireThat(result.catalogSha256===expectedCatalogSha256,'Catalog differs from the independently approved hash')
     const descriptor=JSON.parse(catalogBytes.toString('utf8'))
-    requireThat(descriptor.schemaVersion===1&&descriptor.version==='0.2.0','Unsupported catalog schema/release')
+    requireThat(descriptor.schemaVersion===1&&descriptor.version===expectedReleaseVersion,'Unsupported catalog schema/release')
     requireThat(Array.isArray(descriptor.components)&&descriptor.components.length===4,'Exactly four released components are required')
     const components=new Map(),offered=new Map()
     for(const component of descriptor.components){
       requireThat(component&&Object.hasOwn(grants,component.id)&&!components.has(component.id),'Unknown or duplicate component')
-      requireThat(component.license===grants[component.id]&&component.version===(component.id==='mit-sdk'?'0.2.1':'0.2.0'),'Component grant/version differs: '+component.id)
+      requireThat(component.license===grants[component.id]&&component.version===(component.id==='messaging-core'?expectedReleaseVersion:component.id==='mit-sdk'?'0.2.1':'0.2.0'),'Component grant/version differs: '+component.id)
       record(component.source);basename(component.source.manifestFilename);requireThat(digest(component.source.manifestSha256),'Invalid source manifest hash')
       requireThat(Array.isArray(component.artifacts)&&component.artifacts.length>0&&Array.isArray(component.notices)&&component.notices.length>0,'Artifacts and license notices are required: '+component.id)
       for(const row of [component.source,...component.artifacts,...component.notices]){
@@ -103,7 +105,7 @@ export async function checkPublishedSource({root,catalog,expectedCatalogSha256}=
       const manifestBytes=await bytes(path.join(sourceRoot,manifestFilename),limits.manifest)
       requireThat(hash(manifestBytes)===component.source.manifestSha256,'Source manifest hash mismatch: '+folder)
       const manifest=JSON.parse(manifestBytes.toString('utf8'))
-      requireThat(component.id==='mit-sdk'?manifest.sdkVersion==='0.2.1'&&manifest.license==='MIT':manifest.version==='0.2.0','Source manifest version/grant differs: '+folder)
+      requireThat(component.id==='mit-sdk'?manifest.sdkVersion==='0.2.1'&&manifest.license==='MIT':manifest.version===component.version,'Source manifest version/grant differs: '+folder)
       requireThat(Array.isArray(manifest.files)&&manifest.files.length>0&&manifest.files.length<=limits.files,'Missing bounded source inventory: '+folder)
       const seen=new Set()
       for(const row of manifest.files){
@@ -142,7 +144,7 @@ export async function checkPublishedSource({root,catalog,expectedCatalogSha256}=
       const value=await bytes(path.join(path.dirname(catalogFile),filename),limits.manifest)
       requireThat(value.length===row.bytes&&hash(value)===row.sha256,'Runtime manifest hash mismatch: '+id)
       const manifest=JSON.parse(value.toString('utf8'))
-      requireThat(manifest.version==='0.2.0'&&manifest.matchingSourceSha256===component.source.sha256&&manifest.matchingSourceManifestSha256===component.source.manifestSha256,'Runtime/source binding differs: '+id)
+      requireThat(manifest.version===component.version&&manifest.matchingSourceSha256===component.source.sha256&&manifest.matchingSourceManifestSha256===component.source.manifestSha256,'Runtime/source binding differs: '+id)
       const runtime=component.artifacts.filter(item=>item.filename!==filename)
       requireThat(runtime.length===1,'Exactly one runtime archive is required: '+id)
       runtimePairs.push([id,{...runtime[0],manifestFilename:filename,manifestSha256:row.sha256}])
@@ -158,13 +160,13 @@ export async function checkPublishedSource({root,catalog,expectedCatalogSha256}=
 }
 
 export async function main(args=process.argv.slice(2)){
-  const flags={},allowed=new Set(['--root','--catalog','--expected-catalog-sha256'])
+  const flags={},allowed=new Set(['--root','--catalog','--expected-catalog-sha256','--expected-release-version'])
   for(let index=0;index<args.length;index+=2){
     const flag=args[index]
     requireThat(allowed.has(flag)&&!Object.hasOwn(flags,flag)&&args[index+1]&&!args[index+1].startsWith('--'),'Supply unique --root, --catalog and --expected-catalog-sha256 values')
     flags[flag]=args[index+1]
   }
-  const result=await checkPublishedSource({root:flags['--root'],catalog:flags['--catalog'],expectedCatalogSha256:flags['--expected-catalog-sha256']})
+  const result=await checkPublishedSource({root:flags['--root'],catalog:flags['--catalog'],expectedCatalogSha256:flags['--expected-catalog-sha256'],expectedReleaseVersion:flags['--expected-release-version']})
   console.log(JSON.stringify(result,null,2))
   if(!result.passed)process.exitCode=1
   return result

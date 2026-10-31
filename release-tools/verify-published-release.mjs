@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+// Modified October 31, 2026: explicitly pinned 0.2.1 core release verification.
 // Anonymous static-download verification. This does not verify a deployed messaging service or UI.
 import fs from 'node:fs/promises'
 import path from 'node:path'
@@ -48,10 +49,11 @@ async function regularJson(filename, maximum) {
   return {bytes, value: JSON.parse(bytes.toString('utf8'))}
 }
 
-async function inspectLocalCatalog(catalogPath) {
+async function inspectLocalCatalog(catalogPath,expectedReleaseVersion) {
+  check(['0.2.0','0.2.1'].includes(expectedReleaseVersion),'Unsupported explicitly selected release')
   const local = await regularJson(catalogPath, limits.catalog)
   const catalog = local.value
-  check(catalog.schemaVersion === 1 && catalog.version === '0.2.0' && Array.isArray(catalog.components) && catalog.components.length === 4, 'Expected the approved four-component 0.2.0 catalog')
+  check(catalog.schemaVersion === 1 && catalog.version === expectedReleaseVersion && Array.isArray(catalog.components) && catalog.components.length === 4, 'Expected the explicitly selected four-component catalog')
   const files = new Map()
   const retain = (row, manifest = false) => {
     check(row && token(row.filename) && digest(row.sha256) && (manifest && row.bytes === null || Number.isSafeInteger(row.bytes) && row.bytes >= 0 && row.bytes <= limits.file), 'Invalid approved artifact identity')
@@ -61,7 +63,7 @@ async function inspectLocalCatalog(catalogPath) {
   }
   const seen = new Set()
   for (const component of catalog.components) {
-    check(Object.hasOwn(grants, component.id) && !seen.has(component.id) && component.license === grants[component.id] && component.version === (component.id === 'mit-sdk' ? '0.2.1' : '0.2.0'), 'Unexpected component, grant or version in approved catalog')
+    check(Object.hasOwn(grants, component.id) && !seen.has(component.id) && component.license === grants[component.id] && component.version === (component.id==='messaging-core'?expectedReleaseVersion:component.id === 'mit-sdk' ? '0.2.1' : '0.2.0'), 'Unexpected component, grant or version in approved catalog')
     seen.add(component.id)
     check(Array.isArray(component.artifacts) && component.artifacts.length > 0 && component.artifacts.length <= 64 && Array.isArray(component.notices) && component.notices.length > 0 && component.notices.length <= 256, 'Component artifacts and notices are required')
     check(component.notices.some(row => /licen[cs]e|copying/i.test(row.filename ?? '')), 'Component license download is required')
@@ -154,13 +156,13 @@ async function anonymousRequest(initial, method, expected, timeoutMs) {
 }
 
 /** Verify static published files only. No authentication, service probing or external mutation. */
-export async function verifyPublishedRelease({catalogPath, baseUrl, timeoutMs = 300000, expectedCatalogSha256, onProgress} = {}) {
+export async function verifyPublishedRelease({catalogPath, baseUrl, timeoutMs = 300000, expectedCatalogSha256,expectedReleaseVersion='0.2.0', onProgress} = {}) {
   const receipt = {kind: 'endtoend-published-static-release-verification', schemaVersion: 1, checkedAt: new Date().toISOString(), passed: false, mode: 'static-artifact-downloads', anonymous: true, authenticationHeadersUsed: false, credentials: 'omit', serviceOrUiVerified: false, publicationPerformed: false, requests: [], files: [], issues: []}
   try {
     const prefix = basePrefix(baseUrl)
     check(Number.isSafeInteger(timeoutMs) && timeoutMs > 0 && timeoutMs <= 600000, 'Request timeout must be between 1 and 600000 milliseconds')
     receipt.baseUrl = prefix.href
-    const local = await inspectLocalCatalog(catalogPath)
+    const local = await inspectLocalCatalog(catalogPath,expectedReleaseVersion)
     receipt.releaseVersion = local.catalog.version
     receipt.expectedCatalogSha256 = sha(local.catalogBytes)
     check(expectedCatalogSha256 === undefined || digest(expectedCatalogSha256) && expectedCatalogSha256 === receipt.expectedCatalogSha256, 'Local catalog hash differs from the expected approved identity')
@@ -195,7 +197,7 @@ export async function verifyPublishedRelease({catalogPath, baseUrl, timeoutMs = 
 }
 
 function argumentsFor(argv) {
-  const result = {}, known = new Set(['--catalog', '--base-url', '--out', '--timeout-ms', '--expected-catalog-sha256'])
+  const result = {}, known = new Set(['--catalog', '--base-url', '--out', '--timeout-ms', '--expected-catalog-sha256','--expected-release-version'])
   for (let at = 0; at < argv.length; at += 2) {
     const name = argv[at], value = argv[at + 1]
     check(known.has(name) && !Object.hasOwn(result, name) && typeof value === 'string' && value.length > 0 && !value.startsWith('--'), 'Use each supported flag once with a value: --catalog --base-url [--out] [--timeout-ms]')
@@ -211,7 +213,7 @@ if (process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href === imp
     // Claim an explicitly requested new receipt before network work; never overwrite evidence.
     const output = args['--out'] ? await fs.open(path.resolve(args['--out']), 'wx') : null
     try {
-      const receipt = await verifyPublishedRelease({catalogPath: args['--catalog'], baseUrl: args['--base-url'], ...(args['--timeout-ms'] ? {timeoutMs: Number(args['--timeout-ms'])} : {}), ...(args['--expected-catalog-sha256'] ? {expectedCatalogSha256: args['--expected-catalog-sha256']} : {}), onProgress: row => process.stderr.write(`Verified ${row.filename} (${row.bytes} bytes)\n`)})
+      const receipt = await verifyPublishedRelease({catalogPath: args['--catalog'], baseUrl: args['--base-url'],expectedReleaseVersion:args['--expected-release-version'], ...(args['--timeout-ms'] ? {timeoutMs: Number(args['--timeout-ms'])} : {}), ...(args['--expected-catalog-sha256'] ? {expectedCatalogSha256: args['--expected-catalog-sha256']} : {}), onProgress: row => process.stderr.write(`Verified ${row.filename} (${row.bytes} bytes)\n`)})
       const bytes = JSON.stringify(receipt, null, 2) + '\n'
       if (output) await output.writeFile(bytes)
       process.stdout.write(bytes)

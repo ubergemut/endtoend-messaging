@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+// Modified October 31, 2026: explicitly pinned 0.2.1 core release verification.
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
@@ -12,8 +13,16 @@ import {verifyPublishedRelease, validateReleaseRedirect} from './verify-publishe
 
 const hash = bytes => createHash('sha256').update(bytes).digest('hex')
 const executable = fileURLToPath(new URL('./verify-published-release.mjs', import.meta.url))
+test('changed release downloads require explicit core version and retain the fixed consumer/SDK grants',()=>fixture(async f=>{
+ assert.equal((await f.verify()).passed,false);
+ const pin=hash(f.files.get('source-disclosure.json'));
+ assert.equal((await f.verify({expectedReleaseVersion:'0.2.1',expectedCatalogSha256:pin})).passed,true);
+ assert.equal((await f.verify({expectedReleaseVersion:'0.3.0',expectedCatalogSha256:pin})).passed,false);
+ f.catalog.components.find(row=>row.id==='endtoend-web').version='0.2.1';await f.record('source-disclosure.json',f.catalog);
+ assert.equal((await f.verify({expectedReleaseVersion:'0.2.1'})).passed,false);
+},'0.2.1'))
 
-async function fixture(run) {
+async function fixture(run,releaseVersion='0.2.0') {
   const directory = await fs.mkdtemp(path.join(tmpdir(), 'endtoend-published-release-'))
   const files = new Map(), requests = [], behavior = {mode: 'normal', filename: 'core-source.tar.gz'}
   const record = async (filename, value) => {
@@ -23,18 +32,18 @@ async function fixture(run) {
     return {filename, bytes: bytes.length, sha256: hash(bytes)}
   }
   const source = async (name, manifestFilename, sdk = false) => {
-    const manifest = sdk ? {sdkVersion: '0.2.1', protocolVersion: 1, license: 'MIT', files: [{path: 'README.md', bytes: 7, sha256: hash('fixture')}]} : {version: '0.2.0', files: [{path: 'README.md', bytes: 7, sha256: hash('fixture')}]}
+    const manifest = sdk ? {sdkVersion: '0.2.1', protocolVersion: 1, license: 'MIT', files: [{path: 'README.md', bytes: 7, sha256: hash('fixture')}]} : {version:name==='core'?releaseVersion:'0.2.0', files: [{path: 'README.md', bytes: 7, sha256: hash('fixture')}]}
     const manifestRow = await record(manifestFilename, manifest)
     return {...await record(name + '-source.tar.gz', 'source ' + name), manifestFilename, manifestSha256: manifestRow.sha256}
   }
-  const runtime = async (name, manifestFilename, sourceRow) => [await record(name + '-runtime.tar.gz', 'runtime ' + name), await record(manifestFilename, {version: '0.2.0', matchingSourceSha256: sourceRow.sha256, matchingSourceManifestSha256: sourceRow.manifestSha256, files: [{path: 'runtime.js', bytes: 7, sha256: hash('fixture')}]})]
+  const runtime = async (name, manifestFilename, sourceRow) => [await record(name + '-runtime.tar.gz', 'runtime ' + name), await record(manifestFilename, {version:name==='core'?releaseVersion:'0.2.0', matchingSourceSha256: sourceRow.sha256, matchingSourceManifestSha256: sourceRow.manifestSha256, files: [{path: 'runtime.js', bytes: 7, sha256: hash('fixture')}]})]
   let server
   try {
     const core = await source('core', 'SOURCE_MANIFEST.json'), consumer = await source('consumers', 'CONSUMER_SOURCE_MANIFEST.json'), sdk = await source('sdk', 'SDK_MANIFEST.json', true)
     const coreArtifacts = await runtime('core', 'RUNTIME_MANIFEST.json', core), consumerArtifacts = await runtime('consumers', 'CONSUMER_RUNTIME_MANIFEST.json', consumer)
     const notices = async names => Promise.all(names.map(name => record(name, 'Original copyright, license and notice text: ' + name)))
-    const catalog = {schemaVersion: 1, version: '0.2.0', components: [
-      {id: 'messaging-core', version: '0.2.0', license: 'AGPL-3.0-only', source: core, artifacts: coreArtifacts, notices: await notices(['MESSAGING_LICENSE.txt', 'MESSAGING_NOTICES.txt', 'MESSAGING_MODIFICATIONS.txt'])},
+    const catalog = {schemaVersion: 1, version:releaseVersion, components: [
+      {id: 'messaging-core', version:releaseVersion, license: 'AGPL-3.0-only', source: core, artifacts: coreArtifacts, notices: await notices(['MESSAGING_LICENSE.txt', 'MESSAGING_NOTICES.txt', 'MESSAGING_MODIFICATIONS.txt'])},
       {id: 'endtoend-web', version: '0.2.0', license: 'AGPL-3.0-only', source: consumer, artifacts: consumerArtifacts, notices: await notices(['WEB_LICENSE.txt', 'WEB_NOTICES.txt'])},
       {id: 'desk-client', version: '0.2.0', license: 'MIT', source: consumer, artifacts: consumerArtifacts, notices: await notices(['DESK_LICENSE.txt', 'DESK_NOTICES.txt'])},
       {id: 'mit-sdk', version: '0.2.1', license: 'MIT', source: sdk, artifacts: [{filename: sdk.filename, bytes: sdk.bytes, sha256: sdk.sha256}], notices: await notices(['SDK_LICENSE.txt'])}

@@ -1,6 +1,6 @@
 {
   "kind": "endtoend-public-messaging-dependencies",
-  "releaseVersion": "0.2.0",
+  "releaseVersion": "0.2.1",
   "cargo": [
     {
       "directory": "aead-0.5.2",

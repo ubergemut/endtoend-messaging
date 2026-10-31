@@ -1,0 +1,178 @@
+{
+  "kind": "endtoend-independent-mit-sdk-source-and-esm",
+  "sdkVersion": "0.2.1",
+  "protocolVersion": 1,
+  "license": "MIT",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1535,
+      "sha256": "b652cbc07d1caf6e44a68597861d25bd21ed74c40a01ce2fae1d7baec9d64d39"
+    },
+    {
+      "path": "SDK_PROVENANCE.json",
+      "bytes": 4918,
+      "sha256": "86ea52622130964d2dd8bb2dd0a8639062912ba23c4927f83128bc8d147858fb"
+    },
+    {
+      "path": "docs/architecture/BROWSER_CONSUMER_V1.md",
+      "bytes": 5781,
+      "sha256": "c9549b54a8937c6bca5bfa635183a4f372eda10c08d717f6a6a1789d344bb82e"
+    },
+    {
+      "path": "docs/architecture/SDK_CONTRACT_V1.md",
+      "bytes": 15363,
+      "sha256": "82af68df9520d78ff4c0143afea1138c8bcda6abdf699c636b3f5f966792a4f0"
+    },
+    {
+      "path": "package.json",
+      "bytes": 431,
+      "sha256": "bd1d83accf8d8838cd442d3ac199548fd5f84f383bbb5ab17d2c5f554e1594ed"
+    },
+    {
+      "path": "packages/client/LICENSE",
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+    },
+    {
+      "path": "packages/client/README.md",
+      "bytes": 2488,
+      "sha256": "7b00f48c9eab9b64b5ad1b99402400c75578262c2b4cb265a03c251fa203cb06"
+    },
+    {
+      "path": "packages/client/build.mjs",
+      "bytes": 1151,
+      "sha256": "3e344763404365da2025cc6f4f0fc31d4ce03f5640a6c0233c8cd7c6d8358e4d"
+    },
+    {
+      "path": "packages/client/dist/index.d.ts",
+      "bytes": 6617,
+      "sha256": "79510b98e1e7304d80c152c87ca2a4d2d32214366a89d51218c383f37031c2a0"
+    },
+    {
+      "path": "packages/client/dist/index.js",
+      "bytes": 14985,
+      "sha256": "00cf2b30a916d80c1a79dfe2b6805cf7dd2ac70759a2043b6304419372f60348"
+    },
+    {
+      "path": "packages/client/dist/relay-service.d.ts",
+      "bytes": 1441,
+      "sha256": "c6ded4c2c350ca7f7db32460cea246288a90339e254001a68ccb0ea18318ee60"
+    },
+    {
+      "path": "packages/client/dist/relay-service.js",
+      "bytes": 8444,
+      "sha256": "86dcdc2c57c07038cf8b3f6803180eb103aa43baa37eef8f54644338885926ae"
+    },
+    {
+      "path": "packages/client/examples/reference-client.ts",
+      "bytes": 3481,
+      "sha256": "1b2132e8b11abf79e7cfbd656e85543aa5efbb7651939dc37f50c1ceacd12b7c"
+    },
+    {
+      "path": "packages/client/package.json",
+      "bytes": 520,
+      "sha256": "079f66c4ed7810db2500aab9345a29d1595eef35d3e1df408158b1001eaa441a"
+    },
+    {
+      "path": "packages/client/src/index.ts",
+      "bytes": 16855,
+      "sha256": "f711cb24a582c8d74b18489d5e6c674d3c07673226b047fea5e46ec3ec98f239"
+    },
+    {
+      "path": "packages/client/src/relay-service.ts",
+      "bytes": 8754,
+      "sha256": "e83d4a6d4d7ce196b5ca492563477fe9acf9242e7e7da415a54108c04c3fb258"
+    },
+    {
+      "path": "packages/client/test/fetch-receiver.test.ts",
+      "bytes": 2016,
+      "sha256": "1c18e11d95c58a1810cf84b4d5f6d913d37065a6694b2aec4b1411bd0e8358e0"
+    },
+    {
+      "path": "packages/client/test/lifecycle.test.ts",
+      "bytes": 5114,
+      "sha256": "b07f25722b7b7f34e3d2c00fba5c39411632c6ea72c4cd8f204ac25f00c8e695"
+    },
+    {
+      "path": "packages/client/test/reference-cli.test.ts",
+      "bytes": 2890,
+      "sha256": "3b18fbab0ac9e946a2d92523bffdcec9c3b6c5d5faf3e32ab393e866e8153487"
+    },
+    {
+      "path": "packages/client/test/relay-service.test.ts",
+      "bytes": 5732,
+      "sha256": "c392d08f14716ba8ecf2c89b49432d19619cf5a30d0b168c52f627bce362f4cf"
+    },
+    {
+      "path": "packages/client/test/standalone.test.ts",
+      "bytes": 3554,
+      "sha256": "03b125230ecde69cd8f9adb626719fca32a2493f7f38051c5089e66fce5b1f2c"
+    },
+    {
+      "path": "packages/client/tsconfig.build.json",
+      "bytes": 360,
+      "sha256": "ff9fc6030b462694dc6b3e4c7cebee1a3223c33222d32cde59c3d0783f4cfbf6"
+    },
+    {
+      "path": "packages/protocol/LICENSE",
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+    },
+    {
+      "path": "packages/protocol/README.md",
+      "bytes": 2137,
+      "sha256": "590479c80220ac022021930b4a1d47857c8b5baea0ba99211cc4a0271d305929"
+    },
+    {
+      "path": "packages/protocol/dist/index.d.ts",
+      "bytes": 12256,
+      "sha256": "1317328205c33e36dc19f045fef1ce7a9a78a5b1c4f68d8ebcfdf4425b8d603b"
+    },
+    {
+      "path": "packages/protocol/dist/index.js",
+      "bytes": 3620,
+      "sha256": "e84a1223803ca09497a413b2c1b57e7294d24dd2a22947c08aecb23bd88143a3"
+    },
+    {
+      "path": "packages/protocol/package.json",
+      "bytes": 493,
+      "sha256": "74263b806815e7b00f74c532343f2df71e367bfc0b8e4aab7f577ffcf43df046"
+    },
+    {
+      "path": "packages/protocol/src/index.ts",
+      "bytes": 12086,
+      "sha256": "89a320acb18345bc8188298a9a015f77d7ea4ef6a8d7d5959774868944cda291"
+    },
+    {
+      "path": "packages/protocol/test/contract.test.ts",
+      "bytes": 1120,
+      "sha256": "3b8ab4bdafb2d05300c91c68bcb7e5ec81b6f122d2180b1b1381858bc1e9e40e"
+    },
+    {
+      "path": "packages/protocol/tsconfig.build.json",
+      "bytes": 276,
+      "sha256": "2d79cfca33c646e1bbbd1e6303f384a7e1aeb056a31692891cd94527d53e5546"
+    },
+    {
+      "path": "scripts/package-sdk.mjs",
+      "bytes": 18864,
+      "sha256": "fb694066b42018bf90ebb41c27721c9c3116951f30986c08673f2e5f7f75eeb9"
+    },
+    {
+      "path": "scripts/package-sdk.test.mjs",
+      "bytes": 3698,
+      "sha256": "c9fc60324e2f195341ccad6660df3fb71a76fdf8769bb815ae87ef1165b6d561"
+    },
+    {
+      "path": "yarn.lock",
+      "bytes": 9853,
+      "sha256": "feeedf71f3a52e447b48eaf6f3641d62d6146d499204c42af0ed573e41e17677"
+    }
+  ]
+}

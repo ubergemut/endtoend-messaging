@@ -1,5 +1,7 @@
 # EndToEnd reusable messaging
 
+**October 31 candidate:** the editable core tree now contains the tested 0.2.1 hosted-controls candidate, while the original consumers remain 0.2.0 and SDK remains MIT 0.2.1. It is prepared for the named project owner’s content/publication decision and is not yet published. See [the changed-scope assessment](docs/release/HOSTED_CONTROLS_0_2_1_ASSESSMENT.md) and [exact candidate catalog](release/candidates/messaging-v0.2.1/source-disclosure.json). The approved 0.2.0 downloads and decisions below remain retained.
+
 A complete messaging subsystem with a persistent relay, device encryption/session storage, trusted unlock and identity controls, CLI/HTTP/GraphQL/MCP adapters, a reference browser, and two project frontends. Hosts can retain their own account system and presentation through the public SDK and signed messaging grants.
 
 This tree contains the editable approved **messaging/full frontend/desk 0.2.0** sources and **MIT SDK 0.2.1**, including required dependency preferred forms and notices. It starts a separate public source history; it does not publish the original private repository history. Release contents and publication records are identified in `release/APPROVED_RELEASE.json`. This README does not claim a hosted service or production deployment.
