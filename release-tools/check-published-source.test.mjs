@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+// Modified October 31, 2026: explicitly pinned 0.2.1 core release verification.
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
@@ -8,7 +9,13 @@ import {createHash} from 'node:crypto'
 import {checkPublishedSource} from './check-published-source.mjs'
 
 const hash=value=>createHash('sha256').update(value).digest('hex')
-async function fixture(run){
+test('a changed core release requires an explicit version as well as an exact catalog pin',()=>fixture(async f=>{
+ assert.equal((await f.audit()).passed,false);
+ assert.equal((await f.audit(undefined,'0.2.1')).passed,true);
+ assert.equal((await f.audit('0'.repeat(64),'0.2.1')).passed,false);
+ assert.equal((await f.audit(undefined,'0.3.0')).passed,false);
+},'0.2.1'))
+async function fixture(run,releaseVersion='0.2.0'){
   const parent=path.resolve(tmpdir()),prefix='endtoend-published-source-'
   const root=await fs.mkdtemp(path.join(parent,prefix))
   async function put(name,value){
@@ -22,23 +29,23 @@ async function fixture(run){
     const source=async(folder,manifestFilename,sdk=false)=>{
       const value='editable '+folder+' source\n'
       await put(folder+'/src/index.js',value)
-      const manifest={...(sdk?{sdkVersion:'0.2.1',license:'MIT'}:{version:'0.2.0'}),files:[{path:'src/index.js',bytes:Buffer.byteLength(value),sha256:hash(value)}]}
+      const manifest={...(sdk?{sdkVersion:'0.2.1',license:'MIT'}:{version:folder==='messaging'?releaseVersion:'0.2.0'}),files:[{path:'src/index.js',bytes:Buffer.byteLength(value),sha256:hash(value)}]}
       const row=await put(folder+'/'+manifestFilename,manifest)
       return{filename:folder+'-source.tar.gz',bytes:1,sha256:hash(folder),manifestFilename,manifestSha256:row.sha256}
     }
     const core=await source('messaging','SOURCE_MANIFEST.json'),consumers=await source('consumers','CONSUMER_SOURCE_MANIFEST.json'),sdk=await source('sdk','SDK_MANIFEST.json',true)
     const runtime=async(name,source)=>{
       const manifestFilename=name==='messaging'?'RUNTIME_MANIFEST.json':'CONSUMER_RUNTIME_MANIFEST.json'
-      const row=await put('release/'+manifestFilename,{version:'0.2.0',matchingSourceSha256:source.sha256,matchingSourceManifestSha256:source.manifestSha256,files:[{path:'fixture',bytes:1,sha256:hash('x')}]})
+      const row=await put('release/'+manifestFilename,{version:name==='messaging'?releaseVersion:'0.2.0',matchingSourceSha256:source.sha256,matchingSourceManifestSha256:source.manifestSha256,files:[{path:'fixture',bytes:1,sha256:hash('x')}]})
       return[{filename:name+'-runtime.tar.gz',bytes:1,sha256:hash(name+'-runtime')},row]
     }
     const coreArtifacts=await runtime('messaging',core),consumerArtifacts=await runtime('consumers',consumers)
-    const component=(id,license,source,artifacts)=>({id,license,version:id==='mit-sdk'?'0.2.1':'0.2.0',source,artifacts,notices:[{filename:license==='MIT'?'MIT_LICENSE.txt':'AGPL_LICENSE.txt',bytes:1,sha256:hash(license)}]})
-    const descriptor={schemaVersion:1,version:'0.2.0',components:[component('messaging-core','AGPL-3.0-only',core,coreArtifacts),component('endtoend-web','AGPL-3.0-only',consumers,consumerArtifacts),component('desk-client','MIT',consumers,consumerArtifacts),component('mit-sdk','MIT',sdk,[{filename:sdk.filename,bytes:sdk.bytes,sha256:sdk.sha256}])]}
+    const component=(id,license,source,artifacts)=>({id,license,version:id==='messaging-core'?releaseVersion:id==='mit-sdk'?'0.2.1':'0.2.0',source,artifacts,notices:[{filename:license==='MIT'?'MIT_LICENSE.txt':'AGPL_LICENSE.txt',bytes:1,sha256:hash(license)}]})
+    const descriptor={schemaVersion:1,version:releaseVersion,components:[component('messaging-core','AGPL-3.0-only',core,coreArtifacts),component('endtoend-web','AGPL-3.0-only',consumers,consumerArtifacts),component('desk-client','MIT',consumers,consumerArtifacts),component('mit-sdk','MIT',sdk,[{filename:sdk.filename,bytes:sdk.bytes,sha256:sdk.sha256}])]}
     let expected
     async function save(){expected=(await put('release/source-disclosure.json',descriptor)).sha256}
     await save()
-    const audit=(expectedHash=expected)=>checkPublishedSource({root,catalog:path.join(root,'release/source-disclosure.json'),expectedCatalogSha256:expectedHash})
+    const audit=(expectedHash=expected,expectedReleaseVersion)=>checkPublishedSource({root,catalog:path.join(root,'release/source-disclosure.json'),expectedCatalogSha256:expectedHash,expectedReleaseVersion})
     await run({root,put,audit,descriptor,save})
   }finally{
     assert.equal(path.dirname(path.resolve(root)),parent)

@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+// Modified October 31, 2026: version 0.2.1 source identities and hosted-control validation inputs.
 // Local checkpoint packaging for the complete reusable messaging stack.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -10,12 +11,13 @@ import { verifyClosure } from './release-source-closure.mjs';
 import { parseYarnLock } from './release-expanded-inventory.mjs';
 
 const repository = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-export const version = '0.2.0';
+export const version = '0.2.1';
 export const workspaces = ['packages/crypto', 'packages/session', 'packages/agent', 'packages/protocol', 'packages/client', 'packages/contract', 'packages/headless', 'apps/api', 'apps/agent-browser', 'apps/messaging-reference'];
 // Explicit public boundary: the separately assessed web and desk consumers are
 // built independently and are never copied into this subsystem source offer.
 export const publicSourceInputs = ['LICENSE', 'LICENSING.md', 'docs/PROTOCOL.md', 'docs/HEADLESS.md', 'docs/THREAT-MODEL.md', 'docs/SESSION-PLAN.md', 'docs/architecture', 'docs/deployment', 'docs/release/third-party', ...['AGPL_MVP_TEN_STEP_PLAN.md', 'BASELINE.json', 'FEATURE_MATRIX.md', 'FRONTEND_BOUNDARY_ASSESSMENT.json', 'FRONTEND_BOUNDARY_ASSESSMENT.md', 'NOTICE.md', 'README.md', 'RELEASE_CHECKLIST.md', 'REVIEW_DECISIONS.json', 'RIGHTS_DEPENDENCIES.md', 'STEP_4_COMPLETION.md', 'STEP_5_COMPLETION.md', 'STEP_6_COMPLETION.md', 'STEP_7_DURABILITY_ACCEPTANCE.md', 'STEPS_1_3_COMPLETION.md', 'TOOLCHAIN.json'].map(name => `docs/release/${name}`), ...workspaces, 'scripts/package-messaging.mjs', 'scripts/package-messaging.test.mjs', 'scripts/package-sdk.mjs', 'scripts/package-sdk.test.mjs', 'scripts/serve-messaging.mjs', 'scripts/serve-endtoend.mjs', 'scripts/source-disclosure.mjs', 'scripts/messaging-state.mjs', 'scripts/messaging-storage.mjs', 'scripts/release-build-crypto.mjs', 'scripts/release-reproduce-crypto.mjs', 'scripts/release-files.mjs', 'scripts/release-files.test.mjs', 'scripts/release-audit.mjs', 'scripts/test-host-integration.mjs'];
 publicSourceInputs.push('scripts/assemble-source-disclosure.mjs', 'scripts/source-disclosure.mjs', 'scripts/source-disclosure.test.mjs', 'docs/release/STEP_8_DISTRIBUTION_POLICY.md');
+publicSourceInputs.push('scripts/hosted-controls.test.mjs','docs/release/HOSTED_CONTROLS_0_2_1.md');
 const hash = value => crypto.createHash('sha256').update(value).digest('hex');
 const digest = file => hash(fs.readFileSync(file));
 const json = file => JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -77,11 +79,13 @@ export function publicManifest() {
       'build:sdk': 'yarn workspace @e2ee/protocol build && yarn workspace @e2ee/client build',
       build: 'yarn build:sdk && yarn build:agent && yarn build:reference',
       'build:all': 'yarn build:crypto && yarn build',
-      test: 'node --test packages/crypto/test/roundtrip.mjs && yarn workspace @e2ee/api test && yarn workspace @e2ee/agent test && yarn workspace @e2ee/protocol test && yarn workspace @e2ee/client test && yarn workspace @e2ee/headless test && node --test scripts/release-files.test.mjs scripts/package-sdk.test.mjs scripts/package-messaging.test.mjs scripts/messaging-state.test.mjs scripts/source-disclosure.test.mjs && node --import tsx --test scripts/messaging-source-disclosure.test.mjs apps/messaging-reference/test/config.test.ts',
+      test: 'node --test packages/crypto/test/roundtrip.mjs && yarn workspace @e2ee/api test && yarn workspace @e2ee/agent test && yarn workspace @e2ee/protocol test && yarn workspace @e2ee/client test && yarn workspace @e2ee/headless test && node --test scripts/release-files.test.mjs scripts/package-sdk.test.mjs scripts/package-messaging.test.mjs scripts/messaging-state.test.mjs scripts/source-disclosure.test.mjs && node --import tsx --test scripts/messaging-source-disclosure.test.mjs apps/messaging-reference/test/config.test.ts && yarn test:hosted-controls',
       'test:hosts': 'node --import tsx scripts/test-host-integration.mjs',
       'test:messaging:standalone': 'node --import tsx scripts/test-messaging-standalone.mjs',
       'test:reference:browser': 'yarn workspace @e2ee/messaging-reference test:browser',
       'test:package': 'node --test scripts/package-messaging.test.mjs',
+      'test:hosted-controls': 'node --import tsx --test scripts/hosted-controls.test.mjs',
+      'test:hosted-browser': 'node --import tsx apps/agent-browser/test/hosted-browser.mjs',
       'audit:preferred': 'node scripts/hacl-source-closure.mjs --audit && node scripts/release-mpl-check.mjs && node scripts/release-mpl-pg-uuidv7-check.mjs && node scripts/release-expanded-inventory.mjs --audit',
       start: 'node --import tsx scripts/serve-messaging.mjs',
       agent: 'node packages/agent/src/cli.mjs',

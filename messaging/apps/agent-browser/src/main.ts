@@ -1,10 +1,12 @@
+// Modified October 31, 2026: generic host branding and validated data-only appearance. AGPL-3.0-only.
 import {loadSignal} from '@e2ee/crypto/browser'
 import {createDeviceSecret,HeadlessError,authorizationBinding,validateBootstrap,type AuthorizationBinding,type AuthorizedBootstrap} from '@e2ee/session'
 import {createDispatcher,type IdentityApproval} from '@e2ee/agent/dispatcher'
 import {openBrowserVault,inspectVault} from './vault.ts'
+import {brandName,agentAppearance} from '../../../packages/agent/src/appearance.ts'
 import './style.css'
 
-type Config={allowedCallerOrigins:string[];relayOrigins:string[];sourceUrl?:string;version?:string;manifestUrl?:string;sourceSha256?:string;sourceManifestSha256?:string;licenseUrl?:string;noticesUrl?:string;noticeUrls?:string[];disclosureUrl?:string;sourceStatus?:string}
+type Config={allowedCallerOrigins:string[];relayOrigins:string[];brandName?:string;sourceUrl?:string;version?:string;manifestUrl?:string;sourceSha256?:string;sourceManifestSha256?:string;licenseUrl?:string;noticesUrl?:string;noticeUrls?:string[];disclosureUrl?:string;sourceStatus?:string}
 type Bootstrap=AuthorizedBootstrap
 const element=<T extends HTMLElement>(id:string)=>document.getElementById(id) as T
 const message=element<HTMLParagraphElement>('status')
@@ -34,6 +36,19 @@ const response=await fetch('/config.json',{cache:'no-store',credentials:'same-or
 if(!response.ok)throw new Error('Agent runtime configuration is unavailable')
 const config=await response.json() as Config
 if(!Array.isArray(config.allowedCallerOrigins)||!Array.isArray(config.relayOrigins))throw new Error('Agent runtime configuration is invalid')
+const applicationName=brandName(config.brandName)
+document.title=`${applicationName} secure messaging`
+element('agent-title').textContent=document.title
+const registeredCaller=originalOpener&&config.allowedCallerOrigins.includes(callerOrigin)&&/^[A-Za-z0-9_-]{32,128}$/.test(capability)
+// The fragment is removed before configuration and crypto initialization. Only bounded colors are accepted.
+if(registeredCaller){
+  try{
+    const appearance=agentAppearance(fragment.get('appearance'))
+    for(const [name,color] of Object.entries(appearance.palette))document.documentElement.style.setProperty('--agent-'+name.replace(/[A-Z]/g,c=>'-'+c.toLowerCase()),color)
+    document.documentElement.style.setProperty('--agent-page-text',appearance.pageText)
+    document.documentElement.style.colorScheme=appearance.colorScheme
+  }catch{/* Invalid optional styling cannot prevent access to a sealed vault. */}
+}
 element('release-version').textContent=`Messaging ${config.version??'development'} · ${config.sourceStatus==='verified'?'version-specific source available':'development build'}`
 for(const [id,value] of [['source',config.sourceUrl],['source-manifest',config.manifestUrl],['license',config.licenseUrl],['notices',config.noticesUrl]] as const)if(value){const url=new URL(value,location.href);if(url.origin===location.origin||url.protocol==='https:'){element<HTMLAnchorElement>(id).href=url.href}}
 if(config.sourceSha256)element('source').title=`Source SHA-256: ${config.sourceSha256}`
@@ -61,7 +76,7 @@ async function bootstrap(relay:string,token:string,authorization?:AuthorizationB
   if(!token||token.length>8192)throw new HeadlessError('Missing relay authorization','invalid')
   const binding=authorizationBinding(authorization)
   const reply=await fetch(`${url.origin}${binding.bootstrapPath}`,{headers:{authorization:`Bearer ${token}`},cache:'no-store',redirect:'error',signal:connectionController.signal})
-  if(!reply.ok)throw new HeadlessError('Account authorization expired. Reconnect from EndToEnd.','relay')
+  if(!reply.ok)throw new HeadlessError(`Account authorization expired. Reconnect from ${applicationName}.`,'relay')
   const value=validateBootstrap(await reply.json(),binding)
   return {relay:url.origin,bootstrap:value,authorization:authorization===undefined?undefined:binding}
 }
@@ -87,11 +102,11 @@ async function performUnlock(secret:string){
       await opened.session.attach(context.token,context.bootstrap.account,{authorization:context.authorization,replaceKeys:replace.checked})
     }
     if(generation!==connectionGeneration){opened.close();throw new HeadlessError('Unlock was cancelled','locked')}
-    vault=opened;activeSecret=secret;secretField.value='';form.hidden=true;lockButton.hidden=false;message.textContent='Messaging is unlocked. Return to EndToEnd to use it.'
+    vault=opened;activeSecret=secret;secretField.value='';form.hidden=true;lockButton.hidden=false;message.textContent=`Messaging is unlocked. Return to ${applicationName} to use it.`
     saveRememberedSecret()
   }catch(error){opened.close();throw error}finally{if(openingVault===opened)openingVault=null}
 }
-const dispatcher=createDispatcher({signal,session:()=>vault?.session??null,status,sourceInfo:{version:config.version??'0.2.0',sourceUrl:config.sourceUrl,sourceSha256:config.sourceSha256,manifestUrl:config.manifestUrl,sourceManifestSha256:config.sourceManifestSha256,licenseUrl:config.licenseUrl,noticesUrl:config.noticesUrl,noticeUrls:config.noticeUrls,disclosureUrl:config.disclosureUrl,sourceStatus:config.sourceStatus},
+const dispatcher=createDispatcher({signal,session:()=>vault?.session??null,status,sourceInfo:{version:config.version??'0.2.1',sourceUrl:config.sourceUrl,sourceSha256:config.sourceSha256,manifestUrl:config.manifestUrl,sourceManifestSha256:config.sourceManifestSha256,licenseUrl:config.licenseUrl,noticesUrl:config.noticesUrl,noticeUrls:config.noticeUrls,disclosureUrl:config.disclosureUrl,sourceStatus:config.sourceStatus},
   async attach(input){
     if(typeof input.relay!=='string'||typeof input.token!=='string')throw new HeadlessError('Missing relay authorization','invalid')
     const generation=connectionGeneration
@@ -169,11 +184,11 @@ window.addEventListener('message',event=>{
   }
   pairedPort.onmessageerror=()=>{dispatcher.revoke(false);pairedPort?.close();pairedPort=null}
   pairedPort.start();pairedPort.postMessage({type:'endtoend-agent-connected',version:1,nonce:data.nonce})
-  message.textContent='Connected. Sign in from EndToEnd to select your account.'
+  message.textContent=`Connected. Sign in from ${applicationName} to select your account.`
 })
-if(originalOpener&&config.allowedCallerOrigins.includes(callerOrigin)&&/^[A-Za-z0-9_-]{32,128}$/.test(capability)){
+if(registeredCaller){
   originalOpener.postMessage({type:'endtoend-agent-ready',version:1},callerOrigin)
-}else{message.textContent='Open this trusted agent from a registered EndToEnd client.'}
+}else{message.textContent=`Open this trusted agent from a registered ${applicationName} client.`}
 element('generate').addEventListener('click',()=>{secretField.value=createDeviceSecret();secretField.type='text';generated=true;backup.checked=false;element('backup-label').hidden=false;message.textContent='Save this secret before unlocking. Account passwords cannot recover it.'})
 element('copy').addEventListener('click',()=>{void navigator.clipboard.writeText(secretField.value).then(()=>{message.textContent='Device secret copied.'}).catch(()=>{message.textContent='Copy the displayed device secret manually.'})})
 form.addEventListener('submit',event=>{event.preventDefault();if(generated&&!backup.checked){message.textContent='Confirm that you saved your device secret first.';return}
@@ -188,10 +203,10 @@ element('approve').addEventListener('click',()=>{const requested=awaiting;if(!re
   void dispatcher.trusted(requested.operation,requested.input,requested.approval).then(()=>{if(generation===connectionGeneration)message.textContent='Identity decision saved on this device.'}).catch(error=>{if(generation===connectionGeneration)message.textContent=error.message})
 })
 window.addEventListener('pagehide',()=>{dispatcher.revoke(false);pairedPort?.close();pairedPort=null})
-window.addEventListener('pageshow',event=>{if(event.persisted){dispatcher.revoke(false);pairedPort?.close();pairedPort=null;connected=null;form.hidden=true;message.textContent='Reconnect from EndToEnd to continue.'}})
+window.addEventListener('pageshow',event=>{if(event.persisted){dispatcher.revoke(false);pairedPort?.close();pairedPort=null;connected=null;form.hidden=true;message.textContent=`Reconnect from ${applicationName} to continue.`}})
 setInterval(()=>{
   if(originalOpener?.closed||(pairedPort&&Date.now()-lastCallerActivity>30000)){
     dispatcher.revoke(false);pairedPort?.close();pairedPort=null;connected=null;form.hidden=true
-    element('account').textContent='';message.textContent='Caller disconnected. Reconnect from EndToEnd.'
+    element('account').textContent='';message.textContent=`Caller disconnected. Reconnect from ${applicationName}.`
   }
 },1000)

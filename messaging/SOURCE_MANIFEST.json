@@ -1,11 +1,11 @@
 {
   "kind": "endtoend-complete-messaging-source-checkpoint",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "files": [
     {
       "path": "DEPENDENCIES.json",
       "bytes": 150672,
-      "sha256": "3741ed3b616a4108fabc3f138630a44063328babdde58199b2806eeff67073c0"
+      "sha256": "95e3da49a1b4fd33912f774e428deee4f9f52e7282d266aee77aee209564704a"
     },
     {
       "path": "LICENSE",
@@ -39,8 +39,8 @@
     },
     {
       "path": "apps/agent-browser/index.html",
-      "bytes": 1821,
-      "sha256": "f2dd31125c6aca563d652055d86b0da0409163de90641360e5f4b8b82920de30"
+      "bytes": 1952,
+      "sha256": "b4ce9b51ec5c9853de69971a16f61d4f72aacd5f8981f023e30ed524529fe743"
     },
     {
       "path": "apps/agent-browser/package.json",
@@ -54,18 +54,23 @@
     },
     {
       "path": "apps/agent-browser/src/main.ts",
-      "bytes": 16213,
-      "sha256": "3718dc53d68d0782ee8fd6eed42eee6156a699d6ac3e9d4828d864171b982b4a"
+      "bytes": 17288,
+      "sha256": "f55f78ac1687857440d9c7a0b4534c09807de6725bfbd7dc792b1de9a6ef8ffd"
     },
     {
       "path": "apps/agent-browser/src/style.css",
-      "bytes": 583,
-      "sha256": "5b60853872e4b5f462b97170afdff81ff1ef57ce0c44a9b105978be5d6c27c93"
+      "bytes": 1299,
+      "sha256": "307418f88f6e438333c5400dc0199904d17dd2403217c46ec85c2c966c521ef3"
     },
     {
       "path": "apps/agent-browser/src/vault.ts",
       "bytes": 5925,
       "sha256": "3c0b2982673cab9b92048ae27f65341389a8864f9a905f322c45cc37f6e86655"
+    },
+    {
+      "path": "apps/agent-browser/test/hosted-browser.mjs",
+      "bytes": 6120,
+      "sha256": "ac0f4aabe56fe10586a5c4053ac5b2821bed7c37645c55c1610c7956f865a976"
     },
     {
       "path": "apps/agent-browser/vite.config.ts",
@@ -49073,14 +49078,19 @@
       "sha256": "7648206ed6ece474f51ba8182068ac8d5154d99cbc09cb6e6c9ee3912cbacca0"
     },
     {
+      "path": "docs/release/HOSTED_CONTROLS_0_2_1.md",
+      "bytes": 3623,
+      "sha256": "d6c3e300f73a71cf021bb384c8d5ecce396f7e2b9657875a41e28304c696fc1b"
+    },
+    {
       "path": "docs/release/NOTICE.md",
-      "bytes": 3550,
-      "sha256": "828ce2303794956256158b3c7b57eba02e8d9392862d18170fa53c03c4e7a0cb"
+      "bytes": 5057,
+      "sha256": "aeec257d84cf1c348e2a579142cf1f03411d5d9f71e5e65343acefddf3d3a52a"
     },
     {
       "path": "docs/release/PUBLIC_BUILD_EVIDENCE.json",
       "bytes": 727,
-      "sha256": "5ebcbfb1e14e368648e99df9c9eb28196872f75b26f8627c5b64ba1a077bd4ca"
+      "sha256": "de9c8ed765090ad77f79abf7d9d225180624507a23b7d76971eef29b66edd7e0"
     },
     {
       "path": "docs/release/README.md",
@@ -49140,7 +49150,7 @@
     {
       "path": "docs/release/inventory/EXPANDED_INVENTORY.json",
       "bytes": 785690,
-      "sha256": "a3e93ddc0f3823c833f0036a198bb065fe878e5f9b2152f8fe093b9fab3c0868"
+      "sha256": "44b28adf6c6d82ea51cd3ec0d1aa139b2593a0d450b93e4d665d2346cf3df885"
     },
     {
       "path": "docs/release/inventory/OBLIGATIONS.md",
@@ -50344,8 +50354,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 2461,
-      "sha256": "8ec3404254b087789d5d1c3cd8ff755e9d4782f1f8ca88b32a5df4bb53b0b60b"
+      "bytes": 2670,
+      "sha256": "84803269a5bd054a162ba3e0aec82c653e4348e6223ef30dc564db9a67900768"
     },
     {
       "path": "packages/agent/README.md",
@@ -50356,6 +50366,11 @@
       "path": "packages/agent/package.json",
       "bytes": 476,
       "sha256": "00e1598b7ebc789c16d138eee20a1f52309a39cf0d356ea3a25f27715a3fe366"
+    },
+    {
+      "path": "packages/agent/src/appearance.ts",
+      "bytes": 2263,
+      "sha256": "431963504e9ec1e1e1c43deb094482220bb8130c66f815c15fa1a9d5407d9ab0"
     },
     {
       "path": "packages/agent/src/bin.ts",
@@ -50396,6 +50411,16 @@
       "path": "packages/agent/test/agent.test.ts",
       "bytes": 12170,
       "sha256": "0d4a7a198141cf1306a3b2e9c9c0039fba6e2668fcf6eb675e611a071c784ab1"
+    },
+    {
+      "path": "packages/agent/test/appearance.test.ts",
+      "bytes": 1502,
+      "sha256": "481a22c1ed37ac6c769ec48a5b65e7bb3bd3c3b3901571e1241d537c02e6b28d"
+    },
+    {
+      "path": "packages/agent/test/direct-membership.test.ts",
+      "bytes": 3408,
+      "sha256": "c8d601d43629867c95e8325933a76e08a8238034d327aa028fc2b314f35dfe26"
     },
     {
       "path": "packages/agent/test/group-integrity.test.ts",
@@ -50729,8 +50754,8 @@
     },
     {
       "path": "packages/session/src/session.ts",
-      "bytes": 63351,
-      "sha256": "aaffa3007a2a41e428cb54280a52e00e54a72bc76ac29d14bc39c2920fee1691"
+      "bytes": 63703,
+      "sha256": "c5004bbb825b27addffc46a8aaf7e61a339396011a7439867b0554fdb18fa733"
     },
     {
       "path": "packages/session/src/signal.ts",
@@ -50758,6 +50783,11 @@
       "sha256": "9bd127cb4e2e22ab1b1faad7f219445a93a5821903b90e5fdd1cf0250aa43f59"
     },
     {
+      "path": "scripts/hosted-controls.test.mjs",
+      "bytes": 3633,
+      "sha256": "ed2bdc0a10748b4cd7878a533e4f91b89238cc904e341a49252d5f5f181404d5"
+    },
+    {
       "path": "scripts/messaging-source-disclosure.test.mjs",
       "bytes": 9224,
       "sha256": "2a734b372980d9a21114039ad5ebeaf15b5dcd5f5a5f926c72983f9ea02355a4"
@@ -50779,8 +50809,8 @@
     },
     {
       "path": "scripts/package-messaging.mjs",
-      "bytes": 55511,
-      "sha256": "0960a44eda1547c2217f9f5c7d4671dab481c29a861ab1a84b0c4cc2113d98c3"
+      "bytes": 55929,
+      "sha256": "3a306f1ba6b74224f2585e4be96bbb71b615185d18de620c511d573254a38c83"
     },
     {
       "path": "scripts/package-messaging.test.mjs",
@@ -50874,13 +50904,13 @@
     },
     {
       "path": "scripts/serve-endtoend.mjs",
-      "bytes": 12330,
-      "sha256": "e1cf9996aff5eb42ad20e6cdff2f4f79e0ad9643e74c178abb527a0d71117bfe"
+      "bytes": 12577,
+      "sha256": "5de8edcc74712564667efe3b8a7e5a6ccd7d35a3af3ce7ea17bf036ad3362a47"
     },
     {
       "path": "scripts/serve-messaging.mjs",
-      "bytes": 5713,
-      "sha256": "62da2bf5f28295c9d3997f8a9d9656c365d39314fac65c230d9a9fb9aef36997"
+      "bytes": 6221,
+      "sha256": "dab11ff5d11de4ada97c824f3b8acba2f83375dbe469bdcd3567949921381653"
     },
     {
       "path": "scripts/source-disclosure.mjs",

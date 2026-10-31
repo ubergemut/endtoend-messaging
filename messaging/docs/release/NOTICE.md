@@ -1,6 +1,10 @@
-# Agent candidate notices and modification record
+# Messaging notices and modification record
 
-EndToEnd reusable messaging 0.2.0. Agent, crypto and session code: AGPL-3.0-only; see the complete LICENSE. New protocol and transport client: MIT only as identified in their package LICENSE files. Third-party code retains its own copyright/license notices in the supplied source.
+EndToEnd reusable messaging 0.2.1 candidate. Agent, crypto and session code: AGPL-3.0-only; see the complete LICENSE. Protocol and transport client: MIT only as identified in their package LICENSE files. Third-party code retains its own copyright/license notices in the supplied source.
+
+Modified October 31, 2026: the AGPL trusted browser accepts an operator's plain application name and a registered caller's bounded hex-color palette, retaining separate origins, trusted decisions and visible source/license links. Direct pending ciphertext is retained in a blocked state after consent changes; unrelated conversations remain usable and restored consent never silently resends that intent. The public CLI adds owned IPC shutdown. New generic appearance, membership, lifecycle and browser tests and a dated change record are included. Modified files: `apps/agent-browser/index.html`, `apps/agent-browser/src/{main.ts,style.css}`, `packages/session/src/session.ts`, `scripts/{serve-messaging.mjs,serve-endtoend.mjs,package-messaging.mjs}` and the public package manifest. New source: `packages/agent/src/appearance.ts`; tests and the detailed record are listed in `docs/release/HOSTED_CONTROLS_0_2_1.md` and the exact source manifest. These newly authored, code-assisted changes remain under the existing component's AGPL-3.0-only grant. No proprietary host implementation, new third-party dependency, artwork, license change or SDK modification is introduced.
+
+The published 0.2.0 artifacts and source remain available under their original identities. This 0.2.1 preparation is not a new publication approval. The earlier candidate descriptions below retain their historical dates; consult the exact version's retained release assessment and owner publication decision for its release state.
 
 Original EndToEnd source baseline: private project commit `f8740398a249539d9bf1212a0fa8abfcd25bcaac`. The original repository remains private; this candidate contains a selected source snapshot and no Git history. This statement describes provenance, not a new grant over someone else's material.
 

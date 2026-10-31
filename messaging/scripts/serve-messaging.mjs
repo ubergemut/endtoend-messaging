@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+// Modified October 31, 2026: generic host branding and owned IPC shutdown.
 import {stat,readFile} from 'node:fs/promises'
 import path from 'node:path'
 import {fileURLToPath,pathToFileURL} from 'node:url'
@@ -6,6 +7,7 @@ import {startReleaseApplication,verifyReleaseBrowserPaths} from './serve-endtoen
 import {openMessagingState} from './messaging-state.mjs'
 import {validateHostIdentityConfig} from '../apps/api/src/hostIdentity.ts'
 import {loadSourceDisclosure,verifyDisclosedRuntime} from './source-disclosure.mjs'
+import {brandName} from '../packages/agent/src/appearance.ts'
 
 const root=fileURLToPath(new URL('..',import.meta.url))
 function origin(value){
@@ -18,6 +20,7 @@ function origin(value){
 
 /** Standalone public stack: reference app, trusted device agent and real persistent relay. */
 export async function startMessaging(options={}){
+  const configuredBrand=brandName(options.brandName)
   const releaseMode=options.releaseMode??process.env.ENDTOEND_RELEASE_MODE==='1'
   const disclosure=await loadSourceDisclosure(options.sourceDisclosure??process.env.ENDTOEND_SOURCE_DISCLOSURE,{required:releaseMode})
   if(releaseMode)await verifyDisclosedRuntime(disclosure,'messaging-core',root)
@@ -41,7 +44,7 @@ export async function startMessaging(options={}){
   await Promise.all([stat(path.join(referenceDist,'index.html')),stat(path.join(agentDist,'index.html'))])
   const state=await openMessagingState(options.dataDir,{sourceRoot})
   let application
-  try{application=await startReleaseApplication({version:'0.2.0',productDist:referenceDist,agentDist,relayDataDir:state.relayDataDir,releaseIndex:options.releaseIndex,sourceDisclosure:options.sourceDisclosure??process.env.ENDTOEND_SOURCE_DISCLOSURE,verifiedDisclosure:disclosure,releaseMode,productOrigin:referenceOrigin,agentOrigin,hostIdentity,callerOrigins})}
+  try{application=await startReleaseApplication({version:'0.2.1',brandName:configuredBrand,productDist:referenceDist,agentDist,relayDataDir:state.relayDataDir,releaseIndex:options.releaseIndex,sourceDisclosure:options.sourceDisclosure??process.env.ENDTOEND_SOURCE_DISCLOSURE,verifiedDisclosure:disclosure,releaseMode,productOrigin:referenceOrigin,agentOrigin,hostIdentity,callerOrigins})}
   catch(error){await state.close();throw error}
   let closing
   return{referenceUrl:application.productUrl,agentUrl:application.agentUrl,relayUrl:application.relayUrl,referenceOrigin:application.productOrigin,agentOrigin:application.agentOrigin,deploymentId:state.deploymentId,dataDir:state.directory,
@@ -49,10 +52,12 @@ export async function startMessaging(options={}){
 }
 
 if(process.argv[1]&&pathToFileURL(path.resolve(process.argv[1])).href===import.meta.url){
-  const allowed=new Set(['data-dir','reference-dist','agent-dist','release-index','source-disclosure','release-mode','reference-origin','agent-origin','host-identity-config','caller-origins']),flags={}
+  const allowed=new Set(['data-dir','reference-dist','agent-dist','release-index','source-disclosure','release-mode','reference-origin','agent-origin','host-identity-config','caller-origins','brand-name']),flags={}
   for(let i=2;i<process.argv.length;i+=2){const name=process.argv[i]?.replace(/^--/,'');if(!process.argv[i]?.startsWith('--')||!allowed.has(name)||!process.argv[i+1]||process.argv[i+1].startsWith('--')||flags[name])throw new Error('Use --data-dir <explicit-directory-outside-source> [--reference-dist <path>] [--agent-dist <path>] [--release-index <path>] [--reference-origin https://...] [--agent-origin https://...]');flags[name]=process.argv[i+1]}
   if(flags['release-mode']!==undefined&&!['true','false'].includes(flags['release-mode']))throw new Error('--release-mode must be true or false')
-  const started=await startMessaging({dataDir:flags['data-dir'],referenceDist:flags['reference-dist'],agentDist:flags['agent-dist'],releaseIndex:flags['release-index'],sourceDisclosure:flags['source-disclosure'],releaseMode:flags['release-mode']===undefined?undefined:flags['release-mode']==='true',referenceOrigin:flags['reference-origin'],agentOrigin:flags['agent-origin'],hostIdentityConfig:flags['host-identity-config'],callerOrigins:flags['caller-origins']?.split(',').map(value=>value.trim())})
-  console.log(JSON.stringify({type:'endtoend-messaging-ready',version:'0.2.0',referenceUrl:started.referenceUrl,agentUrl:started.agentUrl,relayUrl:started.relayUrl,referenceOrigin:started.referenceOrigin,agentOrigin:started.agentOrigin,deploymentId:started.deploymentId}))
+  const started=await startMessaging({dataDir:flags['data-dir'],brandName:flags['brand-name'],referenceDist:flags['reference-dist'],agentDist:flags['agent-dist'],releaseIndex:flags['release-index'],sourceDisclosure:flags['source-disclosure'],releaseMode:flags['release-mode']===undefined?undefined:flags['release-mode']==='true',referenceOrigin:flags['reference-origin'],agentOrigin:flags['agent-origin'],hostIdentityConfig:flags['host-identity-config'],callerOrigins:flags['caller-origins']?.split(',').map(value=>value.trim())})
+  console.log(JSON.stringify({type:'endtoend-messaging-ready',version:'0.2.1',referenceUrl:started.referenceUrl,agentUrl:started.agentUrl,relayUrl:started.relayUrl,referenceOrigin:started.referenceOrigin,agentOrigin:started.agentOrigin,deploymentId:started.deploymentId}))
   const stop=()=>void started.close().then(()=>process.exit(0));process.once('SIGINT',stop);process.once('SIGTERM',stop)
+  // Only a parent that spawned this process with IPC can request orderly shutdown.
+  if(process.send){process.on('message',message=>{if(message?.type==='endtoend-shutdown'&&Object.keys(message).length===1)stop()});process.once('disconnect',stop)}
 }

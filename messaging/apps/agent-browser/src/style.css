@@ -1,1 +1,10 @@
-:root{font-family:system-ui,sans-serif;color:#e7edf6;background:#101b2a;color-scheme:dark}body{margin:0;padding:2rem}main{max-width:42rem;margin:4vh auto;padding:2rem;background:#18283c;border:1px solid #405675;border-radius:1rem}h1{font-size:1.5rem}p{line-height:1.5}form,label{display:block}label{margin:1rem 0}input[type=password],input[type=text]{box-sizing:border-box;width:100%;padding:.7rem;margin-top:.5rem}button{padding:.65rem .85rem;margin:.3rem .3rem .3rem 0;cursor:pointer}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#a8d6ff}[hidden]{display:none!important}
+/* Modified October 31, 2026: generic bounded appearance tokens and mobile controls. AGPL-3.0-only. */
+:root{font-family:system-ui,sans-serif;color:var(--agent-page-text,#e7edf6);background:var(--agent-background,#101b2a);color-scheme:dark}
+body{margin:0;padding:2rem}
+main{max-width:42rem;margin:4vh auto;padding:2rem;color:var(--agent-text,#e7edf6);background:var(--agent-surface,#18283c);border:1px solid var(--agent-border,#405675);border-radius:1rem;overflow-wrap:anywhere}
+h1{font-size:1.5rem}p{line-height:1.5}form,label{display:block}label{margin:1rem 0}
+input[type=password],input[type=text]{box-sizing:border-box;width:100%;padding:.7rem;margin-top:.5rem;color:var(--agent-text,#e7edf6);background:var(--agent-surface,#18283c);border:1px solid var(--agent-border,#405675);border-radius:.25rem}
+button{padding:.65rem .85rem;margin:.3rem .3rem .3rem 0;cursor:pointer;background:var(--agent-button,#a8d6ff);color:var(--agent-button-text,#101b2a);border:1px solid var(--agent-border,#405675);border-radius:.25rem}
+:focus-visible{outline:3px solid var(--agent-focus,#a8d6ff);outline-offset:3px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:var(--agent-link,#a8d6ff)}[hidden]{display:none!important}
+@media(max-width:480px){body{padding:.75rem}main{padding:1.25rem;margin:1rem auto}}
