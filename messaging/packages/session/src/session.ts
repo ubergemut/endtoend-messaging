@@ -1,3 +1,4 @@
+// Modified October 31, 2026: retain direct ciphertext when current consent changes. AGPL-3.0-only.
 import { base64ToBytes, bytesToBase64, openBytes, sealBytes } from './bytes.ts'
 import { Relay } from './relay.ts'
 import { authorizationBinding, validateBootstrap, LEGACY_AUTHORIZATION, type AuthorizationBinding, type AuthorizedBootstrap } from './authorization.ts'

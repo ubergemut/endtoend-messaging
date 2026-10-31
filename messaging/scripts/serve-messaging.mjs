@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+// Modified October 31, 2026: generic host branding and owned IPC shutdown.
 import {stat,readFile} from 'node:fs/promises'
 import path from 'node:path'
 import {fileURLToPath,pathToFileURL} from 'node:url'

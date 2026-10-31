@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
+// Modified October 31, 2026: version 0.2.1 source identities and hosted-control validation inputs.
 // Local checkpoint packaging for the complete reusable messaging stack.
 import fs from 'node:fs';
 import path from 'node:path';

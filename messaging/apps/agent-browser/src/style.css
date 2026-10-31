@@ -1,3 +1,4 @@
+/* Modified October 31, 2026: generic bounded appearance tokens and mobile controls. AGPL-3.0-only. */
 :root{font-family:system-ui,sans-serif;color:var(--agent-page-text,#e7edf6);background:var(--agent-background,#101b2a);color-scheme:dark}
 body{margin:0;padding:2rem}
 main{max-width:42rem;margin:4vh auto;padding:2rem;color:var(--agent-text,#e7edf6);background:var(--agent-surface,#18283c);border:1px solid var(--agent-border,#405675);border-radius:1rem;overflow-wrap:anywhere}

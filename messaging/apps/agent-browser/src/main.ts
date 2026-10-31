@@ -1,3 +1,4 @@
+// Modified October 31, 2026: generic host branding and validated data-only appearance. AGPL-3.0-only.
 import {loadSignal} from '@e2ee/crypto/browser'
 import {createDeviceSecret,HeadlessError,authorizationBinding,validateBootstrap,type AuthorizationBinding,type AuthorizedBootstrap} from '@e2ee/session'
 import {createDispatcher,type IdentityApproval} from '@e2ee/agent/dispatcher'

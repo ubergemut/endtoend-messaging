@@ -1,3 +1,4 @@
+// Modified October 31, 2026: validated operator branding in the trusted configuration. AGPL-3.0-only.
 import { createServer,request as httpRequest } from 'node:http'
 import { readFile,stat,realpath } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
