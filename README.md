@@ -1,10 +1,10 @@
 # EndToEnd reusable messaging
 
-**October 31 candidate:** the editable core tree now contains the tested 0.2.1 hosted-controls candidate, while the original consumers remain 0.2.0 and SDK remains MIT 0.2.1. It is prepared for the named project owner’s content/publication decision and is not yet published. See [the changed-scope assessment](docs/release/HOSTED_CONTROLS_0_2_1_ASSESSMENT.md) and [exact candidate catalog](release/candidates/messaging-v0.2.1/source-disclosure.json). The approved 0.2.0 downloads and decisions below remain retained.
+**October 31 release:** the project owner approved the tested 0.2.1 hosted-controls update and its exact 19-file publication packet. The original consumers remain 0.2.0 and SDK remains MIT 0.2.1. See [the changed-scope assessment](docs/release/HOSTED_CONTROLS_0_2_1_ASSESSMENT.md), [release notes](docs/release/HOSTED_CONTROLS_0_2_1_RELEASE.md) and [exact approval/catalog](release/candidates/messaging-v0.2.1/APPROVED_RELEASE.json). Publication/download verification is recorded there after execution. The approved 0.2.0 downloads and decisions below remain retained.
 
 A complete messaging subsystem with a persistent relay, device encryption/session storage, trusted unlock and identity controls, CLI/HTTP/GraphQL/MCP adapters, a reference browser, and two project frontends. Hosts can retain their own account system and presentation through the public SDK and signed messaging grants.
 
-This tree contains the editable approved **messaging/full frontend/desk 0.2.0** sources and **MIT SDK 0.2.1**, including required dependency preferred forms and notices. It starts a separate public source history; it does not publish the original private repository history. Release contents and publication records are identified in `release/APPROVED_RELEASE.json`. This README does not claim a hosted service or production deployment.
+This tree contains the editable approved **messaging core 0.2.1**, **full frontend/desk 0.2.0** and **MIT SDK 0.2.1** sources, including required dependency preferred forms and notices. It starts a separate public source history; it does not publish the original private repository history. Versioned decisions are indexed in [the retained-version register](release/RETAINED_VERSIONS.json); `release/APPROVED_RELEASE.json` retains the unchanged 0.2.0 record. This README does not claim a hosted service or production deployment.
 
 ## Components and licenses
 
@@ -20,6 +20,15 @@ Read [LICENSING.md](LICENSING.md), the component LICENSE files and supplied thir
 The internal source/dependency/boundary assessment identifies no unresolved licensing blocker for these exact approved contents under the recorded delivery policy. That is a bounded internal conclusion, not an outside professional opinion, universal private-frontend exemption or legal guarantee.
 
 ## Downloads and exact corresponding source
+
+The current [messaging-v0.2.1 release](https://github.com/ubergemut/endtoend-messaging/releases/tag/messaging-v0.2.1) updates the generic messaging core and keeps the SDK/consumer artifacts unchanged. Download its [catalog](https://github.com/ubergemut/endtoend-messaging/releases/download/messaging-v0.2.1/source-disclosure.json) and every referenced file, including source, manifests and notices. Catalog SHA-256: **`345f46cc9685503222eb8a354f1053cd672457afaf24b2071105b9405a059d6c`**.
+
+- [Complete core source](https://github.com/ubergemut/endtoend-messaging/releases/download/messaging-v0.2.1/endtoend-messaging-0.2.1-source.tar.gz) and [matching runtime](https://github.com/ubergemut/endtoend-messaging/releases/download/messaging-v0.2.1/endtoend-messaging-0.2.1-runtime.tar.gz).
+- [Unchanged original frontend/desk source](https://github.com/ubergemut/endtoend-messaging/releases/download/messaging-v0.2.1/endtoend-browser-consumers-0.2.0-source.tar.gz), [consumer runtime](https://github.com/ubergemut/endtoend-messaging/releases/download/messaging-v0.2.1/endtoend-browser-consumers-0.2.0-runtime.tar.gz) and [MIT SDK 0.2.1](https://github.com/ubergemut/endtoend-messaging/releases/download/messaging-v0.2.1/endtoend-mit-sdk-0.2.1.tar.gz).
+
+See the [0.2.1 notes](docs/release/HOSTED_CONTROLS_0_2_1_RELEASE.md) and [versioned decision/publication record](release/candidates/messaging-v0.2.1/APPROVED_RELEASE.json). A repository approval record alone is not proof that an upload finished; actual anonymous download evidence is retained separately.
+
+### Retained 0.2.0 downloads
 
 Use the [messaging-v0.2.0 release assets](https://github.com/ubergemut/endtoend-messaging/releases/tag/messaging-v0.2.0). Source downloads use ordinary public web access without an account, payment or NDA.
 

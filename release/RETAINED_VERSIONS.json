@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "responsibleRole": "Project owner",
+  "retention": "Indefinite source/artifact retention; old versions and decisions are not overwritten",
+  "versions": [
+    {
+      "version": "0.2.0",
+      "tag": "messaging-v0.2.0",
+      "catalogSha256": "f1f345bb8496ae56e347a5b07381edf95527fbb19958b761c59d8126c6b313a2",
+      "approvedRelease": "APPROVED_RELEASE.json",
+      "publicationVerification": "PUBLICATION_VERIFICATION.json",
+      "releaseUrl": "https://github.com/ubergemut/endtoend-messaging/releases/tag/messaging-v0.2.0",
+      "published": true,
+      "publishedAt": "2026-10-29T18:54:01Z",
+      "hostedByThisRepository": false
+    },
+    {
+      "version": "0.2.1",
+      "tag": "messaging-v0.2.1",
+      "catalogSha256": "345f46cc9685503222eb8a354f1053cd672457afaf24b2071105b9405a059d6c",
+      "approvedRelease": "candidates/messaging-v0.2.1/APPROVED_RELEASE.json",
+      "publicationVerification": "candidates/messaging-v0.2.1/PUBLICATION_VERIFICATION.json",
+      "releaseUrl": "https://github.com/ubergemut/endtoend-messaging/releases/tag/messaging-v0.2.1",
+      "published": false,
+      "hostedByThisRepository": false
+    }
+  ]
+}
