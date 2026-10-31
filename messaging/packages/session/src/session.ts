@@ -405,6 +405,9 @@ export class Session {
 
   async retryPending() {
     return this.exclusive(async () => {
+      await this.checkIdentity()
+      await this.refreshGraph()
+      await this.flushOutbox(this.requireVault())
       const results: PublicMessage[] = []
       for (const attempt of this.requireVault().sendAttempts ?? []) {
         if (!attempt.completed&&!attempt.blockedReason) results.push(await this.deliverAttempt(attempt))
@@ -453,7 +456,7 @@ export class Session {
 
   private async deliverAttempt(attempt: SendAttempt) {
     if(attempt.expired||(attempt.expiresAt&&Date.parse(attempt.expiresAt)<=Date.now()))throw new HeadlessError('This message expired; start a new intent to send again','invalid')
-    if(attempt.blockedReason)throw new HeadlessError('Group membership changed. The original ciphertext is retained; review membership and start a new message.','invalid')
+    if(attempt.blockedReason)throw new HeadlessError('Conversation membership changed. The original ciphertext is retained; review membership and start a new message.','invalid')
     let current = this.requireVault()
     const previous = current.messages.find(message => message.id === attempt.id)
     if (previous) {
@@ -484,7 +487,7 @@ export class Session {
     }
     current = this.requireVault()
     if(current.outbox.some(item=>item.messageId===attempt.id)&&attempt.groupId||current.sendAttempts?.find(item=>item.id===attempt.id)?.blockedReason){
-      throw new HeadlessError('Group membership changed; the retained attempt cannot be delivered to the current group. Start a new message after reviewing membership.','invalid')
+      throw new HeadlessError('Conversation membership changed; the retained attempt cannot be delivered to the current conversation. Start a new message after reviewing membership.','invalid')
     }
     this.vault = { ...current, sendAttempts: current.sendAttempts!.map(item => item.id === attempt.id ? { ...item, completed: true } : item) }
     await this.save()
@@ -1321,14 +1324,16 @@ export class Session {
   private async flushOutbox(current: Vault) {
     let next = current
     for (const item of [...current.outbox]) {
-      if(item.groupId){const remote=this.groups.find(group=>group.id===item.groupId)
-        if(!remote||!remote.memberIds.includes(item.recipientId)||(remote.epoch!=null&&item.groupEpoch!==remote.epoch)){
+      const remote=item.groupId?this.groups.find(group=>group.id===item.groupId):undefined
+      const changed=item.groupId
+        ?!remote||!remote.memberIds.includes(item.recipientId)||(remote.epoch!=null&&item.groupEpoch!==remote.epoch)
+        :!this.friends.some(friend=>friend.id===item.recipientId)
+      if(changed){
           const latest=this.requireVault()
           this.vault={...latest,outbox:latest.outbox.filter(pending=>pending.queueTag!==item.queueTag),
             blockedOutbox:[...(latest.blockedOutbox??[]),item],
             sendAttempts:(latest.sendAttempts??[]).map(attempt=>attempt.id===item.messageId?{...attempt,blockedReason:'membership-changed' as const}:attempt)}
           await this.save();next=this.requireVault();continue
-        }
       }
       await this.deliver(next, item.queueTag, item.recipientId, item.ciphertext, item.groupId, item.expiresAt)
       const latest=this.requireVault()

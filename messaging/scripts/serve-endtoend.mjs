@@ -5,6 +5,7 @@ import path from 'node:path'
 import { fileURLToPath,pathToFileURL } from 'node:url'
 import { startServer } from '../apps/api/src/server.ts'
 import {loadSourceDisclosure,verifyDisclosedRuntime} from './source-disclosure.mjs'
+import {brandName} from '../packages/agent/src/appearance.ts'
 
 const root=fileURLToPath(new URL('..',import.meta.url))
 const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.wasm':'application/wasm','.txt':'text/plain','.svg':'image/svg+xml','.png':'image/png'}
@@ -22,6 +23,7 @@ export async function verifyReleaseBrowserPaths(productDist,agentDist){
 }
 /** Serve built, independent applications. Persist the relay only at an explicitly selected directory. */
 export async function startReleaseApplication(options){
+  const configuredBrand=brandName(options.brandName)
   if(!options.relayDataDir)throw new Error('An explicit relayDataDir is required; production storage is never inferred')
   const releaseMode=options.releaseMode??process.env.ENDTOEND_RELEASE_MODE==='1'
   const disclosureFilename=options.sourceDisclosure??process.env.ENDTOEND_SOURCE_DISCLOSURE
@@ -76,8 +78,8 @@ export async function startReleaseApplication(options){
         if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405).end();return}
         if(agent)res.setHeader('content-security-policy',"default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'")
         if(url.pathname==='/agent-config.json'&&!agent){res.writeHead(200,{'content-type':'application/json'}).end(JSON.stringify({agentUrl:agentOrigin,relayUrl:agentOrigin}));return}
-        if(url.pathname==='/release.json'){res.writeHead(200,{'content-type':'application/json'}).end(JSON.stringify(sourceInfo??{version:release?.version??options.version??'0.2.0',sourceUrl:source?`/source/${source.filename}`:null,sourceStatus:source?'legacy-development':'development'}));return}
-        if(url.pathname==='/config.json'&&agent){res.writeHead(200,{'content-type':'application/json'}).end(JSON.stringify({allowedCallerOrigins:[...new Set([productOrigin,...configuredCallers])],relayOrigins:[agentOrigin],...(disclosure?disclosure.component('messaging-core',agentOrigin):{version:release?.version??options.version??'0.2.0',sourceUrl:source?`${agentOrigin}/source/${source.filename}`:null,licenseUrl:'/license',sourceStatus:'development'})}));return}
+        if(url.pathname==='/release.json'){res.writeHead(200,{'content-type':'application/json'}).end(JSON.stringify(sourceInfo??{version:release?.version??options.version??'0.2.1',sourceUrl:source?`/source/${source.filename}`:null,sourceStatus:source?'legacy-development':'development'}));return}
+        if(url.pathname==='/config.json'&&agent){res.writeHead(200,{'content-type':'application/json'}).end(JSON.stringify({brandName:configuredBrand,allowedCallerOrigins:[...new Set([productOrigin,...configuredCallers])],relayOrigins:[agentOrigin],...(disclosure?disclosure.component('messaging-core',agentOrigin):{version:release?.version??options.version??'0.2.1',sourceUrl:source?`${agentOrigin}/source/${source.filename}`:null,licenseUrl:'/license',sourceStatus:'development'})}));return}
         if(url.pathname==='/license'&&agent){if(disclosure){res.writeHead(302,{location:sourceInfo.licenseUrl}).end();return}res.writeHead(200,{'content-type':'text/plain'}).end(await readFile(path.join(directory,'LICENSE.txt')));return}
         if(source&&url.pathname===`/source/${source.filename}`){res.writeHead(200,{'content-type':'application/gzip','content-disposition':`attachment; filename="${source.filename}"`}).end(req.method==='HEAD'?undefined:source.bytes);return}
         const decoded=decodeURIComponent(url.pathname),filename=path.resolve(directory,'.'+decoded)
