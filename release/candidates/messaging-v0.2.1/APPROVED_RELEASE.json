@@ -270,9 +270,17 @@
     "completeSourceTreeIntegrity": true,
     "anonymousRuntimeFilesVerified": 18
   },
-  "published": false,
+  "published": true,
   "productionConsumerActivationAuthorized": false,
   "releaseUrl": "https://github.com/ubergemut/endtoend-messaging/releases/tag/messaging-v0.2.1",
   "publicationVerification": "PUBLICATION_VERIFICATION.json",
-  "recordedAt": "2026-10-31T21:34:42.708Z"
+  "recordedAt": "2026-10-31T21:34:42.708Z",
+  "publishedAt": "2026-10-31T21:41:22Z",
+  "releaseCommit": "36a708c0f649186369ed02ff8c007721474287fb",
+  "ci": {
+    "pullRequest": "https://github.com/ubergemut/endtoend-messaging/pull/1",
+    "source": "https://github.com/ubergemut/endtoend-messaging/actions/runs/41244634140",
+    "release": "https://github.com/ubergemut/endtoend-messaging/actions/runs/41244753133",
+    "passed": true
+  }
 }
