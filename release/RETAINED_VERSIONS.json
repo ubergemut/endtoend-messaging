@@ -21,8 +21,11 @@
       "approvedRelease": "candidates/messaging-v0.2.1/APPROVED_RELEASE.json",
       "publicationVerification": "candidates/messaging-v0.2.1/PUBLICATION_VERIFICATION.json",
       "releaseUrl": "https://github.com/ubergemut/endtoend-messaging/releases/tag/messaging-v0.2.1",
-      "published": false,
-      "hostedByThisRepository": false
+      "published": true,
+      "hostedByThisRepository": false,
+      "publishedAt": "2026-10-31T21:41:22Z",
+      "releaseCommit": "36a708c0f649186369ed02ff8c007721474287fb",
+      "anonymousDownloadsVerifiedAt": "2026-10-31T21:41:22.832Z"
     }
   ]
 }

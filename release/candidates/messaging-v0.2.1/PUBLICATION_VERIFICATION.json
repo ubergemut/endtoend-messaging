@@ -1,0 +1,765 @@
+{
+  "kind": "endtoend-published-static-release-verification",
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-31T21:41:22.832Z",
+  "passed": true,
+  "mode": "static-artifact-downloads",
+  "anonymous": true,
+  "authenticationHeadersUsed": false,
+  "credentials": "omit",
+  "serviceOrUiVerified": false,
+  "publicationPerformed": false,
+  "requests": [
+    {
+      "filename": "source-disclosure.json",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/f20baba3-68a8-42dd-bd5b-1093300a3b87",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/f20baba3-68a8-42dd-bd5b-1093300a3b87"
+        }
+      ],
+      "contentLength": 4872
+    },
+    {
+      "filename": "source-disclosure.json",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/f20baba3-68a8-42dd-bd5b-1093300a3b87",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/f20baba3-68a8-42dd-bd5b-1093300a3b87"
+        }
+      ],
+      "contentLength": 4872,
+      "bytes": 4872,
+      "sha256": "345f46cc9685503222eb8a354f1053cd672457afaf24b2071105b9405a059d6c"
+    },
+    {
+      "filename": "SOURCE_MANIFEST.json",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/e723c754-45f1-4cd6-8994-45c0855d8095",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/e723c754-45f1-4cd6-8994-45c0855d8095"
+        }
+      ],
+      "contentLength": 1989525
+    },
+    {
+      "filename": "SOURCE_MANIFEST.json",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/e723c754-45f1-4cd6-8994-45c0855d8095",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/e723c754-45f1-4cd6-8994-45c0855d8095"
+        }
+      ],
+      "contentLength": 1989525,
+      "bytes": 1989525,
+      "sha256": "c6917206280cc3df8ece8a67bc9c4afd788008b835744e0b8ed801c11738341d"
+    },
+    {
+      "filename": "RUNTIME_MANIFEST.json",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/391854b8-fb1b-4ce2-9190-fd6a2cfd767b",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/391854b8-fb1b-4ce2-9190-fd6a2cfd767b"
+        }
+      ],
+      "contentLength": 140614
+    },
+    {
+      "filename": "RUNTIME_MANIFEST.json",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/391854b8-fb1b-4ce2-9190-fd6a2cfd767b",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/391854b8-fb1b-4ce2-9190-fd6a2cfd767b"
+        }
+      ],
+      "contentLength": 140614,
+      "bytes": 140614,
+      "sha256": "af8570f9b0c2e87b19c49a432ee341248f515d4bfc50d52b626c2a607cb92b22"
+    },
+    {
+      "filename": "CONSUMER_SOURCE_MANIFEST.json",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/094783ec-8a28-47f3-b42d-60354a06f452",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/094783ec-8a28-47f3-b42d-60354a06f452"
+        }
+      ],
+      "contentLength": 22047
+    },
+    {
+      "filename": "CONSUMER_SOURCE_MANIFEST.json",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/094783ec-8a28-47f3-b42d-60354a06f452",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/094783ec-8a28-47f3-b42d-60354a06f452"
+        }
+      ],
+      "contentLength": 22047,
+      "bytes": 22047,
+      "sha256": "402c0d6c4e87fb4da2b1df90d2f1d9b6df20bc5429fd13d90503e417963f4a3e"
+    },
+    {
+      "filename": "CONSUMER_RUNTIME_MANIFEST.json",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/59dee061-112e-4d8a-8945-0e393edcd91e",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/59dee061-112e-4d8a-8945-0e393edcd91e"
+        }
+      ],
+      "contentLength": 10850
+    },
+    {
+      "filename": "CONSUMER_RUNTIME_MANIFEST.json",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/59dee061-112e-4d8a-8945-0e393edcd91e",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/59dee061-112e-4d8a-8945-0e393edcd91e"
+        }
+      ],
+      "contentLength": 10850,
+      "bytes": 10850,
+      "sha256": "dc3d1f52c840a88b2e504e5271de3b434a6e9b6701d8e6e562e3c343a628f4c2"
+    },
+    {
+      "filename": "SDK_MANIFEST.json",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/a1ee7625-4a84-4959-a662-d1e84794fee2",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/a1ee7625-4a84-4959-a662-d1e84794fee2"
+        }
+      ],
+      "contentLength": 5756
+    },
+    {
+      "filename": "SDK_MANIFEST.json",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/a1ee7625-4a84-4959-a662-d1e84794fee2",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/a1ee7625-4a84-4959-a662-d1e84794fee2"
+        }
+      ],
+      "contentLength": 5756,
+      "bytes": 5756,
+      "sha256": "db09c0043e9b1fcfa7321540796dc26af0823a182962dd6f1d122246b9579954"
+    },
+    {
+      "filename": "endtoend-messaging-0.2.1-source.tar.gz",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/035e5d17-8d7b-404c-92ae-305d7a8de55c",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/035e5d17-8d7b-404c-92ae-305d7a8de55c"
+        }
+      ],
+      "contentLength": 261911313
+    },
+    {
+      "filename": "endtoend-messaging-0.2.1-source.tar.gz",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/035e5d17-8d7b-404c-92ae-305d7a8de55c",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/035e5d17-8d7b-404c-92ae-305d7a8de55c"
+        }
+      ],
+      "contentLength": 261911313,
+      "bytes": 261911313,
+      "sha256": "c862ce4d402faa00903d9fb677a76fe05cea4973211026886021eb9da2496ee1"
+    },
+    {
+      "filename": "endtoend-messaging-0.2.1-runtime.tar.gz",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/c15ea211-7aa2-4d3a-870a-8f94e4a85ac0",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/c15ea211-7aa2-4d3a-870a-8f94e4a85ac0"
+        }
+      ],
+      "contentLength": 2408409
+    },
+    {
+      "filename": "endtoend-messaging-0.2.1-runtime.tar.gz",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/c15ea211-7aa2-4d3a-870a-8f94e4a85ac0",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/c15ea211-7aa2-4d3a-870a-8f94e4a85ac0"
+        }
+      ],
+      "contentLength": 2408409,
+      "bytes": 2408409,
+      "sha256": "58a3417c20beea90fa47e77ea64d61544471d91ce08ea401b159feeef443aa40"
+    },
+    {
+      "filename": "MESSAGING_LICENSE.txt",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/3cd2f8cf-a998-4304-847e-8a1dd27d7ff0",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/3cd2f8cf-a998-4304-847e-8a1dd27d7ff0"
+        }
+      ],
+      "contentLength": 35184
+    },
+    {
+      "filename": "MESSAGING_LICENSE.txt",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/3cd2f8cf-a998-4304-847e-8a1dd27d7ff0",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/3cd2f8cf-a998-4304-847e-8a1dd27d7ff0"
+        }
+      ],
+      "contentLength": 35184,
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+    },
+    {
+      "filename": "MESSAGING_NOTICES.txt",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/c5e3df1d-4e6d-459e-85f0-1a330ca11518",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/c5e3df1d-4e6d-459e-85f0-1a330ca11518"
+        }
+      ],
+      "contentLength": 1438272
+    },
+    {
+      "filename": "MESSAGING_NOTICES.txt",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/c5e3df1d-4e6d-459e-85f0-1a330ca11518",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/c5e3df1d-4e6d-459e-85f0-1a330ca11518"
+        }
+      ],
+      "contentLength": 1438272,
+      "bytes": 1438272,
+      "sha256": "4c9c1a7507011d7596810252e99627296a031bedaf41a09dd471c18fe31a0638"
+    },
+    {
+      "filename": "MESSAGING_MODIFICATIONS.txt",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/6d48d9d0-90ef-4af3-b57a-63e69c9b5230",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/6d48d9d0-90ef-4af3-b57a-63e69c9b5230"
+        }
+      ],
+      "contentLength": 5057
+    },
+    {
+      "filename": "MESSAGING_MODIFICATIONS.txt",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/6d48d9d0-90ef-4af3-b57a-63e69c9b5230",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/6d48d9d0-90ef-4af3-b57a-63e69c9b5230"
+        }
+      ],
+      "contentLength": 5057,
+      "bytes": 5057,
+      "sha256": "aeec257d84cf1c348e2a579142cf1f03411d5d9f71e5e65343acefddf3d3a52a"
+    },
+    {
+      "filename": "endtoend-browser-consumers-0.2.0-source.tar.gz",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/57c16165-cf0e-490e-88f2-e02d27ea798d",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/57c16165-cf0e-490e-88f2-e02d27ea798d"
+        }
+      ],
+      "contentLength": 26282527
+    },
+    {
+      "filename": "endtoend-browser-consumers-0.2.0-source.tar.gz",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/57c16165-cf0e-490e-88f2-e02d27ea798d",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/57c16165-cf0e-490e-88f2-e02d27ea798d"
+        }
+      ],
+      "contentLength": 26282527,
+      "bytes": 26282527,
+      "sha256": "d7a8ea187d7d93fb1dc512ff34931ab090ef9324f75058dc52ae47b5ad609e4c"
+    },
+    {
+      "filename": "endtoend-browser-consumers-0.2.0-runtime.tar.gz",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/4b4c9a02-ecb4-449c-b20f-4953c6bc7b92",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/4b4c9a02-ecb4-449c-b20f-4953c6bc7b92"
+        }
+      ],
+      "contentLength": 2526703
+    },
+    {
+      "filename": "endtoend-browser-consumers-0.2.0-runtime.tar.gz",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/4b4c9a02-ecb4-449c-b20f-4953c6bc7b92",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/4b4c9a02-ecb4-449c-b20f-4953c6bc7b92"
+        }
+      ],
+      "contentLength": 2526703,
+      "bytes": 2526703,
+      "sha256": "4a457ddcd6a3cb6ffcec64aca18b92185ad100ba6e0b9ae6c4805dfd4cfac5ac"
+    },
+    {
+      "filename": "WEB_LICENSE.txt",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/7d6bd7f0-fba4-427e-bb70-9fef112d7dbf",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/7d6bd7f0-fba4-427e-bb70-9fef112d7dbf"
+        }
+      ],
+      "contentLength": 35184
+    },
+    {
+      "filename": "WEB_LICENSE.txt",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/7d6bd7f0-fba4-427e-bb70-9fef112d7dbf",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/7d6bd7f0-fba4-427e-bb70-9fef112d7dbf"
+        }
+      ],
+      "contentLength": 35184,
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e"
+    },
+    {
+      "filename": "WEB_NOTICES.txt",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/aa733c48-33e6-4f50-91de-f76f2551eb89",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/aa733c48-33e6-4f50-91de-f76f2551eb89"
+        }
+      ],
+      "contentLength": 105784
+    },
+    {
+      "filename": "WEB_NOTICES.txt",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/aa733c48-33e6-4f50-91de-f76f2551eb89",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/aa733c48-33e6-4f50-91de-f76f2551eb89"
+        }
+      ],
+      "contentLength": 105784,
+      "bytes": 105784,
+      "sha256": "285bfd6b76a7aaf699505c1a78cb292db46d3561d6afefa359a85b08096b9849"
+    },
+    {
+      "filename": "DESK_LICENSE.txt",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/67c6776a-8966-4821-8d46-2d221b9736cb",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/67c6776a-8966-4821-8d46-2d221b9736cb"
+        }
+      ],
+      "contentLength": 1078
+    },
+    {
+      "filename": "DESK_LICENSE.txt",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/67c6776a-8966-4821-8d46-2d221b9736cb",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/67c6776a-8966-4821-8d46-2d221b9736cb"
+        }
+      ],
+      "contentLength": 1078,
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+    },
+    {
+      "filename": "DESK_NOTICES.txt",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/6a26ad30-740e-4d50-afb5-f3334a511f72",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/6a26ad30-740e-4d50-afb5-f3334a511f72"
+        }
+      ],
+      "contentLength": 2320
+    },
+    {
+      "filename": "DESK_NOTICES.txt",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/6a26ad30-740e-4d50-afb5-f3334a511f72",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/6a26ad30-740e-4d50-afb5-f3334a511f72"
+        }
+      ],
+      "contentLength": 2320,
+      "bytes": 2320,
+      "sha256": "b713a29963b455bdb84a6800b4b94e649d619dfec957cc734dd482877671ee4c"
+    },
+    {
+      "filename": "endtoend-mit-sdk-0.2.1.tar.gz",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/aa428e0f-a709-4764-9328-2490bf031d36",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/aa428e0f-a709-4764-9328-2490bf031d36"
+        }
+      ],
+      "contentLength": 50942
+    },
+    {
+      "filename": "endtoend-mit-sdk-0.2.1.tar.gz",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/aa428e0f-a709-4764-9328-2490bf031d36",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/aa428e0f-a709-4764-9328-2490bf031d36"
+        }
+      ],
+      "contentLength": 50942,
+      "bytes": 50942,
+      "sha256": "8a1d1ead6890833cb94f117a752e052b2662870c6765a25b853d752d9c5aa4a7"
+    },
+    {
+      "filename": "SDK_LICENSE.txt",
+      "method": "HEAD",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/194fb306-63db-48c3-9580-a88b340f20a8",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/194fb306-63db-48c3-9580-a88b340f20a8"
+        }
+      ],
+      "contentLength": 1078
+    },
+    {
+      "filename": "SDK_LICENSE.txt",
+      "method": "GET",
+      "status": 200,
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/194fb306-63db-48c3-9580-a88b340f20a8",
+      "redirects": [
+        {
+          "status": 302,
+          "url": "https://release-assets.githubusercontent.com/github-production-release-asset/1438826364/194fb306-63db-48c3-9580-a88b340f20a8"
+        }
+      ],
+      "contentLength": 1078,
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a"
+    }
+  ],
+  "files": [
+    {
+      "filename": "source-disclosure.json",
+      "expectedBytes": 4872,
+      "bytes": 4872,
+      "sha256": "345f46cc9685503222eb8a354f1053cd672457afaf24b2071105b9405a059d6c",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "SOURCE_MANIFEST.json",
+      "expectedBytes": null,
+      "bytes": 1989525,
+      "sha256": "c6917206280cc3df8ece8a67bc9c4afd788008b835744e0b8ed801c11738341d",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "RUNTIME_MANIFEST.json",
+      "expectedBytes": 140614,
+      "bytes": 140614,
+      "sha256": "af8570f9b0c2e87b19c49a432ee341248f515d4bfc50d52b626c2a607cb92b22",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "CONSUMER_SOURCE_MANIFEST.json",
+      "expectedBytes": null,
+      "bytes": 22047,
+      "sha256": "402c0d6c4e87fb4da2b1df90d2f1d9b6df20bc5429fd13d90503e417963f4a3e",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "CONSUMER_RUNTIME_MANIFEST.json",
+      "expectedBytes": 10850,
+      "bytes": 10850,
+      "sha256": "dc3d1f52c840a88b2e504e5271de3b434a6e9b6701d8e6e562e3c343a628f4c2",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "SDK_MANIFEST.json",
+      "expectedBytes": null,
+      "bytes": 5756,
+      "sha256": "db09c0043e9b1fcfa7321540796dc26af0823a182962dd6f1d122246b9579954",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "endtoend-messaging-0.2.1-source.tar.gz",
+      "expectedBytes": 261911313,
+      "bytes": 261911313,
+      "sha256": "c862ce4d402faa00903d9fb677a76fe05cea4973211026886021eb9da2496ee1",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "endtoend-messaging-0.2.1-runtime.tar.gz",
+      "expectedBytes": 2408409,
+      "bytes": 2408409,
+      "sha256": "58a3417c20beea90fa47e77ea64d61544471d91ce08ea401b159feeef443aa40",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "MESSAGING_LICENSE.txt",
+      "expectedBytes": 35184,
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "MESSAGING_NOTICES.txt",
+      "expectedBytes": 1438272,
+      "bytes": 1438272,
+      "sha256": "4c9c1a7507011d7596810252e99627296a031bedaf41a09dd471c18fe31a0638",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "MESSAGING_MODIFICATIONS.txt",
+      "expectedBytes": 5057,
+      "bytes": 5057,
+      "sha256": "aeec257d84cf1c348e2a579142cf1f03411d5d9f71e5e65343acefddf3d3a52a",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "endtoend-browser-consumers-0.2.0-source.tar.gz",
+      "expectedBytes": 26282527,
+      "bytes": 26282527,
+      "sha256": "d7a8ea187d7d93fb1dc512ff34931ab090ef9324f75058dc52ae47b5ad609e4c",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "endtoend-browser-consumers-0.2.0-runtime.tar.gz",
+      "expectedBytes": 2526703,
+      "bytes": 2526703,
+      "sha256": "4a457ddcd6a3cb6ffcec64aca18b92185ad100ba6e0b9ae6c4805dfd4cfac5ac",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "WEB_LICENSE.txt",
+      "expectedBytes": 35184,
+      "bytes": 35184,
+      "sha256": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "WEB_NOTICES.txt",
+      "expectedBytes": 105784,
+      "bytes": 105784,
+      "sha256": "285bfd6b76a7aaf699505c1a78cb292db46d3561d6afefa359a85b08096b9849",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "DESK_LICENSE.txt",
+      "expectedBytes": 1078,
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "DESK_NOTICES.txt",
+      "expectedBytes": 2320,
+      "bytes": 2320,
+      "sha256": "b713a29963b455bdb84a6800b4b94e649d619dfec957cc734dd482877671ee4c",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "endtoend-mit-sdk-0.2.1.tar.gz",
+      "expectedBytes": 50942,
+      "bytes": 50942,
+      "sha256": "8a1d1ead6890833cb94f117a752e052b2662870c6765a25b853d752d9c5aa4a7",
+      "headAccessible": true,
+      "getVerified": true
+    },
+    {
+      "filename": "SDK_LICENSE.txt",
+      "expectedBytes": 1078,
+      "bytes": 1078,
+      "sha256": "89c6699e8cbba3c9205d536f320df7e5d86d5d0e13e3d06605cf627baa936d4a",
+      "headAccessible": true,
+      "getVerified": true
+    }
+  ],
+  "issues": [],
+  "baseUrl": "https://github.com/ubergemut/endtoend-messaging/releases/download/messaging-v0.2.1/",
+  "releaseVersion": "0.2.1",
+  "expectedCatalogSha256": "345f46cc9685503222eb8a354f1053cd672457afaf24b2071105b9405a059d6c",
+  "componentNotices": [
+    {
+      "componentId": "messaging-core",
+      "license": "AGPL-3.0-only",
+      "noticeFiles": [
+        "MESSAGING_LICENSE.txt",
+        "MESSAGING_NOTICES.txt",
+        "MESSAGING_MODIFICATIONS.txt"
+      ]
+    },
+    {
+      "componentId": "endtoend-web",
+      "license": "AGPL-3.0-only",
+      "noticeFiles": [
+        "WEB_LICENSE.txt",
+        "WEB_NOTICES.txt"
+      ]
+    },
+    {
+      "componentId": "desk-client",
+      "license": "MIT",
+      "noticeFiles": [
+        "DESK_LICENSE.txt",
+        "DESK_NOTICES.txt"
+      ]
+    },
+    {
+      "componentId": "mit-sdk",
+      "license": "MIT",
+      "noticeFiles": [
+        "SDK_LICENSE.txt"
+      ]
+    }
+  ],
+  "sourceBindings": [
+    {
+      "componentId": "messaging-core",
+      "sourceSha256": "c862ce4d402faa00903d9fb677a76fe05cea4973211026886021eb9da2496ee1",
+      "sourceManifestSha256": "c6917206280cc3df8ece8a67bc9c4afd788008b835744e0b8ed801c11738341d",
+      "runtimeManifestSha256": "af8570f9b0c2e87b19c49a432ee341248f515d4bfc50d52b626c2a607cb92b22"
+    },
+    {
+      "componentId": "endtoend-web",
+      "sourceSha256": "d7a8ea187d7d93fb1dc512ff34931ab090ef9324f75058dc52ae47b5ad609e4c",
+      "sourceManifestSha256": "402c0d6c4e87fb4da2b1df90d2f1d9b6df20bc5429fd13d90503e417963f4a3e",
+      "runtimeManifestSha256": "dc3d1f52c840a88b2e504e5271de3b434a6e9b6701d8e6e562e3c343a628f4c2"
+    },
+    {
+      "componentId": "desk-client",
+      "sourceSha256": "d7a8ea187d7d93fb1dc512ff34931ab090ef9324f75058dc52ae47b5ad609e4c",
+      "sourceManifestSha256": "402c0d6c4e87fb4da2b1df90d2f1d9b6df20bc5429fd13d90503e417963f4a3e",
+      "runtimeManifestSha256": "dc3d1f52c840a88b2e504e5271de3b434a6e9b6701d8e6e562e3c343a628f4c2"
+    }
+  ],
+  "distinctCatalogFiles": 18,
+  "verifiedFilesIncludingCatalog": 19,
+  "verifiedDownloadBytes": 296977515,
+  "limitations": [
+    "This verifies the listed anonymous static downloads and their exact bytes. It does not verify a running messaging service, authentication/proxy routing, visible UI notices or future retained versions.",
+    "Corresponding-source completeness and the licensing conclusion remain bound to the approved assessment; this check does not rebuild or independently assess the software."
+  ]
+}
